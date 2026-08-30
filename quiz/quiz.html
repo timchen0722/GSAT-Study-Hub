@@ -196,11 +196,27 @@
       document.getElementById('quizSettings').classList.add('hidden');
       document.getElementById('quizContainer').classList.add('hidden');
     }
-  
     window.addEventListener('DOMContentLoaded', () => {
       const urlParams = new URLSearchParams(window.location.search);
-      const subject = urlParams.get('subject');
+      let subject = urlParams.get('subject');
+      
+      // Fallback for cached HTML pages that didn't send ?subject=
+      if (!subject && document.referrer) {
+        if (document.referrer.includes('chinese.html')) subject = 'chinese';
+        else if (document.referrer.includes('english.html')) subject = 'english';
+        else if (document.referrer.includes('math-a.html')) subject = 'math-a';
+        else if (document.referrer.includes('math-b.html')) subject = 'math-b';
+        else if (document.referrer.includes('social.html')) subject = 'social';
+        else if (document.referrer.includes('science.html')) subject = 'science';
+      }
+
       if (subject) {
+        // Change the URL in the address bar without reloading so it's correct
+        if (!urlParams.get('subject')) {
+          const newUrl = new URL(window.location);
+          newUrl.searchParams.set('subject', subject);
+          window.history.replaceState({}, '', newUrl);
+        }
         selectSubject(subject);
       }
     });
