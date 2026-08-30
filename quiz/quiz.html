@@ -196,6 +196,15 @@
       document.getElementById('quizSettings').classList.add('hidden');
       document.getElementById('quizContainer').classList.add('hidden');
     }
+  
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const subject = urlParams.get('subject');
+      if (subject) {
+        selectSubject(subject);
+      }
+    });
+  
   </script>
   <script src="../js/english-assist.js"></script>
 </body>
