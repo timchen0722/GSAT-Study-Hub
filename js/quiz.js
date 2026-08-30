@@ -102,8 +102,19 @@ class QuizSystem {
    */
   submitCurrentAnswer() {
     const question = this.getCurrentQuestion();
-    if (!question || this.answers[question.id] === undefined) return;
+    if (!question) return;
 
+    if (question.type === 'writing') {
+      const textarea = document.getElementById('writing-answer');
+      if (textarea) this.answers[question.id] = textarea.value.trim();
+      if (!this.answers[question.id]) return; // Require some input
+      this.isSubmitted = true;
+      this.score++; // Treat writing as correct for score calculation
+      this.renderQuestion();
+      return;
+    }
+
+    if (this.answers[question.id] === undefined) return;
     this.isSubmitted = true;
     const isCorrect = this.answers[question.id] === question.answer;
     if (isCorrect) this.score++;
@@ -157,21 +168,36 @@ class QuizSystem {
     const letters = ['A', 'B', 'C', 'D', 'E'];
 
     let optionsHtml = '';
-    question.options.forEach((opt, i) => {
-      let optClass = 'option-item';
-      if (userAnswer === i) optClass += ' selected';
-      if (this.isSubmitted) {
-        if (i === question.answer) optClass += ' correct';
-        else if (userAnswer === i && i !== question.answer) optClass += ' incorrect';
-      }
-
-      optionsHtml += `
-        <li class="${optClass}" onclick="quiz.selectAnswer('${question.id}', ${i})" ${this.isSubmitted ? 'style="pointer-events:none;"' : ''}>
-          <span class="option-letter">${letters[i]}</span>
-          <span class="option-text">${opt}</span>
-        </li>
+    if (question.type === 'writing') {
+      optionsHtml = `
+        <div class="writing-area" style="margin: 1rem 0;">
+          <textarea id="writing-answer" rows="4" style="width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-family: inherit; font-size: inherit;" placeholder="請輸入您的答案..." ${this.isSubmitted ? 'disabled' : ''}>${userAnswer || ''}</textarea>
+        </div>
       `;
-    });
+      if (this.isSubmitted && question.reference) {
+        optionsHtml += `
+          <div class="reference-answer" style="margin-top: 1rem; padding: 1rem; background: rgba(0, 210, 211, 0.1); border-left: 4px solid var(--color-accent-green); border-radius: var(--radius-md);">
+            <strong>✅ 參考答案：</strong><br>${question.reference}
+          </div>
+        `;
+      }
+    } else {
+      question.options.forEach((opt, i) => {
+        let optClass = 'option-item';
+        if (userAnswer === i) optClass += ' selected';
+        if (this.isSubmitted) {
+          if (i === question.answer) optClass += ' correct';
+          else if (userAnswer === i && i !== question.answer) optClass += ' incorrect';
+        }
+
+        optionsHtml += `
+          <li class="${optClass}" onclick="quiz.selectAnswer('${question.id}', ${i})" ${this.isSubmitted ? 'style="pointer-events:none;"' : ''}>
+            <span class="option-letter">${letters[i]}</span>
+            <span class="option-text">${opt}</span>
+          </li>
+        `;
+      });
+    }
 
     let explanationHtml = '';
     if (this.isSubmitted && question.explanation) {
@@ -207,7 +233,7 @@ class QuizSystem {
           ← 上一題
         </button>
         ${!this.isSubmitted ? `
-          <button class="btn btn-primary" onclick="quiz.submitCurrentAnswer()" ${userAnswer === undefined ? 'disabled style="opacity:0.5"' : ''}>
+          <button class="btn btn-primary" onclick="quiz.submitCurrentAnswer()" ${(question.type !== 'writing' && userAnswer === undefined) ? 'disabled style="opacity:0.5"' : ''}>
             確認答案
           </button>
         ` : `
@@ -258,18 +284,30 @@ class QuizSystem {
     let reviewHtml = '';
     this.filteredQuestions.forEach((q, idx) => {
       const userAns = this.answers[q.id];
-      const isCorrect = userAns === q.answer;
-      if (!isCorrect) {
-        const letters = ['A', 'B', 'C', 'D', 'E'];
+      if (q.type === 'writing') {
         reviewHtml += `
           <div class="content-section" style="margin-bottom: var(--space-4);">
             <div class="question-number">第 ${idx + 1} 題 <span class="question-category">${q.category}</span></div>
             <div class="question-text" style="font-size: var(--font-size-base);">${q.question}</div>
-            <p style="color: var(--color-accent-red);">❌ 你的答案：${userAns !== undefined ? letters[userAns] + '. ' + q.options[userAns] : '未作答'}</p>
-            <p style="color: var(--color-accent-green);">✅ 正確答案：${letters[q.answer]}. ${q.options[q.answer]}</p>
+            <p style="color: var(--color-accent-blue);">✍️ 你的作答：<br>${userAns || '未作答'}</p>
+            <p style="color: var(--color-accent-green); margin-top: 0.5rem;">✅ 參考答案：<br>${q.reference || ''}</p>
             ${q.explanation ? `<div class="explanation-box show"><div class="explanation-title">💡 詳解</div><div class="explanation-text">${q.explanation}</div></div>` : ''}
           </div>
         `;
+      } else {
+        const isCorrect = userAns === q.answer;
+        if (!isCorrect) {
+          const letters = ['A', 'B', 'C', 'D', 'E'];
+          reviewHtml += `
+            <div class="content-section" style="margin-bottom: var(--space-4);">
+              <div class="question-number">第 ${idx + 1} 題 <span class="question-category">${q.category}</span></div>
+              <div class="question-text" style="font-size: var(--font-size-base);">${q.question}</div>
+              <p style="color: var(--color-accent-red);">❌ 你的答案：${userAns !== undefined ? letters[userAns] + '. ' + q.options[userAns] : '未作答'}</p>
+              <p style="color: var(--color-accent-green);">✅ 正確答案：${letters[q.answer]}. ${q.options[q.answer]}</p>
+              ${q.explanation ? `<div class="explanation-box show"><div class="explanation-title">💡 詳解</div><div class="explanation-text">${q.explanation}</div></div>` : ''}
+            </div>
+          `;
+        }
       }
     });
 
