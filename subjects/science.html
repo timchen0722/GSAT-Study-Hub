@@ -55,6 +55,7 @@
           <li><a href="#bio-eco" class="sub-item">生態</a></li>
           <li><a href="#earth">🌏 地球科學</a></li>
         <li><a href="#ch-adv">拾捌、進階探討與滿分秘笈</a></li>
+        <li><a href="#gsat-deep-sc">拾玖、學測專武：推導與實驗</a></li>
         </ul>
         <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html" class="btn btn-primary" style="width:100%;">🎯 自然題庫</a></div>
       </aside>
@@ -541,6 +542,59 @@
         <p>在計算限量試劑與反應熱（赫斯定律）時，請將化學方程式視為代數方程式進行加減。易錯點在於「狀態（固液氣）」的不同會影響反應熱，作答時請仔細核對選項中的物質狀態標示。</p>
         <h3>3. 生物與地科：探究與實作</h3>
         <p>近年大考極度重視「探究與實作」題型。這類題目通常篇幅極長，包含圖表與實驗數據。解題口訣：先看題目問什麼，再回文章找答案（「找變因」、「看對照組」）。地科的氣候變遷（聖嬰現象、溫室效應）以及台灣的地質構造，是每年穩定出題的精華區。</p>
+      </section>
+      
+      <section id="gsat-deep-sc" class="content-section animate-fade-in-up mt-8">
+        <h2>拾玖、學測專武：歷屆大考趨勢與深度推導 🎯</h2>
+        
+        <h3>1. 探究與實作：實驗數據的精準判讀</h3>
+        <p>自然科混合題必定會考一篇長篇實驗文章。得分關鍵在於分辨三種變因：</p>
+        <ul>
+          <li><strong>操縱變因（自變數）</strong>：實驗中唯一改變的條件（通常是圖表的 X 軸）。</li>
+          <li><strong>應變變因（依變數）</strong>：隨著操縱變因改變而產生的結果（通常是圖表的 Y 軸）。</li>
+          <li><strong>控制變因</strong>：實驗中必須保持不變的條件。學測常考：「為了證明 A 影響 B，必須將哪幾個選項設為控制變因？」</li>
+        </ul>
+
+        <h3>2. 核心物理定律推導：克卜勒第三定律</h3>
+        <p>學測不會考死背克卜勒常數，但會考其「物理機制」（萬有引力提供向心力）。</p>
+        <div class="step-box">
+          <div class="step-box-title">🪐 克卜勒第三定律推導</div>
+          <div class="step-row">
+            <div class="step-num">01</div>
+            <div class="step-math">假設行星以圓軌道繞太陽運行，半徑為 $R$，週期為 $T$。<br>向心加速度公式：$a_c = \frac{4\pi^2 R}{T^2}$</div>
+            <div class="step-desc">圓周運動的基礎公式，必背。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">02</div>
+            <div class="step-math">牛頓萬有引力定律：$F_g = G \frac{Mm}{R^2}$</div>
+            <div class="step-desc">$M$ 為太陽質量，$m$ 為行星質量。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">03</div>
+            <div class="step-math">萬有引力提供向心力（牛頓第二定律 $F=ma$）：<br>$G \frac{Mm}{R^2} = m \left( \frac{4\pi^2 R}{T^2} \right)$</div>
+            <div class="step-desc">注意：行星質量 $m$ 兩邊消去。這代表週期與行星本身質量無關！學測常考此觀念陷阱。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">04</div>
+            <div class="step-math">移項整理得：<strong>$\frac{R^3}{T^2} = \frac{GM}{4\pi^2} = \text{定值}$</strong></div>
+            <div class="step-desc">這就是克卜勒第三定律。該定值只和「中心星體（太陽）質量 $M$」有關。</div>
+          </div>
+        </div>
+
+        <h3>3. 核心化學定律：理想氣體方程式</h3>
+        <div class="step-box">
+          <div class="step-box-title">🧪 理想氣體 $PV=nRT$ 的微觀與宏觀</div>
+          <div class="step-row">
+            <div class="step-num">宏觀</div>
+            <div class="step-math">$PV = nRT$</div>
+            <div class="step-desc">波以耳定律（$T$ 不變時 $P \propto 1/V$）、查理定律（$P$ 不變時 $V \propto T$）的統整。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">微觀</div>
+            <div class="step-math">氣體動能：$E_k = \frac{3}{2}kT = \frac{1}{2}mv^2$</div>
+            <div class="step-desc">學測超高頻考點：「氣體的平均動能只與絕對溫度 $T$ 成正比」。溫度越高，分子運動速率 $v$ 越快。不同氣體若溫度相同，平均動能必定相同，但質量大的氣體速率較慢。</div>
+          </div>
+        </div>
       </section>
       </main>
     </div>

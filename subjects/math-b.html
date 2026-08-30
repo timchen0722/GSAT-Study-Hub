@@ -48,6 +48,7 @@
           <li><a href="#ch8">捌、空間概念</a></li>
           <li><a href="#ch9">玖、矩陣基礎</a></li>
         <li><a href="#ch-adv">拾、進階探討與滿分秘笈</a></li>
+        <li><a href="#gsat-deep-mb">拾壹、學測專武：生活應用</a></li>
         </ul>
         <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html" class="btn btn-primary" style="width:100%;">🎯 數學B題庫</a></div>
       </aside>
@@ -473,6 +474,48 @@
         </div>
         <h3>2. 排列組合的必考盲點</h3>
         <p>處理「重複組合」與「分配問題」時，先區分「物品是否相同」以及「箱子是否相同」。遇到「至少有一個」的題型，善用「反面作法（全部減去完全沒有）」可以省下大量計算時間。</p>
+      </section>
+      
+      <section id="gsat-deep-mb" class="content-section animate-fade-in-up mt-8">
+        <h2>拾壹、學測專武：歷屆大考趨勢與生活應用剖析 🎯</h2>
+        
+        <h3>1. 期望值與保險/賭局模型</h3>
+        <p>數 B 高度聚焦於「生活情境題」。期望值的概念幾乎每年必考，尤其是「保險公司如何定價」或「賭局是否公平」。</p>
+        <div class="step-box">
+          <div class="step-box-title">💰 保費計算模型</div>
+          <div class="step-row">
+            <div class="step-num">情境</div>
+            <div class="step-math">某保險公司推出一年期意外險，保額 100 萬元。已知該年齡層意外死亡機率為 0.002。若公司期望每份保單能獲利 500 元，保費應訂為多少？</div>
+            <div class="step-desc">這是學測經典題型，考驗期望值列式。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">01</div>
+            <div class="step-math">令保費為 $x$ 元。</div>
+            <div class="step-desc">設立未知數。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">02</div>
+            <div class="step-math">列出保險公司的收益期望值方程式：<br>$E(X) = (x) \times (1 - 0.002) + (x - 1000000) \times 0.002$</div>
+            <div class="step-desc">（沒出事的保費收入）＋（出事的理賠虧損）。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">03</div>
+            <div class="step-math">展開化簡：$E(X) = x - 2000$。</div>
+            <div class="step-desc">注意 $x$ 項的係數剛好會是 1。這是一個速算技巧。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">04</div>
+            <div class="step-math">令 $E(X) = 500 \implies x - 2000 = 500 \implies x = 2500$。</div>
+            <div class="step-desc">得解。保費為 2500 元。</div>
+          </div>
+        </div>
+
+        <h3>2. 迴歸直線的實務應用</h3>
+        <p>給定一組數據求迴歸直線 $y = mx + k$。學測通常不會考繁雜的數字，而是考「觀念」。</p>
+        <ul>
+          <li><strong>必考觀念 1：必定過平均數點</strong>。迴歸直線一定會通過 $(\mu_X, \mu_Y)$。解題時把平均數代入即可秒殺許多選項。</li>
+          <li><strong>必考觀念 2：斜率公式</strong>。斜率 $m = r \frac{\sigma_Y}{\sigma_X}$。這代表如果 $X$ 和 $Y$ 相關性 $r$ 很低，迴歸直線會趨近於水平（無預測力）。</li>
+        </ul>
       </section>
       </main>
     </div>

@@ -1252,6 +1252,62 @@
         <h3>2. 易錯觀念釐清：機率與貝氏定理</h3>
         <p>學生常混淆「條件機率」與「獨立事件」。記住：獨立代表 $P(A|B) = P(A)$，也就是 B 的發生不影響 A。而貝氏定理常包裝在「檢驗偽陽性」或「抽籤問題」中，畫樹狀圖是最穩定的解題策略。</p>
       </section>
+      
+      <section id="gsat-deep-ma" class="content-section animate-fade-in-up mt-8">
+        <h2>拾貳、學測專武：歷屆大考趨勢與深度推導 🎯</h2>
+        
+        <h3>1. 大考中心精選：正餘弦定理推導與應用</h3>
+        <p>學測數 A 必定會有一題綜合圖形題，通常結合正弦定理與餘弦定理。死背公式不夠，理解推導過程能幫助你在遇到變形題時畫出輔助線。</p>
+        
+        <div class="step-box">
+          <div class="step-box-title">📐 餘弦定理推導 (Cosine Rule)</div>
+          <div class="step-row">
+            <div class="step-num">01</div>
+            <div class="step-math">在 $\triangle ABC$ 中，從頂點 $A$ 作高 $h$ 交 $\overline{BC}$ 於 $D$ 點。</div>
+            <div class="step-desc">將一般三角形切分為兩個直角三角形，這是幾何解題的核心思想。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">02</div>
+            <div class="step-math">令 $\overline{CD} = x$，則 $\overline{BD} = a - x$。<br>由畢氏定理：$h^2 = b^2 - x^2$ 且 $h^2 = c^2 - (a - x)^2$。</div>
+            <div class="step-desc">利用共用的「高」建立等式。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">03</div>
+            <div class="step-math">展開：$b^2 - x^2 = c^2 - (a^2 - 2ax + x^2)$<br>化簡得：$b^2 = c^2 - a^2 + 2ax$</div>
+            <div class="step-desc">代數展開。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">04</div>
+            <div class="step-math">在 $\triangle ACD$ 中，$\cos C = \frac{x}{b} \implies x = b \cos C$。</div>
+            <div class="step-desc">引入三角函數連結邊與角。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">05</div>
+            <div class="step-math">代回：$b^2 = c^2 - a^2 + 2a(b \cos C)$<br>移項得終極公式：<strong>$c^2 = a^2 + b^2 - 2ab \cos C$</strong></div>
+            <div class="step-desc">這就是餘弦定理。學測常考：當已知三邊長，必用此公式求角度。</div>
+          </div>
+        </div>
+
+        <h3>2. 必考考點：三角函數疊合 (Superposition)</h3>
+        <p>求 $y = a\sin\theta + b\cos\theta$ 的極值是數 A 的超高頻考點。</p>
+        <div class="step-box">
+          <div class="step-box-title">🌊 疊合公式推導</div>
+          <div class="step-row">
+            <div class="step-num">01</div>
+            <div class="step-math">提取常數 $\sqrt{a^2+b^2}$：<br>$y = \sqrt{a^2+b^2} \left( \frac{a}{\sqrt{a^2+b^2}}\sin\theta + \frac{b}{\sqrt{a^2+b^2}}\cos\theta \right)$</div>
+            <div class="step-desc">構造出斜邊為 $\sqrt{a^2+b^2}$ 的直角三角形。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">02</div>
+            <div class="step-math">令 $\cos\phi = \frac{a}{\sqrt{a^2+b^2}}, \sin\phi = \frac{b}{\sqrt{a^2+b^2}}$。</div>
+            <div class="step-desc">定義輔助角 $\phi$。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-math">代入：$y = \sqrt{a^2+b^2} (\sin\theta\cos\phi + \cos\theta\sin\phi)$<br>由和角公式得：<strong>$y = \sqrt{a^2+b^2} \sin(\theta + \phi)$</strong></div>
+            <div class="step-desc">因為 $\sin$ 的最大值為 1，故極值為 $\pm\sqrt{a^2+b^2}$。學測常配合限制角度範圍考局部極值。</div>
+          </div>
+        </div>
+      </section>
       </main>
     </div>
   </div>
