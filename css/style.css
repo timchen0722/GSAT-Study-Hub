@@ -10,66 +10,66 @@
    CSS Custom Properties (Design Tokens)
    ============================================ */
 :root {
-  /* Primary Colors */
-  --color-bg-primary: #fdfbf7;
-  --color-bg-secondary: #f4f0e6;
-  --color-bg-tertiary: #ebe5d9;
+  /* Primary Colors - Muji Light */
+  --color-bg-primary: #fcfcfc;
+  --color-bg-secondary: #f3f1ec;
+  --color-bg-tertiary: #e8e4db;
   --color-bg-card: #ffffff;
-  --color-bg-card-hover: #fcfbfa;
-  --color-bg-glass: rgba(74, 69, 63, 0.7);
-  --color-bg-glass-hover: rgba(74, 69, 63, 0.9);
+  --color-bg-card-hover: #fafafa;
+  --color-bg-glass: #ffffff;
+  --color-bg-glass-hover: #fdfdfd;
 
-  /* Text Colors */
-  --color-text-primary: #4a453f;
-  --color-text-secondary: #6e675e;
-  --color-text-muted: #9c958b;
-  --color-text-accent: #9e6451;
+  /* Text Colors - High Contrast */
+  --color-text-primary: #2d2d2d;
+  --color-text-secondary: #5c5c5c;
+  --color-text-muted: #888888;
+  --color-text-accent: #6b7a5a;
 
-  /* Accent Colors (Japanese muted palette) */
-  --color-accent-gold: #c2a173;
-  --color-accent-gold-light: #d6b78a;
-  --color-accent-teal: #78928c;
-  --color-accent-teal-light: #94b0a9;
-  --color-accent-purple: #867994;
-  --color-accent-pink: #bf868f;
-  --color-accent-blue: #6d869a;
-  --color-accent-green: #89a380;
-  --color-accent-orange: #c4916a;
-  --color-accent-red: #c26969;
+  /* Accent Colors (Muji palette) */
+  --color-accent-gold: #c1a986;
+  --color-accent-gold-light: #d8c6a8;
+  --color-accent-teal: #7c9593;
+  --color-accent-teal-light: #9db2b0;
+  --color-accent-purple: #968c9c;
+  --color-accent-pink: #cc9999;
+  --color-accent-blue: #728c9e;
+  --color-accent-green: #88a07c;
+  --color-accent-orange: #c49170;
+  --color-accent-red: #c07a7a;
 
   /* Subject Colors */
-  --color-chinese: #c26969;
-  --color-english: #6d869a;
-  --color-math-a: #867994;
-  --color-math-b: #a39178;
-  --color-social: #89a380;
-  --color-science: #c4916a;
+  --color-chinese: #c07a7a;
+  --color-english: #728c9e;
+  --color-math-a: #968c9c;
+  --color-math-b: #bda282;
+  --color-social: #88a07c;
+  --color-science: #c49170;
 
-  /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #fdfbf7 0%, #f4f0e6 100%);
-  --gradient-card: linear-gradient(135deg, #ffffff 0%, #fdfbf7 100%);
-  --gradient-gold: linear-gradient(135deg, #c2a173 0%, #d6b78a 100%);
-  --gradient-teal: linear-gradient(135deg, #78928c 0%, #94b0a9 100%);
-  --gradient-hero: linear-gradient(180deg, #fdfbf7 0%, #f4f0e6 40%, #ebe5d9 100%);
-  --gradient-glow: radial-gradient(circle at 50% 50%, rgba(194, 161, 115, 0.15) 0%, transparent 60%);
+  /* Gradients - Flat and clean */
+  --gradient-primary: linear-gradient(135deg, #fcfcfc 0%, #f3f1ec 100%);
+  --gradient-card: #ffffff;
+  --gradient-gold: linear-gradient(135deg, #c1a986 0%, #d8c6a8 100%);
+  --gradient-teal: linear-gradient(135deg, #88a07c 0%, #a4bfa3 100%); /* Swapped to matcha */
+  --gradient-hero: linear-gradient(180deg, #f3f1ec 0%, #fcfcfc 100%);
+  --gradient-glow: none;
 
   /* Borders */
-  --border-glass: 1px solid rgba(74, 69, 63, 0.08);
-  --border-glass-strong: 1px solid rgba(74, 69, 63, 0.15);
-  --border-accent: 1px solid rgba(194, 161, 115, 0.3);
+  --border-glass: 1px solid #eaeaea;
+  --border-glass-strong: 1px solid #dcdcdc;
+  --border-accent: 1px solid rgba(136, 160, 124, 0.4);
   --border-radius-sm: 4px;
   --border-radius-md: 8px;
   --border-radius-lg: 12px;
   --border-radius-xl: 16px;
   --border-radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(74, 69, 63, 0.04);
-  --shadow-md: 0 4px 16px rgba(74, 69, 63, 0.06);
-  --shadow-lg: 0 8px 24px rgba(74, 69, 63, 0.08);
-  --shadow-xl: 0 16px 40px rgba(74, 69, 63, 0.1);
-  --shadow-glow-gold: 0 0 20px rgba(194, 161, 115, 0.2);
-  --shadow-glow-teal: 0 0 20px rgba(120, 146, 140, 0.2);
+  /* Shadows - Crisp */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.08);
+  --shadow-glow-gold: 0 4px 12px rgba(193, 169, 134, 0.2);
+  --shadow-glow-teal: 0 4px 12px rgba(136, 160, 124, 0.2);
 
   /* Typography */
   --font-sans: 'Noto Sans TC', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -140,29 +140,9 @@ body {
 }
 
 /* Background Glow Effects */
-body::before {
-  content: '';
-  position: fixed;
-  top: -200px;
-  right: -200px;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(120, 146, 140, 0.08) 0%, transparent 70%);
-  pointer-events: none;
-  z-index: -1;
-}
+body::before { display: none; }
 
-body::after {
-  content: '';
-  position: fixed;
-  bottom: -200px;
-  left: -200px;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(194, 161, 115, 0.06) 0%, transparent 70%);
-  pointer-events: none;
-  z-index: -1;
-}
+body::after { display: none; }
 
 a {
   color: var(--color-accent-teal);
@@ -227,16 +207,14 @@ img {
   left: 0;
   right: 0;
   z-index: var(--z-sticky);
-  background: rgba(253, 251, 247, 0.85);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: var(--color-bg-primary);
   border-bottom: var(--border-glass);
   transition: all var(--transition-base);
 }
 
 .navbar.scrolled {
-  background: rgba(253, 251, 247, 0.95);
-  box-shadow: var(--shadow-md);
+  background: var(--color-bg-card);
+  box-shadow: var(--shadow-sm);
 }
 
 .navbar-inner {
@@ -421,7 +399,7 @@ img {
   align-items: center;
   padding: var(--space-6) var(--space-8);
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass-strong);
   border-radius: var(--border-radius-lg);
   min-width: 110px;
@@ -513,7 +491,7 @@ img {
   position: relative;
   padding: var(--space-8);
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass);
   border-radius: var(--border-radius-xl);
   overflow: hidden;
@@ -665,7 +643,7 @@ img {
   overflow-y: auto;
   padding: var(--space-4);
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass);
   border-radius: var(--border-radius-lg);
 }
@@ -724,7 +702,7 @@ img {
   margin-bottom: var(--space-12);
   padding: var(--space-8);
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass);
   border-radius: var(--border-radius-xl);
 }
@@ -1012,7 +990,7 @@ img {
 
 .quiz-question-card {
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass);
   border-radius: var(--border-radius-xl);
   padding: var(--space-8);
@@ -1056,7 +1034,7 @@ img {
   gap: var(--space-3);
   padding: var(--space-4);
   background: rgba(74, 69, 63, 0.03);
-  border: 1px solid rgba(74, 69, 63, 0.08);
+  border: var(--border-glass);
   border-radius: var(--border-radius-md);
   cursor: pointer;
   transition: all var(--transition-fast);
@@ -1090,7 +1068,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(74, 69, 63, 0.08);
+  background: var(--color-bg-secondary);
   font-size: var(--font-size-sm);
   font-weight: 700;
   transition: all var(--transition-fast);
@@ -1243,7 +1221,7 @@ img {
 
 .btn-primary {
   background: var(--gradient-gold);
-  color: #000;
+  color: #ffffff;
   box-shadow: var(--shadow-sm);
 }
 
@@ -1409,7 +1387,7 @@ img {
 }
 
 .tab-btn.active {
-  background: rgba(74, 69, 63, 0.08);
+  background: var(--color-bg-secondary);
   color: var(--color-accent-gold);
 }
 
@@ -1445,7 +1423,7 @@ img {
 
 .search-input:focus {
   border-color: rgba(120, 146, 140, 0.4);
-  background: rgba(74, 69, 63, 0.08);
+  background: var(--color-bg-secondary);
 }
 
 .search-input::placeholder {
@@ -1473,7 +1451,7 @@ img {
   align-items: center;
   justify-content: center;
   background: var(--color-bg-card);
-  backdrop-filter: blur(20px);
+  
   border: var(--border-glass-strong);
   border-radius: 50%;
   color: var(--color-text-primary);
@@ -1527,7 +1505,7 @@ img {
     right: 0;
     flex-direction: column;
     background: rgba(253, 251, 247, 0.98);
-    backdrop-filter: blur(20px);
+    
     padding: var(--space-4);
     border-bottom: var(--border-glass);
     gap: var(--space-1);
