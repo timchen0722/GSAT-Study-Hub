@@ -110,30 +110,30 @@ generateQuizFile(chBase, 550, 'chineseQuiz', 'chinese-quiz.js');
 
 // ENGLISH
 const enBase = [
-  {cat:'詞彙',q:'Choose the correct meaning of "reluctant":',o:['不情願的 (unwilling)','熱情的 (enthusiastic)','可靠的 (reliable)','寬容的 (tolerant)'],a:0,e:'reluctant 意為不情願的、勉強的。He was reluctant to leave.',d:'基礎'},
-  {cat:'詞彙',q:'"Abandon" 最接近的意思是？',o:['放棄 (give up)','擁抱 (embrace)','獲得 (obtain)','遵守 (obey)'],a:0,e:'abandon = 放棄、拋棄。The project was abandoned due to lack of funds.',d:'基礎'},
-  {cat:'詞彙',q:'The word "inevitable" means:',o:['不可避免的','不常見的','不可能的','不合法的'],a:0,e:'inevitable = 不可避免的。in-(不) + evitable(可避免的)。Death is inevitable.',d:'中等'},
-  {cat:'詞彙',q:'"Comprehensive" 的意思是？',o:['全面的 (thorough)','理解的 (understanding)','壓縮的 (compressed)','比較的 (comparative)'],a:0,e:'comprehensive = 全面的、綜合的。A comprehensive review of the topic.',d:'中等'},
-  {cat:'詞彙',q:'The prefix "mis-" in "misunderstand" means:',o:['錯誤地 (wrongly)','重新 (again)','不 (not)','過度 (over)'],a:0,e:'mis- 表示「錯誤」。misunderstand = 誤解，mislead = 誤導。',d:'基礎'},
-  {cat:'文法',q:'She _____ English since she was five.',o:['has been learning','is learning','learns','learned'],a:0,e:'since + 過去時間，主句用現在完成式(has been learning)或現在完成進行式。',d:'基礎'},
-  {cat:'文法',q:'If I _____ you, I would study harder.',o:['were','am','was','be'],a:0,e:'與現在事實相反的假設語氣：If + S + were/V-ed, S + would + V。不論主詞，一律用 were。',d:'基礎'},
-  {cat:'文法',q:'The book _____ by millions of people worldwide.',o:['has been read','has read','is reading','reads'],a:0,e:'被動語態：The book is the receiver of the action, so use passive voice: has been read.',d:'中等'},
-  {cat:'文法',q:'_____ she finished her homework, she went out to play.',o:['After','Although','Because','Unless'],a:0,e:'After (之後)：時間副詞子句。完成功課之後，她出去玩。',d:'基礎'},
-  {cat:'文法',q:'He is the tallest student _____ I have ever met.',o:['that','which','who','whom'],a:0,e:'先行詞有最高級修飾時，關係代名詞用 that。',d:'中等'},
-  {cat:'克漏字',q:'Reading is a good way to _____ your vocabulary.',o:['expand','extend','expose','explore'],a:0,e:'expand vocabulary = 擴充詞彙量，是固定搭配。',d:'中等'},
-  {cat:'克漏字',q:'He made a great _____ to the success of the project.',o:['contribution','distribution','construction','destruction'],a:0,e:'make a contribution to = 對...做出貢獻。',d:'中等'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="請選擇 reluctant 的正確意思：">Choose the correct meaning of "reluctant":<span class="speak-icon">🔊</span></span>',o:['不情願的 (unwilling)','熱情的 (enthusiastic)','可靠的 (reliable)','寬容的 (tolerant)'],a:0,e:'reluctant 意為不情願的、勉強的。He was reluctant to leave.',d:'基礎'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="放棄">"Abandon"<span class="speak-icon">🔊</span></span> 最接近的意思是？',o:['放棄 (give up)','擁抱 (embrace)','獲得 (obtain)','遵守 (obey)'],a:0,e:'abandon = 放棄、拋棄。The project was abandoned due to lack of funds.',d:'基礎'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="inevitable 這個字的意思是：">The word "inevitable" means:<span class="speak-icon">🔊</span></span>',o:['不可避免的','不常見的','不可能的','不合法的'],a:0,e:'inevitable = 不可避免的。in-(不) + evitable(可避免的)。Death is inevitable.',d:'中等'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="全面的">"Comprehensive"<span class="speak-icon">🔊</span></span> 的意思是？',o:['全面的 (thorough)','理解的 (understanding)','壓縮的 (compressed)','比較的 (comparative)'],a:0,e:'comprehensive = 全面的、綜合的。A comprehensive review of the topic.',d:'中等'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="misunderstand 中的字首 mis- 意思是：">The prefix "mis-" in "misunderstand" means:<span class="speak-icon">🔊</span></span>',o:['錯誤地 (wrongly)','重新 (again)','不 (not)','過度 (over)'],a:0,e:'mis- 表示「錯誤」。misunderstand = 誤解，mislead = 誤導。',d:'基礎'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="自從她五歲起她就在學英文。">She _____ English since she was five.<span class="speak-icon">🔊</span></span>',o:['has been learning','is learning','learns','learned'],a:0,e:'since + 過去時間，主句用現在完成式(has been learning)或現在完成進行式。',d:'基礎'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="如果我是你，我會更認真讀書。">If I _____ you, I would study harder.<span class="speak-icon">🔊</span></span>',o:['were','am','was','be'],a:0,e:'與現在事實相反的假設語氣：If + S + were/V-ed, S + would + V。不論主詞，一律用 were。',d:'基礎'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="這本書被全世界數百萬人閱讀過。">The book _____ by millions of people worldwide.<span class="speak-icon">🔊</span></span>',o:['has been read','has read','is reading','reads'],a:0,e:'被動語態：The book is the receiver of the action, so use passive voice: has been read.',d:'中等'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="她完成功課後，就出去玩了。">_____ she finished her homework, she went out to play.<span class="speak-icon">🔊</span></span>',o:['After','Although','Because','Unless'],a:0,e:'After (之後)：時間副詞子句。完成功課之後，她出去玩。',d:'基礎'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="他是我遇過最高的學生。">He is the tallest student _____ I have ever met.<span class="speak-icon">🔊</span></span>',o:['that','which','who','whom'],a:0,e:'先行詞有最高級修飾時，關係代名詞用 that。',d:'中等'},
+  {cat:'克漏字',q:'<span class="en-assist" data-tw="閱讀是擴充詞彙量的好方法。">Reading is a good way to _____ your vocabulary.<span class="speak-icon">🔊</span></span>',o:['expand','extend','expose','explore'],a:0,e:'expand vocabulary = 擴充詞彙量，是固定搭配。',d:'中等'},
+  {cat:'克漏字',q:'<span class="en-assist" data-tw="他對這個專案的成功做出了巨大貢獻。">He made a great _____ to the success of the project.<span class="speak-icon">🔊</span></span>',o:['contribution','distribution','construction','destruction'],a:0,e:'make a contribution to = 對...做出貢獻。',d:'中等'},
   {cat:'閱讀測驗',q:'閱讀測驗中，推斷作者態度最好的方法是？',o:['注意形容詞和副詞的選用','看文章長度','數句子數量','看標題'],a:0,e:'作者的態度通常透過形容詞和副詞的選用來表達。positive, negative, neutral, critical 等。',d:'中等'},
   {cat:'閱讀測驗',q:'英文閱讀中，"however" 出現時通常表示？',o:['接下來的內容與前文相反 (contrast)','補充說明','時間順序','因果關係'],a:0,e:'however = 然而，表示轉折。however 後面的內容通常才是作者想強調的重點。',d:'基礎'},
   {cat:'文意選填',q:'選填題最有效的策略是？',o:['先判斷詞性再看語意','隨機選擇','只看第一個字','按順序填入'],a:0,e:'先分析空格需要什麼詞性（名詞/動詞/形容詞/副詞），再從選項中篩選符合的。',d:'基礎'},
   {cat:'翻譯寫作',q:'「運動對健康有益」最佳翻譯？',o:['Exercise is beneficial to health.','Exercise is benefit to health.','Exercise is good of health.','Exercise health good.'],a:0,e:'be beneficial to = 對...有益。注意 beneficial 是形容詞，benefit 是名詞/動詞。',d:'中等'},
   {cat:'翻譯寫作',q:'「科技已經改變了我們的生活方式」翻譯？',o:['Technology has changed our way of life.','Technology changed our life way.','Technology is change our life.','Technology have changed our life.'],a:0,e:'「已經改變」用現在完成式 has changed。way of life = 生活方式。',d:'中等'},
-  {cat:'詞彙',q:'"Sustainable" 的意思是？',o:['可持續的 (able to continue)','可承受的 (bearable)','可維修的 (repairable)','可攜帶的 (portable)'],a:0,e:'sustainable = 可持續的、永續的。sustainable development = 永續發展。',d:'中等'},
-  {cat:'文法',q:'Neither the teacher nor the students _____ aware of the problem.',o:['were','was','is','has been'],a:0,e:'neither...nor 的動詞與最近的主詞(students)一致，students 是複數，用 were。',d:'進階'},
-  {cat:'文法',q:'Not until she spoke _____ I realize she was foreign.',o:['did','do','was','had'],a:0,e:'Not until 在句首時，主要子句要倒裝：Not until... did I realize...',d:'進階'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="可持續的">"Sustainable"<span class="speak-icon">🔊</span></span> 的意思是？',o:['可持續的 (able to continue)','可承受的 (bearable)','可維修的 (repairable)','可攜帶的 (portable)'],a:0,e:'sustainable = 可持續的、永續的。sustainable development = 永續發展。',d:'中等'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="老師和學生們都沒有意識到這個問題。">Neither the teacher nor the students _____ aware of the problem.<span class="speak-icon">🔊</span></span>',o:['were','was','is','has been'],a:0,e:'neither...nor 的動詞與最近的主詞(students)一致，students 是複數，用 were。',d:'進階'},
+  {cat:'文法',q:'<span class="en-assist" data-tw="直到她開口說話我才發現她是外國人。">Not until she spoke _____ I realize she was foreign.<span class="speak-icon">🔊</span></span>',o:['did','do','was','had'],a:0,e:'Not until 在句首時，主要子句要倒裝：Not until... did I realize...',d:'進階'},
 ];
 enBase.push(
-  {cat:'文法',q:'_____ he known the truth, he would not have made such a mistake.',o:['Had','If','Has','Were'],a:0,e:'與過去事實相反的假設，If he had known... 省略 If 後倒裝為 Had he known...',d:'進階'},
-  {cat:'詞彙',q:'The new policy will _____ the economic growth of the country.',o:['facilitate','fabricate','fascinate','fluctuate'],a:0,e:'facilitate = 促進、使便利。fabricate = 捏造。',d:'進階'}
+  {cat:'文法',q:'<span class="en-assist" data-tw="如果他早知道真相，他就不會犯下這種錯了。">_____ he known the truth, he would not have made such a mistake.<span class="speak-icon">🔊</span></span>',o:['Had','If','Has','Were'],a:0,e:'與過去事實相反的假設，If he had known... 省略 If 後倒裝為 Had he known...',d:'進階'},
+  {cat:'詞彙',q:'<span class="en-assist" data-tw="新政策將促進國家的經濟成長。">The new policy will _____ the economic growth of the country.<span class="speak-icon">🔊</span></span>',o:['facilitate','fabricate','fascinate','fluctuate'],a:0,e:'facilitate = 促進、使便利。fabricate = 捏造。',d:'進階'}
 );
 generateQuizFile(enBase, 550, 'englishQuiz', 'english-quiz.js');
 

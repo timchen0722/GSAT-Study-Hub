@@ -1628,3 +1628,51 @@ img {
 .flex-center { display: flex; align-items: center; justify-content: center; }
 .gap-2 { gap: var(--space-2); }
 .gap-4 { gap: var(--space-4); }
+
+
+/* English Assist Styles */
+.en-assist {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+  border-bottom: 1px dashed var(--color-accent-teal);
+  transition: background 0.2s;
+  padding: 0 2px;
+}
+.en-assist:hover {
+  background: rgba(124, 149, 147, 0.1);
+}
+.en-assist::after {
+  content: attr(data-tw);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-5px);
+  background: var(--color-text-primary);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s;
+  z-index: var(--z-tooltip, 1000);
+  box-shadow: var(--shadow-sm);
+}
+.en-assist:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.speak-icon {
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 0.9em;
+  opacity: 0.6;
+  transition: all 0.2s;
+  display: inline-block;
+}
+.speak-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
