@@ -190,10 +190,18 @@ class QuizSystem {
           else if (userAnswer === i && i !== question.answer) optClass += ' incorrect';
         }
 
+        let optContent = opt;
+        if (this.selectedSubject === 'english') {
+          // Avoid double-wrapping if the option already contains a speak-icon
+          if (!opt.includes('speak-icon')) {
+            optContent = `<span class="en-assist" data-tw="朗讀選項" style="display:inline;">${opt} <span class="speak-icon" style="margin-left:8px; font-size:1.1em; cursor:pointer;" title="朗讀">🔊</span></span>`;
+          }
+        }
+
         optionsHtml += `
           <li class="${optClass}" onclick="quiz.selectAnswer('${question.id}', ${i})" ${this.isSubmitted ? 'style="pointer-events:none;"' : ''}>
             <span class="option-letter">${letters[i]}</span>
-            <span class="option-text">${opt}</span>
+            <span class="option-text">${optContent}</span>
           </li>
         `;
       });
