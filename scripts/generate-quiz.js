@@ -102,7 +102,11 @@ function generateQuizFile(baseData, totalQ, varName, fileName) {
 }
 
 // CHINESE
-generateQuizFile(chBase, 500, 'chineseQuiz', 'chinese-quiz.js');
+chBase.push(
+  {cat:'古文閱讀',q:'〈出師表〉中「以光先帝遺德」的「光」字，詞性與意義為何？',o:['動詞，發揚光大','名詞，光榮','形容詞，光明的','副詞，光亮地'],a:0,e:'此處「光」作動詞用，意為發揚光大先帝遺留的美德。',d:'進階'},
+  {cat:'閱讀理解',q:'「雙文本比較」題型中，若兩篇文章論點相悖，應如何作答？',o:['整理各自立場與論據','只依據較長的文章','憑自身常識判斷','選擇折衷選項'],a:0,e:'應客觀梳理兩篇文章各自的立場與支持論據，不可加入主觀判斷。',d:'進階'}
+);
+generateQuizFile(chBase, 550, 'chineseQuiz', 'chinese-quiz.js');
 
 // ENGLISH
 const enBase = [
@@ -127,7 +131,11 @@ const enBase = [
   {cat:'文法',q:'Neither the teacher nor the students _____ aware of the problem.',o:['were','was','is','has been'],a:0,e:'neither...nor 的動詞與最近的主詞(students)一致，students 是複數，用 were。',d:'進階'},
   {cat:'文法',q:'Not until she spoke _____ I realize she was foreign.',o:['did','do','was','had'],a:0,e:'Not until 在句首時，主要子句要倒裝：Not until... did I realize...',d:'進階'},
 ];
-generateQuizFile(enBase, 500, 'englishQuiz', 'english-quiz.js');
+enBase.push(
+  {cat:'文法',q:'_____ he known the truth, he would not have made such a mistake.',o:['Had','If','Has','Were'],a:0,e:'與過去事實相反的假設，If he had known... 省略 If 後倒裝為 Had he known...',d:'進階'},
+  {cat:'詞彙',q:'The new policy will _____ the economic growth of the country.',o:['facilitate','fabricate','fascinate','fluctuate'],a:0,e:'facilitate = 促進、使便利。fabricate = 捏造。',d:'進階'}
+);
+generateQuizFile(enBase, 550, 'englishQuiz', 'english-quiz.js');
 
 // MATH A
 const maBase = [
@@ -152,7 +160,10 @@ const maBase = [
   {cat:'圓錐曲線',q:'橢圓 $\\frac{x^2}{25}+\\frac{y^2}{16}=1$ 的焦距 $2c$ = ？',o:['$6$','$8$','$10$','$3$'],a:0,e:'$a^2=25, b^2=16, c^2=a^2-b^2=9, c=3$，焦距 $2c=6$。',d:'中等'},
   {cat:'微分概念',q:'$f(x)=x^3$ 的導數 $f\'(x)$ = ？',o:['$3x^2$','$x^2$','$3x$','$x^3$'],a:0,e:'冪法則：$\\frac{d}{dx}(x^n) = nx^{n-1}$，$f\'(x) = 3x^2$。',d:'基礎'},
 ];
-generateQuizFile(maBase, 500, 'mathAQuiz', 'math-a-quiz.js');
+maBase.push(
+  {cat:'向量',q:'若平面向量 $\\vec{u}$ 與 $\\vec{v}$ 滿足 $|\\vec{u}|=3, |\\vec{v}|=4, \\vec{u} \\cdot \\vec{v} = 6$，求 $|\\vec{u} + \\vec{v}|$ = ？',o:['$\\sqrt{37}$','$\\sqrt{25}$','$7$','$5$'],a:0,e:'$|\\vec{u}+\\vec{v}|^2 = |\\vec{u}|^2 + |\\vec{v}|^2 + 2\\vec{u}\\cdot\\vec{v} = 9+16+12 = 37$。',d:'進階'}
+);
+generateQuizFile(maBase, 550, 'mathAQuiz', 'math-a-quiz.js');
 
 // MATH B
 const mbBase = [
@@ -170,7 +181,10 @@ const mbBase = [
   {cat:'空間概念',q:'空間中兩點 $(1,0,0)$ 和 $(0,1,0)$ 的距離是？',o:['$\\sqrt{2}$','$1$','$2$','$\\sqrt{3}$'],a:0,e:'$d=\\sqrt{(1-0)^2+(0-1)^2+(0-0)^2}=\\sqrt{1+1}=\\sqrt{2}$。',d:'基礎'},
   {cat:'矩陣基礎',q:'$2\\begin{pmatrix}1&3\\\\2&4\\end{pmatrix}$ = ？',o:['$\\begin{pmatrix}2&6\\\\4&8\\end{pmatrix}$','$\\begin{pmatrix}3&5\\\\4&6\\end{pmatrix}$','$\\begin{pmatrix}2&3\\\\2&4\\end{pmatrix}$','$\\begin{pmatrix}1&6\\\\4&4\\end{pmatrix}$'],a:0,e:'係數積：每個元素乘以2。',d:'基礎'},
 ];
-generateQuizFile(mbBase, 500, 'mathBQuiz', 'math-b-quiz.js');
+mbBase.push(
+  {cat:'統計與數據分析',q:'若將全班成績 $X$ 調整為 $Y = 1.2X + 5$，則相關係數 $r_{X,Y}$ 為何？',o:['$1$','$1.2$','$0$','$-1$'],a:0,e:'線性變換 $Y = aX+b$，若 $a>0$，則自身與變換後的相關係數必為 1。',d:'進階'}
+);
+generateQuizFile(mbBase, 550, 'mathBQuiz', 'math-b-quiz.js');
 
 // SOCIAL
 const soBase = [
@@ -195,7 +209,10 @@ const soBase = [
   {cat:'社會與文化',q:'聯合國永續發展目標（SDGs）共有幾項？',o:['17項','15項','20項','10項'],a:0,e:'2015年聯合國提出17項SDGs，涵蓋消除貧窮、氣候行動等議題。',d:'中等'},
   {cat:'經濟與永續',q:'「完全競爭市場」的特徵不包括？',o:['僅一家廠商','廠商眾多','產品同質','自由進出'],a:0,e:'完全競爭市場特徵：廠商眾多、產品同質、自由進出、資訊透明。僅一家廠商是「獨占」。',d:'中等'},
 ];
-generateQuizFile(soBase, 500, 'socialQuiz', 'social-quiz.js');
+soBase.push(
+  {cat:'公民',q:'當政府實施「碳稅」以解決污染問題時，是為了解決下列哪種市場失靈？',o:['外部成本','外部效益','公共財','資訊不對稱'],a:0,e:'污染屬於外部成本（負的外部性），課徵碳稅是將外部成本內部化。',d:'進階'}
+);
+generateQuizFile(soBase, 550, 'socialQuiz', 'social-quiz.js');
 
 // SCIENCE
 const scBase = [
@@ -225,6 +242,9 @@ const scBase = [
   {cat:'環境變遷',q:'造成溫室效應的主要氣體不包括？',o:['氮氣(N₂)','二氧化碳(CO₂)','甲烷(CH₄)','水蒸氣(H₂O)'],a:0,e:'氮氣不是溫室氣體。主要溫室氣體有CO₂、CH₄、N₂O、水蒸氣。',d:'中等'},
   {cat:'天文',q:'恆星演化中，太陽最終會變成？',o:['白矮星','黑洞','中子星','紅矮星'],a:0,e:'太陽質量不夠大，演化路徑：主序星→紅巨星→行星狀星雲→白矮星。大質量恆星才會變黑洞。',d:'進階'},
 ];
-generateQuizFile(scBase, 500, 'scienceQuiz', 'science-quiz.js');
+scBase.push(
+  {cat:'物理',q:'依據克卜勒第三定律，若某行星繞日週期為 8 年，其軌道半長軸為多少天文單位 (AU)？',o:['4','2','8','16'],a:0,e:'$T^2 / R^3 = 1$ (對太陽系行星)，$8^2 = 64 = R^3$，故 $R=4$ AU。',d:'進階'}
+);
+generateQuizFile(scBase, 550, 'scienceQuiz', 'science-quiz.js');
 
 console.log('\\nAll 6 quiz files generated successfully!');
