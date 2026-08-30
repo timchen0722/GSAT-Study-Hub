@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="國文完整課程 - 國學常識、古文、白話文學、閱讀理解">
+  <title>📖 國文 | GSAT Study Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-brand"><span class="logo-icon">📚</span><span class="brand-text">GSAT Study Hub</span></a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="chinese.html" class="active">📖 國文</a></li>
+        <li><a href="english.html">📝 英文</a></li>
+        <li><a href="math-a.html">📐 數學A</a></li>
+        <li><a href="math-b.html">📏 數學B</a></li>
+        <li><a href="social.html">🌍 社會</a></li>
+        <li><a href="science.html">🔬 自然</a></li>
+        <li><a href="../quiz/quiz.html" class="btn btn-primary btn-sm">🎯 題庫</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="subject-page container">
+    <div class="subject-hero">
+      <h1 class="subject-hero-title">📖 國文 — 完整課程整理</h1>
+      <p class="subject-hero-desc">涵蓋國學常識、古文三十篇、白話文學、閱讀理解｜考試日期：116/1/22（五）</p>
+    </div>
+
+    <div class="subject-layout">
+      <aside class="sidebar">
+        <div class="sidebar-title">📂 章節目錄</div>
+        <ul class="sidebar-nav">
+          <li><a href="#ch1" class="active">壹、國學常識</a></li>
+          <li><a href="#ch2">貳、字音字形</a></li>
+          <li><a href="#ch3">參、成語典故</a></li>
+          <li><a href="#ch4">肆、古文選讀</a></li>
+          <li><a href="#ch5">伍、白話文學</a></li>
+          <li><a href="#ch6">陸、閱讀理解</a></li>
+          <li><a href="#ch7">柒、修辭與文法</a></li>
+          <li><a href="#ch8">捌、應用文</a></li>
+        </ul>
+        <div style="margin-top: var(--space-6);"><a href="../quiz/quiz.html" class="btn btn-primary" style="width:100%;">🎯 國文題庫</a></div>
+      </aside>
+
+      <main class="content-area">
+
+        <!-- 國學常識 -->
+        <section class="content-section" id="ch1">
+          <h2>📌 壹、國學常識</h2>
+          <h3>一、經史子集四部分類</h3>
+          <p>中國古代圖書分類法，始於《隋書·經籍志》，確立於《四庫全書》：</p>
+          <table class="data-table">
+            <thead><tr><th>類別</th><th>內容</th><th>代表典籍</th></tr></thead>
+            <tbody>
+              <tr><td><strong>經部</strong></td><td>儒家經典及其注疏</td><td>《詩經》《書經》《易經》《禮記》《春秋》《論語》《孟子》《大學》《中庸》</td></tr>
+              <tr><td><strong>史部</strong></td><td>各種體裁的歷史著作</td><td>《史記》《漢書》《資治通鑑》《三國志》</td></tr>
+              <tr><td><strong>子部</strong></td><td>諸子百家及其他學術著作</td><td>《老子》《莊子》《墨子》《韓非子》《孫子兵法》</td></tr>
+              <tr><td><strong>集部</strong></td><td>詩文詞曲等文學作品</td><td>《楚辭》《文選》《全唐詩》《花間集》</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、史書體裁</h3>
+          <table class="data-table">
+            <thead><tr><th>體裁</th><th>說明</th><th>代表作</th><th>作者</th></tr></thead>
+            <tbody>
+              <tr><td><strong>紀傳體</strong></td><td>以人物為中心，分本紀、列傳等</td><td>《史記》（通史之祖）</td><td>司馬遷</td></tr>
+              <tr><td><strong>編年體</strong></td><td>以時間為主軸，逐年記事</td><td>《春秋》（最早）、《資治通鑑》（最大）</td><td>孔子；司馬光</td></tr>
+              <tr><td><strong>紀事本末體</strong></td><td>以事件為主軸，始末完整</td><td>《通鑑紀事本末》（首創）</td><td>袁樞</td></tr>
+              <tr><td><strong>國別體</strong></td><td>以國家為單位分別敘述</td><td>《國語》（最早）、《戰國策》</td><td>左丘明；劉向</td></tr>
+            </tbody>
+          </table>
+
+          <h3>三、文學流派與時代</h3>
+          <table class="data-table">
+            <thead><tr><th>時代</th><th>文學特色</th><th>代表作家/作品</th></tr></thead>
+            <tbody>
+              <tr><td><strong>先秦</strong></td><td>諸子散文、詩經楚辭</td><td>孔子、孟子、莊子、屈原《離騷》</td></tr>
+              <tr><td><strong>漢代</strong></td><td>辭賦、史傳文學、樂府詩</td><td>司馬遷《史記》、班固《漢書》、〈孔雀東南飛〉</td></tr>
+              <tr><td><strong>魏晉南北朝</strong></td><td>駢文興起、志怪小說、田園山水詩</td><td>陶淵明、謝靈運、劉義慶《世說新語》</td></tr>
+              <tr><td><strong>唐代</strong></td><td>詩歌黃金時代、古文運動</td><td>李白、杜甫、白居易、韓愈、柳宗元</td></tr>
+              <tr><td><strong>宋代</strong></td><td>詞的全盛、理學散文</td><td>蘇軾、李清照、辛棄疾、歐陽脩、朱熹</td></tr>
+              <tr><td><strong>元代</strong></td><td>散曲、雜劇</td><td>關漢卿《竇娥冤》、馬致遠、王實甫《西廂記》</td></tr>
+              <tr><td><strong>明代</strong></td><td>章回小說、小品文</td><td>《三國演義》《水滸傳》《西遊記》、袁宏道</td></tr>
+              <tr><td><strong>清代</strong></td><td>小說高峰、桐城派古文</td><td>曹雪芹《紅樓夢》、蒲松齡《聊齋志異》</td></tr>
+            </tbody>
+          </table>
+
+          <h3>四、韻文流變</h3>
+          <table class="data-table">
+            <thead><tr><th>體裁</th><th>時代</th><th>特點</th><th>代表</th></tr></thead>
+            <tbody>
+              <tr><td><strong>詩經</strong></td><td>西周～春秋</td><td>四言為主，風雅頌、賦比興</td><td>〈關雎〉〈蒹葭〉</td></tr>
+              <tr><td><strong>楚辭</strong></td><td>戰國</td><td>六七言為主，「兮」字句</td><td>屈原〈離騷〉</td></tr>
+              <tr><td><strong>樂府</strong></td><td>漢代</td><td>可歌唱，敘事長篇</td><td>〈孔雀東南飛〉</td></tr>
+              <tr><td><strong>古體詩</strong></td><td>漢～唐</td><td>字數不拘、不限平仄對仗</td><td>陶淵明〈飲酒〉</td></tr>
+              <tr><td><strong>近體詩</strong></td><td>唐代定型</td><td>五/七言，嚴格平仄對仗押韻</td><td>杜甫〈春望〉</td></tr>
+              <tr><td><strong>詞</strong></td><td>唐末～宋</td><td>長短句，依詞牌填寫</td><td>蘇軾〈念奴嬌〉</td></tr>
+              <tr><td><strong>曲</strong></td><td>元代</td><td>可加襯字，較詞自由</td><td>馬致遠〈天淨沙〉</td></tr>
+            </tbody>
+          </table>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 常考重點</div>
+            <ul>
+              <li>《詩經》是最早的詩歌總集；《楚辭》是最早的文人創作詩集</li>
+              <li>「古文運動」由韓愈、柳宗元發起，主張恢復先秦兩漢散文</li>
+              <li>「唐宋古文八大家」：韓愈、柳宗元、歐陽脩、蘇洵、蘇軾、蘇轍、王安石、曾鞏</li>
+              <li>《史記》為「正史之祖」，首創紀傳體，被魯迅譽為「史家之絕唱，無韻之離騷」</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 字音字形 -->
+        <section class="content-section" id="ch2">
+          <h2>📌 貳、字音字形辨析</h2>
+          <h3>一、常考易錯字音</h3>
+          <table class="data-table">
+            <thead><tr><th>字詞</th><th>正確讀音</th><th>常見錯誤</th><th>說明</th></tr></thead>
+            <tbody>
+              <tr><td>彳亍</td><td>ㄔˋ ㄔㄨˋ</td><td>ㄒㄧㄥˊ</td><td>慢步行走之意</td></tr>
+              <tr><td>齟齬</td><td>ㄐㄩˇ ㄩˇ</td><td>ㄓㄨˇ ㄩˇ</td><td>意見不合</td></tr>
+              <tr><td>僭越</td><td>ㄐㄧㄢˋ</td><td>ㄑㄧㄢˊ</td><td>超越本分</td></tr>
+              <tr><td>覬覦</td><td>ㄐㄧˋ ㄩˊ</td><td>ㄐㄧ ㄩˊ</td><td>非分的希望</td></tr>
+              <tr><td>訃聞</td><td>ㄈㄨˋ</td><td>ㄅㄨˋ</td><td>報喪的通知</td></tr>
+              <tr><td>肄業</td><td>ㄧˋ</td><td>ㄙˋ</td><td>在學校學習但未畢業</td></tr>
+              <tr><td>畸形</td><td>ㄐㄧ</td><td>ㄑㄧˊ</td><td>不正常的形狀</td></tr>
+              <tr><td>慫恿</td><td>ㄙㄨㄥˇ ㄩㄥˇ</td><td>ㄓㄨㄥˇ</td><td>鼓動別人去做某事</td></tr>
+              <tr><td>稽首</td><td>ㄑㄧˇ ㄕㄡˇ</td><td>ㄐㄧ ㄕㄡˇ</td><td>古代最敬禮，頭觸地</td></tr>
+              <tr><td>矗立</td><td>ㄔㄨˋ</td><td>ㄓㄨˋ</td><td>高聳直立</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、常考形近字辨析</h3>
+          <table class="data-table">
+            <thead><tr><th>字組</th><th>辨析</th></tr></thead>
+            <tbody>
+              <tr><td>戊、戌、戍、戎</td><td>戊（ㄨˋ，天干第五）、戌（ㄒㄩ，地支第十一）、戍（ㄕㄨˋ，守邊）、戎（ㄖㄨㄥˊ，軍事）</td></tr>
+              <tr><td>己、已、巳</td><td>己（ㄐㄧˇ，自己）、已（ㄧˇ，已經）、巳（ㄙˋ，地支第六）→ 口訣：「己開已半巳封口」</td></tr>
+              <tr><td>灸、炙、炎</td><td>灸（ㄐㄧㄡˇ，針灸）、炙（ㄓˋ，烤肉/膾炙人口）、炎（ㄧㄢˊ，火熱）</td></tr>
+              <tr><td>辨、辯、辮、瓣</td><td>辨（辨別，中間刀）、辯（辯論，中間言）、辮（辮子，中間絲）、瓣（花瓣，中間瓜）</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 成語典故 -->
+        <section class="content-section" id="ch3">
+          <h2>📌 參、成語典故</h2>
+          <h3>一、歷史典故成語</h3>
+          <table class="data-table">
+            <thead><tr><th>成語</th><th>典故來源</th><th>意思</th></tr></thead>
+            <tbody>
+              <tr><td><strong>臥薪嘗膽</strong></td><td>越王勾踐（《史記》）</td><td>刻苦自勵、發憤圖強</td></tr>
+              <tr><td><strong>完璧歸趙</strong></td><td>藺相如（《史記》）</td><td>將原物完好歸還</td></tr>
+              <tr><td><strong>負荊請罪</strong></td><td>廉頗向藺相如謝罪（《史記》）</td><td>主動向人認錯道歉</td></tr>
+              <tr><td><strong>四面楚歌</strong></td><td>項羽被圍（《史記》）</td><td>孤立無援的困境</td></tr>
+              <tr><td><strong>破釜沉舟</strong></td><td>項羽鉅鹿之戰（《史記》）</td><td>下定決心、不留退路</td></tr>
+              <tr><td><strong>三顧茅廬</strong></td><td>劉備訪諸葛亮（《三國志》）</td><td>誠心誠意邀請</td></tr>
+              <tr><td><strong>指鹿為馬</strong></td><td>趙高（《史記》）</td><td>顛倒黑白、混淆是非</td></tr>
+              <tr><td><strong>退避三舍</strong></td><td>晉文公（《左傳》）</td><td>主動退讓，避免衝突</td></tr>
+              <tr><td><strong>紙上談兵</strong></td><td>趙括（《史記》）</td><td>空談理論、不切實際</td></tr>
+              <tr><td><strong>鑿壁偷光</strong></td><td>匡衡（《西京雜記》）</td><td>勤奮好學</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、易混淆成語辨析</h3>
+          <table class="data-table">
+            <thead><tr><th>成語A</th><th>意義</th><th>成語B</th><th>意義</th></tr></thead>
+            <tbody>
+              <tr><td>不以為然</td><td>不認為是對的</td><td>不以為意</td><td>不放在心上</td></tr>
+              <tr><td>首當其衝</td><td>最先受影響</td><td>首屈一指</td><td>排名第一</td></tr>
+              <tr><td>巧奪天工</td><td>人工之精巧（不可形容自然景物）</td><td>鬼斧神工</td><td>技藝高超（可形容自然或人工）</td></tr>
+              <tr><td>罄竹難書</td><td>罪行極多（貶義）</td><td>不勝枚舉</td><td>數量極多（中性）</td></tr>
+              <tr><td>差強人意</td><td>尚能令人滿意（正面）</td><td>不盡人意</td><td>不太令人滿意（負面）</td></tr>
+              <tr><td>目無全牛</td><td>技藝精熟（褒義，出自庖丁解牛）</td><td>目中無人</td><td>驕傲自大（貶義）</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 古文選讀 -->
+        <section class="content-section" id="ch4">
+          <h2>📌 肆、古文選讀</h2>
+          <p>以下整理學測常考核心古文，含篇名、作者、主旨、名句：</p>
+
+          <h3>一、先秦兩漢篇章</h3>
+          <table class="data-table">
+            <thead><tr><th>篇名</th><th>作者</th><th>出處</th><th>主旨/重點</th></tr></thead>
+            <tbody>
+              <tr><td><strong>〈燭之武退秦師〉</strong></td><td>左丘明</td><td>《左傳》</td><td>燭之武以利害說服秦穆公退兵，展現外交辭令之巧妙</td></tr>
+              <tr><td><strong>〈大同與小康〉</strong></td><td>戴聖 編</td><td>《禮記·禮運》</td><td>孔子理想中的大同社會與小康社會之比較</td></tr>
+              <tr><td><strong>〈勸學〉</strong></td><td>荀子</td><td>《荀子》</td><td>以譬喻論證學習的重要性。「青出於藍」「鍥而不捨」出於此</td></tr>
+              <tr><td><strong>〈鴻門宴〉</strong></td><td>司馬遷</td><td>《史記·項羽本紀》</td><td>劉邦赴宴脫險的經過，展現人物性格</td></tr>
+              <tr><td><strong>〈出師表〉</strong></td><td>諸葛亮</td><td>《三國志》注引</td><td>臨行北伐前上書劉禪，表達忠誠與進言</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、唐宋篇章</h3>
+          <table class="data-table">
+            <thead><tr><th>篇名</th><th>作者</th><th>主旨/重點</th></tr></thead>
+            <tbody>
+              <tr><td><strong>〈師說〉</strong></td><td>韓愈</td><td>論「從師問學」之道，批評當時恥於從師的風氣。「師者，所以傳道、受業、解惑也」</td></tr>
+              <tr><td><strong>〈始得西山宴遊記〉</strong></td><td>柳宗元</td><td>永州八記之一，藉西山壯觀之景抒發被貶之感悟與超脫</td></tr>
+              <tr><td><strong>〈岳陽樓記〉</strong></td><td>范仲淹</td><td>「先天下之憂而憂，後天下之樂而樂」，表達政治理想與胸懷</td></tr>
+              <tr><td><strong>〈醉翁亭記〉</strong></td><td>歐陽脩</td><td>「醉翁之意不在酒」，以山水之樂寄託政治理想</td></tr>
+              <tr><td><strong>〈赤壁賦〉</strong></td><td>蘇軾</td><td>藉赤壁夜遊，探討人生短暫與永恆的哲理，表達豁達超脫</td></tr>
+              <tr><td><strong>〈項脊軒志〉</strong></td><td>歸有光</td><td>以項脊軒的興廢寄託對祖母、母親、妻子的深情追憶</td></tr>
+            </tbody>
+          </table>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 古文閱讀技巧</div>
+            <ul>
+              <li>注意文言虛詞：之、乎、者、也、矣、焉、哉、其、以、而、則、乃</li>
+              <li>掌握通假字、古今異義詞、詞類活用</li>
+              <li>「以」字用法：介詞（用/因/憑）、連詞（而/來）、動詞（認為）</li>
+              <li>「而」字用法：順接（而且）、轉接（但是）、修飾（地）</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 白話文學 -->
+        <section class="content-section" id="ch5">
+          <h2>📌 伍、白話文學</h2>
+          <h3>一、現代文學重要作家</h3>
+          <table class="data-table">
+            <thead><tr><th>作家</th><th>代表作</th><th>風格/地位</th></tr></thead>
+            <tbody>
+              <tr><td><strong>魯迅</strong></td><td>《狂人日記》《阿Q正傳》</td><td>現代文學之父，白話小說先驅</td></tr>
+              <tr><td><strong>徐志摩</strong></td><td>〈再別康橋〉</td><td>新月派詩人，詩風浪漫優美</td></tr>
+              <tr><td><strong>朱自清</strong></td><td>〈背影〉〈荷塘月色〉</td><td>散文大家，文風清麗真摯</td></tr>
+              <tr><td><strong>賴和</strong></td><td>〈一桿「稱仔」〉</td><td>「臺灣新文學之父」</td></tr>
+              <tr><td><strong>余光中</strong></td><td>〈鄉愁〉〈聽聽那冷雨〉</td><td>右手寫詩左手寫散文，融合古典與現代</td></tr>
+              <tr><td><strong>琦君</strong></td><td>〈髻〉</td><td>懷舊散文，細膩溫婉</td></tr>
+              <tr><td><strong>洪醒夫</strong></td><td>〈散戲〉</td><td>鄉土文學，關懷農村社會</td></tr>
+              <tr><td><strong>簡媜</strong></td><td>《女兒紅》</td><td>當代散文家，文字華美</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、臺灣文學發展</h3>
+          <table class="data-table">
+            <thead><tr><th>時期</th><th>特色</th><th>代表</th></tr></thead>
+            <tbody>
+              <tr><td>日治時期</td><td>新舊文學論戰、殖民反抗意識</td><td>賴和、楊逵、呂赫若</td></tr>
+              <tr><td>戰後初期</td><td>反共文學、懷鄉文學</td><td>鍾理和、林海音《城南舊事》</td></tr>
+              <tr><td>1960s 現代主義</td><td>西方技巧移入、意識流</td><td>白先勇《臺北人》、王文興</td></tr>
+              <tr><td>1970s 鄉土文學</td><td>關注本土、社會寫實</td><td>黃春明、王禎和、陳映真</td></tr>
+              <tr><td>1980s後 多元發展</td><td>後現代、女性書寫、原住民文學</td><td>朱天文、李昂、瓦歷斯·諾幹</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 閱讀理解 -->
+        <section class="content-section" id="ch6">
+          <h2>📌 陸、閱讀理解策略</h2>
+          <h3>一、閱讀測驗題型分析</h3>
+          <table class="data-table">
+            <thead><tr><th>題型</th><th>考什麼</th><th>答題策略</th></tr></thead>
+            <tbody>
+              <tr><td><strong>主旨題</strong></td><td>全文核心觀點</td><td>找首尾段落的總結句，注意轉折詞</td></tr>
+              <tr><td><strong>細節題</strong></td><td>特定資訊的理解</td><td>回到原文定位，注意「同義改寫」陷阱</td></tr>
+              <tr><td><strong>推論題</strong></td><td>由已知推未知</td><td>必須有文本依據，不可過度推論</td></tr>
+              <tr><td><strong>詞義題</strong></td><td>上下文推斷詞義</td><td>代入各選項，看哪個語意最通順</td></tr>
+              <tr><td><strong>比較題</strong></td><td>多文本異同</td><td>列表整理各文本立場與論點</td></tr>
+            </tbody>
+          </table>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 閱讀策略口訣</div>
+            <ul>
+              <li><strong>先看題目再讀文</strong>：帶著問題閱讀，更有效率</li>
+              <li><strong>抓關鍵詞</strong>：注意「但是」「然而」「因此」「事實上」等轉折詞</li>
+              <li><strong>排除法</strong>：先刪去明顯錯誤的選項</li>
+              <li><strong>回文驗證</strong>：選出答案後回到原文確認</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 修辭與文法 -->
+        <section class="content-section" id="ch7">
+          <h2>📌 柒、修辭技巧</h2>
+          <h3>一、常見修辭法</h3>
+          <table class="data-table">
+            <thead><tr><th>修辭法</th><th>說明</th><th>例句</th></tr></thead>
+            <tbody>
+              <tr><td><strong>譬喻</strong></td><td>用相似事物說明（明喻/暗喻/借喻）</td><td>人生<em>如</em>戲（明喻）；月<em>是</em>故鄉明（暗喻）</td></tr>
+              <tr><td><strong>轉化</strong></td><td>將物擬人、人擬物、虛擬實</td><td>春風<em>吻</em>上了我的臉（擬人）</td></tr>
+              <tr><td><strong>誇飾</strong></td><td>誇大或縮小事實</td><td>白髮三千丈（誇大）；彈丸之地（縮小）</td></tr>
+              <tr><td><strong>借代</strong></td><td>不直說，用相關事物代替</td><td>「巾幗」代女子；「黃髮垂髫」代老人與小孩</td></tr>
+              <tr><td><strong>映襯</strong></td><td>對比反差（正襯/反襯）</td><td>「朱門酒肉臭，路有凍死骨」（反襯）</td></tr>
+              <tr><td><strong>排比</strong></td><td>三個以上結構相似的句子</td><td>「望之蔚然而深秀者，琅琊也」</td></tr>
+              <tr><td><strong>設問</strong></td><td>有疑問句式（提問/激問/懸問）</td><td>「問君能有幾多愁？」（激問）</td></tr>
+              <tr><td><strong>雙關</strong></td><td>一語雙意（諧音/義雙關）</td><td>「東邊日出西邊雨，道是無晴卻有晴」（晴＝情）</td></tr>
+              <tr><td><strong>對偶</strong></td><td>字數相等、結構相同、意義相對</td><td>「橫眉冷對千夫指，俯首甘為孺子牛」</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 應用文 -->
+        <section class="content-section" id="ch8">
+          <h2>📌 捌、應用文書寫</h2>
+          <h3>一、書信格式</h3>
+          <table class="data-table">
+            <thead><tr><th>對象</th><th>提稱語</th><th>結尾問候語</th><th>結尾敬辭</th></tr></thead>
+            <tbody>
+              <tr><td>祖父母/父母</td><td>膝下、膝前</td><td>敬請 福安</td><td>叩稟、叩上</td></tr>
+              <tr><td>師長</td><td>道鑒、函丈</td><td>敬請 道安</td><td>敬上、謹上</td></tr>
+              <tr><td>平輩</td><td>大鑒、台鑒、惠鑒</td><td>順頌 時綏</td><td>敬啟、拜啟</td></tr>
+              <tr><td>晚輩</td><td>知悉、如晤</td><td>順問 近好</td><td>示、手書</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、柬帖用語</h3>
+          <table class="data-table">
+            <thead><tr><th>場合</th><th>用語</th></tr></thead>
+            <tbody>
+              <tr><td>結婚</td><td>謹詹（訂日期）、合巹（結婚）、于歸（女嫁）、文定（訂婚）</td></tr>
+              <tr><td>生子</td><td>彌月（滿月）、晬敬（週歲）、湯餅之會</td></tr>
+              <tr><td>壽慶</td><td>男壽：椿壽、椿庭；女壽：萱壽、萱堂</td></tr>
+              <tr><td>喪禮</td><td>父喪：先考、先嚴；母喪：先妣、先慈</td></tr>
+            </tbody>
+          </table>
+
+          <h3>三、題辭</h3>
+          <table class="data-table">
+            <thead><tr><th>場合</th><th>題辭</th></tr></thead>
+            <tbody>
+              <tr><td>結婚</td><td>百年好合、珠聯璧合、天作之合、花好月圓</td></tr>
+              <tr><td>生子</td><td>弄璋之喜（生男）、弄瓦之喜（生女）、明珠入掌</td></tr>
+              <tr><td>男壽</td><td>天錫純嘏、福壽全歸、南山獻頌</td></tr>
+              <tr><td>女壽</td><td>寶婺星輝、萱庭日暖、慈竹風和</td></tr>
+              <tr><td>開業</td><td>駿業宏開、鴻圖大展、近悅遠來</td></tr>
+              <tr><td>醫界</td><td>杏林春暖、仁心仁術、懸壺濟世</td></tr>
+              <tr><td>教育</td><td>春風化雨、桃李滿門、百年樹人</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div style="text-align: center; padding: var(--space-12) 0;">
+          <a href="../quiz/quiz.html" class="btn btn-primary btn-lg">🎯 前往國文題庫練習</a>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-content"><p class="footer-text">📚 116年學測備考資料庫 | GSAT Study Hub</p><p class="footer-text">國文 — 依108課綱編排</p></div></div></footer>
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+  <script src="../js/app.js"></script>
+</body>
+</html>

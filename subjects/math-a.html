@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="數學A完整課程 - 從高一到高三，含公式推導逐行說明">
+  <title>📐 數學A | GSAT Study Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-brand">
+        <span class="logo-icon">📚</span>
+        <span class="brand-text">GSAT Study Hub</span>
+      </a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="chinese.html">📖 國文</a></li>
+        <li><a href="english.html">📝 英文</a></li>
+        <li><a href="math-a.html" class="active">📐 數學A</a></li>
+        <li><a href="math-b.html">📏 數學B</a></li>
+        <li><a href="social.html">🌍 社會</a></li>
+        <li><a href="science.html">🔬 自然</a></li>
+        <li><a href="../quiz/quiz.html" class="btn btn-primary btn-sm">🎯 題庫</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="subject-page container">
+    <div class="subject-hero">
+      <h1 class="subject-hero-title">📐 數學A — 完整課程整理</h1>
+      <p class="subject-hero-desc">涵蓋高一至高三數學A全範圍，含公式推導逐行說明｜考試日期：116/1/23（六）</p>
+    </div>
+
+    <div class="subject-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-title">📂 章節目錄</div>
+        <ul class="sidebar-nav">
+          <li><a href="#ch1" class="active">壹、數與式</a></li>
+          <li><a href="#ch2">貳、多項式函數</a></li>
+          <li><a href="#ch3">參、指數與對數</a></li>
+          <li><a href="#ch4">肆、三角函數</a></li>
+          <li><a href="#ch5">伍、向量</a></li>
+          <li><a href="#ch6">陸、矩陣</a></li>
+          <li><a href="#ch7">柒、排列組合</a></li>
+          <li><a href="#ch8">捌、機率與統計</a></li>
+          <li><a href="#ch9">玖、圓錐曲線</a></li>
+          <li><a href="#ch10">拾、微分初步</a></li>
+        </ul>
+        <div style="margin-top: var(--space-6);">
+          <a href="../quiz/quiz.html" class="btn btn-primary" style="width: 100%;">🎯 數學A題庫</a>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content-area">
+
+        <!-- ============================== -->
+        <!-- 第一章：數與式 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch1">
+          <h2>📌 壹、數與式</h2>
+          <p>本章為高中數學基礎，從實數系統出發，學習數的分類、絕對值、不等式等核心概念。</p>
+
+          <h3>一、實數系統</h3>
+          <p>實數可分為<strong>有理數</strong>與<strong>無理數</strong>兩大類：</p>
+          <ul>
+            <li><strong>自然數 \(\mathbb{N}\)</strong>：1, 2, 3, 4, ... （正整數）</li>
+            <li><strong>整數 \(\mathbb{Z}\)</strong>：..., -2, -1, 0, 1, 2, ...（含零與負整數）</li>
+            <li><strong>有理數 \(\mathbb{Q}\)</strong>：可表示為 \(\frac{p}{q}\)（\(p, q\) 為整數，\(q \neq 0\)）的數，例如 \(\frac{3}{4}, -2, 0.\overline{3}\)</li>
+            <li><strong>無理數</strong>：不能表示為分數的實數，例如 \(\sqrt{2}, \pi, e\)</li>
+            <li><strong>實數 \(\mathbb{R}\)</strong>：有理數 ∪ 無理數，對應數線上所有點</li>
+          </ul>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 關鍵重點</div>
+            <ul>
+              <li>任何有限小數或循環小數都是有理數</li>
+              <li>\(\sqrt{2}\) 是無理數的經典證明使用「歸謬法」</li>
+              <li>實數具有完備性——數線上每一點都對應一個實數</li>
+            </ul>
+          </div>
+
+          <h3>二、絕對值</h3>
+          <p>實數 \(a\) 的絕對值定義為：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 絕對值的定義</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( |a| = \begin{cases} a & \text{if } a \geq 0 \\ -a & \text{if } a < 0 \end{cases} \)</span>
+              <span class="formula-explain">當 a 為非負數時取本身；為負數時取其相反數，確保結果恆 ≥ 0</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( |a| = \sqrt{a^2} \)</span>
+              <span class="formula-explain">等價定義：先平方去掉正負號，再開根號取正值</span>
+            </div>
+          </div>
+
+          <h4>絕對值的重要性質</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 絕對值性質</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( |a| \geq 0 \)，且 \( |a| = 0 \Leftrightarrow a = 0 \)</span>
+              <span class="formula-explain">非負性：絕對值永遠大於等於零</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( |ab| = |a| \cdot |b| \)</span>
+              <span class="formula-explain">乘法性：兩數乘積的絕對值 = 各自絕對值的乘積</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \left|\frac{a}{b}\right| = \frac{|a|}{|b|} \quad (b \neq 0) \)</span>
+              <span class="formula-explain">除法性：商的絕對值 = 各自絕對值的商</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( |a + b| \leq |a| + |b| \)</span>
+              <span class="formula-explain">三角不等式：兩數之和的絕對值不超過兩數絕對值之和</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( ||a| - |b|| \leq |a - b| \)</span>
+              <span class="formula-explain">反三角不等式：兩數絕對值之差的絕對值 ≤ 兩數之差的絕對值</span>
+            </div>
+          </div>
+
+          <h3>三、不等式</h3>
+          <h4>一元一次不等式</h4>
+          <p>形如 \(ax + b > 0\) 的不等式，解法與一元一次方程式類似，但<strong>兩邊乘以負數時需要變號</strong>。</p>
+
+          <h4>一元二次不等式</h4>
+          <p>設 \(ax^2 + bx + c = 0\) 的判別式 \(D = b^2 - 4ac\)：</p>
+          <ul>
+            <li>當 \(D > 0\)：方程有兩相異實根 \(\alpha < \beta\)
+              <ul>
+                <li>\(ax^2 + bx + c > 0\)（\(a > 0\)）的解為 \(x < \alpha\) 或 \(x > \beta\)</li>
+                <li>\(ax^2 + bx + c < 0\)（\(a > 0\)）的解為 \(\alpha < x < \beta\)</li>
+              </ul>
+            </li>
+            <li>當 \(D = 0\)：方程有重根 \(x = -\frac{b}{2a}\)</li>
+            <li>當 \(D < 0\)：方程無實根，若 \(a > 0\) 則 \(ax^2 + bx + c > 0\) 恆成立</li>
+          </ul>
+
+          <h3>四、複數</h3>
+          <p>定義虛數單位 \(i = \sqrt{-1}\)，使得 \(i^2 = -1\)。</p>
+          <p>複數的標準式為 \(z = a + bi\)，其中 \(a\) 為實部、\(b\) 為虛部。</p>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 複數運算</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( (a+bi) + (c+di) = (a+c) + (b+d)i \)</span>
+              <span class="formula-explain">加法：實部相加、虛部相加</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( (a+bi)(c+di) = (ac-bd) + (ad+bc)i \)</span>
+              <span class="formula-explain">乘法：展開後利用 \(i^2 = -1\) 化簡</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \overline{z} = a - bi \)</span>
+              <span class="formula-explain">共軛複數：虛部取相反數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( |z| = \sqrt{a^2 + b^2} \)</span>
+              <span class="formula-explain">複數的模（絕對值）：對應複數平面上到原點的距離</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( z \cdot \overline{z} = a^2 + b^2 = |z|^2 \)</span>
+              <span class="formula-explain">複數乘以其共軛 = 模的平方（常用於分母有理化）</span>
+            </div>
+          </div>
+
+          <div class="info-box tip">
+            <span class="info-icon">💡</span>
+            <span class="info-content"><strong>學測常考</strong>：\(i\) 的冪次有循環性：\(i^1 = i, \; i^2 = -1, \; i^3 = -i, \; i^4 = 1\)，每4次循環一次。</span>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第二章：多項式函數 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch2">
+          <h2>📌 貳、多項式函數</h2>
+          <p>多項式是代數學的核心，本章學習多項式的運算、因式分解、餘式定理與函數圖形。</p>
+
+          <h3>一、多項式基本概念</h3>
+          <p>一般 \(n\) 次多項式定義為：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 多項式標準式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0 \)</span>
+              <span class="formula-explain">\(a_n \neq 0\) 為首項係數，\(n\) 為多項式的次數，\(a_0\) 為常數項</span>
+            </div>
+          </div>
+
+          <h3>二、餘式定理與因式定理</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 餘式定理推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( f(x) = (x - c) \cdot Q(x) + R \)</span>
+              <span class="formula-explain">多項式 \(f(x)\) 除以 \((x - c)\) 得商式 \(Q(x)\) 和餘數 \(R\)（\(R\) 為常數）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( f(c) = (c - c) \cdot Q(c) + R \)</span>
+              <span class="formula-explain">在等式兩邊令 \(x = c\)，代入</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( f(c) = 0 \cdot Q(c) + R = R \)</span>
+              <span class="formula-explain">\((c - c) = 0\)，因此 \(f(c)\) 就等於餘數 \(R\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\(\therefore\) 餘式定理：\(f(x)\) 除以 \((x-c)\) 的餘數 \(= f(c)\)</span>
+              <span class="formula-explain">只需要代入 \(c\) 就能求餘數，不需要實際做除法</span>
+            </div>
+          </div>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 因式定理</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">由餘式定理：\(f(x)\) 除以 \((x-c)\) 的餘數為 \(f(c)\)</span>
+              <span class="formula-explain">先套用餘式定理</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">若 \(f(c) = 0\)，則餘數 \(R = 0\)</span>
+              <span class="formula-explain">\(f(c) = 0\) 意味著 \(c\) 是 \(f(x) = 0\) 的根</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( f(x) = (x - c) \cdot Q(x) \)</span>
+              <span class="formula-explain">餘數為 0 表示 \((x - c)\) 整除 \(f(x)\)，即 \((x - c)\) 是 \(f(x)\) 的因式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\(\therefore\) \(f(c) = 0 \Leftrightarrow (x-c)\) 是 \(f(x)\) 的因式</span>
+              <span class="formula-explain">因式定理：\(c\) 是根 ⟺ \((x-c)\) 是因式，這是雙向的</span>
+            </div>
+          </div>
+
+          <h3>三、二次函數</h3>
+          <p>\(f(x) = ax^2 + bx + c\)（\(a \neq 0\)）的圖形為拋物線。</p>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 配方法推導頂點式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( f(x) = ax^2 + bx + c \)</span>
+              <span class="formula-explain">從一般式出發</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( = a\left(x^2 + \frac{b}{a}x\right) + c \)</span>
+              <span class="formula-explain">將首項係數 \(a\) 從前兩項提出</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( = a\left(x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} - \frac{b^2}{4a^2}\right) + c \)</span>
+              <span class="formula-explain">加入並減去 \(\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}\) 來「湊完全平方」</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c \)</span>
+              <span class="formula-explain">括號內形成完全平方 \(\left(x + \frac{b}{2a}\right)^2\)，常數項合併</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a} \)</span>
+              <span class="formula-explain">通分合併：\(-\frac{b^2}{4a} + c = -\frac{b^2}{4a} + \frac{4ac}{4a} = \frac{-(b^2-4ac)}{4a}\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\(\therefore\) 頂點為 \(\left(-\frac{b}{2a}, \; -\frac{b^2-4ac}{4a}\right)\)</span>
+              <span class="formula-explain">頂點 \((h, k)\) 即 \(h = -\frac{b}{2a}\)、\(k = \frac{4ac - b^2}{4a}\)</span>
+            </div>
+          </div>
+
+          <h4>公式解推導</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 一元二次方程式公式解</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( ax^2 + bx + c = 0 \quad (a \neq 0) \)</span>
+              <span class="formula-explain">從一般式出發，目標是解出 \(x\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( x^2 + \frac{b}{a}x + \frac{c}{a} = 0 \)</span>
+              <span class="formula-explain">兩邊同除以 \(a\)（\(a \neq 0\) 所以可以除）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( x^2 + \frac{b}{a}x = -\frac{c}{a} \)</span>
+              <span class="formula-explain">將常數項移到等號右邊</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} = -\frac{c}{a} + \frac{b^2}{4a^2} \)</span>
+              <span class="formula-explain">兩邊同加 \(\left(\frac{b}{2a}\right)^2 = \frac{b^2}{4a^2}\)，左邊湊完全平方</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2} \)</span>
+              <span class="formula-explain">左邊完全平方；右邊通分 \(\frac{-4ac + b^2}{4a^2}\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\( x + \frac{b}{2a} = \pm\frac{\sqrt{b^2 - 4ac}}{2a} \)</span>
+              <span class="formula-explain">兩邊開根號，注意要取 ±</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">\( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \)</span>
+              <span class="formula-explain">移項得到公式解。其中 \(D = b^2 - 4ac\) 稱為「判別式」</span>
+            </div>
+          </div>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 判別式 \(D = b^2 - 4ac\) 的意義</div>
+            <ul>
+              <li>\(D > 0\)：兩相異實根</li>
+              <li>\(D = 0\)：一個重根（兩根相等）</li>
+              <li>\(D < 0\)：無實根（兩個共軛複數根）</li>
+            </ul>
+          </div>
+
+          <h3>四、根與係數的關係（韋達定理）</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 韋達定理推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( ax^2 + bx + c = 0 \) 的兩根為 \(\alpha, \beta\)</span>
+              <span class="formula-explain">設此方程式有兩個根 \(\alpha\) 和 \(\beta\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( ax^2 + bx + c = a(x - \alpha)(x - \beta) \)</span>
+              <span class="formula-explain">因式定理：可將多項式寫成因式乘積形式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( = a[x^2 - (\alpha+\beta)x + \alpha\beta] \)</span>
+              <span class="formula-explain">將 \((x-\alpha)(x-\beta)\) 展開</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( = ax^2 - a(\alpha+\beta)x + a\alpha\beta \)</span>
+              <span class="formula-explain">乘以 \(a\) 展開</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">比較係數：\( b = -a(\alpha+\beta) \Rightarrow \alpha + \beta = -\frac{b}{a} \)</span>
+              <span class="formula-explain">比較 \(x\) 的係數，得到兩根之和 = \(-b/a\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">比較常數：\( c = a\alpha\beta \Rightarrow \alpha \cdot \beta = \frac{c}{a} \)</span>
+              <span class="formula-explain">比較常數項，得到兩根之積 = \(c/a\)</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第三章：指數與對數 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch3">
+          <h2>📌 參、指數與對數</h2>
+
+          <h3>一、指數律</h3>
+          <p>設 \(a > 0\)，\(m, n\) 為實數：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 指數律整理</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( a^m \cdot a^n = a^{m+n} \)</span>
+              <span class="formula-explain">同底數相乘，指數相加</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \frac{a^m}{a^n} = a^{m-n} \)</span>
+              <span class="formula-explain">同底數相除，指數相減</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( (a^m)^n = a^{mn} \)</span>
+              <span class="formula-explain">指數的指數，指數相乘</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( (ab)^n = a^n \cdot b^n \)</span>
+              <span class="formula-explain">乘積的冪 = 各自取冪的乘積</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( a^0 = 1 \quad (a \neq 0) \)</span>
+              <span class="formula-explain">零次方定義為 1（由 \(a^n / a^n = a^{n-n} = a^0 = 1\) 推得）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\( a^{-n} = \frac{1}{a^n} \)</span>
+              <span class="formula-explain">負指數 = 取倒數（由 \(a^{0-n} = \frac{a^0}{a^n} = \frac{1}{a^n}\) 推得）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">\( a^{1/n} = \sqrt[n]{a} \)</span>
+              <span class="formula-explain">分數指數定義為根號：\((a^{1/n})^n = a^{n/n} = a\)</span>
+            </div>
+          </div>
+
+          <h3>二、對數</h3>
+          <p>對數是指數的反運算。設 \(a > 0, a \neq 1, N > 0\)：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 對數定義與性質</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \log_a N = x \Leftrightarrow a^x = N \)</span>
+              <span class="formula-explain">定義：「以 \(a\) 為底 \(N\) 的對數」是使得 \(a^x = N\) 的 \(x\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \log_a 1 = 0 \)</span>
+              <span class="formula-explain">因為 \(a^0 = 1\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \log_a a = 1 \)</span>
+              <span class="formula-explain">因為 \(a^1 = a\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \log_a(MN) = \log_a M + \log_a N \)</span>
+              <span class="formula-explain">乘法→加法：對數將乘法運算轉換為加法運算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \log_a\frac{M}{N} = \log_a M - \log_a N \)</span>
+              <span class="formula-explain">除法→減法：對數將除法運算轉換為減法運算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\( \log_a M^k = k \cdot \log_a M \)</span>
+              <span class="formula-explain">冪次→倍數：指數可以提到對數前面成為係數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">\( \log_a N = \frac{\log_b N}{\log_b a} \)</span>
+              <span class="formula-explain">換底公式：可以將任何底的對數轉換為其他底（計算器常用 \(\log_{10}\) 或 \(\ln\)）</span>
+            </div>
+          </div>
+
+          <h4>換底公式推導</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 換底公式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">設 \(\log_a N = x\)，即 \(a^x = N\)</span>
+              <span class="formula-explain">先設要求的對數值為 \(x\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">兩邊取 \(\log_b\)：\(\log_b(a^x) = \log_b N\)</span>
+              <span class="formula-explain">對等式兩邊同時取以 \(b\) 為底的對數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\(x \cdot \log_b a = \log_b N\)</span>
+              <span class="formula-explain">利用冪次法則 \(\log_b(a^x) = x\log_b a\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\(x = \frac{\log_b N}{\log_b a}\)</span>
+              <span class="formula-explain">兩邊除以 \(\log_b a\)（\(a \neq 1\) 保證 \(\log_b a \neq 0\)）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\(\therefore \log_a N = \frac{\log_b N}{\log_b a}\)</span>
+              <span class="formula-explain">將 \(x\) 代回，即得換底公式</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第四章：三角函數 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch4">
+          <h2>📌 肆、三角函數</h2>
+
+          <h3>一、基本定義（直角三角形）</h3>
+          <p>在直角三角形中，設銳角 \(\theta\) 的對邊為 \(a\)、鄰邊為 \(b\)、斜邊為 \(c\)：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 三角比定義</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \sin\theta = \frac{\text{對邊}}{\text{斜邊}} = \frac{a}{c} \)</span>
+              <span class="formula-explain">正弦 = 對邊 / 斜邊</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \cos\theta = \frac{\text{鄰邊}}{\text{斜邊}} = \frac{b}{c} \)</span>
+              <span class="formula-explain">餘弦 = 鄰邊 / 斜邊</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \tan\theta = \frac{\text{對邊}}{\text{鄰邊}} = \frac{a}{b} = \frac{\sin\theta}{\cos\theta} \)</span>
+              <span class="formula-explain">正切 = 對邊 / 鄰邊 = 正弦 / 餘弦</span>
+            </div>
+          </div>
+
+          <h3>二、廣義角與弧度</h3>
+          <p>角度與弧度的轉換：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 角度與弧度</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \pi \text{ rad} = 180° \)</span>
+              <span class="formula-explain">半圓對應的弧度為 \(\pi\)，等於 180 度</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( 1° = \frac{\pi}{180} \text{ rad} \approx 0.01745 \text{ rad} \)</span>
+              <span class="formula-explain">度轉弧度：乘以 \(\pi/180\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( 1 \text{ rad} = \frac{180°}{\pi} \approx 57.3° \)</span>
+              <span class="formula-explain">弧度轉度：乘以 \(180/\pi\)</span>
+            </div>
+          </div>
+
+          <h3>三、重要恆等式</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 畢氏恆等式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">在單位圓上，點 \(P(\cos\theta, \sin\theta)\) 在圓 \(x^2 + y^2 = 1\) 上</span>
+              <span class="formula-explain">單位圓定義：圓心在原點、半徑為 1 的圓</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \cos^2\theta + \sin^2\theta = 1 \)</span>
+              <span class="formula-explain">將 \(x = \cos\theta, y = \sin\theta\) 代入圓的方程式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">兩邊除以 \(\cos^2\theta\)：\( 1 + \tan^2\theta = \sec^2\theta \)</span>
+              <span class="formula-explain">其中 \(\sec\theta = 1/\cos\theta\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">兩邊除以 \(\sin^2\theta\)：\( \cot^2\theta + 1 = \csc^2\theta \)</span>
+              <span class="formula-explain">其中 \(\csc\theta = 1/\sin\theta\)，\(\cot\theta = \cos\theta/\sin\theta\)</span>
+            </div>
+          </div>
+
+          <h3>四、和角公式</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 和角公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta \)</span>
+              <span class="formula-explain">正弦和角：交叉相乘再相加</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \sin(\alpha - \beta) = \sin\alpha\cos\beta - \cos\alpha\sin\beta \)</span>
+              <span class="formula-explain">正弦差角：交叉相乘再相減</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta \)</span>
+              <span class="formula-explain">餘弦和角：同類相乘再相減</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta \)</span>
+              <span class="formula-explain">餘弦差角：同類相乘再相加</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \tan(\alpha + \beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta} \)</span>
+              <span class="formula-explain">正切和角：由 \(\sin(\alpha+\beta)/\cos(\alpha+\beta)\) 推得</span>
+            </div>
+          </div>
+
+          <h4>二倍角公式推導</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 二倍角公式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \sin 2\alpha = \sin(\alpha + \alpha) \)</span>
+              <span class="formula-explain">將 \(2\alpha\) 視為 \(\alpha + \alpha\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( = \sin\alpha\cos\alpha + \cos\alpha\sin\alpha = 2\sin\alpha\cos\alpha \)</span>
+              <span class="formula-explain">套用和角公式，兩項相同所以合併</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \cos 2\alpha = \cos(\alpha + \alpha) \)</span>
+              <span class="formula-explain">同理處理餘弦</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( = \cos^2\alpha - \sin^2\alpha \)</span>
+              <span class="formula-explain">套用餘弦和角公式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( = 2\cos^2\alpha - 1 = 1 - 2\sin^2\alpha \)</span>
+              <span class="formula-explain">利用 \(\sin^2\alpha + \cos^2\alpha = 1\) 做代換，可得三種等價形式</span>
+            </div>
+          </div>
+
+          <h3>五、正弦定理與餘弦定理</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 正弦定理</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R \)</span>
+              <span class="formula-explain">在 \(\triangle ABC\) 中，各邊與對角正弦的比值相等，且等於外接圓直徑 \(2R\)</span>
+            </div>
+          </div>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 餘弦定理（推廣畢氏定理）</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( c^2 = a^2 + b^2 - 2ab\cos C \)</span>
+              <span class="formula-explain">當 \(C = 90°\) 時 \(\cos C = 0\)，退化為畢氏定理 \(c^2 = a^2 + b^2\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \cos C = \frac{a^2 + b^2 - c^2}{2ab} \)</span>
+              <span class="formula-explain">移項可以由三邊長求角度</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第五章：向量 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch5">
+          <h2>📌 伍、向量</h2>
+
+          <h3>一、向量基本概念</h3>
+          <p>向量是同時具有<strong>大小</strong>和<strong>方向</strong>的量，記作 \(\vec{a}\) 或 \(\overrightarrow{AB}\)。</p>
+          <ul>
+            <li><strong>零向量</strong> \(\vec{0}\)：大小為 0，方向未定</li>
+            <li><strong>單位向量</strong>：大小為 1 的向量，\(\hat{a} = \frac{\vec{a}}{|\vec{a}|}\)</li>
+            <li>\(\vec{a} = (a_1, a_2)\) 表示平面向量；\(\vec{a} = (a_1, a_2, a_3)\) 表示空間向量</li>
+          </ul>
+
+          <h3>二、向量運算</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 向量加法與係數積</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \vec{a} + \vec{b} = (a_1+b_1, \; a_2+b_2) \)</span>
+              <span class="formula-explain">向量加法：各分量相加（平行四邊形法則）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( k\vec{a} = (ka_1, \; ka_2) \)</span>
+              <span class="formula-explain">係數積：每個分量乘以 \(k\)。\(k > 0\) 同向，\(k < 0\) 反向</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( |\vec{a}| = \sqrt{a_1^2 + a_2^2} \)</span>
+              <span class="formula-explain">向量的長度（模）：由畢氏定理推得</span>
+            </div>
+          </div>
+
+          <h3>三、內積（點積）</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 內積定義與推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta \)</span>
+              <span class="formula-explain">幾何定義：兩向量的長度乘以夾角的餘弦</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 \)</span>
+              <span class="formula-explain">坐標計算：各分量相乘後加總</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|} = \frac{a_1b_1 + a_2b_2}{\sqrt{a_1^2+a_2^2}\sqrt{b_1^2+b_2^2}} \)</span>
+              <span class="formula-explain">由此可求兩向量的夾角</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \vec{a} \perp \vec{b} \Leftrightarrow \vec{a} \cdot \vec{b} = 0 \)</span>
+              <span class="formula-explain">兩向量垂直 ⟺ 內積為零（因為 \(\cos 90° = 0\)）</span>
+            </div>
+          </div>
+
+          <h4>柯西-施瓦茨不等式</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 柯西不等式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta \)</span>
+              <span class="formula-explain">內積的幾何定義</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( |\cos\theta| \leq 1 \)</span>
+              <span class="formula-explain">餘弦函數的值域為 \([-1, 1]\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( |\vec{a} \cdot \vec{b}| = |\vec{a}||\vec{b}||\cos\theta| \leq |\vec{a}||\vec{b}| \)</span>
+              <span class="formula-explain">取絕對值，利用 \(|\cos\theta| \leq 1\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( |a_1b_1 + a_2b_2|^2 \leq (a_1^2+a_2^2)(b_1^2+b_2^2) \)</span>
+              <span class="formula-explain">代入坐標並兩邊平方，得到柯西-施瓦茨不等式</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第六章：矩陣 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch6">
+          <h2>📌 陸、矩陣</h2>
+
+          <h3>一、矩陣基本概念</h3>
+          <p>矩陣是一個 \(m \times n\) 的數字方陣，用來表示線性方程組和線性變換。</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 矩陣運算</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( A + B = \begin{pmatrix} a_{11}+b_{11} & a_{12}+b_{12} \\ a_{21}+b_{21} & a_{22}+b_{22} \end{pmatrix} \)</span>
+              <span class="formula-explain">矩陣加法：對應位置元素相加（需同型）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( kA = \begin{pmatrix} ka_{11} & ka_{12} \\ ka_{21} & ka_{22} \end{pmatrix} \)</span>
+              <span class="formula-explain">係數積：每個元素乘以 \(k\)</span>
+            </div>
+          </div>
+
+          <h3>二、矩陣乘法</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 2×2 矩陣乘法</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( AB = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} e & f \\ g & h \end{pmatrix} \)</span>
+              <span class="formula-explain">左矩陣的列 × 右矩陣的行</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( = \begin{pmatrix} ae+bg & af+bh \\ ce+dg & cf+dh \end{pmatrix} \)</span>
+              <span class="formula-explain">第 \(i\) 列第 \(j\) 行的元素 = 左矩陣第 \(i\) 列 · 右矩陣第 \(j\) 行</span>
+            </div>
+          </div>
+
+          <div class="info-box warning">
+            <span class="info-icon">⚠️</span>
+            <span class="info-content"><strong>注意</strong>：矩陣乘法<strong>不滿足交換律</strong>！一般而言 \(AB \neq BA\)。</span>
+          </div>
+
+          <h3>三、行列式與反矩陣</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 2×2 反矩陣推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}, \quad \det(A) = ad - bc \)</span>
+              <span class="formula-explain">行列式定義：主對角線乘積 - 副對角線乘積</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">若 \(\det(A) \neq 0\)，則 \(A\) 可逆</span>
+              <span class="formula-explain">行列式不為零是反矩陣存在的充要條件</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( A^{-1} = \frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix} \)</span>
+              <span class="formula-explain">反矩陣公式：主對角線元素交換，副對角線元素取反，除以行列式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( AA^{-1} = A^{-1}A = I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} \)</span>
+              <span class="formula-explain">驗證：矩陣乘以其反矩陣得到單位矩陣</span>
+            </div>
+          </div>
+
+          <h4>克拉瑪公式</h4>
+          <p>解二元一次聯立方程組 \(\begin{cases} ax + by = e \\ cx + dy = f \end{cases}\)：</p>
+          <div class="formula-block">
+            <div class="formula-title">📐 克拉瑪公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( D = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc \)</span>
+              <span class="formula-explain">係數矩陣的行列式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( D_x = \begin{vmatrix} e & b \\ f & d \end{vmatrix} = ed - bf \)</span>
+              <span class="formula-explain">將第一行（\(x\) 的係數）替換為常數項</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( D_y = \begin{vmatrix} a & e \\ c & f \end{vmatrix} = af - ec \)</span>
+              <span class="formula-explain">將第二行（\(y\) 的係數）替換為常數項</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( x = \frac{D_x}{D}, \quad y = \frac{D_y}{D} \quad (D \neq 0) \)</span>
+              <span class="formula-explain">解 = 替換後的行列式 / 原行列式</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第七章：排列組合 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch7">
+          <h2>📌 柒、排列組合</h2>
+
+          <h3>一、計數原理</h3>
+          <ul>
+            <li><strong>加法原理</strong>：完成一件事有 \(m\) 類方法，第 \(i\) 類有 \(n_i\) 種，則共有 \(n_1 + n_2 + \cdots + n_m\) 種</li>
+            <li><strong>乘法原理</strong>：完成一件事分 \(k\) 步驟，各步有 \(n_1, n_2, \ldots, n_k\) 種選擇，則共有 \(n_1 \times n_2 \times \cdots \times n_k\) 種</li>
+          </ul>
+
+          <h3>二、排列</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 排列公式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">從 \(n\) 個相異物中取 \(r\) 個排成一列</span>
+              <span class="formula-explain">排列強調順序（AB ≠ BA）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">第1位有 \(n\) 種選擇，第2位有 \(n-1\) 種，...，第 \(r\) 位有 \(n-r+1\) 種</span>
+              <span class="formula-explain">每選一個，剩餘可選的少一個（乘法原理）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( P^n_r = n(n-1)(n-2)\cdots(n-r+1) \)</span>
+              <span class="formula-explain">共 \(r\) 個連續遞減的因數相乘</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( P^n_r = \frac{n!}{(n-r)!} \)</span>
+              <span class="formula-explain">用階乘表示，其中 \(n! = n \times (n-1) \times \cdots \times 1\)</span>
+            </div>
+          </div>
+
+          <h3>三、組合</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 組合公式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">從 \(n\) 個相異物中取 \(r\) 個（不計順序）</span>
+              <span class="formula-explain">組合不強調順序（{A,B} = {B,A}）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\(P^n_r\) = 先選出 \(r\) 個（\(C^n_r\) 種）× 再排列（\(r!\) 種）</span>
+              <span class="formula-explain">排列 = 先組合再排序，所以 \(P^n_r = C^n_r \times r!\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( C^n_r = \frac{P^n_r}{r!} = \frac{n!}{r!(n-r)!} \)</span>
+              <span class="formula-explain">兩邊除以 \(r!\) 得到組合公式</span>
+            </div>
+          </div>
+
+          <h4>巴斯卡定理</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 巴斯卡定理 \(C^n_r = C^{n-1}_{r-1} + C^{n-1}_r\)</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">從 \(n\) 人中選 \(r\) 人，固定觀察第 \(n\) 人</span>
+              <span class="formula-explain">分成「第 \(n\) 人被選到」和「第 \(n\) 人沒被選到」兩種情況</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">選到第 \(n\) 人：從剩下 \(n-1\) 人再選 \(r-1\) 人 = \(C^{n-1}_{r-1}\)</span>
+              <span class="formula-explain">第 \(n\) 人已選，還需從其餘人中補選</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">沒選第 \(n\) 人：從剩下 \(n-1\) 人選 \(r\) 人 = \(C^{n-1}_r\)</span>
+              <span class="formula-explain">第 \(n\) 人不選，全部從其餘人中選</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \therefore C^n_r = C^{n-1}_{r-1} + C^{n-1}_r \)</span>
+              <span class="formula-explain">加法原理：兩種互斥情況的方法數相加</span>
+            </div>
+          </div>
+
+          <h3>四、二項式定理</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 二項式定理</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( (a+b)^n = \sum_{k=0}^{n} C^n_k \, a^{n-k} b^k \)</span>
+              <span class="formula-explain">展開 \((a+b)^n\)，第 \(k+1\) 項的係數為 \(C^n_k\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( = C^n_0 a^n + C^n_1 a^{n-1}b + C^n_2 a^{n-2}b^2 + \cdots + C^n_n b^n \)</span>
+              <span class="formula-explain">展開寫出每一項，\(a\) 的次數遞減，\(b\) 的次數遞增</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第八章：機率與統計 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch8">
+          <h2>📌 捌、機率與統計</h2>
+
+          <h3>一、統計量</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 常用統計量</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i = \frac{x_1 + x_2 + \cdots + x_n}{n} \)</span>
+              <span class="formula-explain">算術平均數：所有數據加總除以個數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( s^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2 \)</span>
+              <span class="formula-explain">變異數：各數據與平均數差的平方之平均</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( s^2 = \overline{x^2} - \bar{x}^2 = \frac{\sum x_i^2}{n} - \left(\frac{\sum x_i}{n}\right)^2 \)</span>
+              <span class="formula-explain">計算捷徑：「平方的平均」減「平均的平方」</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( s = \sqrt{s^2} \)</span>
+              <span class="formula-explain">標準差 = 變異數開根號，單位與原數據相同</span>
+            </div>
+          </div>
+
+          <h3>二、機率基礎</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 機率公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( P(A) = \frac{n(A)}{n(S)} = \frac{\text{事件 A 的結果數}}{\text{樣本空間總數}} \)</span>
+              <span class="formula-explain">古典機率定義（等機率模型）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( 0 \leq P(A) \leq 1 \)</span>
+              <span class="formula-explain">機率值介於 0 到 1 之間</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( P(A \cup B) = P(A) + P(B) - P(A \cap B) \)</span>
+              <span class="formula-explain">加法法則：聯集機率 = 各自機率之和 − 交集機率（排容原理）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( P(A') = 1 - P(A) \)</span>
+              <span class="formula-explain">餘事件機率：事件不發生的機率 = 1 − 發生的機率</span>
+            </div>
+          </div>
+
+          <h3>三、條件機率與獨立事件</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 條件機率與貝氏定理</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( P(A|B) = \frac{P(A \cap B)}{P(B)} \quad (P(B) > 0) \)</span>
+              <span class="formula-explain">條件機率：在 B 已發生的條件下 A 發生的機率</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( P(A \cap B) = P(B) \cdot P(A|B) = P(A) \cdot P(B|A) \)</span>
+              <span class="formula-explain">乘法法則：交集的機率可用條件機率計算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">A、B 獨立 \(\Leftrightarrow P(A \cap B) = P(A) \cdot P(B)\)</span>
+              <span class="formula-explain">獨立事件：一事件的發生不影響另一事件的機率</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \)</span>
+              <span class="formula-explain">貝氏定理：從已知 \(P(B|A)\) 反推 \(P(A|B)\)</span>
+            </div>
+          </div>
+
+          <h3>四、期望值</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 期望值</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( E(X) = \sum_{i} x_i \cdot P(X = x_i) \)</span>
+              <span class="formula-explain">期望值 = 各結果 × 對應機率 的加總</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( E(aX + b) = aE(X) + b \)</span>
+              <span class="formula-explain">期望值的線性性質</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第九章：圓錐曲線 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch9">
+          <h2>📌 玖、圓錐曲線</h2>
+
+          <h3>一、圓</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 圓的方程式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( (x-h)^2 + (y-k)^2 = r^2 \)</span>
+              <span class="formula-explain">標準式：圓心 \((h, k)\)，半徑 \(r\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( x^2 + y^2 + Dx + Ey + F = 0 \)</span>
+              <span class="formula-explain">一般式：圓心 \((-D/2, -E/2)\)，\(r = \frac{1}{2}\sqrt{D^2+E^2-4F}\)</span>
+            </div>
+          </div>
+
+          <h3>二、橢圓</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 橢圓方程式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \quad (a > b > 0) \)</span>
+              <span class="formula-explain">焦點在 x 軸上，長軸 \(2a\)，短軸 \(2b\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( c^2 = a^2 - b^2, \quad c = \sqrt{a^2 - b^2} \)</span>
+              <span class="formula-explain">焦距關係：\(c\) 為焦點到中心的距離</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">焦點 \((\pm c, 0)\)，離心率 \(e = \frac{c}{a} < 1\)</span>
+              <span class="formula-explain">離心率越接近 0 越接近圓，越接近 1 越扁</span>
+            </div>
+          </div>
+
+          <h3>三、雙曲線</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 雙曲線方程式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \)</span>
+              <span class="formula-explain">焦點在 x 軸上，頂點 \((\pm a, 0)\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( c^2 = a^2 + b^2 \)</span>
+              <span class="formula-explain">注意與橢圓不同！雙曲線是 \(a^2 + b^2\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">漸近線：\( y = \pm\frac{b}{a}x \)</span>
+              <span class="formula-explain">雙曲線趨近但不相交的兩條直線</span>
+            </div>
+          </div>
+
+          <h3>四、拋物線</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 拋物線方程式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( y^2 = 4px \quad (p > 0) \)</span>
+              <span class="formula-explain">開口向右，焦點 \((p, 0)\)，準線 \(x = -p\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( x^2 = 4py \quad (p > 0) \)</span>
+              <span class="formula-explain">開口向上，焦點 \((0, p)\)，準線 \(y = -p\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">拋物線上任一點到焦點的距離 = 到準線的距離</span>
+              <span class="formula-explain">這是拋物線的定義性質（焦點-準線等距）</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- 第十章：微分初步 -->
+        <!-- ============================== -->
+        <section class="content-section" id="ch10">
+          <h2>📌 拾、微分初步</h2>
+
+          <h3>一、極限概念</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 極限</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \lim_{x \to a} f(x) = L \)</span>
+              <span class="formula-explain">當 \(x\) 趨近 \(a\) 時，\(f(x)\) 趨近 \(L\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \lim_{x \to a}[f(x) + g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x) \)</span>
+              <span class="formula-explain">極限的加法性質</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \lim_{x \to a}[f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x) \)</span>
+              <span class="formula-explain">極限的乘法性質</span>
+            </div>
+          </div>
+
+          <h3>二、導數定義</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 導數定義推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">平均變化率 = \(\frac{f(x+h) - f(x)}{h}\)</span>
+              <span class="formula-explain">從 \(x\) 到 \(x+h\) 的函數值變化量 ÷ 自變量變化量</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h} \)</span>
+              <span class="formula-explain">導數定義：讓 \(h \to 0\)，平均變化率的極限 = 瞬時變化率</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">幾何意義：\(f'(a)\) = 曲線 \(y = f(x)\) 在 \(x = a\) 處的切線斜率</span>
+              <span class="formula-explain">割線逼近切線，極限即為切線斜率</span>
+            </div>
+          </div>
+
+          <h3>三、基本微分公式</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 微分公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \frac{d}{dx}(c) = 0 \)</span>
+              <span class="formula-explain">常數的導數為 0（常數不變化）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \frac{d}{dx}(x^n) = nx^{n-1} \)</span>
+              <span class="formula-explain">冪法則：次數降 1 並乘以原次數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \frac{d}{dx}[cf(x)] = cf'(x) \)</span>
+              <span class="formula-explain">常數倍：常數可以提出</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x) \)</span>
+              <span class="formula-explain">和的導數 = 導數的和</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x) \)</span>
+              <span class="formula-explain">乘法法則（萊布尼茲法則）</span>
+            </div>
+          </div>
+
+          <h4>冪法則推導</h4>
+          <div class="formula-block">
+            <div class="formula-title">📐 冪法則推導（以 \(f(x) = x^n\) 為例）</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( f'(x) = \lim_{h \to 0} \frac{(x+h)^n - x^n}{h} \)</span>
+              <span class="formula-explain">套用導數定義</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( (x+h)^n = x^n + nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n \)</span>
+              <span class="formula-explain">用二項式定理展開 \((x+h)^n\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( (x+h)^n - x^n = nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots \)</span>
+              <span class="formula-explain">減去 \(x^n\) 後，每一項都含有 \(h\) 的因子</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \frac{(x+h)^n - x^n}{h} = nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots \)</span>
+              <span class="formula-explain">除以 \(h\) 後，第一項不含 \(h\)，其餘項都含 \(h\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \lim_{h \to 0} \left[nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots\right] = nx^{n-1} \)</span>
+              <span class="formula-explain">令 \(h \to 0\)，含 \(h\) 的項全部消失，只剩 \(nx^{n-1}\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\( \therefore \frac{d}{dx}(x^n) = nx^{n-1} \)</span>
+              <span class="formula-explain">冪法則成立 ✓</span>
+            </div>
+          </div>
+
+          <div class="key-points">
+            <div class="key-title">⭐ 微分的應用</div>
+            <ul>
+              <li>求切線方程式：在 \((a, f(a))\) 處的切線為 \(y - f(a) = f'(a)(x - a)\)</li>
+              <li>求極值：\(f'(x) = 0\) 的點為候選極值點，再用二階導數判定</li>
+              <li>速度與加速度：位移 \(s(t)\) 的導數 = 速度 \(v(t)\)，速度的導數 = 加速度 \(a(t)\)</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- End of Content -->
+        <div style="text-align: center; padding: var(--space-12) 0;">
+          <a href="../quiz/quiz.html" class="btn btn-primary btn-lg">🎯 前往數學A題庫練習</a>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">📚 116年學測備考資料庫 | GSAT Study Hub</p>
+        <p class="footer-text">數學A — 依108課綱編排</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>

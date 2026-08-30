@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="116年學測題庫系統 - 3000題精選題庫，含詳解與錯題回顧">
+  <title>🎯 題庫測驗 | GSAT Study Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-brand">
+        <span class="logo-icon">📚</span>
+        <span class="brand-text">GSAT Study Hub</span>
+      </a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="../subjects/chinese.html">📖 國文</a></li>
+        <li><a href="../subjects/english.html">📝 英文</a></li>
+        <li><a href="../subjects/math-a.html">📐 數學A</a></li>
+        <li><a href="../subjects/math-b.html">📏 數學B</a></li>
+        <li><a href="../subjects/social.html">🌍 社會</a></li>
+        <li><a href="../subjects/science.html">🔬 自然</a></li>
+        <li><a href="quiz.html" class="btn btn-primary btn-sm active">🎯 題庫</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Quiz Page -->
+  <div class="quiz-container container">
+    <!-- Subject Selection View -->
+    <div id="quizMenu">
+      <div class="subject-hero">
+        <h1 class="subject-hero-title">🎯 題庫測驗系統</h1>
+        <p class="subject-hero-desc">選擇科目與章節，開始練習吧！每科500題，合計3,000題精選</p>
+      </div>
+
+      <!-- Subject Cards -->
+      <div class="subjects-grid" style="margin-bottom: var(--space-8);">
+        <div class="subject-card" data-subject="chinese" onclick="selectSubject('chinese')">
+          <div class="subject-card-icon" style="background: rgba(239, 68, 68, 0.15);">📖</div>
+          <h3 class="subject-card-title">國文題庫</h3>
+          <p class="subject-card-desc">500題涵蓋國學常識、古文、白話文學、閱讀理解</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+
+        <div class="subject-card" data-subject="english" onclick="selectSubject('english')">
+          <div class="subject-card-icon" style="background: rgba(59, 130, 246, 0.15);">📝</div>
+          <h3 class="subject-card-title">英文題庫</h3>
+          <p class="subject-card-desc">500題涵蓋詞彙、文法、閱讀、翻譯寫作</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+
+        <div class="subject-card" data-subject="math-a" onclick="selectSubject('math-a')">
+          <div class="subject-card-icon" style="background: rgba(168, 85, 247, 0.15);">📐</div>
+          <h3 class="subject-card-title">數學A題庫</h3>
+          <p class="subject-card-desc">500題涵蓋向量、矩陣、圓錐曲線、微分概念</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+
+        <div class="subject-card" data-subject="math-b" onclick="selectSubject('math-b')">
+          <div class="subject-card-icon" style="background: rgba(139, 92, 246, 0.15);">📏</div>
+          <h3 class="subject-card-title">數學B題庫</h3>
+          <p class="subject-card-desc">500題涵蓋統計、空間、數據分析</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+
+        <div class="subject-card" data-subject="social" onclick="selectSubject('social')">
+          <div class="subject-card-icon" style="background: rgba(34, 197, 94, 0.15);">🌍</div>
+          <h3 class="subject-card-title">社會題庫</h3>
+          <p class="subject-card-desc">500題涵蓋歷史、地理、公民與社會</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+
+        <div class="subject-card" data-subject="science" onclick="selectSubject('science')">
+          <div class="subject-card-icon" style="background: rgba(249, 115, 22, 0.15);">🔬</div>
+          <h3 class="subject-card-title">自然題庫</h3>
+          <p class="subject-card-desc">500題涵蓋物理、化學、生物、地球科學</p>
+          <div class="subject-card-meta"><span>📊 500 題</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Settings (shown after subject selection) -->
+    <div id="quizSettings" class="hidden">
+      <div class="subject-hero">
+        <h1 class="subject-hero-title" id="settingsTitle">📐 數學A 題庫設定</h1>
+        <p class="subject-hero-desc">選擇題目範圍與數量</p>
+      </div>
+
+      <div class="content-section">
+        <h2>📂 章節篩選</h2>
+        <div class="quiz-filter" id="categoryFilter">
+          <!-- Populated dynamically -->
+        </div>
+
+        <h2 style="margin-top: var(--space-8);">📊 題目數量</h2>
+        <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4);">
+          <button class="filter-chip active" onclick="setQuestionCount(10, this)">10 題</button>
+          <button class="filter-chip" onclick="setQuestionCount(25, this)">25 題</button>
+          <button class="filter-chip" onclick="setQuestionCount(50, this)">50 題</button>
+          <button class="filter-chip" onclick="setQuestionCount(100, this)">100 題</button>
+          <button class="filter-chip" onclick="setQuestionCount(0, this)">全部</button>
+        </div>
+
+        <div style="display: flex; gap: var(--space-4); margin-top: var(--space-8);">
+          <button class="btn btn-primary btn-lg" onclick="startQuiz()">🚀 開始測驗</button>
+          <button class="btn btn-secondary btn-lg" onclick="backToMenu()">← 返回選單</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Area -->
+    <div id="quizContainer" class="hidden">
+      <!-- Quiz questions rendered here by quiz.js -->
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+
+  <!-- Quiz Data Files -->
+  <script src="data/chinese-quiz.js"></script>
+  <script src="data/english-quiz.js"></script>
+  <script src="data/math-a-quiz.js"></script>
+  <script src="data/math-b-quiz.js"></script>
+  <script src="data/social-quiz.js"></script>
+  <script src="data/science-quiz.js"></script>
+
+  <!-- Quiz Engine -->
+  <script src="../js/quiz.js"></script>
+  <script src="../js/app.js"></script>
+
+  <script>
+    let questionCount = 10;
+
+    function selectSubject(subject) {
+      const titles = {
+        'chinese': '📖 國文題庫設定',
+        'english': '📝 英文題庫設定',
+        'math-a': '📐 數學A 題庫設定',
+        'math-b': '📏 數學B 題庫設定',
+        'social': '🌍 社會題庫設定',
+        'science': '🔬 自然題庫設定'
+      };
+
+      quiz.loadQuestions(subject);
+
+      document.getElementById('settingsTitle').textContent = titles[subject] || subject;
+      document.getElementById('quizMenu').classList.add('hidden');
+      document.getElementById('quizSettings').classList.remove('hidden');
+      document.getElementById('quizContainer').classList.add('hidden');
+
+      // Populate category filter
+      const categories = quiz.getCategories();
+      const filterContainer = document.getElementById('categoryFilter');
+      let filterHtml = `<span class="filter-label">📂 章節：</span>`;
+      filterHtml += `<button class="filter-chip active" onclick="filterCategory('all', this)">全部</button>`;
+      categories.forEach(cat => {
+        filterHtml += `<button class="filter-chip" onclick="filterCategory('${cat}', this)">${cat}</button>`;
+      });
+      filterContainer.innerHTML = filterHtml;
+    }
+
+    function filterCategory(category, btn) {
+      document.querySelectorAll('#categoryFilter .filter-chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      quiz.filterByCategory(category);
+    }
+
+    function setQuestionCount(count, btn) {
+      questionCount = count;
+      btn.parentElement.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function startQuiz() {
+      const total = questionCount === 0 ? quiz.filteredQuestions.length : questionCount;
+      document.getElementById('quizSettings').classList.add('hidden');
+      document.getElementById('quizContainer').classList.remove('hidden');
+      quiz.container = document.getElementById('quizContainer');
+      quiz.startSession(total);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function backToMenu() {
+      document.getElementById('quizMenu').classList.remove('hidden');
+      document.getElementById('quizSettings').classList.add('hidden');
+      document.getElementById('quizContainer').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

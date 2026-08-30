@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="116年學測備考資料庫 - 涵蓋國文、英文、數學、社會、自然完整課程與3000題題庫">
+  <title>📚 116年學測備考資料庫 | GSAT Study Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo-icon">📚</span>
+        <span class="brand-text">GSAT Study Hub</span>
+      </a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="index.html" class="active">🏠 首頁</a></li>
+        <li><a href="subjects/chinese.html">📖 國文</a></li>
+        <li><a href="subjects/english.html">📝 英文</a></li>
+        <li><a href="subjects/math-a.html">📐 數學A</a></li>
+        <li><a href="subjects/math-b.html">📏 數學B</a></li>
+        <li><a href="subjects/social.html">🌍 社會</a></li>
+        <li><a href="subjects/science.html">🔬 自然</a></li>
+        <li><a href="quiz/quiz.html" class="btn btn-primary btn-sm">🎯 題庫</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="pulse-dot"></span>
+      116年學科能力測驗
+    </div>
+    <h1 class="hero-title">
+      掌握學測<span class="highlight">制勝關鍵</span>
+    </h1>
+    <p class="hero-subtitle">
+      從高一到高三，完整課程整理 × 3000精選題庫<br>
+      系統化備考，自信迎戰116年學測
+    </p>
+
+    <!-- Countdown Timer -->
+    <div class="countdown-container" id="countdown">
+      <div class="countdown-unit">
+        <span class="countdown-value" id="days">---</span>
+        <span class="countdown-label">天</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="hours">--</span>
+        <span class="countdown-label">時</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="minutes">--</span>
+        <span class="countdown-label">分</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="seconds">--</span>
+        <span class="countdown-label">秒</span>
+      </div>
+    </div>
+
+    <div style="display:flex; gap: var(--space-4); flex-wrap: wrap; justify-content: center;">
+      <a href="#subjects" class="btn btn-primary btn-lg">📖 開始學習</a>
+      <a href="quiz/quiz.html" class="btn btn-secondary btn-lg">🎯 直接做題</a>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="container">
+    <div class="stats-bar">
+      <div class="stat-item animate-fade-in-up stagger-1">
+        <div class="stat-value">6</div>
+        <div class="stat-label">考試科目</div>
+      </div>
+      <div class="stat-item animate-fade-in-up stagger-2">
+        <div class="stat-value">3,000</div>
+        <div class="stat-label">精選題目</div>
+      </div>
+      <div class="stat-item animate-fade-in-up stagger-3">
+        <div class="stat-value">100+</div>
+        <div class="stat-label">章節單元</div>
+      </div>
+      <div class="stat-item animate-fade-in-up stagger-4">
+        <div class="stat-value">∞</div>
+        <div class="stat-label">公式推導</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subjects Section -->
+  <section class="subjects-section container" id="subjects">
+    <div class="section-header">
+      <span class="section-tag">📚 考科總覽</span>
+      <h2 class="section-title">六大科目，完整攻略</h2>
+      <p class="section-desc">依108課綱編排，涵蓋高一至高三全範圍，每科配備500題精選題庫</p>
+    </div>
+
+    <div class="subjects-grid">
+      <!-- 國文 -->
+      <a href="subjects/chinese.html" class="subject-card animate-fade-in-up stagger-1" data-subject="chinese">
+        <div class="subject-card-icon" style="background: rgba(239, 68, 68, 0.15);">📖</div>
+        <h3 class="subject-card-title">國文</h3>
+        <p class="subject-card-desc">國學常識、古文三十篇、白話文學、閱讀理解、修辭技巧、應用文書寫</p>
+        <div class="subject-card-meta">
+          <span>📝 8 大分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/22 考試</span>
+        </div>
+      </a>
+
+      <!-- 英文 -->
+      <a href="subjects/english.html" class="subject-card animate-fade-in-up stagger-2" data-subject="english">
+        <div class="subject-card-icon" style="background: rgba(59, 130, 246, 0.15);">📝</div>
+        <h3 class="subject-card-title">英文</h3>
+        <p class="subject-card-desc">核心詞彙7000字、文法句型、克漏字、閱讀測驗、翻譯寫作</p>
+        <div class="subject-card-meta">
+          <span>📝 6 大分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/22 考試</span>
+        </div>
+      </a>
+
+      <!-- 數學A -->
+      <a href="subjects/math-a.html" class="subject-card animate-fade-in-up stagger-3" data-subject="math-a">
+        <div class="subject-card-icon" style="background: rgba(168, 85, 247, 0.15);">📐</div>
+        <h3 class="subject-card-title">數學A</h3>
+        <p class="subject-card-desc">多項式、指對數、三角函數、向量、矩陣、機率統計、圓錐曲線、微分</p>
+        <div class="subject-card-meta">
+          <span>📝 10 大分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/23 考試</span>
+        </div>
+      </a>
+
+      <!-- 數學B -->
+      <a href="subjects/math-b.html" class="subject-card animate-fade-in-up stagger-4" data-subject="math-b">
+        <div class="subject-card-icon" style="background: rgba(139, 92, 246, 0.15);">📏</div>
+        <h3 class="subject-card-title">數學B</h3>
+        <p class="subject-card-desc">數與式、多項式、指對數、三角、排列組合、統計、空間概念、數據分析</p>
+        <div class="subject-card-meta">
+          <span>📝 9 大分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/23 考試</span>
+        </div>
+      </a>
+
+      <!-- 社會 -->
+      <a href="subjects/social.html" class="subject-card animate-fade-in-up stagger-5" data-subject="social">
+        <div class="subject-card-icon" style="background: rgba(34, 197, 94, 0.15);">🌍</div>
+        <h3 class="subject-card-title">社會</h3>
+        <p class="subject-card-desc">臺灣史、中國史、世界史、通論地理、區域地理、公民與社會</p>
+        <div class="subject-card-meta">
+          <span>📝 9 大分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/24 考試</span>
+        </div>
+      </a>
+
+      <!-- 自然 -->
+      <a href="subjects/science.html" class="subject-card animate-fade-in-up stagger-6" data-subject="science">
+        <div class="subject-card-icon" style="background: rgba(249, 115, 22, 0.15);">🔬</div>
+        <h3 class="subject-card-title">自然</h3>
+        <p class="subject-card-desc">物理（力學/電磁）、化學（反應/有機）、生物（遺傳/生態）、地球科學</p>
+        <div class="subject-card-meta">
+          <span>📝 17 子分類</span>
+          <span>📊 500 題</span>
+          <span>📅 1/24 考試</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Exam Schedule -->
+  <section class="container" style="padding: var(--space-16) 0;">
+    <div class="section-header">
+      <span class="section-tag">📅 考試時程</span>
+      <h2 class="section-title">116年學測考試日程</h2>
+    </div>
+    <div class="content-section" style="max-width: 800px; margin: 0 auto;">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>日期</th>
+            <th>節次</th>
+            <th>科目</th>
+            <th>時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"><strong>1/22（五）</strong></td>
+            <td>第一節</td>
+            <td>📖 國文</td>
+            <td>08:20 - 09:40（80分鐘）</td>
+          </tr>
+          <tr>
+            <td>第二節</td>
+            <td>📝 英文</td>
+            <td>10:30 - 11:50（80分鐘）</td>
+          </tr>
+          <tr>
+            <td><strong>1/23（六）</strong></td>
+            <td>第一節</td>
+            <td>📐 數學A / 📏 數學B</td>
+            <td>08:20 - 09:40（80分鐘）</td>
+          </tr>
+          <tr>
+            <td rowspan="2"><strong>1/24（日）</strong></td>
+            <td>第一節</td>
+            <td>🌍 社會</td>
+            <td>08:20 - 09:30（70分鐘）</td>
+          </tr>
+          <tr>
+            <td>第二節</td>
+            <td>🔬 自然</td>
+            <td>10:30 - 11:40（70分鐘）</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">📚 116年學測備考資料庫 | GSAT Study Hub</p>
+        <p class="footer-text">依108課綱編排 · 持續更新中</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+
+  <script src="js/countdown.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

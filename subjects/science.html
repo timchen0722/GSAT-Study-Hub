@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="自然科完整課程 - 物理、化學、生物、地球科學">
+  <title>🔬 自然 | GSAT Study Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-brand"><span class="logo-icon">📚</span><span class="brand-text">GSAT Study Hub</span></a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="chinese.html">📖 國文</a></li>
+        <li><a href="english.html">📝 英文</a></li>
+        <li><a href="math-a.html">📐 數學A</a></li>
+        <li><a href="math-b.html">📏 數學B</a></li>
+        <li><a href="social.html">🌍 社會</a></li>
+        <li><a href="science.html" class="active">🔬 自然</a></li>
+        <li><a href="../quiz/quiz.html" class="btn btn-primary btn-sm">🎯 題庫</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="subject-page container">
+    <div class="subject-hero">
+      <h1 class="subject-hero-title">🔬 自然 — 完整課程整理</h1>
+      <p class="subject-hero-desc">物理・化學・生物・地球科學 含公式推導逐行說明｜考試日期：116/1/24（日）</p>
+    </div>
+
+    <div class="subject-layout">
+      <aside class="sidebar">
+        <div class="sidebar-title">📂 章節目錄</div>
+        <ul class="sidebar-nav">
+          <li><a href="#phys" class="active">⚡ 物理</a></li>
+          <li><a href="#phys-mech" class="sub-item">力學</a></li>
+          <li><a href="#phys-em" class="sub-item">電磁學</a></li>
+          <li><a href="#phys-wave" class="sub-item">波動與光學</a></li>
+          <li><a href="#phys-modern" class="sub-item">近代物理</a></li>
+          <li><a href="#chem">🧪 化學</a></li>
+          <li><a href="#chem-atom" class="sub-item">原子與週期表</a></li>
+          <li><a href="#chem-bond" class="sub-item">化學鍵</a></li>
+          <li><a href="#chem-rxn" class="sub-item">化學反應</a></li>
+          <li><a href="#chem-acid" class="sub-item">酸鹼與氧化還原</a></li>
+          <li><a href="#bio">🧬 生物</a></li>
+          <li><a href="#bio-cell" class="sub-item">細胞與分子</a></li>
+          <li><a href="#bio-gene" class="sub-item">遺傳與演化</a></li>
+          <li><a href="#bio-body" class="sub-item">人體生理</a></li>
+          <li><a href="#bio-eco" class="sub-item">生態</a></li>
+          <li><a href="#earth">🌏 地球科學</a></li>
+        </ul>
+        <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html" class="btn btn-primary" style="width:100%;">🎯 自然題庫</a></div>
+      </aside>
+
+      <main class="content-area">
+
+        <!-- ========== 物理 ========== -->
+        <section class="content-section" id="phys">
+          <h2>⚡ 物理</h2>
+          <p>物理科涵蓋<strong>力學</strong>、<strong>電磁學</strong>、<strong>波動與光學</strong>、<strong>近代物理</strong>四大領域。</p>
+        </section>
+
+        <section class="content-section" id="phys-mech">
+          <h2>📌 力學</h2>
+          <h3>一、運動學</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 等加速度運動公式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( v = v_0 + at \)</span>
+              <span class="formula-explain">末速 = 初速 + 加速度 × 時間（由加速度定義 \(a = \frac{\Delta v}{\Delta t}\) 移項得）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( x = v_0 t + \frac{1}{2}at^2 \)</span>
+              <span class="formula-explain">位移 = 初速×時間 + ½×加速度×時間²（對速度-時間圖取面積推得）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( v^2 = v_0^2 + 2ax \)</span>
+              <span class="formula-explain">由公式①的 \(t = \frac{v-v_0}{a}\) 代入②消去 \(t\) 推得，適用於不知時間的情況</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( x = \frac{v_0 + v}{2} \cdot t \)</span>
+              <span class="formula-explain">位移 = 平均速度 × 時間（等加速度下平均速度 = 初末速的算術平均）</span>
+            </div>
+          </div>
+
+          <h3>二、牛頓運動定律</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 牛頓三大定律</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">第一定律（慣性定律）：物體若不受外力或合力為零，則維持靜止或等速直線運動</span>
+              <span class="formula-explain">沒有力作用時，物體不會自動改變運動狀態</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \vec{F} = m\vec{a} \)（第二定律）</span>
+              <span class="formula-explain">合力 = 質量 × 加速度。力越大加速度越大，質量越大加速度越小</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \vec{F}_{12} = -\vec{F}_{21} \)（第三定律：作用力與反作用力）</span>
+              <span class="formula-explain">兩物體間的交互作用力大小相等、方向相反、作用在不同物體上</span>
+            </div>
+          </div>
+
+          <h3>三、功與能</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 功與能量公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( W = Fd\cos\theta \)</span>
+              <span class="formula-explain">功 = 力 × 位移 × 夾角的餘弦。力與位移同向時 \(\theta=0°\)，\(W=Fd\)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( E_k = \frac{1}{2}mv^2 \)</span>
+              <span class="formula-explain">動能：運動物體具有的能量</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( E_p = mgh \)</span>
+              <span class="formula-explain">（近地表）重力位能：質量 × 重力加速度 × 高度</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( W_{net} = \Delta E_k = \frac{1}{2}mv^2 - \frac{1}{2}mv_0^2 \)</span>
+              <span class="formula-explain">功能定理：淨功等於動能的變化量</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">能量守恆：\(E_k + E_p = \text{常數}\)（無摩擦時）</span>
+              <span class="formula-explain">機械能守恆：只有保守力（如重力）做功時，動能＋位能不變</span>
+            </div>
+          </div>
+
+          <h3>四、萬有引力</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 萬有引力與克卜勒定律</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( F = G\frac{m_1 m_2}{r^2} \)</span>
+              <span class="formula-explain">萬有引力定律：兩質量間的引力與質量乘積成正比，與距離平方成反比</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( g = \frac{GM}{R^2} \approx 9.8 \text{ m/s}^2 \)</span>
+              <span class="formula-explain">地表重力加速度：由 \(mg = G\frac{Mm}{R^2}\) 推得</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">克卜勒第三定律：\( T^2 \propto R^3 \)</span>
+              <span class="formula-explain">行星公轉週期的平方與軌道半長軸的立方成正比</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="phys-em">
+          <h2>📌 電磁學</h2>
+          <h3>一、電學基礎</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 電路基本公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( V = IR \)（歐姆定律）</span>
+              <span class="formula-explain">電壓 = 電流 × 電阻。電壓推動電流流過電阻</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( P = IV = I^2R = \frac{V^2}{R} \)</span>
+              <span class="formula-explain">電功率：單位時間內消耗的電能</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">串聯：\(R_{total} = R_1 + R_2 + \cdots\)，電流處處相同</span>
+              <span class="formula-explain">串聯電阻相加，電流只有一條路徑</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">並聯：\(\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots\)，電壓處處相同</span>
+              <span class="formula-explain">並聯電阻取倒數相加再取倒數，各支路電壓相同</span>
+            </div>
+          </div>
+
+          <h3>二、電磁感應</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 電磁感應公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( F = qvB\sin\theta \)</span>
+              <span class="formula-explain">運動電荷在磁場中受到的勞倫茲力</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( \text{EMF} = -\frac{d\Phi_B}{dt} \)（法拉第定律）</span>
+              <span class="formula-explain">感應電動勢 = 磁通量變化率的負值（冷次定律決定方向）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \Phi_B = BA\cos\theta \)</span>
+              <span class="formula-explain">磁通量 = 磁場強度 × 面積 × 法線與磁場的夾角餘弦</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="phys-wave">
+          <h2>📌 波動與光學</h2>
+          <div class="formula-block">
+            <div class="formula-title">📐 波動公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( v = f\lambda \)</span>
+              <span class="formula-explain">波速 = 頻率 × 波長</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( f = \frac{1}{T} \)</span>
+              <span class="formula-explain">頻率 = 週期的倒數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( n = \frac{c}{v} \)（折射率）</span>
+              <span class="formula-explain">折射率 = 光在真空中的速度 / 光在介質中的速度</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( n_1\sin\theta_1 = n_2\sin\theta_2 \)（司乃耳定律）</span>
+              <span class="formula-explain">折射定律：光從一介質進入另一介質時，入射角與折射角的正弦之比為定值</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="phys-modern">
+          <h2>📌 近代物理</h2>
+          <div class="formula-block">
+            <div class="formula-title">📐 近代物理重要公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( E = mc^2 \)</span>
+              <span class="formula-explain">質能等價：愛因斯坦的質能關係式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( E = hf \)</span>
+              <span class="formula-explain">光子能量 = 普朗克常數 × 頻率（量子化概念）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( E_k = hf - W \)（光電效應）</span>
+              <span class="formula-explain">光電子最大動能 = 光子能量 − 功函數。頻率低於臨界值則無光電子射出</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ========== 化學 ========== -->
+        <section class="content-section" id="chem">
+          <h2>🧪 化學</h2>
+        </section>
+
+        <section class="content-section" id="chem-atom">
+          <h2>📌 原子結構與週期表</h2>
+          <h3>一、原子模型演進</h3>
+          <table class="data-table">
+            <thead><tr><th>模型</th><th>提出者</th><th>重點</th></tr></thead>
+            <tbody>
+              <tr><td>實心球模型</td><td>道耳吞</td><td>原子是不可分割的實心球</td></tr>
+              <tr><td>葡萄乾布丁模型</td><td>湯姆森</td><td>發現電子，正電均勻分布</td></tr>
+              <tr><td>行星模型</td><td>拉塞福</td><td>α粒子散射實驗，發現原子核</td></tr>
+              <tr><td>量子化模型</td><td>波耳</td><td>電子在特定軌道運行，能階量子化</td></tr>
+              <tr><td>電子雲模型</td><td>薛丁格</td><td>以機率描述電子出現的區域</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、週期表規律</h3>
+          <ul>
+            <li><strong>週期</strong>（橫列）：同一週期的原子有相同的電子殼層數</li>
+            <li><strong>族</strong>（直行）：同族元素有相似的化學性質（最外層電子數相同）</li>
+            <li><strong>原子半徑</strong>：同週期由左到右遞減；同族由上到下遞增</li>
+            <li><strong>游離能</strong>：同週期由左到右大致遞增；同族由上到下遞減</li>
+            <li><strong>電負度</strong>：F（氟）最大，右上角元素電負度較大</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="chem-bond">
+          <h2>📌 化學鍵與分子</h2>
+          <table class="data-table">
+            <thead><tr><th>化學鍵</th><th>形成方式</th><th>特性</th><th>例子</th></tr></thead>
+            <tbody>
+              <tr><td><strong>離子鍵</strong></td><td>金屬與非金屬間電子轉移</td><td>高熔點、可溶於水、可導電（溶液/熔融）</td><td>NaCl、CaCO₃</td></tr>
+              <tr><td><strong>共價鍵</strong></td><td>非金屬間共享電子對</td><td>低熔點（分子晶體）、不導電</td><td>H₂O、CO₂、CH₄</td></tr>
+              <tr><td><strong>金屬鍵</strong></td><td>金屬原子間的自由電子海</td><td>導電、導熱、延展性</td><td>Fe、Cu、Au</td></tr>
+              <tr><td><strong>氫鍵</strong></td><td>分子間（F-H、O-H、N-H）</td><td>分子間作用力中較強者</td><td>水的高沸點</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="content-section" id="chem-rxn">
+          <h2>📌 化學反應</h2>
+          <h3>一、化學計量</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 莫耳與計量</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( 1 \text{ mol} = 6.02 \times 10^{23} \) 個粒子（亞佛加厥數）</span>
+              <span class="formula-explain">莫耳是物質量的單位，對應特定數量的粒子</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( n = \frac{m}{M} \)</span>
+              <span class="formula-explain">莫耳數 = 質量(g) / 分子量(g/mol)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( M = \frac{m}{n}, \quad \text{STP 下 1 mol 氣體 = 22.4 L} \)</span>
+              <span class="formula-explain">標準狀態下(0°C, 1 atm)理想氣體的莫耳體積</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( C_M = \frac{n}{V} \)（體積莫耳濃度 mol/L）</span>
+              <span class="formula-explain">莫耳濃度 = 溶質莫耳數 / 溶液體積(L)</span>
+            </div>
+          </div>
+
+          <h3>二、反應速率與平衡</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 化學平衡</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">對 \(aA + bB \rightleftharpoons cC + dD\)：\(K = \frac{[C]^c[D]^d}{[A]^a[B]^b}\)</span>
+              <span class="formula-explain">平衡常數表示式：生成物濃度冪次之積 / 反應物濃度冪次之積</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">勒沙特列原理：平衡系統受到擾動時，會朝<strong>減少擾動</strong>的方向移動</span>
+              <span class="formula-explain">增加反應物→平衡右移；增加壓力→移向莫耳數少的方向；升溫→移向吸熱方向</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="chem-acid">
+          <h2>📌 酸鹼與氧化還原</h2>
+          <h3>一、酸鹼</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 酸鹼公式</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( \text{pH} = -\log[\text{H}^+] \)</span>
+              <span class="formula-explain">pH值：pH < 7 酸性，pH = 7 中性，pH > 7 鹼性</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( [\text{H}^+][\text{OH}^-] = K_w = 10^{-14} \)（25°C）</span>
+              <span class="formula-explain">水的離子積常數：氫離子濃度 × 氫氧根離子濃度 = 10⁻¹⁴</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( \text{pH} + \text{pOH} = 14 \)</span>
+              <span class="formula-explain">由水的離子積取對數推得</span>
+            </div>
+          </div>
+
+          <h3>二、氧化還原</h3>
+          <ul>
+            <li><strong>氧化</strong>：失去電子、氧化數增加（記：LEO = Lose Electrons = Oxidation）</li>
+            <li><strong>還原</strong>：得到電子、氧化數減少（記：GER = Gain Electrons = Reduction）</li>
+            <li><strong>氧化劑</strong>：得到電子的物質（本身被還原）</li>
+            <li><strong>還原劑</strong>：失去電子的物質（本身被氧化）</li>
+          </ul>
+        </section>
+
+        <!-- ========== 生物 ========== -->
+        <section class="content-section" id="bio">
+          <h2>🧬 生物</h2>
+        </section>
+
+        <section class="content-section" id="bio-cell">
+          <h2>📌 細胞與分子生物</h2>
+          <h3>一、細胞結構</h3>
+          <table class="data-table">
+            <thead><tr><th>胞器</th><th>功能</th><th>動物/植物</th></tr></thead>
+            <tbody>
+              <tr><td><strong>細胞核</strong></td><td>儲存遺傳訊息（DNA），控制細胞活動</td><td>兩者都有</td></tr>
+              <tr><td><strong>粒線體</strong></td><td>有氧呼吸，產生 ATP（細胞的發電廠）</td><td>兩者都有</td></tr>
+              <tr><td><strong>葉綠體</strong></td><td>光合作用，將光能轉為化學能</td><td>僅植物</td></tr>
+              <tr><td><strong>內質網</strong></td><td>粗糙ER：合成蛋白質；光滑ER：合成脂質</td><td>兩者都有</td></tr>
+              <tr><td><strong>高乾基體</strong></td><td>修飾、包裝、運輸蛋白質</td><td>兩者都有</td></tr>
+              <tr><td><strong>液胞</strong></td><td>儲存水分與物質，維持膨壓</td><td>植物較大</td></tr>
+              <tr><td><strong>細胞壁</strong></td><td>支持與保護（纖維素）</td><td>僅植物</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、光合作用與呼吸作用</h3>
+          <div class="formula-block">
+            <div class="formula-title">📐 生物能量轉換</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">光合作用：\(6\text{CO}_2 + 6\text{H}_2\text{O} \xrightarrow{\text{光}} \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2\)</span>
+              <span class="formula-explain">植物利用光能將二氧化碳和水合成葡萄糖，釋出氧氣</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">有氧呼吸：\(\text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \rightarrow 6\text{CO}_2 + 6\text{H}_2\text{O} + \text{ATP}\)</span>
+              <span class="formula-explain">葡萄糖分解釋放能量，產生約 36-38 個 ATP</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">光合作用的光反應在<strong>類囊體</strong>，暗反應（卡爾文循環）在<strong>基質</strong></span>
+              <span class="formula-explain">光反應需光，產生 ATP 和 NADPH；暗反應固定 CO₂ 合成糖</span>
+            </div>
+          </div>
+
+          <h3>三、DNA 與蛋白質合成</h3>
+          <ul>
+            <li><strong>DNA</strong>：雙股螺旋結構，鹼基配對 A-T（2個氫鍵）、G-C（3個氫鍵）</li>
+            <li><strong>轉錄</strong>：DNA → mRNA（在細胞核中，RNA聚合酶）</li>
+            <li><strong>轉譯</strong>：mRNA → 蛋白質（在核糖體上，每3個鹼基組成一個密碼子）</li>
+            <li><strong>中心法則</strong>：DNA → RNA → 蛋白質</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="bio-gene">
+          <h2>📌 遺傳與演化</h2>
+          <h3>一、孟德爾遺傳定律</h3>
+          <ul>
+            <li><strong>分離律</strong>：配子形成時，等位基因分離到不同配子中</li>
+            <li><strong>自由配合律</strong>：不同對的等位基因獨立分配</li>
+            <li><strong>顯性法則</strong>：雜合體表現顯性性狀</li>
+          </ul>
+          <table class="data-table">
+            <thead><tr><th>交配</th><th>基因型比</th><th>表現型比</th></tr></thead>
+            <tbody>
+              <tr><td>Aa × Aa</td><td>AA : Aa : aa = 1 : 2 : 1</td><td>顯性 : 隱性 = 3 : 1</td></tr>
+              <tr><td>Aa × aa</td><td>Aa : aa = 1 : 1</td><td>顯性 : 隱性 = 1 : 1</td></tr>
+              <tr><td>AaBb × AaBb</td><td>（4種基因型）</td><td>9 : 3 : 3 : 1</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、演化</h3>
+          <ul>
+            <li><strong>達爾文天擇</strong>：物競天擇、適者生存、不適者淘汰</li>
+            <li><strong>突變</strong>：DNA序列改變，是演化的原始材料</li>
+            <li><strong>遺傳漂變</strong>：小族群中等位基因頻率的隨機變化</li>
+            <li><strong>種化</strong>：一個物種分裂為兩個以上物種的過程</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="bio-body">
+          <h2>📌 人體生理</h2>
+          <table class="data-table">
+            <thead><tr><th>系統</th><th>主要器官</th><th>功能</th></tr></thead>
+            <tbody>
+              <tr><td><strong>循環系統</strong></td><td>心臟、血管、血液</td><td>運輸養分、氧氣、廢物；免疫防禦</td></tr>
+              <tr><td><strong>呼吸系統</strong></td><td>肺、氣管、支氣管</td><td>氣體交換（O₂↔CO₂）</td></tr>
+              <tr><td><strong>消化系統</strong></td><td>口腔→胃→小腸→大腸</td><td>分解食物、吸收養分（小腸為主要吸收場所）</td></tr>
+              <tr><td><strong>神經系統</strong></td><td>腦、脊髓、神經</td><td>接受刺激、傳遞訊息、協調反應</td></tr>
+              <tr><td><strong>內分泌系統</strong></td><td>腦下垂體、甲狀腺、腎上腺、胰臟</td><td>分泌激素調節生理機能</td></tr>
+              <tr><td><strong>免疫系統</strong></td><td>白血球、淋巴組織</td><td>先天免疫（非專一）與後天免疫（專一，T細胞/B細胞）</td></tr>
+              <tr><td><strong>排泄系統</strong></td><td>腎臟、輸尿管、膀胱</td><td>過濾血液、排除含氮廢物、調節水分與電解質</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="content-section" id="bio-eco">
+          <h2>📌 生態</h2>
+          <ul>
+            <li><strong>食物鏈與食物網</strong>：能量從生產者→初級消費者→次級消費者→高級消費者</li>
+            <li><strong>能量金字塔</strong>：每一營養階層大約只傳遞 10% 的能量到下一層</li>
+            <li><strong>生態系</strong>：生物群落 + 非生物環境的綜合體</li>
+            <li><strong>碳循環</strong>：光合作用固碳、呼吸作用釋碳、化石燃料燃燒、海洋吸碳</li>
+            <li><strong>氮循環</strong>：固氮作用→硝化作用→同化作用→脫氮作用</li>
+            <li><strong>生物多樣性</strong>：基因多樣性、物種多樣性、生態系多樣性</li>
+          </ul>
+        </section>
+
+        <!-- ========== 地球科學 ========== -->
+        <section class="content-section" id="earth">
+          <h2>🌏 地球科學</h2>
+          <h3>一、地質與板塊</h3>
+          <ul>
+            <li><strong>地球內部結構</strong>：地殼→地函→外核（液態鐵）→內核（固態鐵）</li>
+            <li><strong>板塊構造學說</strong>：地表由十餘個板塊組成，板塊邊界有三種類型</li>
+            <li>聚合邊界：碰撞擠壓（造山、海溝）；張裂邊界：分離（中洋脊）；錯動邊界：水平滑移（地震）</li>
+            <li><strong>臺灣位於</strong>歐亞板塊與菲律賓海板塊的聚合邊界，地震與火山活動頻繁</li>
+          </ul>
+
+          <h3>二、岩石循環</h3>
+          <table class="data-table">
+            <thead><tr><th>岩石類型</th><th>形成方式</th><th>例子</th></tr></thead>
+            <tbody>
+              <tr><td><strong>火成岩</strong></td><td>岩漿冷凝</td><td>花崗岩（深成）、玄武岩（噴出）</td></tr>
+              <tr><td><strong>沉積岩</strong></td><td>風化沉積壓密</td><td>砂岩、頁岩、石灰岩</td></tr>
+              <tr><td><strong>變質岩</strong></td><td>高溫高壓改變</td><td>大理岩、片岩、板岩</td></tr>
+            </tbody>
+          </table>
+
+          <h3>三、大氣與海洋</h3>
+          <ul>
+            <li><strong>大氣層</strong>：對流層→平流層→中氣層→增溫層→外氣層</li>
+            <li><strong>氣象觀測</strong>：氣壓、溫度、濕度、風向風速、降水</li>
+            <li><strong>鋒面</strong>：冷鋒（降溫驟雨）、暖鋒（連續性降雨）、滯留鋒（梅雨季）</li>
+            <li><strong>海水運動</strong>：洋流（表層海流）、潮汐（月球引力）、波浪（風力驅動）</li>
+            <li><strong>聖嬰現象</strong>：太平洋海水溫度異常，影響全球氣候</li>
+          </ul>
+
+          <h3>四、天文</h3>
+          <ul>
+            <li><strong>太陽系</strong>：八大行星（水金地火木土天海），小行星帶在火星與木星間</li>
+            <li><strong>恆星演化</strong>：星雲→原恆星→主序星→紅巨星→白矮星/中子星/黑洞</li>
+            <li><strong>哈伯定律</strong>：星系的退行速度與距離成正比（宇宙膨脹的證據）</li>
+            <li><strong>星等</strong>：視星等（視覺亮度）vs 絕對星等（實際亮度），差5等差100倍</li>
+          </ul>
+
+          <h3>五、環境變遷</h3>
+          <ul>
+            <li><strong>溫室效應</strong>：CO₂、CH₄ 等溫室氣體吸收地表紅外線輻射，使大氣增溫</li>
+            <li><strong>全球暖化</strong>：海平面上升、極端氣候頻繁、生態系變遷</li>
+            <li><strong>臭氧層破洞</strong>：CFCs（氟氯碳化物）破壞臭氧層</li>
+            <li><strong>臺灣環境議題</strong>：空氣汙染、水資源短缺、土石流災害、海岸侵蝕</li>
+          </ul>
+        </section>
+
+        <div style="text-align:center;padding:var(--space-12) 0;">
+          <a href="../quiz/quiz.html" class="btn btn-primary btn-lg">🎯 前往自然題庫練習</a>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-content"><p class="footer-text">📚 116年學測備考資料庫 | GSAT Study Hub</p><p class="footer-text">自然 — 依108課綱編排</p></div></div></footer>
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+  <script src="../js/app.js"></script>
+</body>
+</html>
