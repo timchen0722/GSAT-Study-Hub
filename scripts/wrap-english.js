@@ -30,8 +30,9 @@ const htmlReplacements = [
   { search: 'If I had studied harder, I would have passed.', replace: '<span class="en-assist" data-tw="如果我當時更努力學習，我就會及格了。">If I had studied harder, I would have passed.<span class="speak-icon">🔊</span></span>' }
 ];
 
+const safeReplace = require('./safe-replace');
 htmlReplacements.forEach(({search, replace}) => {
-  html = html.replace(search, replace);
+  html = safeReplace(html, search, replace);
 });
 fs.writeFileSync(htmlPath, html, 'utf8');
 
@@ -70,7 +71,7 @@ const baseReplacements = [
 ];
 
 baseReplacements.forEach(({search, replace}) => {
-  generateJs = generateJs.replace(search, replace);
+  generateJs = safeReplace(generateJs, search, replace);
 });
 fs.writeFileSync(generatePath, generateJs, 'utf8');
 

@@ -3,6 +3,7 @@ const path = require('path');
 
 const htmlPath = path.join(__dirname, '..', 'subjects', 'english.html');
 let html = fs.readFileSync(htmlPath, 'utf8');
+const safeReplace = require('./safe-replace');
 
 // 1. Auto-wrap words with format: word（translation）
 // e.g. return（回來） -> <span class="en-assist" data-tw="回來">return<span class="speak-icon">🔊</span></span>（回來）
@@ -32,7 +33,7 @@ const rootsReplacements = [
 ];
 
 rootsReplacements.forEach(({search, replace}) => {
-  html = html.replace(search, replace);
+  html = safeReplace(html, search, replace);
 });
 
 // 4. Fix Tense Sentences which lack translation in the text (they are just in a <td>)
@@ -52,7 +53,7 @@ const tenseReplacements = [
 ];
 
 tenseReplacements.forEach(({search, replace}) => {
-  html = html.replace(search, replace);
+  html = safeReplace(html, search, replace);
 });
 
 // 5. Fix newly injected GSAT templates
@@ -70,7 +71,7 @@ const gsatReplacements = [
 ];
 
 gsatReplacements.forEach(({search, replace}) => {
-  html = html.replace(search, replace);
+  html = safeReplace(html, search, replace);
 });
 
 // Also make sure to add the icon for the regex replacements we did in step 2 (sentences)
