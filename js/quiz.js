@@ -124,6 +124,15 @@ class QuizSystem {
   }
 
   /**
+   * Abort quiz early and show results
+   */
+  abortQuiz() {
+    // Only calculate score based on answered questions
+    this.filteredQuestions = this.filteredQuestions.slice(0, this.currentIndex + (this.isSubmitted ? 1 : 0));
+    this.renderResults();
+  }
+
+  /**
    * Go to previous question
    */
   prevQuestion() {
@@ -206,6 +215,9 @@ class QuizSystem {
             ${current >= total ? '查看結果 →' : '下一題 →'}
           </button>
         `}
+        <button class="btn" style="background: #ef4444; color: white;" onclick="if(confirm('確定要提前中斷測驗並查看結果嗎？')) quiz.abortQuiz()">
+          🛑 中斷測驗
+        </button>
       </div>
     `;
 
