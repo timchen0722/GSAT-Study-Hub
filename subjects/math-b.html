@@ -169,26 +169,31 @@
 
           <h3>一、直線方程式</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 直線方程式</div>
+            <div class="formula-title">📐 直線方程式：斜率定義與點斜式嚴密推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( y = mx + b \)</span>
-              <span class="formula-explain">斜截式：\(m\) 為斜率，\(b\) 為 \(y\) 截距</span>
+              <span class="formula-math">設直線上已知定點 \( P_0(x_0, y_0) \)，直線斜率為 \( m \)</span>
+              <span class="formula-explain">斜率 \( m = \frac{\Delta y}{\Delta x} \) 反映直線的傾斜程度</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( y - y_1 = m(x - x_1) \)</span>
-              <span class="formula-explain">點斜式：通過 \((x_1, y_1)\) 且斜率為 \(m\)</span>
+              <span class="formula-math">設直線上任意動點為 \( P(x, y) \quad (x \neq x_0) \)</span>
+              <span class="formula-explain">直線上的所有點，其任兩點間的割線斜率均恆為定值 \( m \)</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( m = \frac{y_2 - y_1}{x_2 - x_1} \)</span>
-              <span class="formula-explain">斜率公式：兩點間的斜率 = \(y\) 的變化量 / \(x\) 的變化量</span>
+              <span class="formula-math">依斜率定義：\( \frac{y - y_0}{x - x_0} = m \)</span>
+              <span class="formula-explain">坐標差之比等於斜率</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">4</span>
-              <span class="formula-math">兩平行線：\(m_1 = m_2\)；兩垂直線：\(m_1 \cdot m_2 = -1\)</span>
-              <span class="formula-explain">平行斜率相等；垂直斜率互為負倒數</span>
+              <span class="formula-math">兩邊同乘 \( (x - x_0) \)：\( y - y_0 = m(x - x_0) \)</span>
+              <span class="formula-explain">這就是大考最核心的「點斜式」！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">若定點為 y 軸截距點 \( (0, k) \)，代入得 \( y - k = m(x - 0) \implies y = mx + k \)</span>
+              <span class="formula-explain">推得「斜截式」，其中 \( m \) 為斜率，\( k \) 為 y 軸截距。</span>
             </div>
           </div>
 
@@ -472,16 +477,41 @@
 
           <h3>三、相關係數</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 相關係數</div>
+            <div class="formula-title">📐 皮爾森相關係數 \( -1 \leq r \leq 1 \)：柯西不等式嚴密推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \cdot \sum(y_i-\bar{y})^2}} \)</span>
-              <span class="formula-explain">\(r\) 介於 \(-1\) 到 \(1\) 之間，衡量線性相關程度</span>
+              <span class="formula-math">定義離均差：\( X_i = x_i - \bar{x}, \; Y_i = y_i - \bar{y} \)</span>
+              <span class="formula-explain">將數據平移使得平均值為零，簡化代數符號</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( |r| \) 接近 1：強相關；接近 0：弱相關或無相關</span>
-              <span class="formula-explain">\(r > 0\) 正相關（同增同減），\(r < 0\) 負相關</span>
+              <span class="formula-math">皮爾森相關係數定義：\( r = \frac{\sum X_i Y_i}{\sqrt{\sum X_i^2} \sqrt{\sum Y_i^2}} \)</span>
+              <span class="formula-explain">分子為共變異量，分母為兩者標準差乘積（標準化後的共變異數）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">構造兩向量：\( \vec{U} = (X_1, X_2, \dots, X_n) \)，\( \vec{V} = (Y_1, Y_2, \dots, Y_n) \)</span>
+              <span class="formula-explain">將 n 筆數據的離均差分別視為 n 維空間中的向量</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( \vec{U} \cdot \vec{V} = \sum X_i Y_i, \; |\vec{U}| = \sqrt{\sum X_i^2}, \; |\vec{V}| = \sqrt{\sum Y_i^2} \)</span>
+              <span class="formula-explain">相關係數本質上就是兩離均差向量的夾角餘弦：\( r = \frac{\vec{U} \cdot \vec{V}}{|\vec{U}||\vec{V}| = \cos\theta \)！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">對 \( \vec{U}, \vec{V} \) 套用柯西不等式：\( (\sum X_i Y_i)^2 \leq (\sum X_i^2)(\sum Y_i^2) \)</span>
+              <span class="formula-explain">由內積絕對值不超過長度乘積保證</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">兩邊除以分母：\( r^2 = \left(\frac{\sum X_i Y_i}{\sqrt{\sum X_i^2}\sqrt{\sum Y_i^2}}\right)^2 \leq 1 \implies -1 \leq r \leq 1 \)</span>
+              <span class="formula-explain">完美證得相關係數必介於 -1 與 1 之間！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">等號成立條件：\( r = \pm 1 \iff \vec{V} = c\vec{U} \iff y_i - \bar{y} = c(x_i - \bar{x}) \)</span>
+              <span class="formula-explain">唯有所有數據點 \( (x_i, y_i) \) 嚴格落在同一條直線上時，才能達到完全正相關 (r=1) 或完全負相關 (r=-1)！</span>
             </div>
           </div>
         </section>
