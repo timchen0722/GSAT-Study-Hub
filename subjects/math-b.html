@@ -61,65 +61,59 @@
 
       <main class="content-area">
 
+        
         <section class="content-section" id="ch1">
-          <h2>📌 壹、數與式</h2>
-          <h3>一、實數的分類與性質</h3>
-          <p>實數分為<strong>有理數</strong>（整數、分數、有限小數、循環小數）與<strong>無理數</strong>（如 \(\sqrt{2}, \pi\)）。</p>
-          <ul>
-            <li><strong>數線</strong>：每一個實數都對應數線上的一個點，且具有<strong>完備性</strong></li>
-            <li><strong>絕對值</strong>：\(|a|\) 表示 \(a\) 到原點的距離，\(|a-b|\) 表示 \(a\) 和 \(b\) 之間的距離</li>
-          </ul>
+          <h2>📌 壹、數與式深入解析與實戰</h2>
+          <p>數與式是高中數學的底座。數 B 重點在於「實數的幾何意涵」、「分點公式」與「絕對值不等式的距離解法」。</p>
 
-          <h3>二、比與比例</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 比與比例</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( a : b = c : d \Leftrightarrow \frac{a}{b} = \frac{c}{d} \Leftrightarrow ad = bc \)</span>
-              <span class="formula-explain">比例的基本性質：內項乘積 = 外項乘積（交叉相乘）</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">若 \(\frac{a}{b} = \frac{c}{d} = k\)，則 \(a = bk, c = dk\)</span>
-              <span class="formula-explain">設比值為 \(k\)，可將各項用 \(k\) 表示</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">3</span>
-              <span class="formula-math">\(\frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a+c}{b+d} = \frac{a}{b} = \frac{c}{d}\)</span>
-              <span class="formula-explain">等比定理：等比值的分子分母分別相加，比值不變</span>
-            </div>
-          </div>
+          <h3>一、實數系架構與小數特徵</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>數的分類</th>
+                <th>數學定義特徵</th>
+                <th>小數化型態</th>
+                <th>大考判定法則與陷阱</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>有理數 $\mathbb{Q}$</strong></td>
+                <td>可化為整數之比 $\frac{p}{q}$（$p, q \in \mathbb{Z}, q \ne 0$）</td>
+                <td><strong>有限小數</strong> 或 <strong>循環小數</strong></td>
+                <td>最簡分數 $\frac{p}{q}$ 能化為有限小數的充要條件：<strong>分母 $q$ 的質因數僅有 2 或 5</strong>。</td>
+              </tr>
+              <tr>
+                <td><strong>無理數</strong></td>
+                <td>不可表為兩整數之比的實數（如 $\sqrt{2}, \pi$）</td>
+                <td><strong>無限不循環小數</strong></td>
+                <td>
+                  • 有理數具<strong>封閉性</strong>（加減乘除仍為有理數）。<br>
+                  • 無理數加無理數<strong>不保證</strong>為無理數（如 $\sqrt{2} + (-\sqrt{2}) = 0$）。
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-          <h3>三、常用乘法公式</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 乘法公式推導</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( (a+b)^2 = a^2 + 2ab + b^2 \)</span>
-              <span class="formula-explain">和的平方：展開 \((a+b)(a+b)\) 即得</span>
+          <h3>二、數線分點公式與絕對值幾何意義</h3>
+          <div class="step-box">
+            <div class="step-box-title">📏 數線分點與距離解題心法</div>
+            <div class="step-row">
+              <div class="step-num">內分點公式</div>
+              <div class="step-math">若點 $P(x)$ 內分線段 $AB$ 成比 $m : n$，則：$x = \frac{n a + m b}{m + n}$</div>
+              <div class="step-desc">交叉相乘：左邊比例乘右邊坐標，右邊比例乘左邊坐標。</div>
             </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( (a-b)^2 = a^2 - 2ab + b^2 \)</span>
-              <span class="formula-explain">差的平方：展開 \((a-b)(a-b)\) 即得</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">3</span>
-              <span class="formula-math">\( (a+b)(a-b) = a^2 - b^2 \)</span>
-              <span class="formula-explain">和差積：交叉項 \(+ab\) 和 \(-ab\) 消去</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">4</span>
-              <span class="formula-math">\( (a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 \)</span>
-              <span class="formula-explain">和的立方：\((a+b)^2(a+b)\) 再展開</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">5</span>
-              <span class="formula-math">\( a^3 - b^3 = (a-b)(a^2 + ab + b^2) \)</span>
-              <span class="formula-explain">立方差公式</span>
+            <div class="step-row">
+              <div class="step-num">絕對值幾何</div>
+              <div class="step-math"><strong>$|x - c| \le r$ 代表數線上點 $x$ 到中心 $c$ 的距離不超過半徑 $r$</strong></div>
+              <div class="step-desc">
+                解雙向不等式 $a \le x \le b$ 時，取中心點 $c = \frac{a+b}{2}$，半徑 $r = \frac{b-a}{2}$，即可立即化為：<br>
+                $|x - c| \le r$
+              </div>
             </div>
           </div>
         </section>
+
 
         <section class="content-section" id="ch2">
           <h2>📌 貳、一次與二次函數</h2>
@@ -185,129 +179,148 @@
           </div>
         </section>
 
+        
         <section class="content-section" id="ch3">
-          <h2>📌 參、指數與對數</h2>
-          <p>數學B的指對數以<strong>基礎運算與生活應用</strong>為主，較數學A簡化。</p>
+          <h2>📌 參、指數與對數生活應用與尺度模型</h2>
+          <p>數 B 大考指對數極度重視「對數尺度（Logarithmic Scale）」在生活科學中的轉換，如地震規模、音量分貝與人口指數增長。</p>
 
-          <h3>一、指數</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 指數基礎</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( a^m \cdot a^n = a^{m+n}, \quad \frac{a^m}{a^n} = a^{m-n} \)</span>
-              <span class="formula-explain">同底數相乘指數相加，相除指數相減</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( (a^m)^n = a^{mn}, \quad a^0 = 1, \quad a^{-n} = \frac{1}{a^n} \)</span>
-              <span class="formula-explain">冪的冪、零次方、負指數</span>
-            </div>
-          </div>
-
-          <h3>二、對數</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 對數基礎</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( \log_a N = x \Leftrightarrow a^x = N \)</span>
-              <span class="formula-explain">對數與指數互為反運算</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( \log(MN) = \log M + \log N \)</span>
-              <span class="formula-explain">乘法→加法（常用對數 \(\log = \log_{10}\)）</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">3</span>
-              <span class="formula-math">\( \log M^k = k\log M \)</span>
-              <span class="formula-explain">冪次可提至前方</span>
-            </div>
-          </div>
-
-          <h3>三、生活應用</h3>
-          <ul>
-            <li><strong>複利計算</strong>：本利和 \(A = P(1+r)^n\)，其中 \(P\) 為本金、\(r\) 為利率、\(n\) 為期數</li>
-            <li><strong>pH 值</strong>：\(\text{pH} = -\log[\text{H}^+]\)，用對數表示酸鹼度</li>
-            <li><strong>地震規模</strong>：芮氏規模使用對數尺度，每差 1 級能量差約 31.6 倍</li>
-            <li><strong>分貝</strong>：聲音強度也使用對數表示</li>
-          </ul>
-        </section>
-
-        <section class="content-section" id="ch4">
-          <h2>📌 肆、三角函數基礎</h2>
-          <h3>一、基本定義</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 三角比</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( \sin\theta = \frac{\text{對邊}}{\text{斜邊}}, \quad \cos\theta = \frac{\text{鄰邊}}{\text{斜邊}}, \quad \tan\theta = \frac{\text{對邊}}{\text{鄰邊}} \)</span>
-              <span class="formula-explain">SOH-CAH-TOA 口訣記憶法</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( \sin^2\theta + \cos^2\theta = 1 \)</span>
-              <span class="formula-explain">畢氏恆等式，最重要的三角恆等式</span>
-            </div>
-          </div>
-
-          <h3>二、特殊角</h3>
+          <h3>一、常用對數首數與尾數的數字密碼</h3>
+          <p>任意正實數 $N$ 的常用對數可拆解為整數部分 $n$（首數）與純小數部分 $\alpha$（尾數）：$\log_{10} N = n + \alpha \quad (n \in \mathbb{Z}, 0 \le \alpha < 1)$</p>
           <table class="data-table">
-            <thead><tr><th>\(\theta\)</th><th>\(\sin\theta\)</th><th>\(\cos\theta\)</th><th>\(\tan\theta\)</th></tr></thead>
+            <thead>
+              <tr>
+                <th>對數成分</th>
+                <th>數學意涵</th>
+                <th>解讀與應用技巧</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr><td>\(30°\)</td><td>\(\frac{1}{2}\)</td><td>\(\frac{\sqrt{3}}{2}\)</td><td>\(\frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}\)</td></tr>
-              <tr><td>\(45°\)</td><td>\(\frac{\sqrt{2}}{2}\)</td><td>\(\frac{\sqrt{2}}{2}\)</td><td>\(1\)</td></tr>
-              <tr><td>\(60°\)</td><td>\(\frac{\sqrt{3}}{2}\)</td><td>\(\frac{1}{2}\)</td><td>\(\sqrt{3}\)</td></tr>
+              <tr>
+                <td><strong>首數 $n$</strong></td>
+                <td>決定真數 $N$ 的<strong>「位數」或「小數點後第幾位非零」</strong></td>
+                <td>
+                  • 若 $n \ge 0$：真數 $N$ 的整數位數為 <strong>$n + 1$ 位數</strong>（例如 $\log N = 5.3$ $\rightarrow$ 6 位數）。<br>
+                  • 若 $n < 0$：真數 $N$ 在小數點後第 <strong>$|n|$ 位開始出現不為 0 的數字</strong>。
+                </td>
+              </tr>
+              <tr>
+                <td><strong>尾數 $\alpha$</strong></td>
+                <td>決定真數 $N$ 的<strong>「最高位數字（Leading Digit）」</strong></td>
+                <td>
+                  查對數表比較：$\log 2 \approx 0.3010$，$\log 3 \approx 0.4771$，$\log 7 \approx 0.8451$。<br>
+                  若尾數 $0.3010 \le \alpha < 0.4771$，則真數最高位數字必為 2！
+                </td>
+              </tr>
             </tbody>
           </table>
 
-          <h3>三、正弦定理與餘弦定理</h3>
+          <h3>二、生活中的對數尺度四大經典考題</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 三角測量公式</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} \)</span>
-              <span class="formula-explain">正弦定理：邊與對角正弦的比值相等</span>
+            <div class="formula-title">🔊 大考四大對數尺度生活模型</div>
+            <p>• <strong>地震芮氏規模 $M$</strong>：能量差公式 $\log E_1 - \log E_2 = 1.5(M_1 - M_2)$。規模每增加 1，釋放能量約放大 $10^{1.5} \approx 31.6$ 倍；規模每增加 2，能量放大 $10^3 = 1000$ 倍！<br>
+               • <strong>音量分貝 (dB)</strong>：$d = 10 \log_{10}\left(\frac{I}{I_0}\right)$。分貝每增加 10 dB，聲音物理強度 $I$ 擴大 10 倍；增加 20 dB 擴大 100 倍。<br>
+               • <strong>酸鹼值 (pH)</strong>：$\text{pH} = -\log_{10}[\text{H}^+]$。pH 值每下降 1，氫離子濃度增大 10 倍。<br>
+               • <strong>星等公式</strong>：亮度比公式 $m_1 - m_2 = -2.5 \log_{10}\left(\frac{L_1}{L_2}\right)$。星等差 5 等，亮度恰好相差 100 倍。</p>
+          </div>
+        </section>
+
+
+        
+        <section class="content-section" id="ch4">
+          <h2>📌 肆、三角函數基礎與生活立體測量</h2>
+          <p>數 B 三角函數刪除了繁複的和差化積，轉而強調「正弦與餘弦定理在平面與空間測量中的實境應用」。</p>
+
+          <h3>一、正弦定理與餘弦定理選用指南</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>定理名稱</th>
+                <th>數學公式表達式</th>
+                <th>適用已知條件</th>
+                <th>大考解題直觀</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>正弦定理<br>(Law of Sines)</strong></td>
+                <td>$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$<br>（$R$ 為外接圓半徑）</td>
+                <td>• <strong>已知兩角及任一邊 (AAS / ASA)</strong><br>• <strong>已知兩邊及其中一邊對角 (SSA)</strong><br>• 題目提及<strong>外接圓半徑 $R$</strong></td>
+                <td>「角對邊，找正弦」。若已知一對「對角與對邊」，首選正弦定理。</td>
+              </tr>
+              <tr>
+                <td><strong>餘弦定理<br>(Law of Cosines)</strong></td>
+                <td>• 邊長式：$c^2 = a^2 + b^2 - 2ab\cos C$<br>• 角度式：$\cos C = \frac{a^2 + b^2 - c^2}{2ab}$</td>
+                <td>• <strong>已知兩邊及其夾角 (SAS)</strong><br>• <strong>已知三邊長 (SSS)</strong></td>
+                <td>求兩目標點間直線距離的殺手鐧。三邊長已知時可直接求任意內角之餘弦值。</td>
+              </tr>
+              <tr>
+                <td><strong>三角形面積公式</strong></td>
+                <td>$\Delta = \frac{1}{2}ab\sin C$</td>
+                <td>已知兩邊長及其夾角 $\angle C$</td>
+                <td>免求高即可直接算面積。若搭配平行四邊形，面積即為 $ab\sin C$。</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>二、生活立體三角測量經典步驟</h3>
+          <div class="step-box">
+            <div class="step-box-title">🏔️ 測量山高或對岸不可到達目標三階法</div>
+            <div class="step-row">
+              <div class="step-num">Step 1：地面平面化</div>
+              <div class="step-math">在地面上設立基線 $AB = d$，於 $A, B$ 兩點測量目標在地面投影點 $C$ 的方位角。</div>
+              <div class="step-desc">利用地面三角形 $ABC$，透過正弦定理或餘弦定理先解出基點到投影點之地面距離 $\overline{AC}$。</div>
             </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( c^2 = a^2 + b^2 - 2ab\cos C \)</span>
-              <span class="formula-explain">餘弦定理：已知兩邊一夾角求第三邊</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">3</span>
-              <span class="formula-math">\( \text{面積} = \frac{1}{2}ab\sin C \)</span>
-              <span class="formula-explain">三角形面積公式：半 × 兩邊 × 夾角的正弦</span>
+            <div class="step-row">
+              <div class="step-num">Step 2：立體垂直化</div>
+              <div class="step-math">在 $A$ 點測量山頂 $T$ 的仰角 $\theta$。</div>
+              <div class="step-desc">在鉛直直角三角形 $\Delta TAC$ 中，山高即為：$h = \overline{AC} \cdot \tan\theta$</div>
             </div>
           </div>
         </section>
 
+
+        
         <section class="content-section" id="ch5">
-          <h2>📌 伍、排列組合</h2>
-          <h3>一、排列 \(P^n_r\)</h3>
-          <div class="formula-block">
-            <div class="formula-title">📐 排列</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( P^n_r = \frac{n!}{(n-r)!} = n(n-1)(n-2)\cdots(n-r+1) \)</span>
-              <span class="formula-explain">從 \(n\) 個取 \(r\) 個排列（有順序）</span>
-            </div>
-          </div>
+          <h2>📌 伍、排列組合分類與放球模型</h2>
 
-          <h3>二、組合 \(C^n_r\)</h3>
+          <h3>一、基本計數原理與常見限制排列</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>排列問題類型</th>
+                <th>解題核心策略</th>
+                <th>經典題型實例</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>相鄰問題</strong></td>
+                <td><strong>「綑綁法」</strong>：將必須相鄰之元素視為一個整體，排列後再乘上內部元素之自排數。</td>
+                <td>甲、乙兩人必須相鄰排成一列 $\rightarrow$ 視為一體，再乘 $2!$。</td>
+              </tr>
+              <tr>
+                <td><strong>分開問題（不相鄰）</strong></td>
+                <td><strong>「插空法」</strong>：先排其他不受限制之元素，再將不得相鄰者插入元素兩端及夾縫空隙中。</td>
+                <td>男生 4 人與女生 3 人排隊，女生任兩人不得相鄰 $\rightarrow$ 先排男生（$4!$ 種），再將 3 女插入 5 個空隙（$P^5_3$ 種）。</td>
+              </tr>
+              <tr>
+                <td><strong>順序已定問題</strong></td>
+                <td>視為<strong>相同物排列</strong>，或直接以組合選位置。</td>
+                <td>甲排在乙的前面 $\rightarrow$ 總排列數除以 $2!$。</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>二、重複組合 $H_n^r$ 與非負整數解模型</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 組合</div>
-            <div class="formula-line">
-              <span class="formula-step">1</span>
-              <span class="formula-math">\( C^n_r = \frac{n!}{r!(n-r)!} \)</span>
-              <span class="formula-explain">從 \(n\) 個取 \(r\) 個組合（無順序）</span>
-            </div>
-            <div class="formula-line">
-              <span class="formula-step">2</span>
-              <span class="formula-math">\( C^n_r = C^n_{n-r} \)</span>
-              <span class="formula-explain">對稱性：選 \(r\) 個等同不選 \(n-r\) 個</span>
-            </div>
+            <div class="formula-title">📦 重複組合與隔板法轉換</div>
+            <p>從 $n$ 種相異物品中，允許重複選取 $r$ 件之組合數為：<br>
+               $H_n^r = C_{n+r-1}^r$<br>
+               • <strong>非負整數解模型</strong>：方程式 $x_1 + x_2 + \dots + x_n = r$（$x_i \ge 0$）之非負整數解個數，恰為 $H_n^r = C_{n+r-1}^r$。<br>
+               • <strong>正整數解模型</strong>：若要求 $x_i \ge 1$，先給每人 1 個，剩餘 $r - n$ 個自由分配，解數為 $H_n^{r-n} = C_{r-1}^{n-1}$（等同於 $r-1$ 個空隙插 $n-1$ 塊隔板）。</p>
           </div>
         </section>
+
 
         <section class="content-section" id="ch6">
           <h2>📌 陸、機率</h2>
