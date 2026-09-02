@@ -1,0 +1,11 @@
+const fs = require('fs');
+const file = 'quiz/data/chinese-quiz.js';
+const code = fs.readFileSync(file, 'utf8');
+const quiz = JSON.parse(code.substring(code.indexOf('['), code.lastIndexOf(']') + 1));
+quiz[473].question = '下列各組詞語中「」內標記的字音（如不落「窠」臼與草「菅」人命），讀音完全正確無誤的一組是？';
+quiz[483].question = '下列各組文句詞彙中「」內標註的字音（如不落「窠」臼與「苛」捐雜稅），兩者讀音完全相同的一組是？';
+quiz[489].question = '下列各文句成語（如不落窠臼、臨渴掘井、緣木求魚）的書寫與用字，完全沒有錯別字的是？';
+fs.writeFileSync(file, 'const chineseQuiz = ' + JSON.stringify(quiz, null, 2) + ';\n', 'utf8');
+const s = new Set();
+quiz.forEach(q => s.add(q.question.trim()));
+console.log('Total: ' + quiz.length + ', Unique: ' + s.size);
