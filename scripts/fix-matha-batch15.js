@@ -1,0 +1,11 @@
+const fs = require('fs');
+const file = 'quiz/data/math-a-quiz.js';
+const code = fs.readFileSync(file, 'utf8');
+const quiz = JSON.parse(code.substring(code.indexOf('['), code.lastIndexOf(']') + 1));
+quiz[484].question = '計算組合數 $C^7_3$ 之值為何？';
+quiz[484].options = ['35（$\\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35$）', '21', '42', '70'];
+quiz[484].explanation = '$C^7_3 = \\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35$。';
+fs.writeFileSync(file, 'const mathAQuiz = ' + JSON.stringify(quiz, null, 2) + ';\n', 'utf8');
+const s = new Set();
+quiz.forEach(q => s.add(q.question.trim()));
+console.log('Total: ' + quiz.length + ', Unique: ' + s.size);
