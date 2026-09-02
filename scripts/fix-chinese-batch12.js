@@ -1,0 +1,10 @@
+const fs = require('fs');
+const file = 'quiz/data/chinese-quiz.js';
+const code = fs.readFileSync(file, 'utf8');
+const quiz = JSON.parse(code.substring(code.indexOf('['), code.lastIndexOf(']') + 1));
+quiz[455].question = '下列各文句成語詞彙中「」內標記的字音（如越俎代「庖」與「咆」哮），兩者讀音完全相同的一組是？';
+quiz[459].question = '下列各文句成語（如不脛而走、曲突徙薪、膾炙人口）的書寫與用字，完全沒有錯別字的是？';
+fs.writeFileSync(file, 'const chineseQuiz = ' + JSON.stringify(quiz, null, 2) + ';\n', 'utf8');
+const s = new Set();
+quiz.forEach(q => s.add(q.question.trim()));
+console.log('Total: ' + quiz.length + ', Unique: ' + s.size);

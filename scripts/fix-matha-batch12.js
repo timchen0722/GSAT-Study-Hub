@@ -1,0 +1,10 @@
+const fs = require('fs');
+const file = 'quiz/data/math-a-quiz.js';
+const code = fs.readFileSync(file, 'utf8');
+const quiz = JSON.parse(code.substring(code.indexOf('['), code.lastIndexOf(']') + 1));
+quiz[394].question = '從 5 個人中挑選 5 個人全體出賽，依組合數公式 $C^5_5$ 計算其方法數為多少種？';
+quiz[397].question = '利用微積分基本多項式導函數冪法則公式，求函數 $f(x) = x^4$ 的導函數 $f\'(x)$ 之展開式為何？';
+fs.writeFileSync(file, 'const mathAQuiz = ' + JSON.stringify(quiz, null, 2) + ';\n', 'utf8');
+const s = new Set();
+quiz.forEach(q => s.add(q.question.trim()));
+console.log('Total: ' + quiz.length + ', Unique: ' + s.size);
