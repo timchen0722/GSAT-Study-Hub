@@ -1,0 +1,11 @@
+const fs = require('fs');
+const file = 'quiz/data/math-a-quiz.js';
+const code = fs.readFileSync(file, 'utf8');
+const quiz = JSON.parse(code.substring(code.indexOf('['), code.lastIndexOf(']') + 1));
+quiz[453].question = '計算二階方陣行列式 $\\begin{vmatrix} 5 & 1 \\\\ 2 & 4 \\end{vmatrix}$ 之值為何？';
+quiz[453].options = ['18（$5 \\times 4 - 1 \\times 2 = 20 - 2 = 18$）', '22', '10', '8'];
+quiz[453].explanation = '$5(4) - 1(2) = 20 - 2 = 18$。';
+fs.writeFileSync(file, 'const mathAQuiz = ' + JSON.stringify(quiz, null, 2) + ';\n', 'utf8');
+const s = new Set();
+quiz.forEach(q => s.add(q.question.trim()));
+console.log('Total: ' + quiz.length + ', Unique: ' + s.size);
