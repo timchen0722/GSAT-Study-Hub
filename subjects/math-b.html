@@ -49,7 +49,10 @@
           <li><a href="#ch9">玖、矩陣基礎</a></li>
         <li><a href="#ch-adv">拾、進階探討與滿分秘笈</a></li>
         <li><a href="#gsat-deep-mb">拾壹、學測專武：生活應用</a></li>
-        <li><a href="#ch-adv2">拾壹、生活情境與素養導向</a></li>
+        <li><a href="#ch-adv2">拾貳、生活情境與素養導向</a></li>
+        <li><a href="#mb-conic-real">拾參、生活中的圓錐曲線精華</a></li>
+        <li><a href="#mb-matrix-life">拾肆、轉移矩陣與生活密碼學</a></li>
+        <li><a href="#mb-sphere-earth">拾伍、地球經緯度與球面幾何測量</a></li>
         </ul>
         <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary" style="width:100%;">🎯 數學B題庫</a></div>
       </aside>
@@ -518,12 +521,163 @@
       </section>
       
       <section id="ch-adv2" class="content-section animate-fade-in-up">
-        <h2>拾壹、生活情境與素養導向 🛒</h2>
+        <h2>拾貳、生活情境與素養導向 🛒</h2>
         <h3>1. 金融數學：單利、複利與年金</h3>
         <p>數B的重點之一在於生活應用，特別是理財相關的計算。遇到「分期付款」或「定期定額」的問題，一定要畫出「時間軸（Time Line）」，將每一期的本金與利息對齊計算。這是等比級數求和公式 $S_n = \frac{a_1(r^n - 1)}{r - 1}$ 的標準應用情境。</p>
         <h3>2. 比例與圖形：黃金比例與地圖縮放</h3>
         <p>數B常考圖形的相似與比例尺。當地圖的長度放大 $k$ 倍時，面積會放大 $k^2$ 倍。在藝術與建築的跨領域題中，常會出現黃金比例 $\frac{1+\sqrt{5}}{2}$ 的相關計算，理解其背後的二次方程式 $x^2 - x - 1 = 0$ 會有助於快速解題。</p>
       </section>
+
+      <!-- 拾貳、生活中的圓錐曲線精華 -->
+      <section id="mb-conic-real" class="content-section animate-fade-in-up">
+        <h2>拾參、生活中的圓錐曲線（拋物線・橢圓・雙曲線）🪞</h2>
+        <p>108 課綱數 B 強調圓錐曲線在生活、建築與科技中的直觀應用。數 B 不考繁雜的代數平移旋轉，但極為重視「光學反射幾何特質」與「幾何定義」。</p>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th style="width: 15%;">曲線類型</th>
+              <th style="width: 25%;">幾何定義</th>
+              <th style="width: 25%;">光學幾何特質</th>
+              <th style="width: 35%;">大考生活應用題型</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>拋物線<br>(Parabola)</strong></td>
+              <td>平面上到<strong>定點（焦點 $F$）</strong>與到<strong>定直線（準線 $L$）</strong>等距離之所有點軌跡：<br>$\overline{PF} = d(P, L)$</td>
+              <td>從焦點 $F$ 發出的光線，經拋物線反射後會形成<strong>平行對稱軸的光束</strong>；反之，平行光射入後會<strong>匯聚於焦點</strong>。</td>
+              <td>
+                • <strong>汽車探照燈 / 手電筒</strong>：燈絲置於焦點，光線射向遠方。<br>
+                • <strong>碟型衛星天線 / 太陽能集熱器</strong>：將遠方平行訊號匯聚於受光器。<br>
+                • <strong>懸索橋鋼纜 / 噴泉拋物線</strong>：受重力與張力平衡自然呈現。
+              </td>
+            </tr>
+            <tr>
+              <td><strong>橢圓<br>(Ellipse)</strong></td>
+              <td>平面上到兩定點（焦點 $F_1, F_2$）<strong>距離和為常數 $2a$</strong>（$2a > 2c$）之所有點軌跡：<br>$\overline{PF_1} + \overline{PF_2} = 2a$</td>
+              <td>從其中一個焦點 $F_1$ 發出的光線或聲波，經橢圓內壁反射後，<strong>必然通過另一個焦點 $F_2$</strong>。</td>
+              <td>
+                • <strong>耳語長廊（Whispering Gallery）</strong>：在焦點處低語，另一個焦點處聽得極清晰。<br>
+                • <strong>體外震波碎石機</strong>：在焦點發出震波，匯聚於病患體內結石處（第二焦點）。<br>
+                • <strong>克卜勒行星軌道第一定律</strong>：太陽位於太陽系所有行星軌道的一個焦點上。
+              </td>
+            </tr>
+            <tr>
+              <td><strong>雙曲線<br>(Hyperbola)</strong></td>
+              <td>平面上到兩定點（焦點 $F_1, F_2$）<strong>距離差之絕對值為常數 $2a$</strong>（$0 < 2a < 2c$）：<br>$|\overline{PF_1} - \overline{PF_2}| = 2a$</td>
+              <td>朝向一個焦點射入的光線，經雙曲面鏡反射後，反射線的反向延長線會<strong>通過另一個焦點</strong>。</td>
+              <td>
+                • <strong>雙曲導航系統（Loran）</strong>：利用兩個電臺訊號的時間差（距離差），定位船隻所在之雙曲線支。<br>
+                • <strong>核電廠冷卻塔</strong>：雙曲旋轉面結構，材料最省且結構對流強度最高。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="formula-block mt-4">
+          <div class="formula-title">💡 數B高頻解題口訣：離心率 $e$</div>
+          <p>• 圓：$e = 0$（兩焦點重合）<br>
+             • 橢圓：$0 < e < 1$（長軸 $2a$ 大於焦距 $2c$）<br>
+             • 拋物線：$e = 1$（到焦點與到準線距離相等）<br>
+             • 雙曲線：$e > 1$（焦距 $2c$ 大於貫軸 $2a$）</p>
+        </div>
+      </section>
+
+      <!-- 拾參、轉移矩陣與生活密碼學 -->
+      <section id="mb-matrix-life" class="content-section animate-fade-in-up">
+        <h2>拾肆、轉移矩陣（馬可夫鏈）與矩陣密碼學 🔐</h2>
+        
+        <h3>1. 轉移矩陣的判定與穩態分布</h3>
+        <p>轉移矩陣（Transition Matrix）是數 B 處理機率演化的王牌工具。矩陣 $P = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$ 必須滿足兩大條件：</p>
+        <ul>
+          <li>所有元素非負：$0 \le a, b, c, d \le 1$</li>
+          <li><strong>每一「行（Column）」的總和必須為 1</strong>：$a + c = 1$，$b + d = 1$。</li>
+        </ul>
+
+        <div class="step-box">
+          <div class="step-box-title">📊 穩定狀態向量（Steady-state Vector）三步驟求法</div>
+          <div class="step-row">
+            <div class="step-num">Step 1</div>
+            <div class="step-math"><strong>設定穩態條件方程式</strong>：$PX = X$</div>
+            <div class="step-desc">經過無數次轉移後，狀態不再隨時間改變。設穩態向量 $X = \begin{bmatrix} x \\ y \end{bmatrix}$。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">Step 2</div>
+            <div class="step-math"><strong>引入機率總和為 1</strong>：$x + y = 1$</div>
+            <div class="step-desc">由於 $(P - I)X = 0$ 的兩條方程式互為相依，必須搭配 $x + y = 1$ 聯立求解。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">Step 3</div>
+            <div class="step-math"><strong>解出長期市佔率或平衡機率</strong></div>
+            <div class="step-desc">不論初始狀態 $X_0$ 為何，只要轉移矩陣元素皆大於 0（正轉移矩陣），長期狀態必然趨向此唯一穩態 $X$。</div>
+          </div>
+        </div>
+
+        <h3>2. 二階方陣在文字密碼學的應用（希爾密碼 Hill Cipher）</h3>
+        <p>設英文字母 A=1, B=2, ..., Z=26。若將明文雙字編碼向量設為 $M = \begin{bmatrix} m_1 \\ m_2 \end{bmatrix}$，利用可逆密鑰矩陣 $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$ 進行加密：</p>
+        <div class="formula-block">
+          <div class="formula-title">🔐 加密與解密運算式</div>
+          <p>• <strong>加密運算</strong>：$C = A M$（$C$ 為密文向量）<br>
+             • <strong>解密運算</strong>：$M = A^{-1} C$（接收方只要將密文乘上逆矩陣 $A^{-1}$ 即可完美還原明文）<br>
+             • <strong>反矩陣存在條件</strong>：$\det(A) = ad - bc \ne 0$，此時 $A^{-1} = \frac{1}{ad - bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$。</p>
+        </div>
+      </section>
+
+      <!-- 拾肆、地球經緯度與球面幾何測量 -->
+      <section id="mb-sphere-earth" class="content-section animate-fade-in-up">
+        <h2>拾伍、地球經緯度與球面幾何測量 🌐</h2>
+        <p>數 B 大考最愛結合地理情境的立體空間測量。設地球半徑為 $R \approx 6400\text{ km}$：</p>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>幾何模型公式</th>
+              <th>大考計算陷阱與解題關鍵</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>緯線圓半徑</strong></td>
+              <td>$r_\theta = R \cos\theta$<br>（$\theta$ 為該地的緯度）</td>
+              <td>赤道緯度 $0^\circ$，半徑最大為 $R$；緯度 $60^\circ$ 處，緯度圈半徑縮小為 $R \cos 60^\circ = \frac{1}{2}R$。</td>
+            </tr>
+            <tr>
+              <td><strong>同緯度兩點直線與弧長</strong></td>
+              <td>緯線弧長：$S = r_\theta \cdot \Delta\lambda$<br>（$\Delta\lambda$ 為經度差弧度）</td>
+              <td>沿著緯線飛行並非「最短距離」！最短航線為通過兩點與球心的<strong>大圓航線（Great Circle Route）</strong>。</td>
+            </tr>
+            <tr>
+              <td><strong>時區與經度換算</strong></td>
+              <td>經度每差 
+      
+      <div style="text-align:center;padding:var(--space-12) 0;">
+          <a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary btn-lg">🎯 前往數學B題庫練習</a>
+        </div>
+      </main>5^\circ$ 相差 1 小時<br>（經度每差 
+      
+      <div style="text-align:center;padding:var(--space-12) 0;">
+          <a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary btn-lg">🎯 前往數學B題庫練習</a>
+        </div>
+      </main>^\circ$ 差 4 分鐘）</td>
+              <td>向東時間增加（東加），向西時間減少（西減）。跨越國際換日線（經度 
+      
+      <div style="text-align:center;padding:var(--space-12) 0;">
+          <a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary btn-lg">🎯 前往數學B題庫練習</a>
+        </div>
+      </main>80^\circ$）時，由西向東需減一天。</td>
+            </tr>
+            <tr>
+              <td><strong>方位角與仰角測量</strong></td>
+              <td>仰角：視線與水平面的夾角<br>方位角：由正北或正南順時針/逆時針偏轉</td>
+              <td>看到「在某地測得山頂仰角 $30^\circ$，向東走 $d$ 公尺後測得仰角 $45^\circ$」，解題時先在地面投影面畫出三角形，再利用<strong>餘弦定理</strong>解出未知邊長。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+  
+
       
       <div style="text-align:center;padding:var(--space-12) 0;">
           <a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary btn-lg">🎯 前往數學B題庫練習</a>

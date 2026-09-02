@@ -55,6 +55,10 @@
           <li><a href="#ch8">捌、機率與統計</a></li>
           <li><a href="#ch9">玖、圓錐曲線</a></li>
           <li><a href="#ch10">拾、微分初步</a></li>
+        <li><a href="#ch-adv">拾壹、進階探討與滿分秘笈</a></li>
+        <li><a href="#ch-adv2">拾貳、素養題型：跨領域與真實情境</a></li>
+        <li><a href="#ma-crossproduct-vol">拾參、外積幾何與空間四面體體積</a></li>
+        <li><a href="#ma-matrix-transform">拾肆、平面線性變換二階幾何矩陣</a></li>
         </ul>
         <div style="margin-top: var(--space-6);">
           <a href="../quiz/quiz.html?subject=math-a" class="btn btn-primary" style="width: 100%;">🎯 數學A題庫</a>
@@ -1314,6 +1318,80 @@
         <h3>2. 空間迷向：立體圖形的投影與截面</h3>
         <p>在處理空間幾何時，學生常會發生「空間迷向」。最穩定的破解法是「坐標化」。將圖形放入空間坐標系中，利用向量的外積求法向量，進而求出平面方程式或兩平面的夾角。這比單純用幾何直觀去想，出錯率低非常多。</p>
       </section>
+
+      <!-- 拾參、外積幾何與空間四面體體積 -->
+      <section id="ma-crossproduct-vol" class="content-section animate-fade-in-up">
+        <h2>拾參、空間幾何高階：向量外積與四面體體積公式 📐</h2>
+
+        <h3>1. 向量外積（Cross Product）之代數與幾何本質</h3>
+        <p>若 $\vec{a} = (a_1, a_2, a_3)$，$\vec{b} = (b_1, b_2, b_3)$，則外積定義為：</p>
+        <div class="formula-block">
+          <div class="formula-title">📐 外積座標公式與長度性質</div>
+          <p>$\vec{a} \times \vec{b} = \left( \begin{vmatrix} a_2 & a_3 \\ b_2 & b_3 \end{vmatrix}, -\begin{vmatrix} a_1 & a_3 \\ b_1 & b_3 \end{vmatrix}, \begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} \right)$<br>
+             • <strong>幾何方向</strong>：$\vec{a} \times \vec{b}$ 同時垂直於 $\vec{a}$ 與 $\vec{b}$，滿足「右手定則」。<br>
+             • <strong>幾何長度</strong>：$|\vec{a} \times \vec{b}| = |\vec{a}||\vec{b}|\sin\theta$，數值上恰好等於<strong>以 $\vec{a}, \vec{b}$ 為鄰邊所張出之平行四邊形面積</strong>！</p>
+        </div>
+
+        <h3>2. 純量三重積與平行六面體及四面體體積</h3>
+        <div class="step-box">
+          <div class="step-box-title">📦 空間體積快速計算階梯</div>
+          <div class="step-row">
+            <div class="step-num">平行六面體</div>
+            <div class="step-math">$V_{\text{box}} = |(\vec{a} \times \vec{b}) \cdot \vec{c}| = \left| \det \begin{bmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{bmatrix} \right|$</div>
+            <div class="step-desc">以三階行列式絕對值直接秒殺三空間向量所張之六面體體積。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">四面體體積</div>
+            <div class="step-math">$V_{\text{tetra}} = \frac{1}{6} V_{\text{box}} = \frac{1}{6} \left| \det \begin{bmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{bmatrix} \right|$</div>
+            <div class="step-desc">四面體（三角錐）體積必為其對應平行六面體的 $\frac{1}{6}$。大考若給定四個頂點坐標，先選一點作為起點化為三個向外向量，再代入行列式。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 拾肆、平面線性變換二階幾何矩陣 -->
+      <section id="ma-matrix-transform" class="content-section animate-fade-in-up">
+        <h2>拾肆、二階平面線性變換幾何矩陣全方位解析 🪟</h2>
+        <p>學測數 A 最常考二階方陣代表的幾何變換。請牢記四大標準變換矩陣形式與幾何性質：</p>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th style="width: 20%;">幾何變換</th>
+              <th style="width: 30%;">標準代表矩陣 $A$</th>
+              <th style="width: 20%;">行列式 $\det(A)$</th>
+              <th style="width: 30%;">幾何意義與不變性</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>旋轉變換<br>(Rotation)</strong></td>
+              <td>$\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$</td>
+              <td>$\det(A) = 1$</td>
+              <td>繞原點逆時針旋轉角度 $\theta$。<strong>保持長度、角度與面積完全不變</strong>（等距剛體變換）。</td>
+            </tr>
+            <tr>
+              <td><strong>鏡射變換<br>(Reflection)</strong></td>
+              <td>$\begin{bmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{bmatrix}$</td>
+              <td>$\det(A) = -1$</td>
+              <td>對稱軸為通過原點斜角為 $\theta$ 之直線 $y = (\tan\theta)x$。<strong>保持長度與面積，但反轉方向性</strong>。$A^2 = I$。</td>
+            </tr>
+            <tr>
+              <td><strong>推移變換<br>(Shearing)</strong></td>
+              <td>沿 $x$ 軸推移：$\begin{bmatrix} 1 & k \\ 0 & 1 \end{bmatrix}$<br>沿 $y$ 軸推移：$\begin{bmatrix} 1 & 0 \\ k & 1 \end{bmatrix}$</td>
+              <td>$\det(A) = 1$</td>
+              <td>圖形平行滑移變形。雖然角度與邊長改變，但<strong>底與高不變，故面積永遠維持不變</strong>！</td>
+            </tr>
+            <tr>
+              <td><strong>伸縮變換<br>(Scaling)</strong></td>
+              <td>$\begin{bmatrix} h & 0 \\ 0 & k \end{bmatrix}$</td>
+              <td>$\det(A) = hk$</td>
+              <td>沿 $x$ 方向伸縮 $h$ 倍，沿 $y$ 方向伸縮 $k$ 倍。變換後<strong>面積變為原面積的 $|hk|$ 倍</strong>。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+  
+
       
       <div style="text-align: center; padding: var(--space-12) 0;">
           <a href="../quiz/quiz.html?subject=math-a" class="btn btn-primary btn-lg">🎯 前往數學A題庫練習</a>
