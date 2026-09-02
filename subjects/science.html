@@ -81,26 +81,51 @@
           <h2>📌 力學</h2>
           <h3>一、運動學</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 等加速度運動公式推導</div>
+            <div class="formula-title">📐 等加速度直線運動四大公式：幾何面積與代數嚴密推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( v = v_0 + at \)</span>
-              <span class="formula-explain">末速 = 初速 + 加速度 × 時間（由加速度定義 \(a = \frac{\Delta v}{\Delta t}\) 移項得）</span>
+              <span class="formula-math">加速度定義：\( a = \frac{\Delta v}{\Delta t} = \frac{v - v_0}{t} \)</span>
+              <span class="formula-explain">等加速度運動中，平均加速度等於瞬時加速度。\( v_0 \) 為初速，\( v \) 為時間 \( t \) 後的末速</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( x = v_0 t + \frac{1}{2}at^2 \)</span>
-              <span class="formula-explain">位移 = 初速×時間 + ½×加速度×時間²（對速度-時間圖取面積推得）</span>
+              <span class="formula-math">【第一公式】兩邊同乘 \( t \) 移項：\( v - v_0 = at \implies v = v_0 + at \)</span>
+              <span class="formula-explain">速度隨時間線性增加。\( at \) 為增加的速度量</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( v^2 = v_0^2 + 2ax \)</span>
-              <span class="formula-explain">由公式①的 \(t = \frac{v-v_0}{a}\) 代入②消去 \(t\) 推得，適用於不知時間的情況</span>
+              <span class="formula-math">\( v-t \) 圖幾何意義：位移 \( x \) 等於速度-時間曲線下方的梯形面積</span>
+              <span class="formula-explain">梯形上底為初速 \( v_0 \)，下底為末速 \( v \)，高為時間 \( t \)</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">4</span>
-              <span class="formula-math">\( x = \frac{v_0 + v}{2} \cdot t \)</span>
-              <span class="formula-explain">位移 = 平均速度 × 時間（等加速度下平均速度 = 初末速的算術平均）</span>
+              <span class="formula-math">【第二公式】\( x = \frac{(v_0 + v) \cdot t}{2} = \bar{v} \cdot t \)</span>
+              <span class="formula-explain">梯形面積公式：位移等於平均速度 \( \bar{v} = \frac{v_0 + v}{2} \) 乘以時間 \( t \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">將第一公式 \( v = v_0 + at \) 代入第二公式：\( x = \frac{v_0 + (v_0 + at)}{2} \cdot t \)</span>
+              <span class="formula-explain">代換消去末速 \( v \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">【第三公式】\( x = \frac{2v_0 + at}{2} \cdot t = v_0 t + \frac{1}{2}at^2 \)</span>
+              <span class="formula-explain">幾何上等同於拆解為下方長方形面積 \( v_0 t \) 加上上方三角形面積 \( \frac{1}{2} t (at) \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">由第一公式解出時間：\( t = \frac{v - v_0}{a} \)，代入第二公式</span>
+              <span class="formula-explain">目標消去時間 \( t \)，推導無時間變數的關聯式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">8</span>
+              <span class="formula-math">\( x = \left(\frac{v + v_0}{2}\right) \left(\frac{v - v_0}{a}\right) = \frac{v^2 - v_0^2}{2a} \)</span>
+              <span class="formula-explain">利用平方差公式 \( (v+v_0)(v-v_0) = v^2 - v_0^2 \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">9</span>
+              <span class="formula-math">【第四公式】兩邊同乘 \( 2a \) 移項：\( v^2 = v_0^2 + 2ax \)</span>
+              <span class="formula-explain">大考無時間已知時的解題利器！此式本質即為機械能守恆定理。</span>
             </div>
           </div>
 
@@ -126,51 +151,71 @@
 
           <h3>三、功與能</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 功與能量公式</div>
+            <div class="formula-title">📐 功能定理（Work-Energy Theorem）與動能公式詳細推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( W = Fd\cos\theta \)</span>
-              <span class="formula-explain">功 = 力 × 位移 × 夾角的餘弦。力與位移同向時 \(\theta=0°\)，\(W=Fd\)</span>
+              <span class="formula-math">牛頓第二運動定律：物體受合力 \( F_{\text{net}} = ma \)</span>
+              <span class="formula-explain">質量為 \( m \) 的物體在合外力作用下產生加速度 \( a \)</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( E_k = \frac{1}{2}mv^2 \)</span>
-              <span class="formula-explain">動能：運動物體具有的能量</span>
+              <span class="formula-math">物體沿力的方向移動位移 \( x \)，合力所做的功定義為：\( W_{\text{net}} = F_{\text{net}} \cdot x = (ma) \cdot x \)</span>
+              <span class="formula-explain">依功的定義：力與位移的乘積</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( E_p = mgh \)</span>
-              <span class="formula-explain">（近地表）重力位能：質量 × 重力加速度 × 高度</span>
+              <span class="formula-math">由等加速度第四公式：\( v^2 = v_0^2 + 2ax \implies ax = \frac{v^2 - v_0^2}{2} \)</span>
+              <span class="formula-explain">將運動學中的加速度與位移乘積 \( ax \) 用初末速度代換</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">4</span>
-              <span class="formula-math">\( W_{net} = \Delta E_k = \frac{1}{2}mv^2 - \frac{1}{2}mv_0^2 \)</span>
-              <span class="formula-explain">功能定理：淨功等於動能的變化量</span>
+              <span class="formula-math">\( W_{\text{net}} = m(ax) = m \left(\frac{v^2 - v_0^2}{2}\right) = \frac{1}{2}mv^2 - \frac{1}{2}mv_0^2 \)</span>
+              <span class="formula-explain">代入展開，得到初末狀態的物理量之差</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">5</span>
-              <span class="formula-math">能量守恆：\(E_k + E_p = \text{常數}\)（無摩擦時）</span>
-              <span class="formula-explain">機械能守恆：只有保守力（如重力）做功時，動能＋位能不變</span>
+              <span class="formula-math">定義動能：\( E_k = \frac{1}{2}mv^2 \)，則 \( W_{\text{net}} = \Delta E_k = E_{k,\text{末}} - E_{k,\text{初}} \)</span>
+              <span class="formula-explain">嚴密證得功能定理：合外力對物體所做的總功，恰等於物體動能的增加量！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">若只有保守力（重力）做功：\( W_{\text{重力}} = -\Delta U \implies -\Delta U = \Delta E_k \implies \Delta(E_k + U) = 0 \)</span>
+              <span class="formula-explain">重力作正功位能減少，動能與位能總和保持定值，證得力學能守恆定律！</span>
             </div>
           </div>
 
           <h3>四、萬有引力</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 萬有引力與克卜勒定律</div>
+            <div class="formula-title">📐 萬有引力、重力加速度與克卜勒第三定律詳細推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( F = G\frac{m_1 m_2}{r^2} \)</span>
-              <span class="formula-explain">萬有引力定律：兩質量間的引力與質量乘積成正比，與距離平方成反比</span>
+              <span class="formula-math">萬有引力定律：質量為 \( M \) 與 \( m \) 距離 \( R \) 之兩質點受引力 \( F = G\frac{Mm}{R^2} \)</span>
+              <span class="formula-explain">引力大小與質量乘積成正比，與距離平方成反比（牛頓反平方律）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( g = \frac{GM}{R^2} \approx 9.8 \text{ m/s}^2 \)</span>
-              <span class="formula-explain">地表重力加速度：由 \(mg = G\frac{Mm}{R^2}\) 推得</span>
+              <span class="formula-math">地表重力加速度推導：地表物體重力等於萬有引力 \( mg = G\frac{Mm}{R^2} \)</span>
+              <span class="formula-explain">兩邊消去物體質量 \( m \)，得 \( g = \frac{GM}{R^2} \approx 9.8 \text{ m/s}^2 \)（說明自由落體加速度與物體質量無關！）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">克卜勒第三定律：\( T^2 \propto R^3 \)</span>
-              <span class="formula-explain">行星公轉週期的平方與軌道半長軸的立方成正比</span>
+              <span class="formula-math">行星公轉軌道向心力：行星受太陽萬有引力提供等速圓周運動之向心力</span>
+              <span class="formula-explain">\( F_{\text{引力}} = F_{\text{向心}} \implies G\frac{Mm}{R^2} = m \cdot a_c \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">圓周運動向心加速度以週期表示：\( a_c = R\omega^2 = R\left(\frac{2\pi}{T}\right)^2 = \frac{4\pi^2 R}{T^2} \)</span>
+              <span class="formula-explain">角速度 \( \omega = \frac{2\pi}{T} \)，\( T \) 為公轉週期</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( G\frac{Mm}{R^2} = m \left(\frac{4\pi^2 R}{T^2}\right) \implies G\frac{M}{R^2} = \frac{4\pi^2 R}{T^2} \)</span>
+              <span class="formula-explain">兩邊消去行星自身質量 \( m \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">交叉相乘移項：\( \frac{R^3}{T^2} = \frac{GM}{4\pi^2} \text{（常數）} \implies T^2 = \left(\frac{4\pi^2}{GM}\right) R^3 \)</span>
+              <span class="formula-explain">太陽質量 \( M \) 與引力常數 \( G \) 為定值，完美推導出克卜勒第三定律 \( T^2 \propto R^3 \)！</span>
             </div>
           </div>
         </section>
@@ -276,21 +321,36 @@
         <section class="content-section" id="phys-modern">
           <h2>📌 近代物理</h2>
           <div class="formula-block">
-            <div class="formula-title">📐 近代物理重要公式</div>
+            <div class="formula-title">📐 愛因斯坦光電效應方程式與截止電壓斜率詳細推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( E = mc^2 \)</span>
-              <span class="formula-explain">質能等價：愛因斯坦的質能關係式</span>
+              <span class="formula-math">光量子假說：頻率為 \( \nu \) 的單一光子所帶能量為 \( E = h\nu = \frac{hc}{\lambda} \)</span>
+              <span class="formula-explain">愛因斯坦提出光具有粒子性，能量以離散量子形式存在（\( h \) 為普朗克常數）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( E = hf \)</span>
-              <span class="formula-explain">光子能量 = 普朗克常數 × 頻率（量子化概念）</span>
+              <span class="formula-math">金屬功函數：使金屬內部電子脫離表面束縛所需之最小能量設為 \( W = h\nu_0 \)</span>
+              <span class="formula-explain">\( \nu_0 \) 稱為底限頻率（臨界頻率），取決於金屬材質</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( E_k = hf - W \)（光電效應）</span>
-              <span class="formula-explain">光電子最大動能 = 光子能量 − 功函數。頻率低於臨界值則無光電子射出</span>
+              <span class="formula-math">能量守恆：入射光子能量 = 逸出功 + 溢出電子之最大初始動能</span>
+              <span class="formula-explain">一對一碰撞：一個光子被一個電子完全吸收，多餘能量轉化為電子動能</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">【光電方程式】\( h\nu = W + E_{k,\max} \implies E_{k,\max} = h\nu - W = h(\nu - \nu_0) \)</span>
+              <span class="formula-explain">若 \( \nu < \nu_0 \)，即使光照強度再大，也絕無光電子溢出；若 \( \nu \ge \nu_0 \)，即使極微弱光也能瞬時激發光電子！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">截止電壓（阻止電壓）：外加反向電壓 \( V_s \)，電場作負功阻止最快電子到達陽極</span>
+              <span class="formula-explain">當反向電場作功剛好消耗最大動能時，光電流歸零：\( e V_s = E_{k,\max} \)（\( e \) 為基本電荷量）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">將光電方程式代入：\( e V_s = h\nu - W \implies V_s = \left(\frac{h}{e}\right)\nu - \frac{W}{e} \)</span>
+              <span class="formula-explain">大考最高頻圖表題：\( V_s - \nu \) 關係圖為一直線，其斜率為 \( \frac{h}{e} \)（普遍常數，與任何金屬無關！），橫軸截距即為底限頻率 \( \nu_0 \)！</span>
             </div>
           </div>
         </section>
@@ -379,26 +439,41 @@
           <h2>📌 化學反應</h2>
           <h3>一、化學計量</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 莫耳與計量</div>
+            <div class="formula-title">📐 理想氣體狀態方程式 \( PV = nRT \) 與氣體密度詳細推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( 1 \text{ mol} = 6.02 \times 10^{23} \) 個粒子（亞佛加厥數）</span>
-              <span class="formula-explain">莫耳是物質量的單位，對應特定數量的粒子</span>
+              <span class="formula-math">波以耳定律（定溫）：\( V \propto \frac{1}{P} \)（\( T, n \) 一定）</span>
+              <span class="formula-explain">氣體體積與壓力成反比（壓力增大一倍，體積縮小一半）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( n = \frac{m}{M} \)</span>
-              <span class="formula-explain">莫耳數 = 質量(g) / 分子量(g/mol)</span>
+              <span class="formula-math">查理定律（定壓）：\( V \propto T \)（\( P, n \) 一定）</span>
+              <span class="formula-explain">氣體體積與絕對溫度（K）成正比（絕對零度 0 K = -273.15°C）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( M = \frac{m}{n}, \quad \text{STP 下 1 mol 氣體 = 22.4 L} \)</span>
-              <span class="formula-explain">標準狀態下(0°C, 1 atm)理想氣體的莫耳體積</span>
+              <span class="formula-math">亞佛加厥定律（定溫定壓）：\( V \propto n \)（\( T, P \) 一定）</span>
+              <span class="formula-explain">同溫同壓下，同體積的任何氣體含有相同莫耳數的粒子（STP 下 1 mol = 22.4 L）</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">4</span>
-              <span class="formula-math">\( C_M = \frac{n}{V} \)（體積莫耳濃度 mol/L）</span>
-              <span class="formula-explain">莫耳濃度 = 溶質莫耳數 / 溶液體積(L)</span>
+              <span class="formula-math">綜合三定律：\( V \propto \frac{nT}{P} \implies \frac{PV}{nT} = R \text{（常數）} \)</span>
+              <span class="formula-explain">\( R \) 稱為通用氣體常數（理想氣體常數，\( R \approx 0.082 \text{ atm}\cdot\text{L}/(\text{mol}\cdot\text{K}) \)）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">【狀態方程式】\( PV = nRT \)</span>
+              <span class="formula-explain">移項即得化學與熱力學最重要的理想氣體方程式！</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">氣體密度推導：莫耳數 \( n = \frac{m}{M} \)，代入得 \( PV = \left(\frac{m}{M}\right)RT \)</span>
+              <span class="formula-explain">\( m \) 為氣體總質量(g)，\( M \) 為莫耳質量/分子量(g/mol)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">移項整理：\( PM = \left(\frac{m}{V}\right)RT = dRT \implies d = \frac{PM}{RT} \)</span>
+              <span class="formula-explain">\( d = \frac{m}{V} \) 為氣體密度。證明定溫定壓下，氣體密度與分子量 \( M \) 成正比！</span>
             </div>
           </div>
 
@@ -422,21 +497,41 @@
           <h2>📌 酸鹼與氧化還原</h2>
           <h3>一、酸鹼</h3>
           <div class="formula-block">
-            <div class="formula-title">📐 酸鹼公式</div>
+            <div class="formula-title">📐 水的離子積常數與 \( \text{pH} + \text{pOH} = 14 \) 詳細對數推導</div>
             <div class="formula-line">
               <span class="formula-step">1</span>
-              <span class="formula-math">\( \text{pH} = -\log[\text{H}^+] \)</span>
-              <span class="formula-explain">pH值：pH < 7 酸性，pH = 7 中性，pH > 7 鹼性</span>
+              <span class="formula-math">純水自解離平衡：\( 2\text{H}_2\text{O} \rightleftharpoons \text{H}_3\text{O}^+ + \text{OH}^- \)（簡寫為 \( \text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{OH}^- \)）</span>
+              <span class="formula-explain">在 25°C 下，純水解離極微弱，測得 \( [\text{H}^+] = [\text{OH}^-] = 10^{-7} \text{ M} \)</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">2</span>
-              <span class="formula-math">\( [\text{H}^+][\text{OH}^-] = K_w = 10^{-14} \)（25°C）</span>
-              <span class="formula-explain">水的離子積常數：氫離子濃度 × 氫氧根離子濃度 = 10⁻¹⁴</span>
+              <span class="formula-math">水的離子積常數：\( K_w = [\text{H}^+][\text{OH}^-] = (10^{-7})(10^{-7}) = 1.0 \times 10^{-14} \)</span>
+              <span class="formula-explain">在定溫（25°C）下，不論酸性或鹼性稀薄水溶液，兩離子濃度乘積恆為定值 \( 10^{-14} \)</span>
             </div>
             <div class="formula-line">
               <span class="formula-step">3</span>
-              <span class="formula-math">\( \text{pH} + \text{pOH} = 14 \)</span>
-              <span class="formula-explain">由水的離子積取對數推得</span>
+              <span class="formula-math">等式兩邊同時取常用對數：\( \log_{10}([\text{H}^+][\text{OH}^-]) = \log_{10}(10^{-14}) \)</span>
+              <span class="formula-explain">利用對數工具將乘法轉化為加法運算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">展開左式並化簡右式：\( \log_{10}[\text{H}^+] + \log_{10}[\text{OH}^-] = -14 \)</span>
+              <span class="formula-explain">利用對數性質 \( \log(AB) = \log A + \log B \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">等式兩邊同乘以 \( -1 \)：\( -\log_{10}[\text{H}^+] + (-\log_{10}[\text{OH}^-]) = 14 \)</span>
+              <span class="formula-explain">全體變號，湊出 pH 與 pOH 的數學定義式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">定義 \( \text{pH} = -\log_{10}[\text{H}^+] \) 與 \( \text{pOH} = -\log_{10}[\text{OH}^-] \)</span>
+              <span class="formula-explain">丹麥化學家索倫森定義：p 代表 \( -\log_{10} \)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">7</span>
+              <span class="formula-math">代回得證：\( \text{pH} + \text{pOH} = 14 \quad (25^\circ\text{C}) \)</span>
+              <span class="formula-explain">若升溫至 60°C，自解離吸熱平衡右移，\( K_w > 10^{-14} \)，此時中性水溶液 \( \text{pH} < 7 \)（但依然為中性）！</span>
             </div>
           </div>
 
