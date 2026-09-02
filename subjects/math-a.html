@@ -196,6 +196,62 @@
             <span class="info-icon">💡</span>
             <span class="info-content"><strong>學測常考</strong>：\(i\) 的冪次有循環性：\(i^1 = i, \; i^2 = -1, \; i^3 = -i, \; i^4 = 1\)，每4次循環一次。</span>
           </div>
+        
+          <h3>五、算幾不等式與柯西不等式嚴密推導</h3>
+          
+          <div class="formula-block">
+            <div class="formula-title">📐 算幾不等式（AM-GM Inequality）詳細推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( a > 0, \; b > 0 \implies (\sqrt{a} - \sqrt{b})^2 \geq 0 \)</span>
+              <span class="formula-explain">出發點：任何實數的平方必大於或等於零</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( (\sqrt{a})^2 - 2\sqrt{a}\sqrt{b} + (\sqrt{b})^2 \geq 0 \implies a - 2\sqrt{ab} + b \geq 0 \)</span>
+              <span class="formula-explain">展開差的平方公式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( a + b \geq 2\sqrt{ab} \implies \frac{a+b}{2} \geq \sqrt{ab} \)</span>
+              <span class="formula-explain">兩邊同加 (2\sqrt{ab})，再同除以 2，得算術平均數 ≥ 幾何平均數</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">等號成立條件：\( \sqrt{a} - \sqrt{b} = 0 \iff a = b \)</span>
+              <span class="formula-explain">唯有兩數相等時，平方項才為零，算術平均數恰好等於幾何平均數</span>
+            </div>
+          </div>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 二維柯西不等式（Cauchy-Schwarz Inequality）拉格朗日恆等式推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">\( (a_1^2 + a_2^2)(b_1^2 + b_2^2) = a_1^2b_1^2 + a_1^2b_2^2 + a_2^2b_1^2 + a_2^2b_2^2 \)</span>
+              <span class="formula-explain">左邊完全展開</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( (a_1b_1 + a_2b_2)^2 = a_1^2b_1^2 + 2a_1b_1a_2b_2 + a_2^2b_2^2 \)</span>
+              <span class="formula-explain">右邊平方完全展開</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( (a_1^2 + a_2^2)(b_1^2 + b_2^2) - (a_1b_1 + a_2b_2)^2 = a_1^2b_2^2 - 2a_1b_2a_2b_1 + a_2^2b_1^2 \)</span>
+              <span class="formula-explain">兩式相減，消去相同的 (a_1^2b_1^2) 與 (a_2^2b_2^2) 項</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( = (a_1b_2 - a_2b_1)^2 \geq 0 \)</span>
+              <span class="formula-explain">配成完全平方式（拉格朗日恆等式），實數平方恆 ≥ 0</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \therefore (a_1^2 + a_2^2)(b_1^2 + b_2^2) \geq (a_1b_1 + a_2b_2)^2 \)</span>
+              <span class="formula-explain">移項即證得柯西不等式。等號成立於 (a_1b_2 - a_2b_1 = 0 \iff \frac{a_1}{b_1} = \frac{a_2}{b_2})</span>
+            </div>
+          </div>
+
         </section>
 
         <!-- ============================== -->
@@ -385,6 +441,36 @@
               <span class="formula-explain">比較常數項，得到兩根之積 = \(c/a\)</span>
             </div>
           </div>
+        
+          <div class="formula-block">
+            <div class="formula-title">📐 點到直線距離公式：向量正射影法詳細推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">直線 \( L: ax + by + c = 0 \)，其法向量為 \( \vec{n} = (a, b) \)</span>
+              <span class="formula-explain">直線一般式中的係數 ((a, b)) 必為直線的垂直法向量</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">在直線 \( L \) 上任取一點 \( Q(x_0, y_0) \)，滿足 \( ax_0 + by_0 + c = 0 \iff ax_0 + by_0 = -c \)</span>
+              <span class="formula-explain">點 (Q) 位於直線上，滿足直線方程式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">點 \( P(x_1, y_1) \) 到直線的距離 \( d \)，等於向量 \( \vec{QP} \) 在法向量 \( \vec{n} \) 上的正射影長度</span>
+              <span class="formula-explain">幾何關係：點到線最短距離即為沿著垂直方向（法向量）的投影長度</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( d = \frac{|\vec{QP} \cdot \vec{n}|}{|\vec{n}|} = \frac{|(x_1 - x_0)a + (y_1 - y_0)b|}{\sqrt{a^2 + b^2}} \)</span>
+              <span class="formula-explain">代入正射影長度公式：(|\vec{u} \cdot \vec{v}| / |\vec{v}|)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( = \frac{|ax_1 + by_1 - (ax_0 + by_0)|}{\sqrt{a^2 + b^2}} = \frac{|ax_1 + by_1 - (-c)|}{\sqrt{a^2 + b^2}} = \frac{|ax_1 + by_1 + c|}{\sqrt{a^2 + b^2}} \)</span>
+              <span class="formula-explain">將 (ax_0 + by_0 = -c) 代回，完美證得點到直線距離公式！</span>
+            </div>
+          </div>
+
         </section>
 
         <!-- ============================== -->
@@ -662,6 +748,90 @@
               <span class="formula-explain">移項可以由三邊長求角度</span>
             </div>
           </div>
+        
+          <div class="formula-block">
+            <div class="formula-title">📐 餘弦差角公式 \( \cos(\alpha - \beta) \)：單位圓向量內積推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">在坐標平面單位圓上，取兩點 \( A(\cos\alpha, \sin\alpha) \) 與 \( B(\cos\beta, \sin\beta) \)</span>
+              <span class="formula-explain">定義兩向徑向量 (\vec{OA}) 與 (\vec{OB})，其長度皆為 (|\vec{OA}| = |\vec{OB}| = 1)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">兩向量的夾角為 \( \theta = \alpha - \beta \)</span>
+              <span class="formula-explain">有向角之差即為兩向徑向量的幾何夾角</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">幾何定義內積：\( \vec{OA} \cdot \vec{OB} = |\vec{OA}||\vec{OB}|\cos(\alpha - \beta) = 1 \cdot 1 \cdot \cos(\alpha - \beta) = \cos(\alpha - \beta) \)</span>
+              <span class="formula-explain">依照內積的幾何定義計算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">代數坐標內積：\( \vec{OA} \cdot \vec{OB} = (\cos\alpha)(\cos\beta) + (\sin\alpha)(\sin\beta) \)</span>
+              <span class="formula-explain">依照坐標對應相乘相加計算</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( \therefore \cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta \)</span>
+              <span class="formula-explain">兩式相等即證得基本差角公式！以此為基石可迅速推導所有和差角與倍角公式。</span>
+            </div>
+          </div>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 正弦和角公式 \( \sin(\alpha + \beta) \) 衍生推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">利用餘角關係：\( \sin(\alpha + \beta) = \cos\left[90^\circ - (\alpha + \beta)\right] = \cos\left[(90^\circ - \alpha) - \beta\right] \)</span>
+              <span class="formula-explain">將正弦轉化為餘弦差角</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( = \cos(90^\circ - \alpha)\cos\beta + \sin(90^\circ - \alpha)\sin\beta \)</span>
+              <span class="formula-explain">套用剛剛證出的餘弦差角公式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( = \sin\alpha\cos\beta + \cos\alpha\sin\beta \)</span>
+              <span class="formula-explain">利用 (\cos(90^\circ - \alpha) = \sin\alpha) 與 (\sin(90^\circ - \alpha) = \cos\alpha) 還原，證畢！</span>
+            </div>
+          </div>
+
+
+          <div class="formula-block">
+            <div class="formula-title">📐 餘弦定理（Law of Cosines）：平面幾何直角三角形推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">在 \( \Delta ABC \) 中，自頂點 \( A \) 向對邊 \( BC \) 做高線 \( AH \)，長度設為 \( h \)</span>
+              <span class="formula-explain">將任意三角形分割為兩個直角三角形 (\Delta ABH) 與 (\Delta ACH)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">在 \( \Delta ACH \) 中：高 \( h = b\sin C \)，底邊 \( \overline{CH} = b\cos C \)</span>
+              <span class="formula-explain">利用銳角三角比表示直角三角形兩股長</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">底邊剩餘部分：\( \overline{BH} = a - \overline{CH} = a - b\cos C \)</span>
+              <span class="formula-explain">邊長相減得到另一個直角三角形的底邊</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">在直角 \( \Delta ABH \) 中套用畢氏定理：\( c^2 = h^2 + \overline{BH}^2 \)</span>
+              <span class="formula-explain">斜邊平方等於兩股平方和</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( c^2 = (b\sin C)^2 + (a - b\cos C)^2 = b^2\sin^2 C + a^2 - 2ab\cos C + b^2\cos^2 C \)</span>
+              <span class="formula-explain">完全展開平方項</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">6</span>
+              <span class="formula-math">\( c^2 = a^2 + b^2(\sin^2 C + \cos^2 C) - 2ab\cos C = a^2 + b^2 - 2ab\cos C \)</span>
+              <span class="formula-explain">利用 (\sin^2 C + \cos^2 C = 1)，順利推得餘弦定理！</span>
+            </div>
+          </div>
+
         </section>
 
         <!-- ============================== -->
@@ -747,6 +917,36 @@
               <span class="formula-explain">代入坐標並兩邊平方，得到柯西-施瓦茨不等式</span>
             </div>
           </div>
+        
+          <div class="formula-block">
+            <div class="formula-title">📐 平面向量內積公式 \( \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 \)：餘弦定理推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">設 \( \vec{u} = (u_1, u_2) \)，\( \vec{v} = (v_1, v_2) \)，夾角為 \( \theta \)</span>
+              <span class="formula-explain">兩向量起點皆置於原點，形成三角形，第三邊向量為 (\vec{w} = \vec{u} - \vec{v} = (u_1 - v_1, u_2 - v_2))</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">對此三角形套用餘弦定理：\( |\vec{u} - \vec{v}|^2 = |\vec{u}|^2 + |\vec{v}|^2 - 2|\vec{u}||\vec{v}|\cos\theta \)</span>
+              <span class="formula-explain">三角形三邊長度分別為 (|\vec{u}|, |\vec{v}|, |\vec{u} - \vec{v}|)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">\( (u_1 - v_1)^2 + (u_2 - v_2)^2 = (u_1^2 + u_2^2) + (v_1^2 + v_2^2) - 2|\vec{u}||\vec{v}|\cos\theta \)</span>
+              <span class="formula-explain">將左邊向量長度平方依坐標展開</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( u_1^2 - 2u_1v_1 + v_1^2 + u_2^2 - 2u_2v_2 + v_2^2 = u_1^2 + u_2^2 + v_1^2 + v_2^2 - 2|\vec{u}||\vec{v}|\cos\theta \)</span>
+              <span class="formula-explain">兩邊消去相同的平方項 (u_1^2, u_2^2, v_1^2, v_2^2)</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">\( -2(u_1v_1 + u_2v_2) = -2|\vec{u}||\vec{v}|\cos\theta \implies |\vec{u}||\vec{v}|\cos\theta = u_1v_1 + u_2v_2 \)</span>
+              <span class="formula-explain">兩邊同除以 (-2)，幾何內積與坐標內積公式完美等價！</span>
+            </div>
+          </div>
+
         </section>
 
         <!-- ============================== -->

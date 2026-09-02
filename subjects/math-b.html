@@ -112,6 +112,55 @@
               </div>
             </div>
           </div>
+        
+          <div class="formula-block">
+            <div class="formula-title">📐 等差數列前 n 項和公式 \( S_n = \frac{n(a_1 + a_n)}{2} \)：高斯倒序相加法推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">寫出正向總和：\( S_n = a_1 + (a_1 + d) + (a_1 + 2d) + \dots + a_n \)</span>
+              <span class="formula-explain">按照由第一項到第 n 項正向排列</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">寫出反向總和：\( S_n = a_n + (a_n - d) + (a_n - 2d) + \dots + a_1 \)</span>
+              <span class="formula-explain">倒序排列，公差由加變為減</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">兩式上下對齊相加：\( 2S_n = (a_1 + a_n) + (a_1 + a_n) + \dots + (a_1 + a_n) \)</span>
+              <span class="formula-explain">每一對首尾相加，公差 (+d) 與 (-d) 互相抵消，每組和皆為 ((a_1 + a_n))</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">共 \( n \) 組相同項：\( 2S_n = n(a_1 + a_n) \implies S_n = \frac{n(a_1 + a_n)}{2} = \frac{n[2a_1 + (n-1)d]}{2} \)</span>
+              <span class="formula-explain">兩邊同除以 2，證畢！</span>
+            </div>
+          </div>
+
+          <div class="formula-block">
+            <div class="formula-title">📐 等比數列前 n 項和公式 \( S_n = \frac{a_1(1 - r^n)}{1 - r} \)：錯位相減法推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">設總和式：\( S_n = a_1 + a_1r + a_1r^2 + \dots + a_1r^{n-1} \)</span>
+              <span class="formula-explain">公比為 (r)（(r \neq 1)）</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">等式兩邊同乘公比 \( r \)：\( rS_n = a_1r + a_1r^2 + \dots + a_1r^{n-1} + a_1r^n \)</span>
+              <span class="formula-explain">各項次冪皆向後錯位推移 1 次</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">兩式相減 \( (S_n - rS_n) \)：中間各項全部抵消！只留下首項與末項！</span>
+              <span class="formula-explain">中間 (n-1) 個項次像骨牌一樣全數抵消</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( (1 - r)S_n = a_1 - a_1r^n = a_1(1 - r^n) \implies S_n = \frac{a_1(1 - r^n)}{1 - r} = \frac{a_1(r^n - 1)}{r - 1} \)</span>
+              <span class="formula-explain">兩邊同除以 ((1 - r))，完美推導出等比求和公式！</span>
+            </div>
+          </div>
+
         </section>
 
 
@@ -177,6 +226,36 @@
               <li><strong>面積最大化</strong>：在周長固定下，用二次函數求最大面積</li>
             </ul>
           </div>
+        
+          <div class="formula-block">
+            <div class="formula-title">📐 拋物線標準方程式 \( y^2 = 4cx \)：幾何定義坐標化推導</div>
+            <div class="formula-line">
+              <span class="formula-step">1</span>
+              <span class="formula-math">設焦點 \( F(c, 0) \)，準線方程式 \( L: x = -c \)（頂點為原點 \( (0, 0) \)）</span>
+              <span class="formula-explain">拋物線上的任意動點 (P(x, y)) 滿足定義：到焦點距離等於到準線距離</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">2</span>
+              <span class="formula-math">\( d(P, F) = d(P, L) \implies \sqrt{(x - c)^2 + y^2} = |x - (-c)| = |x + c| \)</span>
+              <span class="formula-explain">依照兩點距離公式與點到直線距離公式寫出幾何等式</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">3</span>
+              <span class="formula-math">兩邊同時平方：\( (x - c)^2 + y^2 = (x + c)^2 \)</span>
+              <span class="formula-explain">去掉根號與絕對值符號</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">4</span>
+              <span class="formula-math">\( x^2 - 2cx + c^2 + y^2 = x^2 + 2cx + c^2 \)</span>
+              <span class="formula-explain">展開兩邊的完全平方項</span>
+            </div>
+            <div class="formula-line">
+              <span class="formula-step">5</span>
+              <span class="formula-math">消去相同項 \( x^2 \) 與 \( c^2 \)：\( -2cx + y^2 = 2cx \implies y^2 = 4cx \)</span>
+              <span class="formula-explain">移項即證得左右開口拋物線的標準式！焦距為 (|c|)，正焦弦長為 (|4c|)。</span>
+            </div>
+          </div>
+
         </section>
 
         
