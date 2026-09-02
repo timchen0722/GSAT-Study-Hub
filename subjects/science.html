@@ -61,6 +61,10 @@
         <li><a href="#sci-chem-battery">貳拾貳、化學：化學平衡與先進電化學</a></li>
         <li><a href="#sci-bio-dogma">貳拾參、生物：中心法則與免疫防線</a></li>
         <li><a href="#sci-earth-hr">貳拾肆、地科：地震波判讀與恆星演化</a></li>
+        <li><a href="#sci-newton-energy">貳拾伍、物理：牛頓運動定律與力學能守恆</a></li>
+        <li><a href="#sci-chem-solutions">貳拾陸、化學：溶液濃度與酸鹼滴定曲線</a></li>
+        <li><a href="#sci-bio-metabolism">貳拾柒、生物：細胞代謝光合與呼吸對比</a></li>
+        <li><a href="#sci-earth-wind-tide">貳拾捌、地科：大氣地轉風與海洋潮汐機制</a></li>
         </ul>
         <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html?subject=science" class="btn btn-primary" style="width:100%;">🎯 自然題庫</a></div>
       </aside>
@@ -788,7 +792,166 @@
               <td><strong>固體、液體、氣體</strong>皆可通過（速度較快，最先抵達測站）</td>
               <td>
                 • 在<strong>莫氏不連續面</strong>（地殼與地函交界）波速突增。<br>
-                • 進入<strong>古氏不連續面</strong>（地函與外地核交界，約 2900 km）時，波速大幅驟降並發生折射，形成 
+                • 進入<strong>古氏不連續面</strong>（地函與外地核交界，約 2900 km）時，波速大幅驟降並發生折射，形成
+
+      <!-- 貳拾伍、物理：牛頓運動定律與力學能守恆 -->
+      <section id="sci-newton-energy" class="content-section animate-fade-in-up">
+        <h2>貳拾伍、物理力學精髓：牛頓運動定律與力學能守恆 🏹</h2>
+
+        <h3>1. 等加速度運動三大基本公式（直線運動基石）</h3>
+        <div class="formula-block">
+          <div class="formula-title">📐 等加速度三大公式（初速度 $v_0$、末速度 $v$、位移 $Delta x$、時間 $t$）</div>
+          <p>$1.\quad v = v_0 + at$<br>
+             $2.\quad \Delta x = v_0 t + \frac{1}{2}at^2$<br>
+             $3.\quad v^2 = v_0^2 + 2a\Delta x$<br>
+             • 解題直觀：自由落體初速 $v_0 = 0$、加速度 $a = g \approx 9.8\text{ m/s}^2$，落下高度 $h = \frac{1}{2}gt^2$。</p>
+        </div>
+
+        <h3>2. 力學能守恆定律與重力位能轉換</h3>
+        <p>當物體在運動過程中<strong>僅受保守力（如重力、彈力）作功</strong>時，系統的總力學能保持常數：</p>
+        <div class="formula-block">
+          <div class="formula-title">⚡ 力學能守恆方程式：$E = K + U = \text{常數}$</div>
+          <p>• <strong>動能</strong>：$K = \frac{1}{2}mv^2$<br>
+             • <strong>近地重力位能</strong>：$U = mgh$（取地面為零位面）<br>
+             • <strong>大考過山車 / 單擺擺動分析</strong>：由高處 $h$ 釋放的物體抵達最低點時，重力位能全數轉化為動能，最低點速度必為：<br>
+             $v = \sqrt{2gh}$（與物體質量 $m$ 完全無關！）</p>
+        </div>
+      </section>
+
+      <!-- 貳拾陸、化學：溶液濃度與酸鹼滴定曲線 -->
+      <section id="sci-chem-solutions" class="content-section animate-fade-in-up">
+        <h2>貳拾陸、化學核心深化：溶液濃度配製與酸鹼滴定曲線 🧪</h2>
+
+        <h3>1. 溶液濃度四大表示法與互換</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>濃度種類</th>
+              <th>公式定義</th>
+              <th>單位與溫度影響</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>重量百分濃度 (wt%)</strong></td>
+              <td>$\text{wt}\% = \frac{\text{溶質質量 (g)}}{\text{溶液總質量 (g)}} \times 100\%$</td>
+              <td>無單位。<strong>不受溫度影響</strong>（質量不隨熱脹冷縮改變）。</td>
+            </tr>
+            <tr>
+              <td><strong>體積莫耳濃度 (M)</strong></td>
+              <td>$M = \frac{\text{溶質莫耳數 (mol)}}{\text{溶液總體積 (L)}}$</td>
+              <td>$\text{mol/L}$。<strong>會隨溫度改變</strong>（液體體積會隨溫度膨脹或收縮）。</td>
+            </tr>
+            <tr>
+              <td><strong>百萬分點 (ppm)</strong></td>
+              <td>$1\text{ ppm} = \frac{1\text{ mg}}{\text{1 L 稀薄水溶液}} \approx 10^{-6}$</td>
+              <td>微量檢測（如環境重金屬、大氣二氧化碳、農藥殘留標示）。</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>2. 強酸強鹼 vs 弱酸強鹼滴定曲線大考關鍵判讀</h3>
+        <div class="step-box">
+          <div class="step-box-title">📉 滴定曲線特徵與指示劑選用原則</div>
+          <div class="step-row">
+            <div class="step-num">強酸 + 強鹼</div>
+            <div class="step-math"><strong>當量點 $\text{pH} = 7$</strong>（如 $0.1\text{ M HCl} + 0.1\text{ M NaOH}$）</div>
+            <div class="step-desc">當量點附近 pH 垂直陡升範圍極廣（約 pH 3 到 10）。酚酞（變色範圍 8.2~10.0）或甲基橙（3.1~4.4）皆可精準使用。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">弱酸 + 強鹼</div>
+            <div class="step-math"><strong>當量點 $\text{pH} > 7$</strong>（如醋酸 $\text{CH}_3\text{COOH}$ 加 $\text{NaOH}$，生成強鹼弱酸鹽水解呈鹼性）</div>
+            <div class="step-desc">當量點呈現弱鹼性，<strong>必須選用「酚酞（Phenolphthalein）」</strong>作為指示劑（溶液由無色突變為粉紅色）；絕不可選甲基橙。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 貳拾柒、生物：細胞代謝光合與呼吸對比 -->
+      <section id="sci-bio-metabolism" class="content-section animate-fade-in-up">
+        <h2>貳拾柒、生物代謝核心：光合作用與細胞呼吸全方位對比 🍃</h2>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>比較項目</th>
+              <th>光合作用 (Photosynthesis)</th>
+              <th>有氧細胞呼吸 (Cellular Respiration)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>主要進行場所</strong></td>
+              <td>植物葉綠體（類囊體薄膜與基質）</td>
+              <td>真核生物細胞質與<strong>粒線體</strong>（基質與內膜摺皺）</td>
+            </tr>
+            <tr>
+              <td><strong>反應總方程式</strong></td>
+              <td>$6\text{CO}_2 + 6\text{H}_2\text{O} + \text{光能} \rightarrow \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$</td>
+              <td>$\text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \rightarrow 6\text{CO}_2 + 6\text{H}_2\text{O} + \text{ATP (能量)}$</td>
+            </tr>
+            <tr>
+              <td><strong>主要生化階段</strong></td>
+              <td>
+                1. <strong>光反應</strong>（類囊體膜）：吸收光能水解產生 $\text{O}_2$、$\text{ATP}$ 與 $\text{NADPH}$。<br>
+                2. <strong>碳反應（卡爾文循環）</strong>（基質）：利用 ATP 與 NADPH 固定 $\text{CO}_2$ 合成三碳糖。
+              </td>
+              <td>
+                1. <strong>糖解作用</strong>（細胞質）：葡萄糖分解為丙酮酸，產生少許 ATP 與 NADH。<br>
+                2. <strong>克氏循環（檸檬酸循環）</strong>（粒線體基質）：釋放 $\text{CO}_2$。<br>
+                3. <strong>電子傳遞鏈</strong>（粒線體內膜）：以 $\text{O}_2$ 為最終電子接收者生成水，產生大量 ATP。
+              </td>
+            </tr>
+            <tr>
+              <td><strong>氧氣的角色</strong></td>
+              <td><strong>產物</strong>（源自光反應中水分子 $\text{H}_2\text{O}$ 的光解）</td>
+              <td><strong>反應物</strong>（擔任電子傳遞鏈末端的電子接受者生成水）</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- 貳拾捌、地科：大氣地轉風與海洋潮汐機制 -->
+      <section id="sci-earth-wind-tide" class="content-section animate-fade-in-up">
+        <h2>貳拾捌、地球科學動態系統：大氣地轉風與海洋潮汐機制 🌊</h2>
+
+        <h3>1. 高空地轉風（Geostrophic Wind）平衡機制</h3>
+        <p>在大氣自由對流層高空（不考慮地表摩擦力），空氣質點受兩大力量平衡而吹動：</p>
+        <div class="formula-block">
+          <div class="formula-title">🌀 高空地轉風平衡條件</div>
+          <p>• <strong>氣壓梯度力 ($PGF$)</strong>：方向永遠由「高壓指向低壓」，垂直於等壓線。<br>
+             • <strong>科氏力 (Coriolis Force)</strong>：因地球自轉產生，<strong>北半球偏右、南半球偏左</strong>；大小與風速成正比，赤道為 0，兩極最大。<br>
+             • <strong>平衡結果</strong>：氣壓梯度力與科氏力大小相等、方向相反。高空風向<strong>平行於等壓線</strong>！<br>
+             • <strong>北半球背風而立</strong>：高氣壓必在你的右側，低氣壓必在你的左側（白貝羅定律 Buys Ballot's Law）。</p>
+        </div>
+
+        <h3>2. 月球引潮力與大潮、小潮之成因</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>潮汐類型</th>
+              <th>日、地、月相對幾何位置</th>
+              <th>農曆發生日期</th>
+              <th>潮差特徵</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>大潮 (Spring Tide)</strong></td>
+              <td>太陽、地球、月球<strong>排成一直線</strong>（合朔或對衝）</td>
+              <td>農曆<strong>初一（朔）</strong>與<strong>十五、十六（望）</strong></td>
+              <td>太陽引力與月球引力疊加同向增強，<strong>滿潮水位最高、乾潮水位最低，潮差最大</strong>！</td>
+            </tr>
+            <tr>
+              <td><strong>小潮 (Neap Tide)</strong></td>
+              <td>月球、地球與太陽呈<strong>直角 $90^\circ$ 夾角</strong></td>
+              <td>農曆<strong>初七、初八（上弦月）</strong>與<strong>廿二、廿三（下弦月）</strong></td>
+              <td>太陽與月球引潮力互相抵消，<strong>滿潮水位偏低、乾潮水位偏高，潮差最小</strong>！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+  
+ 
       
       <div style="text-align:center;padding:var(--space-12) 0;">
           <a href="../quiz/quiz.html?subject=science" class="btn btn-primary btn-lg">🎯 前往自然題庫練習</a>

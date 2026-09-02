@@ -53,6 +53,8 @@
         <li><a href="#mb-conic-real">拾參、生活中的圓錐曲線精華</a></li>
         <li><a href="#mb-matrix-life">拾肆、轉移矩陣與生活密碼學</a></li>
         <li><a href="#mb-sphere-earth">拾伍、地球經緯度與球面幾何測量</a></li>
+        <li><a href="#mb-regression-stats">拾陸、統計推論進階：散佈圖與迴歸直線</a></li>
+        <li><a href="#mb-finance-expected">拾柒、理財數學年金現值與期望值精算</a></li>
         </ul>
         <div style="margin-top:var(--space-6);"><a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary" style="width:100%;">🎯 數學B題庫</a></div>
       </aside>
@@ -650,7 +652,88 @@
             </tr>
             <tr>
               <td><strong>時區與經度換算</strong></td>
-              <td>經度每差 
+              <td>經度每差
+
+      <!-- 拾陸、統計推論進階：散佈圖與迴歸直線 -->
+      <section id="mb-regression-stats" class="content-section animate-fade-in-up">
+        <h2>拾陸、統計推論進階：散佈圖、相關係數與迴歸直線 📊</h2>
+
+        <h3>1. 相關係數 $r$ 的幾何意義與不變性</h3>
+        <p>兩組二維數據 $(x_i, y_i)$ 的皮爾森相關係數 $r$ 數值介於 $-1$ 與 $+1$ 之間（$-1 \le r \le 1$）：</p>
+        <div class="formula-block">
+          <div class="formula-title">📈 相關係數平移與伸縮法則（必考觀念）</div>
+          <p>若將原始數據進行線性變換：$x' = ax + b$，$y' = cy + d$：<br>
+             • 若 $a, c$ <strong>同號</strong>（$ac > 0$）：相關係數<strong>完全不變</strong>！$r_{x'y'} = r_{xy}$。<br>
+             • 若 $a, c$ <strong>異號</strong>（$ac < 0$）：相關係數<strong>差一個負號</strong>！$r_{x'y'} = -r_{xy}$。<br>
+             • 平移常數 $b, d$ 對相關係數 $r$ 完全沒有任何影響！</p>
+        </div>
+
+        <h3>2. 最適合直線（最小平方法迴歸直線）</h3>
+        <p>迴歸直線方程式 $\hat{y} - \mu_y = m(x - \mu_x)$ 滿足兩大不可撼動的鐵則：</p>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>迴歸直線性質</th>
+              <th>公式表達式</th>
+              <th>解題關鍵直觀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>必過平均點</strong></td>
+              <td>$(\mu_x, \mu_y)$</td>
+              <td>題目若給定迴歸直線方程式與 $\mu_x$，直接代入方程式即可求得 $\mu_y$！</td>
+            </tr>
+            <tr>
+              <td><strong>斜率計算公式</strong></td>
+              <td>$m = r \cdot \frac{\sigma_y}{\sigma_x}$</td>
+              <td>斜率 $m$ 的正負符號<strong>永遠與相關係數 $r$ 的正負相同</strong>（因為標準差 $\sigma_x, \sigma_y > 0$）。</td>
+            </tr>
+            <tr>
+              <td><strong>標準化後的迴歸線</strong></td>
+              <td>$Z_y = r Z_x$</td>
+              <td>當兩變數皆化為標準化分數（平均 0、標準差 1）時，迴歸直線的斜率恰好就是相關係數 $r$！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- 拾柒、理財數學年金現值與期望值精算 -->
+      <section id="mb-finance-expected" class="content-section animate-fade-in-up">
+        <h2>拾柒、理財數學與生活期望值精算模型 💰</h2>
+
+        <h3>1. 複利與分期付款攤還公式（時間軸解題法）</h3>
+        <p>理財情境題切忌死背公式，請依「時間軸」將每一筆款項折現或計算終值：</p>
+        <div class="step-box">
+          <div class="step-box-title">🏦 定期定額存錢本利和計算</div>
+          <div class="step-row">
+            <div class="step-num">情境</div>
+            <div class="step-math">每年年初存入本金 $P$ 元，年利率 $r$，採複利計息，連續存入 $n$ 年。</div>
+            <div class="step-desc">第一期存入的本金經過 $n$ 年利息滾動；最後一年年初存入的本金滾動 1 年。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">數列展式</div>
+            <div class="step-math">$S = P(1+r)^n + P(1+r)^{n-1} + \dots + P(1+r)^1$</div>
+            <div class="step-desc">此為首項 $a_1 = P(1+r)$、公比 $q = (1+r)$、項數為 $n$ 的等比級數。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">總額求和</div>
+            <div class="step-math">$S = \frac{P(1+r)[(1+r)^n - 1]}{r}$</div>
+            <div class="step-desc">考試時題目通常會給定 $(1+r)^n$ 的近似值，直接套入計算。</div>
+          </div>
+        </div>
+
+        <h3>2. 離散型隨機變數的期望值 $E(X)$</h3>
+        <p>設隨機變數 $X$ 的取值為 $x_1, x_2, \dots, x_k$，對應機率為 $p_1, p_2, \dots, p_k$（$\sum p_i = 1$）：</p>
+        <div class="formula-block">
+          <div class="formula-title">🎯 期望值與公平賭局定義</div>
+          <p>• <strong>數學期望值</strong>：$E(X) = x_1p_1 + x_2p_2 + \dots + x_kp_k$<br>
+             • <strong>公平賭局 (Fair Game)</strong>：扣除參與成本（購買彩券金額）後，<strong>淨收益期望值等於 0</strong>。<br>
+             • <strong>期望值的線性性質</strong>：$E(aX + b) = aE(X) + b$（平均值的線性縮放特性）。</p>
+        </div>
+      </section>
+  
+ 
       
       <div style="text-align:center;padding:var(--space-12) 0;">
           <a href="../quiz/quiz.html?subject=math-b" class="btn btn-primary btn-lg">🎯 前往數學B題庫練習</a>

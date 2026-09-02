@@ -59,6 +59,8 @@
         <li><a href="#ch-adv2">拾貳、素養題型：跨領域與真實情境</a></li>
         <li><a href="#ma-crossproduct-vol">拾參、外積幾何與空間四面體體積</a></li>
         <li><a href="#ma-matrix-transform">拾肆、平面線性變換二階幾何矩陣</a></li>
+        <li><a href="#ma-space-line-plane">拾伍、空間直線與平面方程式及距離</a></li>
+        <li><a href="#ma-bayes-independent">拾陸、條件機率、貝氏定理與獨立事件</a></li>
         </ul>
         <div style="margin-top: var(--space-6);">
           <a href="../quiz/quiz.html?subject=math-a" class="btn btn-primary" style="width: 100%;">🎯 數學A題庫</a>
@@ -1390,6 +1392,107 @@
           </tbody>
         </table>
       </section>
+
+      <!-- 拾伍、空間直線與平面方程式及距離 -->
+      <section id="ma-space-line-plane" class="content-section animate-fade-in-up">
+        <h2>拾伍、空間幾何深入：空間直線、平面方程式與距離公式 📐</h2>
+
+        <h3>1. 空間平面方程式與點面距離</h3>
+        <p>若平面 $E$ 的法向量為 $\vec{n} = (A, B, C)$ 且過點 $P_0(x_0, y_0, z_0)$，則平面方程式為：</p>
+        <div class="formula-block">
+          <div class="formula-title">📏 平面點法式與點到平面距離</div>
+          <p>$A(x - x_0) + B(y - y_0) + C(z - z_0) = 0 \iff Ax + By + Cz + D = 0$<br>
+             • <strong>點 $P(x_1, y_1, z_1)$ 到平面 $E$ 的距離公式</strong>：<br>
+             $d(P, E) = \frac{|Ax_1 + By_1 + Cz_1 + D|}{\sqrt{A^2 + B^2 + C^2}}$</p>
+        </div>
+
+        <h3>2. 空間直線方程式的三種標準表示法</h3>
+        <p>空間中通過點 $P_0(x_0, y_0, z_0)$ 且方向向量為 $\vec{v} = (l, m, n)$ 的直線 $L$：</p>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>形式</th>
+              <th>數學表達式</th>
+              <th>大考解題使用情境</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>參數式 (Parametric)</strong></td>
+              <td>$\begin{cases} x = x_0 + lt \\ y = y_0 + mt \\ z = z_0 + nt \end{cases} \quad (t \in \mathbb{R})$</td>
+              <td><strong>求交點或線外一點到直線距離的王牌工具！</strong>將直線上任意動點表為 $P(t)$，代入平面方程式或求垂直向量內積為 0。</td>
+            </tr>
+            <tr>
+              <td><strong>比例對稱式 (Symmetric)</strong></td>
+              <td>$\frac{x - x_0}{l} = \frac{y - y_0}{m} = \frac{z - z_0}{n}$<br>（若分母為 0，如 $n=0$，寫作 $\frac{x-x_0}{l} = \frac{y-y_0}{m}, z = z_0$）</td>
+              <td>判斷直線方向向量、求兩直線之交角（由兩方向向量之內積求 $\cos\theta$）。</td>
+            </tr>
+            <tr>
+              <td><strong>兩面式 (Two-plane)</strong></td>
+              <td>$\begin{cases} A_1x + B_1y + C_1z + D_1 = 0 \\ A_2x + B_2y + C_2z + D_2 = 0 \end{cases}$</td>
+              <td>空間兩相交平面之交線。其方向向量為兩法向量的外積：$\vec{v} = \vec{n}_1 \times \vec{n}_2$</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="step-box mt-4">
+          <div class="step-box-title">💡 歪斜線（Skew Lines）公垂線與最短距離求法</div>
+          <div class="step-row">
+            <div class="step-num">Step 1</div>
+            <div class="step-math"><strong>求公垂向量</strong>：$\vec{n} = \vec{v}_1 \times \vec{v}_2$</div>
+            <div class="step-desc">同時垂直兩直線方向向量的外積向量，即為公垂線的方向。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">Step 2</div>
+            <div class="step-math"><strong>向量正射影長求最短距離</strong>：$d(L_1, L_2) = \frac{|\vec{P_1P_2} \cdot \vec{n}|}{|\vec{n}|}$</div>
+            <div class="step-desc">任取兩直線上一點 $P_1 \in L_1, P_2 \in L_2$，連線向量在公垂向量上的投影長度即為兩歪斜線的最短距離。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 拾陸、條件機率、貝氏定理與獨立事件 -->
+      <section id="ma-bayes-independent" class="content-section animate-fade-in-up">
+        <h2>拾陸、機率進階：條件機率、貝氏定理與獨立事件 🎲</h2>
+
+        <h3>1. 條件機率與獨立事件的精準判準</h3>
+        <p>在已知事件 $B$ 發生的前提下，事件 $A$ 發生的條件機率定義為：</p>
+        <div class="formula-block">
+          <div class="formula-title">🎲 條件機率與獨立判定式</div>
+          <p>$P(A|B) = \frac{P(A \cap B)}{P(B)} \quad (P(B) > 0)$<br>
+             • <strong>獨立事件定義</strong>：$A$ 與 $B$ 互為獨立 $\iff P(A \cap B) = P(A) \cdot P(B)$。<br>
+             • <strong>常見觀念陷阱</strong>：<strong>「互斥」絕非「獨立」！</strong>若 $A, B$ 互斥（$A \cap B = \emptyset$ 且機率皆大於 0），則 $P(A \cap B) = 0 \ne P(A)P(B)$，故互斥事件必定「不獨立（相依）」。</p>
+        </div>
+
+        <h3>2. 貝氏定理（Bayes' Theorem）與醫療偽陽性模型</h3>
+        <p>學測最愛考疾病檢測的「偽陽性（False Positive）」問題：</p>
+        <div class="step-box">
+          <div class="step-box-title">🧪 檢驗結果陽性，真正患病的機率推導</div>
+          <div class="step-row">
+            <div class="step-num">分母</div>
+            <div class="step-math"><strong>全機率定理（所有檢驗為陽性的總機率）</strong>：<br>$P(\text{陽性}) = P(\text{患病})P(\text{陽性}|\text{患病}) + P(\text{健康})P(\text{陽性}|\text{健康})$</div>
+            <div class="step-desc">包含「真正生病且驗出陽性（真陽性）」與「健康但誤驗出陽性（偽陽性）」兩支樹狀圖總和。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">分子</div>
+            <div class="step-math"><strong>真正患病且檢驗為陽性之機率</strong>：<br>$P(\text{患病} \cap \text{陽性}) = P(\text{患病})P(\text{陽性}|\text{患病})$</div>
+            <div class="step-desc">符合目標條件的那條單一路徑。</div>
+          </div>
+          <div class="step-row">
+            <div class="step-num">貝氏比值</div>
+            <div class="step-math">$P(\text{患病}|\text{陽性}) = \frac{P(\text{患病})P(\text{陽性}|\text{患病})}{P(\text{陽性})}$</div>
+            <div class="step-desc">若疾病盛行率 $P(\text{患病})$ 極低（例如 $0.1\%$），即使儀器準確度高達 $99\%$，檢驗出陽性者真正得病的機率往往依然不到 
+  
+
+      
+      <div style="text-align: center; padding: var(--space-12) 0;">
+          <a href="../quiz/quiz.html?subject=math-a" class="btn btn-primary btn-lg">🎯 前往數學A題庫練習</a>
+        </div>
+      </main>0\%$！</div>
+          </div>
+        </div>
+      </section>
+  
+
   
 
       
