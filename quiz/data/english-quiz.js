@@ -4230,7 +4230,7 @@ const englishQuiz = [
   {
     "id": "e333",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 $\\rightarrow$ Seldom have I witnessed...\" data-en=\"Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.\">Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 $\→$ Seldom have I witnessed...\" data-en=\"Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.\">Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "have I witnessed（否定副詞置句首之助動詞倒裝）",
       "I have witnessed（選項：I have witnessed）",
@@ -4238,7 +4238,7 @@ const englishQuiz = [
       "I witnessed（選項：I witnessed）"
     ],
     "answer": 0,
-    "explanation": "否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 $\\rightarrow$ Seldom have I witnessed...",
+    "explanation": "否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 $\→$ Seldom have I witnessed...",
     "difficulty": "中等"
   },
   {

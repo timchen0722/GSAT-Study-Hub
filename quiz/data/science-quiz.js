@@ -528,7 +528,7 @@ const scienceQuiz = [
       "逆轉錄 (Reverse Transcription)"
     ],
     "answer": 0,
-    "explanation": "DNA $\\rightarrow$ RNA 為轉錄；mRNA $\\rightarrow$ 蛋白質為轉譯。",
+    "explanation": "DNA $\→$ RNA 為轉錄；mRNA $\→$ 蛋白質為轉譯。",
     "difficulty": "基礎"
   },
   {
@@ -668,7 +668,7 @@ const scienceQuiz = [
       "氯氣（$\\text{Cl}_2$）"
     ],
     "answer": 0,
-    "explanation": "反應方程式：$2\\text{Na} + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{NaOH} + \\text{H}_2\\uparrow$。反應劇烈放熱，使產生的強鹼溶液變紅（酚酞試劑），且氫氣易燃甚至爆炸。",
+    "explanation": "反應方程式：$2\\text{Na} + 2\\text{H}_2\\text{O} \→ 2\\text{NaOH} + \\text{H}_2\\uparrow$。反應劇烈放熱，使產生的強鹼溶液變紅（酚酞試劑），且氫氣易燃甚至爆炸。",
     "difficulty": "基礎"
   },
   {
@@ -1130,7 +1130,7 @@ const scienceQuiz = [
       "鹽橋的作用是阻止離子移動"
     ],
     "answer": 0,
-    "explanation": "活性大者為負極：鋅活性大於銅，負極反應 $\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-$（氧化反應質量減輕）；正極反應 $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$（還原反應析出銅）。",
+    "explanation": "活性大者為負極：鋅活性大於銅，負極反應 $\\text{Zn} \→ \\text{Zn}^{2+} + 2e^-$（氧化反應質量減輕）；正極反應 $\\text{Cu}^{2+} + 2e^- \→ \\text{Cu}$（還原反應析出銅）。",
     "difficulty": "基礎"
   },
   {
@@ -1152,10 +1152,10 @@ const scienceQuiz = [
     "category": "生物-遺傳與演化",
     "question": "達爾文提出以「天擇（Natural Selection）」為核心的演化學說，天擇發生的前提機制與核心步驟順序何者正確？",
     "options": [
-      "過度繁殖 $\\rightarrow$ 個體差異 $\\rightarrow$ 生存競爭 $\\rightarrow$ 適者生存（有利變異代代累積）",
-      "用進廢退 $\\rightarrow$ 獲得性遺傳 $\\rightarrow$ 突變形成新物種",
-      "生存競爭 $\\rightarrow$ 人工選育 $\\rightarrow$ 雜交優勢",
-      "突變發生 $\\rightarrow$ 環境主動引導變異 $\\rightarrow$ 生物進化"
+      "過度繁殖 $\→$ 個體差異 $\→$ 生存競爭 $\→$ 適者生存（有利變異代代累積）",
+      "用進廢退 $\→$ 獲得性遺傳 $\→$ 突變形成新物種",
+      "生存競爭 $\→$ 人工選育 $\→$ 雜交優勢",
+      "突變發生 $\→$ 環境主動引導變異 $\→$ 生物進化"
     ],
     "answer": 0,
     "explanation": "達爾文天擇說四大要素：(1) 生物過度繁殖、(2) 同一族群存在可遺傳之個體微小差異、(3) 資源有限引發生存競爭、(4) 具備適應環境變異者存活並繁衍後代（適者生存）。",
@@ -1208,7 +1208,7 @@ const scienceQuiz = [
     "category": "生物-生態與環境",
     "question": "在一片原本完全沒有土壤與生命存在的全新熔岩冷卻岩石表面，逐漸建立起成熟穩定生物群落的演替過程稱為？",
     "options": [
-      "初級消長（原生演替，如裸岩 $\\rightarrow$ 地衣苔蘚 $\\rightarrow$ 草本 $\\rightarrow$ 灌木 $\\rightarrow$ 森林頂極群落）",
+      "初級消長（原生演替，如裸岩 $\→$ 地衣苔蘚 $\→$ 草本 $\→$ 灌木 $\→$ 森林頂極群落）",
       "次級消長",
       "季節消長",
       "退行演替"
@@ -1542,7 +1542,7 @@ const scienceQuiz = [
   {
     "id": "sci111",
     "category": "化學-酸鹼與氧化還原",
-    "question": "在稀薄強酸（如 $\\text{HCl}$）與強鹼（如 $\\text{NaOH}$）的水溶液中和反應中，其淨離子反應式皆為 $\\text{H}^+(aq) + \\text{OH}^-(aq) \\rightarrow \\text{H}_2\\text{O}(l)$。在 25°C 下每生成 1 莫耳水時，反應所釋放的中和熱數值恆約為？",
+    "question": "在稀薄強酸（如 $\\text{HCl}$）與強鹼（如 $\\text{NaOH}$）的水溶液中和反應中，其淨離子反應式皆為 $\\text{H}^+(aq) + \\text{OH}^-(aq) \→ \\text{H}_2\\text{O}(l)$。在 25°C 下每生成 1 莫耳水時，反應所釋放的中和熱數值恆約為？",
     "options": [
       "約 56 kJ/mol（放熱反應 $\\Delta H \\approx -56$ kJ/mol）",
       "約 1000 kJ/mol",
@@ -1746,7 +1746,7 @@ const scienceQuiz = [
       "氫氧根"
     ],
     "answer": 0,
-    "explanation": "反應歷程：$\\text{Cl} + \\text{O}_3 \\rightarrow \\text{ClO} + \\text{O}_2$，隨後 $\\text{ClO} + \\text{O} \\rightarrow \\text{Cl} + \\text{O}_2$。氯原子作為催化劑周而復始循環，單個氯原子可在平流層破壞十萬個臭氧分子，促使各國簽署《蒙特婁議定書》禁用 CFCs。",
+    "explanation": "反應歷程：$\\text{Cl} + \\text{O}_3 \→ \\text{ClO} + \\text{O}_2$，隨後 $\\text{ClO} + \\text{O} \→ \\text{Cl} + \\text{O}_2$。氯原子作為催化劑周而復始循環，單個氯原子可在平流層破壞十萬個臭氧分子，促使各國簽署《蒙特婁議定書》禁用 CFCs。",
     "difficulty": "基礎"
   },
   {
@@ -1942,7 +1942,7 @@ const scienceQuiz = [
       "縮聚反應"
     ],
     "answer": 0,
-    "explanation": "乙烯中碳-碳雙鍵的 $\\pi$ 鍵較脆弱易斷裂，與鹵素單質 $\\text{Br}_2$ 發生親電加成反應：$\\text{CH}_2=\\text{CH}_2 + \\text{Br}_2 \\rightarrow \\text{CH}_2\\text{Br}-\\text{CH}_2\\text{Br}$，使溴水迅速褪色，常用於檢驗不飽和烴雙鍵。",
+    "explanation": "乙烯中碳-碳雙鍵的 $\\pi$ 鍵較脆弱易斷裂，與鹵素單質 $\\text{Br}_2$ 發生親電加成反應：$\\text{CH}_2=\\text{CH}_2 + \\text{Br}_2 \→ \\text{CH}_2\\text{Br}-\\text{CH}_2\\text{Br}$，使溴水迅速褪色，常用於檢驗不飽和烴雙鍵。",
     "difficulty": "基礎"
   },
   {
@@ -1950,8 +1950,8 @@ const scienceQuiz = [
     "category": "生物-細胞分裂",
     "question": "真核生物在形成精子或卵細胞等配子的過程中所進行的細胞分裂方式為「減數分裂（Meiosis）」。經過減數分裂連續兩次細胞分裂後，單個生殖母細胞所產生的子細胞特徵為？",
     "options": [
-      "產生 4 個子細胞，每個子細胞中的染色體數目減半（$2n \\rightarrow n$）",
-      "產生 2 個子細胞，染色體數目保持不變（$2n \\rightarrow 2n$）",
+      "產生 4 個子細胞，每個子細胞中的染色體數目減半（$2n \→ n$）",
+      "產生 2 個子細胞，染色體數目保持不變（$2n \→ 2n$）",
       "產生 2 個子細胞，染色體數目加倍",
       "產生 8 個子細胞"
     ],
@@ -1992,13 +1992,13 @@ const scienceQuiz = [
     "category": "生物-動物生理",
     "question": "在神經系統調節的「反射弧（Reflex Arc）」傳導路徑中，神經衝動在體內依序傳導的標準生理解剖路徑為？",
     "options": [
-      "受器 $\\rightarrow$ 感覺神經元（傳入神經） $\\rightarrow$ 神經中樞（聯絡神經元） $\\rightarrow$ 運動神經元（傳出神經） $\\rightarrow$ 動器（肌肉或腺體）",
-      "動器 $\\rightarrow$ 運動神經元 $\\rightarrow$ 中樞 $\\rightarrow$ 感覺神經元 $\\rightarrow$ 受器",
-      "中樞 $\\rightarrow$ 受器 $\\rightarrow$ 動器",
-      "受器 $\\rightarrow$ 運動神經元 $\\rightarrow$ 感覺神經元 $\\rightarrow$ 動器"
+      "受器 $\→$ 感覺神經元（傳入神經） $\→$ 神經中樞（聯絡神經元） $\→$ 運動神經元（傳出神經） $\→$ 動器（肌肉或腺體）",
+      "動器 $\→$ 運動神經元 $\→$ 中樞 $\→$ 感覺神經元 $\→$ 受器",
+      "中樞 $\→$ 受器 $\→$ 動器",
+      "受器 $\→$ 運動神經元 $\→$ 感覺神經元 $\→$ 動器"
     ],
     "answer": 0,
-    "explanation": "反射弧五大構成要件：感受器感受外界刺激 $\\rightarrow$ 傳入感覺神經元將信號輸入脊髓/腦中樞 $\\rightarrow$ 聯絡神經元整合 $\\rightarrow$ 傳出運動神經元發出指令 $\\rightarrow$ 效應器（動器）產生肌肉收縮或分泌反應。",
+    "explanation": "反射弧五大構成要件：感受器感受外界刺激 $\→$ 傳入感覺神經元將信號輸入脊髓/腦中樞 $\→$ 聯絡神經元整合 $\→$ 傳出運動神經元發出指令 $\→$ 效應器（動器）產生肌肉收縮或分泌反應。",
     "difficulty": "基礎"
   },
   {
@@ -2460,7 +2460,7 @@ const scienceQuiz = [
       "正斷層錯動"
     ],
     "answer": 0,
-    "explanation": "角度不整合代表了漫長的地質歷史篇章缺漏：沉積岩沉積 $\\rightarrow$ 地殼運動擠壓造山褶皺傾斜 $\\rightarrow$ 地殼抬升遭受風化侵蝕削平 $\\rightarrow$ 地面再度下沉接受新一輪水平地層沉積。",
+    "explanation": "角度不整合代表了漫長的地質歷史篇章缺漏：沉積岩沉積 $\→$ 地殼運動擠壓造山褶皺傾斜 $\→$ 地殼抬升遭受風化侵蝕削平 $\→$ 地面再度下沉接受新一輪水平地層沉積。",
     "difficulty": "基礎"
   },
   {
@@ -2656,7 +2656,7 @@ const scienceQuiz = [
       "陰極析出氧氣，陽極析出氫氣"
     ],
     "answer": 0,
-    "explanation": "電解精煉銅：陽極（粗銅）發生氧化反應 $\\text{Cu} \\rightarrow \\text{Cu}^{2+} + 2e^-$，雜質金銀沉入槽底形成陽極泥；陰極（純銅薄板）發生還原反應 $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$ 析出 99.99% 純度電解銅。",
+    "explanation": "電解精煉銅：陽極（粗銅）發生氧化反應 $\\text{Cu} \→ \\text{Cu}^{2+} + 2e^-$，雜質金銀沉入槽底形成陽極泥；陰極（純銅薄板）發生還原反應 $\\text{Cu}^{2+} + 2e^- \→ \\text{Cu}$ 析出 99.99% 純度電解銅。",
     "difficulty": "中等"
   },
   {
@@ -2718,7 +2718,7 @@ const scienceQuiz = [
   {
     "id": "sci195",
     "category": "物理-近代物理",
-    "question": "核電廠核反應爐中，鈾-235 原子核吸收一個慢中子後發生「受誘核分裂」：$^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{141}_{56}\\text{Ba} + ^{92}_{36}\\text{Kr} + 3\\,^1_0\\text{n} + \\text{能量}$。在所有核反應方程式配平運算中，方程式兩端必須嚴格保持守恆的兩大物理量為？",
+    "question": "核電廠核反應爐中，鈾-235 原子核吸收一個慢中子後發生「受誘核分裂」：$^{235}_{92}\\text{U} + ^1_0\\text{n} \→ ^{141}_{56}\\text{Ba} + ^{92}_{36}\\text{Kr} + 3\\,^1_0\\text{n} + \\text{能量}$。在所有核反應方程式配平運算中，方程式兩端必須嚴格保持守恆的兩大物理量為？",
     "options": [
       "「質量數守恆（核子總數守恆）」 與 「電荷數守恆（質子總數/原子序守恆）」",
       "分子總數與體積守恆",
@@ -2782,7 +2782,7 @@ const scienceQuiz = [
       "醚類"
     ],
     "answer": 0,
-    "explanation": "一級醇脫氫氧化先生成醛（$\\text{R-CH}_2\\text{OH} \\rightarrow \\text{R-CHO}$），醛極易再氧化為羧酸；二級醇氧化生成酮（$\\text{R-CH(OH)-R}' \\rightarrow \\text{R-CO-R}'$）；三級醇無 $\\alpha-\\text{H}$ 難氧化。",
+    "explanation": "一級醇脫氫氧化先生成醛（$\\text{R-CH}_2\\text{OH} \→ \\text{R-CHO}$），醛極易再氧化為羧酸；二級醇氧化生成酮（$\\text{R-CH(OH)-R}' \→ \\text{R-CO-R}'$）；三級醇無 $\\alpha-\\text{H}$ 難氧化。",
     "difficulty": "基礎"
   },
   {
@@ -2970,7 +2970,7 @@ const scienceQuiz = [
   {
     "id": "sci213",
     "category": "生物-細胞生理",
-    "question": "真核細胞有氧呼吸的完整代謝方程式為：$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 + 6\\text{H}_2\\text{O} \\rightarrow 6\\text{CO}_2 + 12\\text{H}_2\\text{O} + \\text{能量(ATP)}$。在此過程中，生物吸入的氧氣分子（$\\text{O}_2$）在代謝反應中扮演的角色與最終歸宿為？",
+    "question": "真核細胞有氧呼吸的完整代謝方程式為：$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 + 6\\text{H}_2\\text{O} \→ 6\\text{CO}_2 + 12\\text{H}_2\\text{O} + \\text{能量(ATP)}$。在此過程中，生物吸入的氧氣分子（$\\text{O}_2$）在代謝反應中扮演的角色與最終歸宿為？",
     "options": [
       "作為電子傳遞鏈最終的「電子接受者」，獲得低能電子與質子還原結合成「水（$\\text{H}_2\\text{O}$）」",
       "直接參與形成二氧化碳氣體",
@@ -3006,7 +3006,7 @@ const scienceQuiz = [
       "亞硫酸鈉"
     ],
     "answer": 0,
-    "explanation": "自身氧化還原歧化反應：$\\text{S}_2\\text{O}_3^{2-} + 2\\text{H}^+ \\rightarrow \\text{S}(s) \\downarrow + \\text{SO}_2(g) \\uparrow + \\text{H}_2\\text{O}$。析出淡黃色硫沉澱使十字標記模糊，大考常以此實驗探討反應速率與溫度濃度關係。",
+    "explanation": "自身氧化還原歧化反應：$\\text{S}_2\\text{O}_3^{2-} + 2\\text{H}^+ \→ \\text{S}(s) \\downarrow + \\text{SO}_2(g) \\uparrow + \\text{H}_2\\text{O}$。析出淡黃色硫沉澱使十字標記模糊，大考常以此實驗探討反應速率與溫度濃度關係。",
     "difficulty": "中等"
   },
   {
@@ -3210,7 +3210,7 @@ const scienceQuiz = [
     "category": "化學-電化學",
     "question": "在經典的銅鋅伏打電池（丹尼爾電池 Daniell Cell）中，鋅棒浸在硫酸鋅溶液、銅棒浸在硫酸銅溶液中，中間以鹽橋相連。下列關於兩電極化學反應的描述何者完全正確？",
     "options": [
-      "「鋅棒為負極」：發生氧化反應溶解質量減少（$\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-$）；「銅棒為正極」：發生還原反應銅離子析出質量增加（$\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$）",
+      "「鋅棒為負極」：發生氧化反應溶解質量減少（$\\text{Zn} \→ \\text{Zn}^{2+} + 2e^-$）；「銅棒為正極」：發生還原反應銅離子析出質量增加（$\\text{Cu}^{2+} + 2e^- \→ \\text{Cu}$）",
       "銅棒為負極發生氧化",
       "兩極質量皆持續增加",
       "電子自銅棒流向鋅棒"
@@ -3454,7 +3454,7 @@ const scienceQuiz = [
       "放射性元素核裂變產熱"
     ],
     "answer": 0,
-    "explanation": "反應原理：$4\\text{Fe} + 3\\text{O}_2 + 6\\text{H}_2\\text{O} \\rightarrow 4\\text{Fe(OH)}_3 + \\text{熱量}$。活性碳吸附空氣水氣、食鹽提供電解質促使原電池微電化學腐蝕，將原本緩慢的生鏽反應大幅加速在數小時內集中釋放大量氧化化學熱。",
+    "explanation": "反應原理：$4\\text{Fe} + 3\\text{O}_2 + 6\\text{H}_2\\text{O} \→ 4\\text{Fe(OH)}_3 + \\text{熱量}$。活性碳吸附空氣水氣、食鹽提供電解質促使原電池微電化學腐蝕，將原本緩慢的生鏽反應大幅加速在數小時內集中釋放大量氧化化學熱。",
     "difficulty": "基礎"
   },
   {
@@ -3616,8 +3616,8 @@ const scienceQuiz = [
     "category": "化學-酸鹼與反應熱",
     "question": "在稀薄水溶液中，以強酸（如稀鹽酸）滴定強鹼（如氫氧化鈉溶液）進行酸鹼中和反應。無論強酸與強鹼的陰陽離子種類為何，其中和反應的「淨離子方程式」與中和熱本質皆為？",
     "options": [
-      "$\\text{H}^+(aq) + \\text{OH}^-(aq) \\rightarrow \\text{H}_2\\text{O}(l)$，每生成 1 莫耳液態水恆穩定放出約 56~57 kJ 的熱量",
-      "$\\text{Na}^+ + \\text{Cl}^- \\rightarrow \\text{NaCl}$",
+      "$\\text{H}^+(aq) + \\text{OH}^-(aq) \→ \\text{H}_2\\text{O}(l)$，每生成 1 莫耳液態水恆穩定放出約 56~57 kJ 的熱量",
+      "$\\text{Na}^+ + \\text{Cl}^- \→ \\text{NaCl}$",
       "強酸強鹼中和恆為強烈吸熱反應",
       "中和反應產物只有氯氣"
     ],
@@ -3678,7 +3678,7 @@ const scienceQuiz = [
       "右心房"
     ],
     "answer": 0,
-    "explanation": "體循環路徑：左心室 $\\rightarrow$ 主動脈 $\\rightarrow$ 全身微血管 $\\rightarrow$ 上下腔靜脈 $\\rightarrow$ 右心房。左心室需克服全身龐大血管外周阻力維持 120 mmHg 收縮壓，其心肌厚度為右心室 3 倍。",
+    "explanation": "體循環路徑：左心室 $\→$ 主動脈 $\→$ 全身微血管 $\→$ 上下腔靜脈 $\→$ 右心房。左心室需克服全身龐大血管外周阻力維持 120 mmHg 收縮壓，其心肌厚度為右心室 3 倍。",
     "difficulty": "基礎"
   },
   {
@@ -3714,10 +3714,10 @@ const scienceQuiz = [
     "category": "生物-演化生物學",
     "question": "查爾斯·達爾文（Charles Darwin）在 1859 年出版《物種起源》，提出震驚世界的「天擇說（Natural Selection）」。達爾文天擇說推演物種演化的四個核心邏輯要素依序為？",
     "options": [
-      "過度繁殖 $\\rightarrow$ 生存競爭 $\\rightarrow$ 個體遺傳變異 $\\rightarrow$ 適者生存（有利變異累積促成新物種演化）",
-      "用進廢退 $\\rightarrow$ 獲得性遺傳 $\\rightarrow$ 神創造物 $\\rightarrow$ 突變滅絕",
-      "基因突變 $\\rightarrow$ 試管培育 $\\rightarrow$ 人工育種 $\\rightarrow$ 基因編輯",
-      "隨機漂變 $\\rightarrow$ 染色體倍增 $\\rightarrow$ 隔離消亡"
+      "過度繁殖 $\→$ 生存競爭 $\→$ 個體遺傳變異 $\→$ 適者生存（有利變異累積促成新物種演化）",
+      "用進廢退 $\→$ 獲得性遺傳 $\→$ 神創造物 $\→$ 突變滅絕",
+      "基因突變 $\→$ 試管培育 $\→$ 人工育種 $\→$ 基因編輯",
+      "隨機漂變 $\→$ 染色體倍增 $\→$ 隔離消亡"
     ],
     "answer": 0,
     "explanation": "天擇說四大環節：生物繁殖潛能巨大（過度繁殖），資源有限引發個體爭奪生存資源（生存鬥爭），族群個體具有可遺傳的性狀差異（遺傳變異），具適應優勢個體生存繁殖機會更高（適者生存）。",
@@ -3832,7 +3832,7 @@ const scienceQuiz = [
       "會生成白色食用鹽水"
     ],
     "answer": 0,
-    "explanation": "歸中氧化還原反應：$\\text{NaClO} + 2\\text{HCl} \\rightarrow \\text{NaCl} + \\text{Cl}_2 \\uparrow + \\text{H}_2\\text{O}$。產生的劇毒氯氣刺激呼吸道引發肺水腫窒息，為家庭清潔常見致命安全事故。",
+    "explanation": "歸中氧化還原反應：$\\text{NaClO} + 2\\text{HCl} \→ \\text{NaCl} + \\text{Cl}_2 \\uparrow + \\text{H}_2\\text{O}$。產生的劇毒氯氣刺激呼吸道引發肺水腫窒息，為家庭清潔常見致命安全事故。",
     "difficulty": "基礎"
   },
   {
@@ -3916,7 +3916,7 @@ const scienceQuiz = [
       "甲烷"
     ],
     "answer": 0,
-    "explanation": "CFCs 在平流層受強紫外線分解出活性氯自由基 $\\text{Cl}^\\bullet$：$\\text{Cl} + \\text{O}_3 \\rightarrow \\text{ClO} + \\text{O}_2$；$\\text{ClO} + \\text{O} \\rightarrow \\text{Cl} + \\text{O}_2$。單一氯原子可摧毀十萬個臭氧分子，蒙特婁議定書成功促成臭氧層逐步癒合。",
+    "explanation": "CFCs 在平流層受強紫外線分解出活性氯自由基 $\\text{Cl}^\\bullet$：$\\text{Cl} + \\text{O}_3 \→ \\text{ClO} + \\text{O}_2$；$\\text{ClO} + \\text{O} \→ \\text{Cl} + \\text{O}_2$。單一氯原子可摧毀十萬個臭氧分子，蒙特婁議定書成功促成臭氧層逐步癒合。",
     "difficulty": "基礎"
   },
   {
@@ -3978,7 +3978,7 @@ const scienceQuiz = [
   {
     "id": "sci285",
     "category": "物理-近代物理",
-    "question": "放射性原子核進行「$\\beta^-$ 衰變（貝他負衰變）」時，原子核內部的一個中子轉變為一個質子，同時向外釋放出一個高速電子（$\\beta$ 射線）與一個反電微中子：$^1_0\\text{n} \\rightarrow ^1_1\\text{p} + ^0_{-1}\\text{e} + \\bar{\\nu}_e$。在發生 $\\beta^-$ 衰變後，新生成的子核相較於母核，其質量數與原子序的變化為？",
+    "question": "放射性原子核進行「$\\beta^-$ 衰變（貝他負衰變）」時，原子核內部的一個中子轉變為一個質子，同時向外釋放出一個高速電子（$\\beta$ 射線）與一個反電微中子：$^1_0\\text{n} \→ ^1_1\\text{p} + ^0_{-1}\\text{e} + \\bar{\\nu}_e$。在發生 $\\beta^-$ 衰變後，新生成的子核相較於母核，其質量數與原子序的變化為？",
     "options": [
       "質量數 $A$ 保持不變，原子序 $Z$ 增加 1",
       "質量數減少 1，原子序增加 1",
@@ -4036,7 +4036,7 @@ const scienceQuiz = [
     "category": "化學-生活化學",
     "question": "西點烘焙蛋糕與餅乾時，常在麵團中加入適量的食品級「小蘇打粉（碳酸氫鈉 $\\text{NaHCO}_3$）」。小蘇打使麵包蛋糕烘烤時形成鬆軟多孔口感的化學發泡原理為？",
     "options": [
-      "碳酸氫鈉受熱分解反應釋放出「二氧化碳氣體（$\\text{CO}_2$）」，氣體膨脹在麵團內部留下無數綿密氣孔（$2\\text{NaHCO}_3 \\overset{\\Delta}{\\rightarrow} \\text{Na}_2\\text{CO}_3 + \\text{CO}_2\\uparrow + \\text{H}_2\\text{O}$）",
+      "碳酸氫鈉受熱分解反應釋放出「二氧化碳氣體（$\\text{CO}_2$）」，氣體膨脹在麵團內部留下無數綿密氣孔（$2\\text{NaHCO}_3 \\overset{\\Delta}{\→} \\text{Na}_2\\text{CO}_3 + \\text{CO}_2\\uparrow + \\text{H}_2\\text{O}$）",
       "小蘇打在麵粉中進行核融合",
       "小蘇打吸乾麵粉中的所有水分",
       "小蘇打釋放純氧氣燃燒麵團"
@@ -4064,13 +4064,13 @@ const scienceQuiz = [
     "category": "生物-人體神經生理",
     "question": "當手指不慎觸碰到滾燙的高溫鐵鍋時，手會在「尚未感覺到大腦意識疼痛之前」就瞬間自發縮回，這種保護性的無意識神經活動稱為「縮手反射」。縮手反射神經衝動傳導的反射弧五大結構依序為？",
     "options": [
-      "感受器（皮膚熱覺受器） $\\rightarrow$ 傳入神經（感覺神經元） $\\rightarrow$ 神經中樞（脊髓灰質） $\\rightarrow$ 傳出神經（運動神經元） $\\rightarrow$ 效應器（手臂肱二頭肌收縮）",
-      "效應器 $\\rightarrow$ 運動神經 $\\rightarrow$ 大腦皮質 $\\rightarrow$ 感覺神經 $\\rightarrow$ 受器",
-      "大腦 $\\rightarrow$ 脊髓 $\\rightarrow$ 肌肉 $\\rightarrow$ 皮膚",
-      "受器 $\\rightarrow$ 運動神經 $\\rightarrow$ 感覺神經 $\\rightarrow$ 效應器"
+      "感受器（皮膚熱覺受器） $\→$ 傳入神經（感覺神經元） $\→$ 神經中樞（脊髓灰質） $\→$ 傳出神經（運動神經元） $\→$ 效應器（手臂肱二頭肌收縮）",
+      "效應器 $\→$ 運動神經 $\→$ 大腦皮質 $\→$ 感覺神經 $\→$ 受器",
+      "大腦 $\→$ 脊髓 $\→$ 肌肉 $\→$ 皮膚",
+      "受器 $\→$ 運動神經 $\→$ 感覺神經 $\→$ 效應器"
     ],
     "answer": 0,
-    "explanation": "反射弧完整五要素：受器接受刺激 $\\rightarrow$ 感覺神經傳導電位 $\\rightarrow$ 脊髓中樞聯絡整合並迅速發出指令 $\\rightarrow$ 運動神經輸出 $\\rightarrow$ 肌肉動器收縮。信號由脊髓直接完成反射，隨後才上傳大腦皮質感知疼痛。",
+    "explanation": "反射弧完整五要素：受器接受刺激 $\→$ 感覺神經傳導電位 $\→$ 脊髓中樞聯絡整合並迅速發出指令 $\→$ 運動神經輸出 $\→$ 肌肉動器收縮。信號由脊髓直接完成反射，隨後才上傳大腦皮質感知疼痛。",
     "difficulty": "基礎"
   },
   {
@@ -4120,10 +4120,10 @@ const scienceQuiz = [
     "category": "生物-現代生物技術",
     "question": "現代分子生物學與法醫 DNA 鑑定中廣泛使用的「聚合酶連鎖反應（PCR，Polymerase Chain Reaction）」，能在幾小時內將微量的 DNA 片段體外擴增複製數百萬倍。PCR 循環技術中每個循環的三大標準溫度步驟依序為？",
     "options": [
-      "高溫變性（95°C，雙鏈解離為單鏈） $\\rightarrow$ 低溫退火（55°C，引子與模板特異結合） $\\rightarrow$ 中溫延伸（72°C，耐熱 Taq DNA 聚合酶合成新鏈）",
-      "低溫冷凍 $\\rightarrow$ 高溫燃燒 $\\rightarrow$ 離心沉澱",
-      "紫外線照射 $\\rightarrow$ 電泳分離 $\\rightarrow$ 染色成像",
-      "加酸水解 $\\rightarrow$ 加鹼中和 $\\rightarrow$ 過濾析出"
+      "高溫變性（95°C，雙鏈解離為單鏈） $\→$ 低溫退火（55°C，引子與模板特異結合） $\→$ 中溫延伸（72°C，耐熱 Taq DNA 聚合酶合成新鏈）",
+      "低溫冷凍 $\→$ 高溫燃燒 $\→$ 離心沉澱",
+      "紫外線照射 $\→$ 電泳分離 $\→$ 染色成像",
+      "加酸水解 $\→$ 加鹼中和 $\→$ 過濾析出"
     ],
     "answer": 0,
     "explanation": "PCR 發明人穆利斯獲諾貝爾獎：利用熱泉嗜熱菌之耐熱 Taq 聚合酶，循環反覆進行變性（解鏈）、退火（引子結合）、延伸（合成），$2^n$ 指數倍極速擴增微量 DNA。",
@@ -4176,7 +4176,7 @@ const scienceQuiz = [
     "category": "地科-天文與宇宙",
     "question": "天文學家依據恆星光譜中的特徵吸收線與表面有效溫度，將恆星光譜劃分為「O、B、A、F、G、K、M」七大標準光譜型。下列關於恆星表面溫度由高到低的排序與顏色對應何者完全正確？",
     "options": [
-      "O 型（藍色，溫度最高 > 30,000 K） $\\rightarrow$ A 型（白色） $\\rightarrow$ G 型（黃色，如太陽約 5,800 K） $\\rightarrow$ M 型（紅色，溫度最低約 3,000 K）",
+      "O 型（藍色，溫度最高 > 30,000 K） $\→$ A 型（白色） $\→$ G 型（黃色，如太陽約 5,800 K） $\→$ M 型（紅色，溫度最低約 3,000 K）",
       "M 型溫度最高，O 型溫度最低",
       "所有光譜型的恆星表面溫度皆相同",
       "太陽屬於表面溫度高達幾萬度的 O 型超巨星"
@@ -4485,9 +4485,9 @@ const scienceQuiz = [
     "question": "分子生物學最核心的基石理論——「中心法則（Central Dogma）」，闡述了細胞內部遺傳訊息傳遞與表達的標準單向流向順序為？",
     "options": [
       "$\\text{DNA（遺傳密碼複製）} \\xrightarrow{\\text{轉錄 Transcription}} \\text{mRNA} \\xrightarrow{\\text{轉譯 Translation}} \\text{蛋白質（執行生命生理機能）}$",
-      "$\\text{蛋白質} \\rightarrow \\text{RNA} \\rightarrow \\text{DNA}$",
-      "$\\text{脂肪} \\rightarrow \\text{糖類} \\rightarrow \\text{DNA}$",
-      "$\\text{RNA} \\rightarrow \\text{胺基酸} \\rightarrow \\text{DNA}$"
+      "$\\text{蛋白質} \→ \\text{RNA} \→ \\text{DNA}$",
+      "$\\text{脂肪} \→ \\text{糖類} \→ \\text{DNA}$",
+      "$\\text{RNA} \→ \\text{胺基酸} \→ \\text{DNA}$"
     ],
     "answer": 0,
     "explanation": "克里克（Crick）提出中心法則：DNA 透過轉錄（RNA 聚合酶以 DNA 模板鏈合成 mRNA），mRNA 攜帶遺傳密碼移至核糖體進行轉譯（tRNA 搬運胺基酸拼裝胜肽鏈合成蛋白質）。",
@@ -4644,7 +4644,7 @@ const scienceQuiz = [
       "氯氣（$\\text{Cl}_2$）"
     ],
     "answer": 0,
-    "explanation": "反應方程式：$\\text{CaCO}_3 + 2\\text{HCl} \\rightarrow \\text{CaCl}_2 + \\text{CO}_2\\uparrow + \\text{H}_2\\text{O}$。生成的二氧化碳與澄清石灰水生成碳酸鈣白色沉澱變渾濁。",
+    "explanation": "反應方程式：$\\text{CaCO}_3 + 2\\text{HCl} \→ \\text{CaCl}_2 + \\text{CO}_2\\uparrow + \\text{H}_2\\text{O}$。生成的二氧化碳與澄清石灰水生成碳酸鈣白色沉澱變渾濁。",
     "difficulty": "基礎"
   },
   {
@@ -4832,7 +4832,7 @@ const scienceQuiz = [
   {
     "id": "sci346",
     "category": "物理-近代物理與核能",
-    "question": "太陽內部每秒鐘將六億噸的氫原子核，在高達一千五百萬度的高溫高壓極端環境下相互聚合成氦原子核（$^2_1\\text{H} + ^3_1\\text{H} \\rightarrow ^4_2\\text{He} + ^1_0\\text{n}$），並伴隨巨大質量虧損釋放出維持地球萬物生長的龐大光熱輻射。這種核反應在核物理學上稱為？",
+    "question": "太陽內部每秒鐘將六億噸的氫原子核，在高達一千五百萬度的高溫高壓極端環境下相互聚合成氦原子核（$^2_1\\text{H} + ^3_1\\text{H} \→ ^4_2\\text{He} + ^1_0\\text{n}$），並伴隨巨大質量虧損釋放出維持地球萬物生長的龐大光熱輻射。這種核反應在核物理學上稱為？",
     "options": [
       "「核融合（熱核聚變，Nuclear Fusion）」",
       "核分裂（如原子彈與現行核電廠反應）",
@@ -5058,7 +5058,7 @@ const scienceQuiz = [
     "category": "化學-生活化學",
     "question": "野外自熱即食便當與自熱火鍋底部配備的「加熱發熱包」，在撕開塑膠外袋注入少量冷水後，發熱包內部會瞬間劇烈沸騰放熱釋放大量高溫水蒸氣。發熱包內部的核心化學成分主要是利用下列何種物質與水反應強烈放熱？",
     "options": [
-      "「氧化鈣（生石灰 $\\text{CaO}$）」——與水反應生成熟石灰並放出劇烈反應熱（$\\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{熱量}$）",
+      "「氧化鈣（生石灰 $\\text{CaO}$）」——與水反應生成熟石灰並放出劇烈反應熱（$\\text{CaO} + \\text{H}_2\\text{O} \→ \\text{Ca(OH)}_2 + \\text{熱量}$）",
       "純金屬金粉末",
       "食鹽與小蘇打",
       "乾冰"
@@ -5324,7 +5324,7 @@ const scienceQuiz = [
     "category": "生物-細胞分裂",
     "question": "生物體內進行的「有絲分裂（Mitosis）」與「減數分裂（Meiosis）」在染色體數目變化上的最本質差異為？",
     "options": [
-      "有絲分裂產生 2 個子細胞，其染色體套數「保持恆定不變（$2n \\rightarrow 2n$）」；減數分裂進行兩次連續分裂產生 4 個配子，其染色體套數「減半（$2n \\rightarrow n$）」",
+      "有絲分裂產生 2 個子細胞，其染色體套數「保持恆定不變（$2n \→ 2n$）」；減數分裂進行兩次連續分裂產生 4 個配子，其染色體套數「減半（$2n \→ n$）」",
       "有絲分裂染色體減半，減數分裂染色體翻倍",
       "減數分裂產生體細胞，有絲分裂產生精卵配子",
       "兩種分裂方式子細胞染色體數皆翻倍"
@@ -5366,10 +5366,10 @@ const scienceQuiz = [
     "category": "生物-演化論",
     "question": "查爾斯·達爾文在西元 1859 年發表巨著《物種起源》，提出名震世界的「天擇說（Natural Selection）」。天擇學說解釋生物演化適應過程的四大核心環節邏輯鏈依序為？",
     "options": [
-      "「過度繁殖 $\\rightarrow$ 生存競爭 $\\rightarrow$ 個體變異 $\\rightarrow$ 適者生存（有利變異個體存活繁殖機率高，性狀逐代累積演化）」",
-      "用進廢退 $\\rightarrow$ 獲得性遺傳 $\\rightarrow$ 突變 $\\rightarrow$ 絕種",
-      "神創造物 $\\rightarrow$ 永恆不變 $\\rightarrow$ 氣候突變 $\\rightarrow$ 重新創造",
-      "人工雜交 $\\rightarrow$ 基因改造 $\\rightarrow$ 大量複製 $\\rightarrow$ 快速生長"
+      "「過度繁殖 $\→$ 生存競爭 $\→$ 個體變異 $\→$ 適者生存（有利變異個體存活繁殖機率高，性狀逐代累積演化）」",
+      "用進廢退 $\→$ 獲得性遺傳 $\→$ 突變 $\→$ 絕種",
+      "神創造物 $\→$ 永恆不變 $\→$ 氣候突變 $\→$ 重新創造",
+      "人工雜交 $\→$ 基因改造 $\→$ 大量複製 $\→$ 快速生長"
     ],
     "answer": 0,
     "explanation": "達爾文天擇四大支柱：資源有限下生物過度繁殖引發生存競爭；族群內個體存在先天的可遺傳隨機變異；適應環境特徵的個體生存機率高傳遞後代，歷經漫長時間累積推動種化演化。",
@@ -5414,7 +5414,7 @@ const scienceQuiz = [
       "完全吸收紅外線防止地球變熱"
     ],
     "answer": 0,
-    "explanation": "臭氧層是地球天然遮陽傘：吸收 99% 以上高能短波紫外線促成光化學光解平衡（$\\text{O}_3 \\leftrightarrow \\text{O}_2 + \\text{O}$），吸收紫外線產熱使平流層上熱下冷極為穩定（民航機常在此巡航）。",
+    "explanation": "臭氧層是地球天然遮陽傘：吸收 99% 以上高能短波紫外線促成光化學光解平衡（$\\text{O}_3 \↔ \\text{O}_2 + \\text{O}$），吸收紫外線產熱使平流層上熱下冷極為穩定（民航機常在此巡航）。",
     "difficulty": "基礎"
   },
   {
@@ -5778,7 +5778,7 @@ const scienceQuiz = [
       "左心房"
     ],
     "answer": 0,
-    "explanation": "體循環血液路徑：左心室（心壁最強）$\\rightarrow$ 主動脈 $\\rightarrow$ 各級動脈 $\\rightarrow$ 全身組織微血管（交換物質）$\\rightarrow$ 上下腔靜脈 $\\rightarrow$ 右心房；肺循環則由右心室打向肺動脈至肺泡換氧。",
+    "explanation": "體循環血液路徑：左心室（心壁最強）$\→$ 主動脈 $\→$ 各級動脈 $\→$ 全身組織微血管（交換物質）$\→$ 上下腔靜脈 $\→$ 右心房；肺循環則由右心室打向肺動脈至肺泡換氧。",
     "difficulty": "基礎"
   },
   {
@@ -5786,13 +5786,13 @@ const scienceQuiz = [
     "category": "生物-神經生理學",
     "question": "當人的手不慎觸碰到滾燙的熱水壺時，手會在尚未感覺到疼痛之前便本能地極速縮回。這種不由大腦意識控制、由脊髓快速完成的「縮手反射」，其神經衝動傳導在反射弧（Reflex Arc）五大環節中的傳導順序為？",
     "options": [
-      "「受器（皮膚熱覺痛覺感受器） $\\rightarrow$ 感覺神經元 $\\rightarrow$ 脊髓神經中樞 $\\rightarrow$ 運動神經元 $\\rightarrow$ 動器（手臂肌肉收縮）」",
-      "動器 $\\rightarrow$ 運動神經元 $\\rightarrow$ 脊髓 $\\rightarrow$ 受器",
-      "大腦大腦皮質 $\\rightarrow$ 脊髓 $\\rightarrow$ 受器 $\\rightarrow$ 肌肉",
-      "受器 $\\rightarrow$ 動器 $\\rightarrow$ 感覺神經元"
+      "「受器（皮膚熱覺痛覺感受器） $\→$ 感覺神經元 $\→$ 脊髓神經中樞 $\→$ 運動神經元 $\→$ 動器（手臂肌肉收縮）」",
+      "動器 $\→$ 運動神經元 $\→$ 脊髓 $\→$ 受器",
+      "大腦大腦皮質 $\→$ 脊髓 $\→$ 受器 $\→$ 肌肉",
+      "受器 $\→$ 動器 $\→$ 感覺神經元"
     ],
     "answer": 0,
-    "explanation": "非條件反射弧五步曲：受器感知刺激生成神經衝動 $\\rightarrow$ 傳入感覺神經元 $\\rightarrow$ 脊髓灰質聯絡中樞 $\\rightarrow$ 傳出運動神經元 $\\rightarrow$ 效應器手臂肱二頭肌收縮撤回，隨後信號上傳大腦感知疼痛。",
+    "explanation": "非條件反射弧五步曲：受器感知刺激生成神經衝動 $\→$ 傳入感覺神經元 $\→$ 脊髓灰質聯絡中樞 $\→$ 傳出運動神經元 $\→$ 效應器手臂肱二頭肌收縮撤回，隨後信號上傳大腦感知疼痛。",
     "difficulty": "基礎"
   },
   {
@@ -6114,7 +6114,7 @@ const scienceQuiz = [
       "$\\text{Ba(OH)}_2$"
     ],
     "answer": 0,
-    "explanation": "硫酸鋇沈澱特徵：$\\text{Ba}^{2+} + \\text{SO}_4^{2-} \\rightarrow \\text{BaSO}_4\\downarrow$。硫酸鋇溶度積極小且為強酸鹽不溶於任何稀強酸，因不透 X 光且無毒廣泛用作消化道檢查「鋇餐」。",
+    "explanation": "硫酸鋇沈澱特徵：$\\text{Ba}^{2+} + \\text{SO}_4^{2-} \→ \\text{BaSO}_4\\downarrow$。硫酸鋇溶度積極小且為強酸鹽不溶於任何稀強酸，因不透 X 光且無毒廣泛用作消化道檢查「鋇餐」。",
     "difficulty": "基礎"
   },
   {
@@ -6128,7 +6128,7 @@ const scienceQuiz = [
       "酯化反應"
     ],
     "answer": 0,
-    "explanation": "加成聚合反應：不飽和單體（含雙鍵或三鍵）打開雙鍵互相加成，生成高分子過程中無任何小分子副產物析出（$n\\text{CH}_2=\\text{CH}_2 \\rightarrow [-\\text{CH}_2-\\text{CH}_2-]_n$）。",
+    "explanation": "加成聚合反應：不飽和單體（含雙鍵或三鍵）打開雙鍵互相加成，生成高分子過程中無任何小分子副產物析出（$n\\text{CH}_2=\\text{CH}_2 \→ [-\\text{CH}_2-\\text{CH}_2-]_n$）。",
     "difficulty": "基礎"
   },
   {
@@ -6528,7 +6528,7 @@ const scienceQuiz = [
     "category": "化學-金屬化學與活性",
     "question": "常見金屬元素的氧化還原活性順序為：鉀 > 鈉 > 鈣 > 鎂 > 鋁 > 鋅 > 鐵 > 鉛 > (氫) > 銅 > 汞 > 銀 > 鉑 > 金。依據金屬活性規律，將一根打磨光亮的「金屬鋅片（Zn）」浸入藍色的「硫酸銅（$\\text{CuSO}_4$）水溶液」中，試管中將會觀察到的化學置換現象為？",
     "options": [
-      "鋅活性大於銅，鋅失去電子被氧化溶解，溶液中的銅離子被還原而在鋅片表面析出「紅棕色的金屬銅固體（$\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$）」，藍色溶液逐漸變淡",
+      "鋅活性大於銅，鋅失去電子被氧化溶解，溶液中的銅離子被還原而在鋅片表面析出「紅棕色的金屬銅固體（$\\text{Zn} + \\text{Cu}^{2+} \→ \\text{Zn}^{2+} + \\text{Cu}$）」，藍色溶液逐漸變淡",
       "完全不發生任何化學反應",
       "鋅片表面劇烈燃燒爆炸",
       "析出純金屬鈉固體"
@@ -6562,7 +6562,7 @@ const scienceQuiz = [
       "二分裂"
     ],
     "answer": 0,
-    "explanation": "有絲分裂維持遺傳穩定性：體細胞生長、修復進行有絲分裂，子細胞染色體數恆定不變（2n $\\rightarrow$ 2n）；減數分裂專用於生殖母細胞產生單倍體配子（2n $\\rightarrow$ n）。",
+    "explanation": "有絲分裂維持遺傳穩定性：體細胞生長、修復進行有絲分裂，子細胞染色體數恆定不變（2n $\→$ 2n）；減數分裂專用於生殖母細胞產生單倍體配子（2n $\→$ n）。",
     "difficulty": "基礎"
   },
   {
@@ -6660,7 +6660,7 @@ const scienceQuiz = [
       "橙色恆星"
     ],
     "answer": 0,
-    "explanation": "星色與表面溫度定律：藍色最熱（能量高頻率高波長短 > 20000 K）$\\rightarrow$ 白 $\\rightarrow$ 黃（太陽 5800 K）$\\rightarrow$ 橙 $\\rightarrow$ 紅色最冷（約 3000 K）。",
+    "explanation": "星色與表面溫度定律：藍色最熱（能量高頻率高波長短 > 20000 K）$\→$ 白 $\→$ 黃（太陽 5800 K）$\→$ 橙 $\→$ 紅色最冷（約 3000 K）。",
     "difficulty": "基礎"
   },
   {
@@ -6926,7 +6926,7 @@ const scienceQuiz = [
       "反應速率瞬間降為 0"
     ],
     "answer": 0,
-    "explanation": "勒沙特列壓力效應：增壓時平衡自發向氣體分子莫耳數較少的一側移動（左側 4 莫耳氣體 $\\rightarrow$ 右側 2 莫耳氣體），故平衡向右移動增加氨氣產率。",
+    "explanation": "勒沙特列壓力效應：增壓時平衡自發向氣體分子莫耳數較少的一側移動（左側 4 莫耳氣體 $\→$ 右側 2 莫耳氣體），故平衡向右移動增加氨氣產率。",
     "difficulty": "基礎"
   },
   {
@@ -6948,7 +6948,7 @@ const scienceQuiz = [
     "category": "化學-電化學與電池",
     "question": "在傳統銅鋅原電池（丹尼爾電池，伏打電池）中，鋅片浸入硫酸鋅溶液，銅片浸入硫酸銅溶液，兩電極以導線連接並接入鹽橋。當電池正常對外放電時，關於其正負極發生的電極反應敘述何者完全正確？",
     "options": [
-      "「鋅極為負極（發生氧化反應失去電子：$\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-$），銅極為正極（發生還原反應獲得電子：$\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$）」，電子經外導線由負極流向正極",
+      "「鋅極為負極（發生氧化反應失去電子：$\\text{Zn} \→ \\text{Zn}^{2+} + 2e^-$），銅極為正極（發生還原反應獲得電子：$\\text{Cu}^{2+} + 2e^- \→ \\text{Cu}$）」，電子經外導線由負極流向正極",
       "鋅極為正極，銅極為負極",
       "兩電極皆同時發生氧化反應",
       "外電路電子由正極流向負極"
@@ -7172,7 +7172,7 @@ const scienceQuiz = [
     "category": "生物-細胞呼吸作用",
     "question": "綠色植物的根部細胞在土壤發生嚴重淹水積水缺氧時，由於無法進行正常的有氧呼吸，被迫在細胞質基質中進行「無氧發酵呼吸」。植物細胞無氧發酵的最終主要產物為？",
     "options": [
-      "「乙醇（酒精）與二氧化碳（酒精發酵：$\\text{C}_6\\text{H}_{12}\\text{O}_6 \\rightarrow 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2 + 2\\text{ATP}$）」",
+      "「乙醇（酒精）與二氧化碳（酒精發酵：$\\text{C}_6\\text{H}_{12}\\text{O}_6 \→ 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2 + 2\\text{ATP}$）」",
       "乳酸（人體骨骼肌無氧發酵產物）",
       "葡萄糖與氧氣",
       "純水與大量 ATP"
@@ -7584,7 +7584,7 @@ const scienceQuiz = [
       "微酸性溶液"
     ],
     "answer": 0,
-    "explanation": "$\\text{NaOH}$ 為典型一元強鹼，在水中完全電離 $\\text{NaOH} \\rightarrow \\text{Na}^+ + \\text{OH}^-$，呈強鹼性。",
+    "explanation": "$\\text{NaOH}$ 為典型一元強鹼，在水中完全電離 $\\text{NaOH} \→ \\text{Na}^+ + \\text{OH}^-$，呈強鹼性。",
     "difficulty": "基礎"
   },
   {
@@ -7668,7 +7668,7 @@ const scienceQuiz = [
       "太陽對流層"
     ],
     "answer": 0,
-    "explanation": "太陽大氣層由內而外：光球層（表面可見光層）$\\rightarrow$ 色球層（日珥玫瑰色）$\\rightarrow$ 日冕（最外層溫度高達百萬度電漿向外延伸百萬公里形成太陽風）。",
+    "explanation": "太陽大氣層由內而外：光球層（表面可見光層）$\→$ 色球層（日珥玫瑰色）$\→$ 日冕（最外層溫度高達百萬度電漿向外延伸百萬公里形成太陽風）。",
     "difficulty": "基礎"
   },
   {
