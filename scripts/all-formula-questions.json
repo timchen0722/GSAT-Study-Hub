@@ -1,0 +1,41 @@
+[
+  {
+    "idx": 1,
+    "id": "e1",
+    "stem": "Choose the correct meaning of \"reluctant\":",
+    "tw": "請選出「reluctant（不情願的、勉強的）」的正確中文意思：",
+    "options": [
+      "不情願的 (unwilling)",
+      "熱情的 (enthusiastic)",
+      "可靠的 (reliable)",
+      "寬容的 (tolerant)"
+    ],
+    "explanation": "reluctant 意為不情願的、勉強的。He was reluctant to leave."
+  },
+  {
+    "idx": 3,
+    "id": "e3",
+    "stem": "The word \"inevitable\" means:",
+    "tw": "請選出「inevitable（不可避免的）」的正確中文詞義：",
+    "options": [
+      "不可避免的",
+      "不常見的",
+      "不可能的",
+      "不合法的"
+    ],
+    "explanation": "inevitable = 不可避免的。in-(不) + evitable(可避免的)。Death is inevitable."
+  },
+  {
+    "idx": 415,
+    "id": "e415",
+    "stem": "With the rapid advent of digital streaming platforms, traditional VHS videotapes and cassette players have become completely ______.",
+    "tw": "隨著數位串流平臺的迅速興起，傳統 VHS 錄影帶與錄音帶播放機已完全被時代淘汰。",
+    "options": [
+      "obsolete（過時淘汰的 / 廢棄不用的）",
+      "obligatory（強制的）",
+      "obscure（晦澀模糊的）",
+      "optimistic（樂觀的）"
+    ],
+    "explanation": "obsolete 意為「過時淘汰的 / 已廢棄的」（同義詞 outdated）。句意：隨著數位串流平臺的迅速興起，傳統 VHS 錄影帶與錄音帶播放機已完全被時代淘汰。"
+  }
+]
