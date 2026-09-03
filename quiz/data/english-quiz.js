@@ -6060,5 +6060,1223 @@ const englishQuiz = [
     "answer": 0,
     "explanation": "express opinions freely 意為「自由表達意見」。",
     "difficulty": "基礎"
+  },
+  {
+    "id": "e464",
+    "category": "大考核心字彙",
+    "question": "The diplomat delivered an ______ speech at the United Nations assembly, moving delegates from across the globe to tears.",
+    "options": [
+      "eloquent（雄辯口才流利的 / 鏗鏘有力的）",
+      "elusive（難以捉摸的）",
+      "erratic（飄忽不定的）",
+      "exclusive（排他的）"
+    ],
+    "answer": 0,
+    "explanation": "eloquent 意為「雄辯的 / 有說服力的 / 口才流利的」。句意：這位外交官在聯合國大會上發表了一場鏗鏘有力的演說，感動了全球各國代表落淚。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e465",
+    "category": "大考核心字彙",
+    "question": "Due to high inflation and weak consumer spending, the national economy has remained ______ for three consecutive quarters.",
+    "options": [
+      "stagnant（停滯不前的 / 不景氣的）",
+      "stimulating（令人興奮的）",
+      "subsequent（隨後的）",
+      "spontaneous（隨興自發的）"
+    ],
+    "answer": 0,
+    "explanation": "stagnant economy 意為「停滯不前 / 呆滯不景氣的經濟」。句意：由於高通膨與疲軟的消費支出，國家經濟已連續三個季度停滯不前。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e466",
+    "category": "大考核心字彙",
+    "question": "The championship boxing match pitted two ______ fighters against each other in an intense battle for the world title.",
+    "options": [
+      "formidable（令人敬畏強大的 / 難以對付的）",
+      "fragile（脆弱的）",
+      "futile（徒勞無功的）",
+      "feasible（可行的）"
+    ],
+    "answer": 0,
+    "explanation": "formidable opponent / fighter 意為「強大令人敬畏的 / 難以對付的強敵」。句意：這場冠軍爭霸賽讓兩位實力強大令人敬畏的拳手正面對決，爭奪世界冠軍頭銜。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e467",
+    "category": "大考核心字彙",
+    "question": "Mountaineers embarked on a ______ journey through treacherous snowstorms to reach the summit of Mount Everest.",
+    "options": [
+      "perilous（充滿危險險惡的）",
+      "prosperous（繁榮昌盛的）",
+      "promising（有希望前途的）",
+      "plentiful（豐富充足的）"
+    ],
+    "answer": 0,
+    "explanation": "perilous journey / mission 意為「極度危險險惡的旅程」（同義詞 dangerous, hazardous）。句意：登山隊員們踏上了穿越險惡暴風雪的危險旅程，以登頂珠穆朗瑪峰。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e468",
+    "category": "大考核心字彙",
+    "question": "Scientists around the world are working tirelessly to ______ the complex genetic mystery behind Alzheimer's disease.",
+    "options": [
+      "unravel（解開 / 闡明謎團）",
+      "undertake（承擔承接）",
+      "undermine（暗中破壞削弱）",
+      "underestimate（低估）"
+    ],
+    "answer": 0,
+    "explanation": "unravel a mystery / secret 意為「解開 / 闡明（謎團、複雜機理）」。句意：全球科學家正孜孜不倦地工作，以解開阿茲海默症背後複雜的基因之謎。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e469",
+    "category": "大考核心字彙",
+    "question": "Wearing a bright neon orange jacket in a formal business conference made the eccentric designer extremely ______.",
+    "options": [
+      "conspicuous（顯眼的 / 惹人注目的）",
+      "cautious（謹慎的）",
+      "confidential（機密的）",
+      "concise（簡潔的）"
+    ],
+    "answer": 0,
+    "explanation": "conspicuous 意為「顯眼的 / 惹人注目的 / 顯而易見的」（同義詞 noticeable, striking）。句意：在正式商務會議上穿著亮橘色螢光夾克，使這位特立獨行的設計師顯得格外引人注目。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e470",
+    "category": "大考核心字彙",
+    "question": "Under immense public pressure, the corrupt CEO was forced to ______ all management control over the company.",
+    "options": [
+      "relinquish（放棄 / 讓出權力）",
+      "reinforce（增援加強）",
+      "reproduce（繁殖複製）",
+      "reconcile（調解和解）"
+    ],
+    "answer": 0,
+    "explanation": "relinquish control / power 意為「放棄 / 讓出（權力、控制權、財產）」。句意：在巨大的公眾壓力下，這位貪腐的執行長被迫放棄對公司的所有管理控制權。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e471",
+    "category": "大考核心字彙",
+    "question": "The elderly patient's condition began to ______ rapidly overnight, requiring immediate transfer to the intensive care unit.",
+    "options": [
+      "deteriorate（惡化 / 退化）",
+      "distinguish（區分）",
+      "determine（決定）",
+      "demonstrate（示範）"
+    ],
+    "answer": 0,
+    "explanation": "deteriorate 意為「（健康、病情、局勢）惡化 / 變差」（同義詞 worsen）。句意：老病患的病情在一夜之間迅速惡化，需要立即轉入加護病房。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e472",
+    "category": "大考核心字彙",
+    "question": "High school seniors often ______ when faced with difficult essay writing, only to find themselves panicking right before the deadline.",
+    "options": [
+      "procrastinate（拖延 / 遲延拖拉）",
+      "prosecute（起訴檢控）",
+      "proclaim（宣布）",
+      "prosper（繁榮）"
+    ],
+    "answer": 0,
+    "explanation": "procrastinate 意為「拖延 / 習慣性拖延」。句意：高三生在面對艱難的論文寫作時往往會拖延，結果在截止日前夕才陷入恐慌。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e473",
+    "category": "進階文法與句型",
+    "question": "Now ______ you have graduated from university with top honors, you should start planning your future career trajectory.",
+    "options": [
+      "that（Now that... 既然 / 如今已經……）",
+      "which",
+      "what",
+      "where"
+    ],
+    "answer": 0,
+    "explanation": "Now that... 引導原因副詞子句，表示「既然 / 如今既然已經……」。句意：既然你已經以優異成績從大學畢業，你就應該開始規劃未來的職業生涯軌跡。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e474",
+    "category": "進階文法與句型",
+    "question": "You are free to borrow my laptop for the weekend, ______ that you return it undamaged by Monday morning.",
+    "options": [
+      "provided（provided that / providing that 只要 / 在……條件下）",
+      "lest",
+      "unless",
+      "in case of"
+    ],
+    "answer": 0,
+    "explanation": "provided that / providing that（= as long as, on condition that）意為「只要 / 在……條件下」。句意：週末你可以隨意借用我的筆記型電腦，只要你在週一早晨前完好無損地歸還。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e475",
+    "category": "進階文法與句型",
+    "question": "The hiker walked stealthily through the dense jungle ______ fear of alerting wild predatory animals.",
+    "options": [
+      "for（for fear of + N / V-ing，唯恐 / 深怕……）",
+      "with",
+      "in",
+      "by"
+    ],
+    "answer": 0,
+    "explanation": "for fear of + N / V-ing 意為「唯恐 / 深怕 / 以免……」。句意：登山者在茂密叢林中悄悄行走，深怕驚動兇猛的肉食野生動物。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e476",
+    "category": "高頻片語與搭配詞",
+    "question": "The central bank implemented tight monetary policies to keep soaring consumer inflation ______.",
+    "options": [
+      "in check（keep ... in check 控制 / 遏止 / 約束）",
+      "in hand",
+      "in mind",
+      "in person"
+    ],
+    "answer": 0,
+    "explanation": "keep sth in check 意為「控制 / 遏制 / 約束（惡化趨勢、物價）」。句意：中央銀行實施緊縮貨幣政策以遏制急劇飆升的消費者通膨。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e477",
+    "category": "高頻片語與搭配詞",
+    "question": "Decaying organic matter in the garbage dump began to ______ a foul and pungent odor.",
+    "options": [
+      "give off（散發出 / 發出氣味光熱）",
+      "give in",
+      "give up",
+      "give away"
+    ],
+    "answer": 0,
+    "explanation": "give off 意為「散發出 / 釋放出（氣味、氣體、光、熱）」。句意：垃圾場中腐爛的有機物開始散發出一股難聞刺鼻的惡臭。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e478",
+    "category": "高頻片語與搭配詞",
+    "question": "After the sudden retirement of the general manager, the young vice president was appointed to ______ the company's daily operations.",
+    "options": [
+      "take over（接管 / 接任）",
+      "take after",
+      "take off",
+      "take down"
+    ],
+    "answer": 0,
+    "explanation": "take over 意為「接管 / 接任（職位、業務）」。句意：總經理突然退休後，年輕的副總經理被任命接管公司的日常運營。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e479",
+    "category": "高頻片語與搭配詞",
+    "question": "The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.",
+    "options": [
+      "carried out（實施 / 執行臨床試驗）",
+      "carried on",
+      "carried away",
+      "carried off"
+    ],
+    "answer": 0,
+    "explanation": "carry out an experiment / survey / trial 意為「進行 / 執行 / 實施（實驗、臨床試驗）」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e480",
+    "category": "高頻片語與搭配詞",
+    "question": "We should never ______ people based on their social status, wealth, or ethnic background.",
+    "options": [
+      "look down upon（看不起 / 輕視）",
+      "look up to",
+      "look forward to",
+      "look out for"
+    ],
+    "answer": 0,
+    "explanation": "look down upon / on sb 意為「輕視 / 瞧不起某人」；對比 look up to（尊敬崇拜某人）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e481",
+    "category": "高頻片語與搭配詞",
+    "question": "The newly signed peace treaty officially ______ decades of bloody civil conflict in the war-torn region.",
+    "options": [
+      "put an end to（終結 / 結束）",
+      "put up with",
+      "put forward to",
+      "put off to"
+    ],
+    "answer": 0,
+    "explanation": "put an end to sth 意為「終結 / 徹底結束（爭端、痛苦、戰爭）」。句意：新簽署的和平條約正式結束了飽受戰火蹂躪地區長達數十年的血腥內戰衝突。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e482",
+    "category": "高頻片語與搭配詞",
+    "question": "Parents always ______ their children's hard-earned academic achievements and personal growth.",
+    "options": [
+      "take pride in（以……為榮 / 為……感到自豪）",
+      "take advantage of",
+      "take part in",
+      "take care of"
+    ],
+    "answer": 0,
+    "explanation": "take pride in（= be proud of）意為「以……為榮 / 為……自豪」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e483",
+    "category": "大考核心字彙",
+    "question": "The newly developed lightweight material is remarkably ______; it can absorb massive shocks without deforming.",
+    "options": [
+      "resilient（具彈性復原力的 / 堅韌的）",
+      "rigid（死板僵硬的）",
+      "reluctant（勉強的）",
+      "redundant（多餘的）"
+    ],
+    "answer": 0,
+    "explanation": "resilient material 意為「具彈性復原力的 / 堅韌抗震的材料」。句意：新研發的輕質材料極具韌性與彈性；它能吸收巨大衝擊而不會變形。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e484",
+    "category": "大考核心字彙",
+    "question": "The venerable professor was respected by generations of scholars for his profound wisdom and ______ integrity.",
+    "options": [
+      "impeccable（無可挑剔的 / 完美無瑕的）",
+      "impulsive（衝動的）",
+      "impatient（不耐煩的）",
+      "imperfect（不完美的）"
+    ],
+    "answer": 0,
+    "explanation": "impeccable integrity / reputation 意為「無可挑剔的 / 完美無暇的品格操守」（同義詞 flawless）。句意：這位德高望重的教授因其深邃智慧與完美無瑕的正直操守而受到數代學者的尊崇。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e485",
+    "category": "大考核心字彙",
+    "question": "The judge dismissed the case because the prosecutor failed to present ______ evidence to support the felony charge.",
+    "options": [
+      "tangible（切實有形的 / 確鑿實質的）",
+      "tedious（冗長乏味的）",
+      "tentative（暫時的）",
+      "trivial（微不足道的）"
+    ],
+    "answer": 0,
+    "explanation": "tangible evidence 意為「確鑿有實質根據的證據」。句意：法官駁回了起訴，因為檢察官未能提出確鑿實質的證據來支持重罪指控。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e486",
+    "category": "進階文法與句型",
+    "question": "The new highway was constructed ______ alleviate the severe traffic congestion between the two neighboring cities.",
+    "options": [
+      "so as to（so as to + 原形動詞，以便 / 為了……）",
+      "so that",
+      "in order that",
+      "such as to"
+    ],
+    "answer": 0,
+    "explanation": "so as to + V（= in order to + V 為了 / 以便……，後接原形動詞）。注意：so that 後接完整子句。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e487",
+    "category": "進階文法與句型",
+    "question": "The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.",
+    "options": [
+      "so that（so that + S + can/could + V，以便……）",
+      "in case of",
+      "because of",
+      "so as to"
+    ],
+    "answer": 0,
+    "explanation": "so that 引導目的副詞子句（後接完整子句，常用 can/could/may/might 助動詞）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e488",
+    "category": "大考核心字彙",
+    "question": "The CEO was impressed by the candidate's ______ resume and extensive leadership experience in software development.",
+    "options": [
+      "stellar（出色的 / 傑出精彩的）",
+      "stale（不新鮮的）",
+      "stubborn（頑固的）",
+      "shallow（膚淺的）"
+    ],
+    "answer": 0,
+    "explanation": "stellar resume / performance 意為「出色的 / 傑出的（如星光般燦爛的）」。句意：執行長對該候選人出色的履歷以及在軟體開發領域豐富的領導經驗留下了深刻印象。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e489",
+    "category": "大考核心字彙",
+    "question": "The government launched a comprehensive public health campaign to ______ the spread of infectious seasonal influenza.",
+    "options": [
+      "curb（抑制 / 遏止）",
+      "cultivate（培養）",
+      "cure（治癒）",
+      "curse（詛咒）"
+    ],
+    "answer": 0,
+    "explanation": "curb the spread of 意為「抑制 / 遏止（疾病傳播、通膨、犯罪）」。句意：政府發起了一場全面的公共衛生運動，以遏制季節性傳染性流感的蔓延。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e490",
+    "category": "大考核心字彙",
+    "question": "The ancient temple stands as a testament to the extraordinary architectural ______ of the civilization.",
+    "options": [
+      "ingenuity（獨創性 / 精巧才智）",
+      "indifference（漠不關心）",
+      "ignorance（無知）",
+      "inflation（通貨膨脹）"
+    ],
+    "answer": 0,
+    "explanation": "architectural ingenuity 意為「建築的精巧才智 / 巧奪天工的智慧」。句意：這座古老廟宇證明了該文明非凡的建築才智與創造力。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e491",
+    "category": "大考核心字彙",
+    "question": "The politician's approval ratings plummeted after his ______ remarks regarding minority communities were leaked online.",
+    "options": [
+      "derogatory（貶損侮辱的 / 誹謗的）",
+      "decorative（裝飾性的）",
+      "decisive（決定性的）",
+      "deliberate（深思熟慮的）"
+    ],
+    "answer": 0,
+    "explanation": "derogatory remarks 意為「貶低侮辱性的言論」。句意：在該政客針對少數族群社群的貶損侮辱言論在網路上洩露後，其支持率大幅暴跌。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e492",
+    "category": "進階文法與句型",
+    "question": "______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.",
+    "options": [
+      "Although（Although + S + V，雖然儘管）",
+      "Despite",
+      "In spite of",
+      "Regardless of"
+    ],
+    "answer": 0,
+    "explanation": "Although / Even though 引導讓步副詞子句（後接完整子句）；Despite / In spite of 為介系詞後接名詞或動名詞。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e493",
+    "category": "高頻片語與搭配詞",
+    "question": "The new environmental protection act will come ______ starting on the first day of next year.",
+    "options": [
+      "into effect（come into effect 生效 / 開始實施）",
+      "into contact",
+      "into account",
+      "into trouble"
+    ],
+    "answer": 0,
+    "explanation": "come into effect / force 意為「（法規、條約）生效 / 開始實行」。句意：新環保法案將於明年的第一天起正式生效實施。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e494",
+    "category": "大考核心字彙",
+    "question": "The surgeon required absolute ______ in the operating theater to perform the delicate brain surgery successfully.",
+    "options": [
+      "silence（寂靜 / 肅靜）",
+      "science（科學）",
+      "symptom（症狀）",
+      "substance（物質）"
+    ],
+    "answer": 0,
+    "explanation": "absolute silence 意為「絕對的安靜」。句意：外科醫生要求手術室內保持絕對肅靜，以便成功進行精細的腦部手術。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e495",
+    "category": "大考核心字彙",
+    "question": "Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.",
+    "options": [
+      "eco-friendly（環保生態友善的）",
+      "extravagant（奢侈浪費的）",
+      "exhausted（精疲力竭的）",
+      "erratic（不穩定的）"
+    ],
+    "answer": 0,
+    "explanation": "eco-friendly alternatives 意為「生態環保友善的替代選擇」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e496",
+    "category": "大考核心字彙",
+    "question": "The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.",
+    "options": [
+      "destruction（破壞毀滅）",
+      "instruction（指示）",
+      "construction（建設）",
+      "distinction（區分）"
+    ],
+    "answer": 0,
+    "explanation": "widespread destruction 意為「廣泛的破壞毀滅」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e497",
+    "category": "大考核心字彙",
+    "question": "The research university established a modern laboratory equipped with ______ analytical instruments.",
+    "options": [
+      "state-of-the-art（最先進頂尖的）",
+      "out-of-date（過時的）",
+      "short-term（短期的）",
+      "second-hand（二手的）"
+    ],
+    "answer": 0,
+    "explanation": "state-of-the-art equipment 意為「最先進 / 尖端技術的設備」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e498",
+    "category": "進階文法與句型",
+    "question": "The teacher asked the students to keep quiet ______ they could concentrate on the reading test.",
+    "options": [
+      "in order that（in order that + S + can/could + V，以便……）",
+      "in case of",
+      "in spite of",
+      "so as to"
+    ],
+    "answer": 0,
+    "explanation": "in order that（= so that）引導目的子句，後接完整子句。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e499",
+    "category": "高頻片語與搭配詞",
+    "question": "The young athlete trained tirelessly every single day in ______ of her Olympic dream.",
+    "options": [
+      "pursuit（in pursuit of 追求 / 追尋……）",
+      "praise",
+      "presence",
+      "proportion"
+    ],
+    "answer": 0,
+    "explanation": "in pursuit of sth 意為「追求 / 追逐（夢想、目標）」。句意：這位年輕運動員每天不知疲倦地訓練，以追尋她的奧運夢想。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e500",
+    "category": "大考核心字彙",
+    "question": "The museum guide gave a ______ overview of ancient Egyptian history before leading the tour into the mummy exhibition.",
+    "options": [
+      "brief（簡短簡要的）",
+      "blind（盲目的）",
+      "bitter（痛苦苦澀的）",
+      "brave（勇敢的）"
+    ],
+    "answer": 0,
+    "explanation": "brief overview 意為「簡要概述」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e501",
+    "category": "大考核心字彙",
+    "question": "Regular hydration and sun protection are ______ when participating in outdoor summer marathon events.",
+    "options": [
+      "essential（必不可少的 / 極其重要的）",
+      "efficient（高效率的）",
+      "emotional（情緒化的）",
+      "eventual（最終的）"
+    ],
+    "answer": 0,
+    "explanation": "essential 意為「至關重要的 / 必不可少的」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e502",
+    "category": "大考核心字彙",
+    "question": "The company's customer service hotline is available 24 hours a day for customer ______.",
+    "options": [
+      "convenience（便利方便）",
+      "conflict（衝突）",
+      "confusion（困惑）",
+      "confidence（信心）"
+    ],
+    "answer": 0,
+    "explanation": "for customer convenience 意為「為了顧客的便利」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e503",
+    "category": "進階文法與句型",
+    "question": "The scientist devoted her entire career ______ finding a cure for rare pediatric genetic diseases.",
+    "options": [
+      "to（devote sth to + V-ing，奉獻致力於……）",
+      "for",
+      "with",
+      "in"
+    ],
+    "answer": 0,
+    "explanation": "devote one's life / career to + V-ing（其中 to 為介系詞）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e504",
+    "category": "大考核心字彙",
+    "question": "The international airport has tightened security screenings to ensure passenger ______.",
+    "options": [
+      "safety（安全）",
+      "salary（薪水）",
+      "sample（樣品）",
+      "scenery（風景）"
+    ],
+    "answer": 0,
+    "explanation": "passenger safety 意為「乘客安全」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e505",
+    "category": "大考核心字彙",
+    "question": "The novel's unpredictable ending took readers completely by ______.",
+    "options": [
+      "surprise（take sb by surprise 使某人大吃一驚）",
+      "storm",
+      "chance",
+      "force"
+    ],
+    "answer": 0,
+    "explanation": "take sb by surprise 意為「使某人大感意外 / 出其不意」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e506",
+    "category": "大考核心字彙",
+    "question": "The school offers free after-school tutoring programs to help students improve their academic ______.",
+    "options": [
+      "performance（學業表現 / 成績）",
+      "permission（許可）",
+      "personality（個性）",
+      "persuasion（說服）"
+    ],
+    "answer": 0,
+    "explanation": "academic performance 意為「學業成績表現」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e507",
+    "category": "大考核心字彙",
+    "question": "The local community organized a fundraising charity gala to support the ______ animal shelter.",
+    "options": [
+      "homeless（無家可歸的 / 流浪的）",
+      "hopeless（絕望的）",
+      "harmless（無害的）",
+      "heartless（無情的）"
+    ],
+    "answer": 0,
+    "explanation": "homeless animal shelter 意為「流浪動物庇護所」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e508",
+    "category": "高頻片語與搭配詞",
+    "question": "Good communication skills and empathy are essential when ______ disputes between colleagues.",
+    "options": [
+      "settling（settle disputes 調解 / 平息爭端）",
+      "starting",
+      "spending",
+      "seeking"
+    ],
+    "answer": 0,
+    "explanation": "settle disputes / conflicts 意為「調解 / 平息爭端衝突」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e509",
+    "category": "大考核心字彙",
+    "question": "The fans were ______ when their underdog national soccer team scored a last-minute goal to win the championship.",
+    "options": [
+      "jubilant（歡欣鼓舞的 / 狂喜的）",
+      "jealous（嫉妒的）",
+      "juvenile（青少年的）",
+      "judgmental（批判性的）"
+    ],
+    "answer": 0,
+    "explanation": "jubilant 意為「歡欣鼓舞的 / 欣喜若狂的」（同義詞 overjoyed）。句意：當不被看好的國家足球隊在最後一分鐘進球贏得冠軍時，球迷們欣喜若狂歡呼慶祝。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e510",
+    "category": "大考核心字彙",
+    "question": "Elders in the indigenous village often ______ the gradual decline of their ancestral language and traditional customs.",
+    "options": [
+      "lament（哀悼 / 痛惜 / 悲嘆）",
+      "launch（發射發起）",
+      "laud（讚揚）",
+      "liberate（解放）"
+    ],
+    "answer": 0,
+    "explanation": "lament 意為「悲嘆 / 痛惜（某事的衰亡）」。句意：原住民部落的長者們經常痛惜祖先語言與傳統習俗的逐漸衰微。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e511",
+    "category": "大考核心字彙",
+    "question": "The director refused to settle for a ______ performance, demanding that the actors rehearse every scene until perfection.",
+    "options": [
+      "mediocre（平庸中庸的 / 普普通通的）",
+      "meticulous（細緻嚴謹的）",
+      "marvelous（絕妙的）",
+      "modest（謙遜的）"
+    ],
+    "answer": 0,
+    "explanation": "mediocre 意為「平庸普通的 / 品質一般的」（同義詞 average, ordinary）。句意：導演拒絕接受平庸的演出，要求演員反覆排練每一幕直到完美。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e512",
+    "category": "大考核心字彙",
+    "question": "A supportive family environment helps ______ a child's natural talents and foster emotional resilience.",
+    "options": [
+      "nurture（培養 / 哺育）",
+      "neglect（疏忽忽視）",
+      "nullify（使作廢）",
+      "neutralize（中和）"
+    ],
+    "answer": 0,
+    "explanation": "nurture talents 意為「培養天賦 / 哺育成長」（同義詞 cultivate, foster）。句意：充滿支持的家庭環境有助於培養孩子的天賦並建立心理韌性。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e513",
+    "category": "大考核心字彙",
+    "question": "Before making a final investment decision, the financial advisor analyzed all the ______ market data carefully.",
+    "options": [
+      "pertinent（相關的 / 切題中肯的）",
+      "perishable（易腐壞的）",
+      "permanent（永久的）",
+      "primitive（原始的）"
+    ],
+    "answer": 0,
+    "explanation": "pertinent 意為「切題相關的 / 緊密關聯的」（同義詞 relevant）。句意：在做出最終投資決策前，財務顧問仔細分析了所有相關切題的市場數據。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e514",
+    "category": "大考核心字彙",
+    "question": "After hiking under the scorching desert sun for hours, the travelers were desperate to ______ their intense thirst.",
+    "options": [
+      "quench（解渴 / 撲滅渴望）",
+      "quantify（量化）",
+      "qualify（取得資格）",
+      "quarrel（爭吵）"
+    ],
+    "answer": 0,
+    "explanation": "quench one's thirst 意為「解渴 / 止渴」。句意：在炎熱沙漠陽光下徒步數小時後，旅行者極度渴望解渴。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e515",
+    "category": "大考核心字彙",
+    "question": "The historical museum received a government grant to ______ its aging exhibition halls and install modern interactive displays.",
+    "options": [
+      "renovate（翻修整修 / 翻新）",
+      "relocate（遷移搬遷）",
+      "reinforce（加固）",
+      "reproduce（複製）"
+    ],
+    "answer": 0,
+    "explanation": "renovate 意為「翻新 / 裝修（建築物）」（同義詞 remodel, refurbish）。句意：歷史博物館獲得了政府補助金，用於翻修老化的展廳並安裝現代互動展示設備。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e516",
+    "category": "大考核心字彙",
+    "question": "The experienced manager handled the delicate customer complaint in a ______ and professional manner, resolving the dispute smoothly.",
+    "options": [
+      "tactful（圓融得體的 / 圓滑機智的）",
+      "tactless（不圓融得罪人的）",
+      "tedious（乏味的）",
+      "tense（緊張的）"
+    ],
+    "answer": 0,
+    "explanation": "tactful 意為「圓滑得體的 / 處事圓融機智的」（同義詞 diplomatic）。句意：經驗豐富的經理以得體且專業的方式處理了棘手的顧客投訴，順利平息了糾紛。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e517",
+    "category": "大考核心字彙",
+    "question": "The young entrepreneur worked with boundless ______ and energy to turn her startup vision into a thriving reality.",
+    "options": [
+      "zeal（熱情 / 熱忱狂熱）",
+      "zenith（頂峰）",
+      "zone（區域）",
+      "zero（零）"
+    ],
+    "answer": 0,
+    "explanation": "zeal 意為「熱情 / 熱情熱忱」（同義詞 enthusiasm, passion）。句意：這位年輕創業家懷著無比的熱情與精力工作，將她的新創願景化為蓬勃發展的現實。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e518",
+    "category": "進階文法與句型",
+    "question": "I would rather ______ at home reading a good book than go to a noisy, crowded nightclub.",
+    "options": [
+      "stay（would rather + 原形動詞 + than + 原形動詞，寧可……也不願……）",
+      "staying",
+      "to stay",
+      "stayed"
+    ],
+    "answer": 0,
+    "explanation": "would rather + V1 + than + V2（固定句型，兩處皆接原形動詞）。句意：我寧可待在家讀一本好書，也不願去吵鬧擁擠的夜店。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e519",
+    "category": "進階文法與句型",
+    "question": "You had better ______ an umbrella with you because the sky is turning dark and rain is imminent.",
+    "options": [
+      "take（had better + 原形動詞，最好做……）",
+      "taking",
+      "to take",
+      "took"
+    ],
+    "answer": 0,
+    "explanation": "had better + 原形動詞（表示「最好做某事」，否定句為 had better not + 原形動詞）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e520",
+    "category": "進階文法與句型",
+    "question": "It is no ______ that she passed the rigorous medical licensing exam; she studied more than twelve hours every day.",
+    "options": [
+      "wonder（It is no wonder that... 難怪 / 不足為奇）",
+      "doubt",
+      "problem",
+      "secret"
+    ],
+    "answer": 0,
+    "explanation": "It is no wonder that... 意為「難怪…… / ……不足為奇」。句意：難怪她能通過嚴格的醫師執照考試；她每天苦讀超過十二個小時。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e521",
+    "category": "進階文法與句型",
+    "question": "It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.",
+    "options": [
+      "difference（It makes no difference whether... 無論……都沒有差別）",
+      "difficulty",
+      "distance",
+      "direction"
+    ],
+    "answer": 0,
+    "explanation": "It makes no difference whether A or B 意為「無論 A 或 B 都毫無差別」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e522",
+    "category": "進階文法與句型",
+    "question": "______ the severe blizzard that paralyzed airport operations, our scheduled flight had to be canceled indefinitely.",
+    "options": [
+      "Owing to（Owing to + N，由於 / 因為……）",
+      "Due",
+      "Because",
+      "Despite"
+    ],
+    "answer": 0,
+    "explanation": "Owing to + N（= Due to + N / Because of + N 由於……，後接名詞）。注意：Because 後接完整子句。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e523",
+    "category": "高頻片語與搭配詞",
+    "question": "The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.",
+    "options": [
+      "take（take the initiative to 主動採取行動 / 帶頭發起）",
+      "make",
+      "have",
+      "give"
+    ],
+    "answer": 0,
+    "explanation": "take the initiative to + V 意為「主動帶頭做某事 / 採取主動行動」。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e524",
+    "category": "高頻片語與搭配詞",
+    "question": "Elderly citizens who live alone are often more likely to ______ online and telephone financial scams.",
+    "options": [
+      "fall victim to（成為……的受害者 / 蒙受其害）",
+      "take advantage of",
+      "make sense of",
+      "keep track of"
+    ],
+    "answer": 0,
+    "explanation": "fall victim / prey to sth 意為「成為……的受害者 / 墮入……陷阱」。句意：獨居長者往往更容易成為網路與電話金融詐騙的受害者。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e525",
+    "category": "高頻片語與搭配詞",
+    "question": "In the ______ of the catastrophic hurricane, international humanitarian organizations rushed emergency food and medicine to the disaster zone.",
+    "options": [
+      "wake（in the wake of 在……之後 / 隨之而來）",
+      "view",
+      "light",
+      "face"
+    ],
+    "answer": 0,
+    "explanation": "in the wake of sth 意為「在……緊接著發生之後 / 作為……的後續結果」。句意：在災難性颶風過後，國際人道組織緊急將食品與藥品運往災區。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e526",
+    "category": "高頻片語與搭配詞",
+    "question": "For safety reasons, automated fire alarm systems in the factory are tested at regular ______ by certified engineers.",
+    "options": [
+      "intervals（at regular intervals 每隔一定間隔時間 / 定期）",
+      "instances",
+      "intentions",
+      "interests"
+    ],
+    "answer": 0,
+    "explanation": "at regular intervals 意為「每隔一定規律的時間間隔 / 定期」。句意：出於安全考慮，工廠內的自動火災警報系統由持證工程師定期檢測。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e527",
+    "category": "高頻片語與搭配詞",
+    "question": "With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.",
+    "options": [
+      "regard（with regard to 關於 / 至於……）",
+      "respects",
+      "reference",
+      "relation"
+    ],
+    "answer": 0,
+    "explanation": "with regard to / in regard to（= regarding, concerning）意為「關於 / 至於……」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e528",
+    "category": "高頻片語與搭配詞",
+    "question": "The newly built skyscraper bears a striking ______ to the famous architectural landmark in Dubai.",
+    "options": [
+      "resemblance（bear a resemblance to 與……極為相似相像）",
+      "resistance",
+      "resolution",
+      "responsibility"
+    ],
+    "answer": 0,
+    "explanation": "bear a (striking) resemblance to sb / sth 意為「與……極其相似」。句意：這座新建成的摩天大樓與杜拜著名的建築地標有著驚人的相似之處。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e529",
+    "category": "高頻片語與搭配詞",
+    "question": "Due to the sudden electric power outage, the factory's entire automated assembly line came to a ______.",
+    "options": [
+      "halt（come to a halt 停止運行 / 停擺）",
+      "start",
+      "point",
+      "conclusion"
+    ],
+    "answer": 0,
+    "explanation": "come to a halt / standstill 意為「停止運轉 / 停頓中斷」。句意：由於突發停電，工廠的整條自動化裝配生產線陷入了全面停擺。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e530",
+    "category": "高頻片語與搭配詞",
+    "question": "I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.",
+    "options": [
+      "under（under the weather 身體不適 / 微恙）",
+      "over",
+      "above",
+      "below"
+    ],
+    "answer": 0,
+    "explanation": "feel under the weather 意為「身體不舒服 / 身體微恙生病」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e531",
+    "category": "高頻片語與搭配詞",
+    "question": "The airline offered complimentary flight vouchers to passengers in order to make ______ for the twelve-hour flight delay.",
+    "options": [
+      "amends（make amends for 彌補 / 補償）",
+      "agreements",
+      "accounts",
+      "arrangements"
+    ],
+    "answer": 0,
+    "explanation": "make amends for sth 意為「為……作出補償/賠償/彌補」（同義詞 compensate for）。句意：航空公司向乘客提供了免費機票折價券，以彌補長達十二小時的航班延誤。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e532",
+    "category": "高頻片語與搭配詞",
+    "question": "The class representative delivered a heartfelt speech on ______ of all graduating students during the commencement ceremony.",
+    "options": [
+      "behalf（on behalf of 代表……）",
+      "belief",
+      "benefit",
+      "behavior"
+    ],
+    "answer": 0,
+    "explanation": "on behalf of sb 意為「代表某人 / 代表全體……」。句意：班級代表在畢業典禮上代表全體畢業生發表了發自肺腑的演說。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e533",
+    "category": "大考核心字彙",
+    "question": "Regular health checkups are highly recommended for early ______ of chronic diseases.",
+    "options": [
+      "detection（偵測發現 / 早期檢出）",
+      "direction",
+      "description",
+      "destruction"
+    ],
+    "answer": 0,
+    "explanation": "early detection of diseases 意為「疾病的早期發現診斷」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e534",
+    "category": "大考核心字彙",
+    "question": "The company will ______ a new eco-friendly product line in the international market next month.",
+    "options": [
+      "introduce（引進推出）",
+      "interrupt",
+      "interfere",
+      "interpret"
+    ],
+    "answer": 0,
+    "explanation": "introduce a new product line 意為「推出新產品線」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e535",
+    "category": "大考核心字彙",
+    "question": "The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.",
+    "options": [
+      "discipline（紀律 / 秩序守則）",
+      "dimension",
+      "discovery",
+      "discussion"
+    ],
+    "answer": 0,
+    "explanation": "maintain good discipline 意為「維持良好紀律」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e536",
+    "category": "大考核心字彙",
+    "question": "The government provided financial subsidies to farmers whose crops were damaged by the severe ______.",
+    "options": [
+      "drought（乾旱災情）",
+      "draft",
+      "drain",
+      "drift"
+    ],
+    "answer": 0,
+    "explanation": "damaged by severe drought 意為「遭受嚴重乾旱損害」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e537",
+    "category": "大考核心字彙",
+    "question": "The new software update aims to enhance the overall ______ of data encryption and protect user privacy.",
+    "options": [
+      "security（安全防護）",
+      "scenery",
+      "section",
+      "session"
+    ],
+    "answer": 0,
+    "explanation": "enhance data security 意為「提升數據安全防護」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e538",
+    "category": "大考核心字彙",
+    "question": "Volunteering at the community center is a ______ experience that allows students to give back to society.",
+    "options": [
+      "rewarding（有意義回報豐厚的 / 值得的）",
+      "reckless",
+      "reluctant",
+      "redundant"
+    ],
+    "answer": 0,
+    "explanation": "rewarding experience 意為「極有意義 / 獲益良多的體驗」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e539",
+    "category": "大考核心字彙",
+    "question": "The young musician has an extraordinary ______ for playing the violin and composing classical melodies.",
+    "options": [
+      "talent（天賦才華）",
+      "target",
+      "temptation",
+      "texture"
+    ],
+    "answer": 0,
+    "explanation": "have a talent for 意為「在……方面具有天賦才華」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e540",
+    "category": "大考核心字彙",
+    "question": "The library provides a quiet ______ where students can focus on preparing for their entrance exams.",
+    "options": [
+      "atmosphere（氛圍氣氛 / 環境）",
+      "altitude",
+      "attitude",
+      "aptitude"
+    ],
+    "answer": 0,
+    "explanation": "quiet atmosphere 意為「安靜的氛圍環境」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e541",
+    "category": "大考核心字彙",
+    "question": "The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.",
+    "options": [
+      "infection（感染）",
+      "injection",
+      "inspection",
+      "intention"
+    ],
+    "answer": 0,
+    "explanation": "bacterial infection 意為「細菌感染」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e542",
+    "category": "大考核心字彙",
+    "question": "The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.",
+    "options": [
+      "control（品質管制）",
+      "contact",
+      "content",
+      "contest"
+    ],
+    "answer": 0,
+    "explanation": "quality control measures 意為「品質管制措施」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e543",
+    "category": "大考核心字彙",
+    "question": "The team celebrated their ______ after winning the hard-fought championship match in overtime.",
+    "options": [
+      "victory（勝利）",
+      "variety",
+      "victim",
+      "vision"
+    ],
+    "answer": 0,
+    "explanation": "celebrate their victory 意為「慶祝勝利」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e544",
+    "category": "大考核心字彙",
+    "question": "Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.",
+    "options": [
+      "prevention（預防）",
+      "preparation",
+      "presentation",
+      "preservation"
+    ],
+    "answer": 0,
+    "explanation": "prevention of diseases 意為「疾病的預防」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e545",
+    "category": "大考核心字彙",
+    "question": "The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.",
+    "options": [
+      "demand（需求）",
+      "damage",
+      "danger",
+      "debate"
+    ],
+    "answer": 0,
+    "explanation": "rise in consumer demand 意為「消費者需求的上升」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e546",
+    "category": "大考核心字彙",
+    "question": "The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.",
+    "options": [
+      "facilities（公共設施機構）",
+      "failures",
+      "fantasies",
+      "factors"
+    ],
+    "answer": 0,
+    "explanation": "public facilities 意為「公共設施機構」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e547",
+    "category": "大考核心字彙",
+    "question": "The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.",
+    "options": [
+      "ingredients（食材原料）",
+      "instruments",
+      "instructions",
+      "institutions"
+    ],
+    "answer": 0,
+    "explanation": "fresh seasonal ingredients 意為「新鮮當季食材」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e548",
+    "category": "大考核心字彙",
+    "question": "Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.",
+    "options": [
+      "boost（提升增強）",
+      "block",
+      "blame",
+      "borrow"
+    ],
+    "answer": 0,
+    "explanation": "boost mood and vitality 意為「提升心情與活力」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e549",
+    "category": "大考核心字彙",
+    "question": "The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.",
+    "options": [
+      "species（物種種群）",
+      "spaces",
+      "sources",
+      "secrets"
+    ],
+    "answer": 0,
+    "explanation": "protect endangered marine species 意為「保護瀕危海洋物種」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e550",
+    "category": "大考核心字彙",
+    "question": "Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.",
+    "options": [
+      "success（成功成就）",
+      "silence",
+      "struggle",
+      "suspicion"
+    ],
+    "answer": 0,
+    "explanation": "achieving lifelong success 意為「取得終生成功」。",
+    "difficulty": "基礎"
   }
 ];
