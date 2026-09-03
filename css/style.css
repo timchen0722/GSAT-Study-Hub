@@ -1635,46 +1635,64 @@ img {
   position: relative;
   display: inline-block;
   cursor: help;
-  border-bottom: 1px dashed var(--color-accent-teal);
-  transition: background 0.2s;
+  border-bottom: 1px dashed var(--color-accent-teal, #4a90e2);
+  transition: all 0.2s;
   padding: 0 2px;
+  border-radius: 2px;
 }
 .en-assist:hover {
-  background: rgba(124, 149, 147, 0.1);
+  background: rgba(109, 134, 154, 0.15);
 }
-.en-assist::after {
+.en-assist[data-tw]:not([data-tw=""])::after {
   content: attr(data-tw);
   position: absolute;
-  bottom: 100%;
+  bottom: calc(100% + 6px);
   left: 50%;
-  transform: translateX(-50%) translateY(-5px);
-  background: var(--color-text-primary);
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
+  transform: translateX(-50%) translateY(-4px);
+  background: rgba(30, 41, 59, 0.95);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
   font-size: 0.85rem;
-  white-space: nowrap;
+  line-height: 1.4;
+  white-space: normal;
+  min-width: 120px;
+  max-width: 320px;
+  text-align: center;
   opacity: 0;
   pointer-events: none;
-  transition: all 0.2s;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   z-index: var(--z-tooltip, 1000);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
 }
-.en-assist:hover::after {
+.en-assist:hover::after,
+.en-assist.touch-active::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
 .speak-icon {
   cursor: pointer;
-  margin-left: 4px;
-  font-size: 0.9em;
-  opacity: 0.6;
-  transition: all 0.2s;
+  margin-left: 6px;
+  font-size: 0.95em;
+  opacity: 0.65;
+  transition: all 0.2s ease;
   display: inline-block;
+  user-select: none;
+  vertical-align: middle;
 }
 .speak-icon:hover {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+.speak-icon.speaking-active {
+  opacity: 1;
+  color: var(--color-accent-teal, #4a90e2);
+  animation: pulse-speak 0.8s infinite alternate;
+}
+@keyframes pulse-speak {
+  0% { transform: scale(1.1); }
+  100% { transform: scale(1.35); filter: drop-shadow(0 0 6px rgba(74, 144, 226, 0.6)); }
 }
 
 

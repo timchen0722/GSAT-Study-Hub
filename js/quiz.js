@@ -177,7 +177,7 @@ class QuizSystem {
       if (this.isSubmitted && question.reference) {
         optionsHtml += `
           <div class="reference-answer" style="margin-top: 1rem; padding: 1rem; background: rgba(0, 210, 211, 0.1); border-left: 4px solid var(--color-accent-green); border-radius: var(--radius-md);">
-            <strong>✅ 參考答案：</strong><br>${question.reference}
+            <strong>✅ 參考答案：</strong><br><span class="en-assist" data-en="${question.reference.replace(/"/g, '&quot;')}">${question.reference} <span class="speak-icon" style="cursor:pointer;" title="朗讀參考答案">🔊</span></span>
           </div>
         `;
       }
@@ -194,14 +194,20 @@ class QuizSystem {
         if (this.selectedSubject === 'english') {
           // Avoid double-wrapping if the option already contains a speak-icon
           if (!opt.includes('speak-icon')) {
-            optContent = `<span class="en-assist" data-tw="朗讀選項" style="display:inline;">${opt} <span class="speak-icon" style="margin-left:8px; font-size:1.1em; cursor:pointer;" title="朗讀">🔊</span></span>`;
+            const enOnly = opt.replace(/（[^）]*）|\([^)]*\)|🔊/g, '').trim();
+            const matchTw = opt.match(/（([^）]+)）|\(([^)]+)\)/);
+            const twOnly = matchTw ? (matchTw[1] || matchTw[2]) : '點擊朗讀';
+            optContent = `<span class="en-assist" data-en="${enOnly.replace(/"/g, '&quot;')}" data-tw="${twOnly.replace(/"/g, '&quot;')}" style="display:flex; align-items:center; justify-content:space-between; width:100%;">
+              <span class="opt-label">${opt}</span>
+              <span class="speak-icon" style="margin-left:8px; font-size:1.1em; cursor:pointer;" title="朗讀發音">🔊</span>
+            </span>`;
           }
         }
 
         optionsHtml += `
           <li class="${optClass}" onclick="quiz.selectAnswer('${question.id}', ${i})" ${this.isSubmitted ? 'style="pointer-events:none;"' : ''}>
             <span class="option-letter">${letters[i]}</span>
-            <span class="option-text">${optContent}</span>
+            <span class="option-text" style="flex-grow:1;">${optContent}</span>
           </li>
         `;
       });
@@ -215,6 +221,24 @@ class QuizSystem {
           <div class="explanation-text">${question.explanation}</div>
         </div>
       `;
+    }
+
+    let stemAssistHtml = '';
+    if (this.selectedSubject === 'english' && question.question) {
+      const twMatch = question.question.match(/data-tw="([^"]+)"/);
+      if (twMatch && twMatch[1]) {
+        const twText = twMatch[1];
+        stemAssistHtml = `
+          <div class="stem-translation-toggle" style="margin-top: 8px;">
+            <button type="button" class="btn-translation-hint" onclick="this.nextElementSibling.classList.toggle('hidden');" style="background: rgba(109, 134, 154, 0.12); border: 1px dashed var(--color-accent-teal, #4a90e2); color: var(--color-text-secondary); border-radius: 6px; padding: 3px 10px; font-size: 0.85em; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+              <span>🔤 顯示/隱藏題目中文翻譯</span>
+            </button>
+            <div class="stem-translation-box hidden" style="margin-top: 6px; padding: 8px 12px; background: rgba(109, 134, 154, 0.08); border-left: 3px solid #6d869a; border-radius: 4px; font-size: 0.9em; color: var(--color-text-primary); line-height: 1.5;">
+              💡 <strong>中文句意：</strong>${twText}
+            </div>
+          </div>
+        `;
+      }
     }
 
     const html = `
@@ -232,6 +256,7 @@ class QuizSystem {
         <div class="question-number">第 ${current} 題</div>
         <span class="question-category">${question.category || ''}</span>
         <div class="question-text">${question.question}</div>
+        ${stemAssistHtml}
         <ul class="options-list">${optionsHtml}</ul>
         ${explanationHtml}
       </div>
