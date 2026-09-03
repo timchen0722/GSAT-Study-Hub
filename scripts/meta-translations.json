@@ -1,0 +1,522 @@
+[
+  {
+    "id": "e301",
+    "idx": 301,
+    "stem": "Given the rapidly falling sales numbers, staff layoffs became completely _____.",
+    "tw": "本句文意包含「不可避免的 必然的 ；invaluable 無價極珍貴的；invincible 無敵的」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "inevitable（不可避免的、必然的）",
+      "invaluable（極珍貴無價的）",
+      "invisible（看不見的 / 隱形的）",
+      "invincible（不可戰勝的 / 無敵的）"
+    ],
+    "explanation": "inevitable 意為「不可避免的、必然的」；invaluable 無價極珍貴的；invincible 無敵的。"
+  },
+  {
+    "id": "e302",
+    "idx": 302,
+    "stem": "Consumers quickly rejected the counterfeit phones due to their _____ battery life.",
+    "tw": "本句文意包含「劣等的 較差的 ；superior 優等的；interior 內部的」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "inferior（劣等的、較差的）",
+      "superior（優越優良的 / 上級）",
+      "interior（內部的 / 室內內政）",
+      "exterior（外部的外表的 / 外觀）"
+    ],
+    "explanation": "inferior 意為「劣等的、較差的」；superior 優等的；interior 內部的。"
+  },
+  {
+    "id": "e303",
+    "idx": 303,
+    "stem": "The Nobel laureate published an _____ paper that reshaped contemporary economic theories.",
+    "tw": "本句文意包含「有影響力的 ；infectious 具感染傳染力的；indifferent 漠不關心的」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "influential（有影響力的）",
+      "infectious（具感染傳染力的）",
+      "inefficient（效率低下的 / 無能的）",
+      "indifferent（漠不關心的 / 冷淡的）"
+    ],
+    "explanation": "influential 意為「有影響力的」；infectious 具感染傳染力的；indifferent 漠不關心的。"
+  },
+  {
+    "id": "e315",
+    "idx": 315,
+    "stem": "Hardly had she closed her eyes _____ the loud fire alarm went off.",
+    "tw": "本句文意包含「一...就...」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "when（何時 / 關係副詞（時間））",
+      "than（比…… / 接於 No sooner 之後）",
+      "as（如同 / 當 / 因為）",
+      "since（自從 / 既然）"
+    ],
+    "explanation": "Hardly had S p.p. when/before S V-ed 意為「一...就...」。"
+  },
+  {
+    "id": "e318",
+    "idx": 318,
+    "stem": "He walked on tiptoe lest he _____ the sleeping infant.",
+    "tw": "本句文意包含「唯恐 免得 ，後方子句常接 (should) + 原形動詞」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "should wake（萬一醒來 / 應該醒來（lest 子句假設語氣））",
+      "wakes（醒來（第三人稱單數））",
+      "woke（醒了（過去式））",
+      "waking（正在醒來（現在分詞））"
+    ],
+    "explanation": "lest 意為「唯恐、免得」，後方子句常接 (should) + 原形動詞。"
+  },
+  {
+    "id": "e320",
+    "idx": 320,
+    "stem": "Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.",
+    "tw": "本句文意包含「若天氣許可的話」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "permitting（天氣許可的話（Weather permitting 獨立分詞構句））",
+      "permitted（被許可（過去分詞））",
+      "permits（允許 / 許可證執照）",
+      "permission（許可 / 准許同意）"
+    ],
+    "explanation": "獨立分詞構句：Weather permitting 為固定片語，意為「若天氣許可的話」。"
+  },
+  {
+    "id": "e321",
+    "idx": 321,
+    "stem": "Judging _____ his exhausted expression, he must have pulled an all-nighter.",
+    "tw": "本句文意包含「從...來判斷」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "from（/by 為常見獨立分詞片語）",
+      "by（常見獨立分詞片語）",
+      "with（with）",
+      "to（to）"
+    ],
+    "explanation": "Judging from/by 為常見獨立分詞片語，意為「從...來判斷」。"
+  },
+  {
+    "id": "e339",
+    "idx": 339,
+    "stem": "We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.",
+    "tw": "本句文意包含「將……視為理所當然而不懂感激珍惜」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "for granted（take ... for granted 視……為理所當然）",
+      "for sure（for sure）",
+      "for real（for real）",
+      "for good（for good）"
+    ],
+    "explanation": "take sth for granted 為大考最高頻片語，意為「將……視為理所當然而不懂感激珍惜」。"
+  },
+  {
+    "id": "e343",
+    "idx": 343,
+    "stem": "As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.",
+    "tw": "本句文意包含「跟上……的最新發展 / 與時俱進地了解……」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "keep abreast of（跟上……的最新發展 / 保持了解）",
+      "keep away from（keep away from）",
+      "keep track with（keep track with）",
+      "keep down to（keep down to）"
+    ],
+    "explanation": "keep abreast of sth 為高階重要片語，意為「跟上……的最新發展 / 與時俱進地了解……」。"
+  },
+  {
+    "id": "e350",
+    "idx": 350,
+    "stem": "______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.",
+    "tw": "本句文意包含「Anyone who（凡是贏得全國科學競賽的人）」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "Whoever（複合關係代名詞，無論誰 / 凡是……的人，等於 Anyone who）",
+      "Whomever（Whomever）",
+      "Whatever（Whatever）",
+      "Whichever（Whichever）"
+    ],
+    "explanation": "Whoever 作為主要子句的主詞引導名詞子句，意為 Anyone who（凡是贏得全國科學競賽的人）。"
+  },
+  {
+    "id": "e351",
+    "idx": 351,
+    "stem": "After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.",
+    "tw": "本句文意包含「逐漸接受（殘酷現實）/ 與……達成和解妥協」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "came to terms with（逐漸接受 / 與……妥協和解）",
+      "came up with（came up with）",
+      "came down with（came down with）",
+      "came across with（came across with）"
+    ],
+    "explanation": "come to terms with 意為「逐漸接受（殘酷現實）/ 與……達成和解妥協」。"
+  },
+  {
+    "id": "e367",
+    "idx": 367,
+    "stem": "It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.",
+    "tw": "本句文意包含「不言而喻 / 眾所周知 / 毫無疑問是……」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "without saying（It goes without saying that... 不言而喻 / 毫無疑問）",
+      "without seeing（without seeing）",
+      "without knowing（without knowing）",
+      "without telling（without telling）"
+    ],
+    "explanation": "It goes without saying that... 意為「不言而喻 / 眾所周知 / 毫無疑問是……」。"
+  },
+  {
+    "id": "e371",
+    "idx": 371,
+    "stem": "Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.",
+    "tw": "本句文意包含「在……中扮演舉足輕重之核心角色」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "play（play a crucial / vital role in 在……中扮演關鍵角色）",
+      "make（製造 / 使得，原形動詞）",
+      "take（拿取 / 服用（原形））",
+      "bring（帶來，原形動詞）"
+    ],
+    "explanation": "play an important / crucial / pivotal role in sth 意為「在……中扮演舉足輕重之核心角色」。"
+  },
+  {
+    "id": "e397",
+    "idx": 397,
+    "stem": "Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.",
+    "tw": "本句文意包含「阻止/妨礙某人做某事」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "from（prevent / stop / discourage sb from + V-ing 阻止某人做……）",
+      "to（to）",
+      "against（against）",
+      "with（with）"
+    ],
+    "explanation": "prevent / stop / ban sb from + V-ing 意為「阻止/妨礙某人做某事」。"
+  },
+  {
+    "id": "e399",
+    "idx": 399,
+    "stem": "The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.",
+    "tw": "本句文意包含「給……蒙上一層陰影 / 使……蒙上陰霾」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "cast a shadow（cast a shadow over 給……蒙上一層陰影）",
+      "cast an eye（cast an eye）",
+      "cast a light（cast a light）",
+      "cast a doubt（cast a doubt）"
+    ],
+    "explanation": "cast a shadow over / on sth 意為「給……蒙上一層陰影 / 使……蒙上陰霾」。"
+  },
+  {
+    "id": "e402",
+    "idx": 402,
+    "stem": "Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.",
+    "tw": "本句文意包含「在 A 與 B 之間取得良性平衡 / 兼顧兩者」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "strike（strike a balance between 在……兩者之間取得平衡）",
+      "make（製造 / 使得，原形動詞）",
+      "break（打破 / 損壞，原形動詞）",
+      "hit（擊中 / 打擊，原形動詞）"
+    ],
+    "explanation": "strike a balance between A and B 意為「在 A 與 B 之間取得良性平衡 / 兼顧兩者」。"
+  },
+  {
+    "id": "e427",
+    "idx": 427,
+    "stem": "All employees must act in strict ______ the company's code of conduct and safety guidelines.",
+    "tw": "本句文意包含「依照 / 依循 / 根據（法規規章）」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "accordance with（in accordance with 依照 / 根據……準則）",
+      "contrast with（contrast with）",
+      "collision with（collision with）",
+      "competition with（competition with）"
+    ],
+    "explanation": "in accordance with sth（= in compliance with）意為「依照 / 依循 / 根據（法規規章）」。"
+  },
+  {
+    "id": "e429",
+    "idx": 429,
+    "stem": "The school principal promised to ______ it that every student receives equal attention and psychological counseling.",
+    "tw": "本句文意包含「務必確保 / 留心使……做到」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "see to（see to it that... 務必確保……）",
+      "look to（look to）",
+      "take to（take to）",
+      "turn to（turn to）"
+    ],
+    "explanation": "see to it that... 為大考高頻核心片語，意為「務必確保 / 留心使……做到」。"
+  },
+  {
+    "id": "e445",
+    "idx": 445,
+    "stem": "The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.",
+    "tw": "本句文意包含「容忍 / 忍受（痛苦 不滿）」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "put up with（忍受 / 容忍）",
+      "look up to（look up to）",
+      "keep up with（keep up with）",
+      "come up with（come up with）"
+    ],
+    "explanation": "put up with（= tolerate, endure）意為「容忍 / 忍受（痛苦、不滿）」。"
+  },
+  {
+    "id": "e451",
+    "idx": 451,
+    "stem": "The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.",
+    "tw": "本句文意包含「營救受困生還者」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "rescue（營救 / 救援）",
+      "resist（抵抗）",
+      "resemble（相像）",
+      "resign（辭職）"
+    ],
+    "explanation": "rescue trapped survivors 意為「營救受困生還者」。"
+  },
+  {
+    "id": "e452",
+    "idx": 452,
+    "stem": "The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.",
+    "tw": "本句文意包含「增進經濟合作」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "cooperation（合作 / 協作）",
+      "confrontation（對抗）",
+      "contamination（污染）",
+      "consumption（消費）"
+    ],
+    "explanation": "enhance economic cooperation 意為「增進經濟合作」。"
+  },
+  {
+    "id": "e453",
+    "idx": 453,
+    "stem": "To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.",
+    "tw": "本句文意包含「在低溫下保存」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "temperature（溫度）",
+      "temperament（氣質性情）",
+      "temporary（暫時的）",
+      "temptation（誘惑）"
+    ],
+    "explanation": "stored at a low temperature 意為「在低溫下保存」。"
+  },
+  {
+    "id": "e457",
+    "idx": 457,
+    "stem": "The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.",
+    "tw": "本句文意包含「復原力 / 心理韌性 / 堅毅抗挫力」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "resilience（韌性 / 復原力）",
+      "reluctance（勉強）",
+      "redundancy（冗餘）",
+      "rebellion（叛亂）"
+    ],
+    "explanation": "resilience 意為「復原力 / 心理韌性 / 堅毅抗挫力」。"
+  },
+  {
+    "id": "e459",
+    "idx": 459,
+    "stem": "Regular physical activity can help ______ stress and improve overall cardiovascular health.",
+    "tw": "本句文意包含「減輕壓力」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "reduce（減少 / 減輕）",
+      "refuse（拒絕）",
+      "repeat（重複）",
+      "replace（取代）"
+    ],
+    "explanation": "reduce stress 意為「減輕壓力」。"
+  },
+  {
+    "id": "e460",
+    "idx": 460,
+    "stem": "The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.",
+    "tw": "本句文意包含「收集物證」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "evidence（證據）",
+      "emotion（情緒）",
+      "emergency（緊急情況）",
+      "emphasis（強調）"
+    ],
+    "explanation": "gather physical evidence 意為「收集物證」。"
+  },
+  {
+    "id": "e461",
+    "idx": 461,
+    "stem": "The scientific breakthrough will ______ for the development of next-generation cancer treatments.",
+    "tw": "本句文意包含「為……鋪平道路 / 奠定基礎」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "pave the way（pave the way for 為……鋪平道路 / 奠定基礎）",
+      "make a point（make a point）",
+      "lose the way（lose the way）",
+      "find fault（find fault）"
+    ],
+    "explanation": "pave the way for sth 意為「為……鋪平道路 / 奠定基礎」。"
+  },
+  {
+    "id": "e462",
+    "idx": 462,
+    "stem": "Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.",
+    "tw": "本句文意包含「課程取消」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "cancellation（取消）",
+      "celebration（慶祝）",
+      "calculation（計算）",
+      "concentration（專注）"
+    ],
+    "explanation": "cancellation of classes 意為「課程取消」。"
+  },
+  {
+    "id": "e463",
+    "idx": 463,
+    "stem": "The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.",
+    "tw": "本句文意包含「自由表達意見」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "freely（自由地 / 無拘無束地）",
+      "fiercely（猛烈地）",
+      "formally（正式地）",
+      "fatalistically（宿命論地）"
+    ],
+    "explanation": "express opinions freely 意為「自由表達意見」。"
+  },
+  {
+    "id": "e479",
+    "idx": 479,
+    "stem": "The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.",
+    "tw": "本句文意包含「進行 / 執行 / 實施（實驗 臨床試驗）」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "carried out（實施 / 執行臨床試驗）",
+      "carried on（carried on）",
+      "carried away（carried away）",
+      "carried off（carried off）"
+    ],
+    "explanation": "carry out an experiment / survey / trial 意為「進行 / 執行 / 實施（實驗、臨床試驗）」。"
+  },
+  {
+    "id": "e480",
+    "idx": 480,
+    "stem": "We should never ______ people based on their social status, wealth, or ethnic background.",
+    "tw": "本句文意包含「輕視 / 瞧不起某人 ；對比 look up to（尊敬崇拜某人）」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "look down upon（看不起 / 輕視）",
+      "look up to（尊敬崇拜某人）",
+      "look forward to（look forward to）",
+      "look out for（look out for）"
+    ],
+    "explanation": "look down upon / on sb 意為「輕視 / 瞧不起某人」；對比 look up to（尊敬崇拜某人）。"
+  },
+  {
+    "id": "e482",
+    "idx": 482,
+    "stem": "Parents always ______ their children's hard-earned academic achievements and personal growth.",
+    "tw": "本句文意包含「以……為榮 / 為……自豪」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "take pride in（以……為榮 / 為……感到自豪）",
+      "take advantage of（take advantage of）",
+      "take part in（take part in）",
+      "take care of（take care of）"
+    ],
+    "explanation": "take pride in（= be proud of）意為「以……為榮 / 為……自豪」。"
+  },
+  {
+    "id": "e495",
+    "idx": 495,
+    "stem": "Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.",
+    "tw": "本句文意包含「生態環保友善的替代選擇」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "eco-friendly（環保生態友善的）",
+      "extravagant（奢侈浪費的）",
+      "exhausted（精疲力竭的）",
+      "erratic（不穩定的）"
+    ],
+    "explanation": "eco-friendly alternatives 意為「生態環保友善的替代選擇」。"
+  },
+  {
+    "id": "e496",
+    "idx": 496,
+    "stem": "The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.",
+    "tw": "本句文意包含「廣泛的破壞毀滅」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "destruction（破壞毀滅）",
+      "instruction（指示）",
+      "construction（建設）",
+      "distinction（區分）"
+    ],
+    "explanation": "widespread destruction 意為「廣泛的破壞毀滅」。"
+  },
+  {
+    "id": "e521",
+    "idx": 521,
+    "stem": "It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.",
+    "tw": "本句文意包含「無論 A 或 B 都毫無差別」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "difference（It makes no difference whether... 無論……都沒有差別）",
+      "difficulty（difficulty）",
+      "distance（距離 / 遠處）",
+      "direction（direction）"
+    ],
+    "explanation": "It makes no difference whether A or B 意為「無論 A 或 B 都毫無差別」。"
+  },
+  {
+    "id": "e523",
+    "idx": 523,
+    "stem": "The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.",
+    "tw": "本句文意包含「主動帶頭做某事 / 採取主動行動」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "take（take the initiative to 主動採取行動 / 帶頭發起）",
+      "make（製造 / 使得，原形動詞）",
+      "have（有 / 擁有（原形/現在式））",
+      "give（給予，原形動詞）"
+    ],
+    "explanation": "take the initiative to + V 意為「主動帶頭做某事 / 採取主動行動」。"
+  },
+  {
+    "id": "e527",
+    "idx": 527,
+    "stem": "With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.",
+    "tw": "本句文意包含「關於 / 至於……」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "regard（with regard to 關於 / 至於……）",
+      "respects（respects）",
+      "reference（reference）",
+      "relation（relation）"
+    ],
+    "explanation": "with regard to / in regard to（= regarding, concerning）意為「關於 / 至於……」。"
+  },
+  {
+    "id": "e530",
+    "idx": 530,
+    "stem": "I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.",
+    "tw": "本句文意包含「身體不舒服 / 身體微恙生病」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "under（under the weather 身體不適 / 微恙）",
+      "over（over）",
+      "above（above）",
+      "below（below）"
+    ],
+    "explanation": "feel under the weather 意為「身體不舒服 / 身體微恙生病」。"
+  },
+  {
+    "id": "e533",
+    "idx": 533,
+    "stem": "Regular health checkups are highly recommended for early ______ of chronic diseases.",
+    "tw": "本句文意包含「疾病的早期發現診斷」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "detection（偵測發現 / 早期檢出）",
+      "direction（direction）",
+      "description（description）",
+      "destruction（破壞 / 毀滅）"
+    ],
+    "explanation": "early detection of diseases 意為「疾病的早期發現診斷」。"
+  },
+  {
+    "id": "e534",
+    "idx": 534,
+    "stem": "The company will ______ a new eco-friendly product line in the international market next month.",
+    "tw": "本句文意包含「推出新產品線」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "introduce（引進推出）",
+      "interrupt（interrupt）",
+      "interfere（interfere）",
+      "interpret（interpret）"
+    ],
+    "explanation": "introduce a new product line 意為「推出新產品線」。"
+  },
+  {
+    "id": "e535",
+    "idx": 535,
+    "stem": "The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.",
+    "tw": "本句文意包含「維持良好紀律」之核心概念，請選出最恰當之選項。",
+    "options": [
+      "discipline（紀律 / 秩序守則）",
+      "dimension（dimension）",
+      "discovery（發現 / 發覺）",
+      "discussion（discussion）"
+    ],
+    "explanation": "maintain good discipline 意為「維持良好紀律」。"
+  }
+]
