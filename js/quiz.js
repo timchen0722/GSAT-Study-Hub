@@ -214,11 +214,32 @@ class QuizSystem {
     }
 
     let explanationHtml = '';
-    if (this.isSubmitted && question.explanation) {
+    if (this.isSubmitted && (question.explanation || question.question)) {
+      let stemTransHtml = '';
+      if (question.question) {
+        const twMatch = question.question.match(/data-tw="([^"]+)"/);
+        if (twMatch && twMatch[1]) {
+          const twText = twMatch[1];
+          stemTransHtml = `
+            <div class="explanation-stem-translation" style="margin-bottom: 0.85rem; padding: 0.75rem 1rem; background: rgba(74, 144, 226, 0.08); border-left: 4px solid var(--color-primary, #3182ce); border-radius: var(--radius-sm, 6px); font-size: 0.95em; line-height: 1.6; color: var(--color-text-primary);">
+              <div style="font-weight: 700; margin-bottom: 4px; color: var(--color-primary, #2b6cb0); display: flex; align-items: center; gap: 6px;">
+                <span>📖 題目中文翻譯：</span>
+              </div>
+              <div style="color: var(--color-text-primary); font-size: 1.02em;">${twText}</div>
+            </div>
+          `;
+        }
+      }
+
       explanationHtml = `
-        <div class="explanation-box show">
-          <div class="explanation-title">💡 詳解</div>
-          <div class="explanation-text">${question.explanation}</div>
+        <div class="explanation-box show" style="margin-top: 1.5rem; padding: 1.2rem; background: var(--color-bg-card, #ffffff); border: 1px solid rgba(74, 144, 226, 0.2); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div class="explanation-title" style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 1.1em; margin-bottom: 0.85rem; color: var(--color-text-primary);">
+            <span>💡 詳解與中文解析</span>
+          </div>
+          ${stemTransHtml}
+          <div class="explanation-text" style="line-height: 1.6; color: var(--color-text-primary);">
+            ${question.explanation ? `<div style="font-weight: 600; color: var(--color-text-secondary, #4a5568); margin-bottom: 4px;">📝 考點與題目解析：</div><div>${question.explanation}</div>` : ''}
+          </div>
         </div>
       `;
     }
