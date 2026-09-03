@@ -4027,10 +4027,10 @@ const englishQuiz = [
     "id": "e318",
     "question": "<span class=\"en-assist\" data-tw=\"他踮著腳尖悄悄走著，唯恐吵醒了正在熟睡中的嬰兒。\" data-en=\"He walked on tiptoe lest he _____ the sleeping infant.\">He walked on tiptoe lest he _____ the sleeping infant.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
-      "should wake（lest 子句假設語氣）",
-      "wakes（第三人稱單數）",
-      "woke（過去式）",
-      "waking（現在分詞）"
+      "should wake（萬一醒來 / 唯恐吵醒）",
+      "wakes（醒來）",
+      "woke（醒來（過去式））",
+      "waking（醒來（現在分詞））"
     ],
     "answer": 0,
     "explanation": "lest 意為「唯恐、免得」，後方子句常接 (should) + 原形動詞。",
