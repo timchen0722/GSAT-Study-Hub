@@ -2,7 +2,7 @@ const englishQuiz = [
   {
     "id": "e1",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"請選擇 reluctant 的正確意思：\">Choose the correct meaning of \"reluctant\":<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"請選出「reluctant（不情願的、勉強的）」的正確中文意思：\">Choose the correct meaning of \"reluctant\":<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "不情願的 (unwilling)",
       "熱情的 (enthusiastic)",
@@ -30,7 +30,7 @@ const englishQuiz = [
   {
     "id": "e3",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"inevitable 這個字的意思是：\">The word \"inevitable\" means:<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"請選出「inevitable（不可避免的）」的正確中文詞義：\">The word \"inevitable\" means:<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "不可避免的",
       "不常見的",
@@ -58,7 +58,7 @@ const englishQuiz = [
   {
     "id": "e5",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"misunderstand 中的字首 mis- 意思是：\">The prefix \"mis-\" in \"misunderstand\" means:<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"請選出「misunderstand」中字首「mis-」所代表的中文含義（錯誤地）：\">The prefix \"mis-\" in \"misunderstand\" means:<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "錯誤地 (wrongly)",
       "重新 (again)",
@@ -184,7 +184,7 @@ const englishQuiz = [
   {
     "id": "e14",
     "category": "閱讀測驗",
-    "question": "<span class=\"en-assist\" data-tw=\"however = 然而，表示轉折\" data-en=\"英文閱讀中，&quot;however&quot; 出現時通常表示？\">英文閱讀中，\"however\" 出現時通常表示？<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"在英文閱讀理解中，出現「however」這個轉折詞時通常表示：語氣轉折或對比。\" data-en=\"英文閱讀中，&quot;however&quot; 出現時通常表示？\">英文閱讀中，\"however\" 出現時通常表示？<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "接下來的內容與前文相反 (contrast)",
       "補充說明",
@@ -3242,7 +3242,7 @@ const englishQuiz = [
   {
     "id": "e261",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】After graduating from college, Sarah decided to _____ on a backpacking trip across Asia.\" data-en=\"After graduating from college, Sarah decided to _____ on a backpacking trip across Asia.\">After graduating from college, Sarah decided to _____ on a backpacking trip across Asia.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"大學畢業後，莎拉決定啟程展開一趟橫跨亞洲的背包客自助旅行。\" data-en=\"After graduating from college, Sarah decided to _____ on a backpacking trip across Asia.\">After graduating from college, Sarah decided to _____ on a backpacking trip across Asia.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "embark（著手開始 / 登機登船）",
       "embrace（擁抱 / 欣然接受）",
@@ -3256,7 +3256,7 @@ const englishQuiz = [
   {
     "id": "e262",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The teacher used red ink to _____ the common grammatical errors in our essays.\" data-en=\"The teacher used red ink to _____ the common grammatical errors in our essays.\">The teacher used red ink to _____ the common grammatical errors in our essays.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"老師用紅筆標記並強調了我們作文中常見的語法錯誤。\" data-en=\"The teacher used red ink to _____ the common grammatical errors in our essays.\">The teacher used red ink to _____ the common grammatical errors in our essays.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "emphasize（強調 / 著重）",
       "sympathize（同情）",
@@ -3270,7 +3270,7 @@ const englishQuiz = [
   {
     "id": "e263",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Divers in the tropical reef often _____ sea turtles and colorful reef fish.\" data-en=\"Divers in the tropical reef often _____ sea turtles and colorful reef fish.\">Divers in the tropical reef often _____ sea turtles and colorful reef fish.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"在熱帶珊瑚礁潛水的潛水員經常會邂逅海龜與色彩斑斕的珊瑚礁魚類。\" data-en=\"Divers in the tropical reef often _____ sea turtles and colorful reef fish.\">Divers in the tropical reef often _____ sea turtles and colorful reef fish.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "encounter（偶遇 / 遭遇正面交鋒）",
       "entertain（娛樂 / 招待懷有）",
@@ -3284,7 +3284,7 @@ const englishQuiz = [
   {
     "id": "e264",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The marathon runners had to _____ scorching heat and humid weather during the race.\" data-en=\"The marathon runners had to _____ scorching heat and humid weather during the race.\">The marathon runners had to _____ scorching heat and humid weather during the race.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"馬拉松跑者在比賽過程中必須忍受酷熱與潮濕的天氣考驗。\" data-en=\"The marathon runners had to _____ scorching heat and humid weather during the race.\">The marathon runners had to _____ scorching heat and humid weather during the race.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "endure（忍受 / 持久耐受）",
       "ensure（確保 / 保證）",
@@ -3298,7 +3298,7 @@ const englishQuiz = [
   {
     "id": "e265",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The audience gave an _____ round of applause to the young violin prodigy.\" data-en=\"The audience gave an _____ round of applause to the young violin prodigy.\">The audience gave an _____ round of applause to the young violin prodigy.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"全場觀眾為這位年輕的小提琴神童獻上了熱情洋溢的熱烈掌聲。\" data-en=\"The audience gave an _____ round of applause to the young violin prodigy.\">The audience gave an _____ round of applause to the young violin prodigy.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "enthusiastic（熱情的、狂熱的）",
       "empathetic（有同理心的 / 感同身受的）",
@@ -3312,7 +3312,7 @@ const englishQuiz = [
   {
     "id": "e266",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Contractors _____ that the highway renovation will take approximately eighteen months.\" data-en=\"Contractors _____ that the highway renovation will take approximately eighteen months.\">Contractors _____ that the highway renovation will take approximately eighteen months.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"承包商估計這條高速公路的整修工程大約需要耗時十八個月。\" data-en=\"Contractors _____ that the highway renovation will take approximately eighteen months.\">Contractors _____ that the highway renovation will take approximately eighteen months.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "estimate（估計 / 預估估價）",
       "intimate（親密的）",
@@ -3326,7 +3326,7 @@ const englishQuiz = [
   {
     "id": "e267",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Teachers use standardized tests along with project work to _____ student progress.\" data-en=\"Teachers use standardized tests along with project work to _____ student progress.\">Teachers use standardized tests along with project work to _____ student progress.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"教師結合標準化測驗與專題作業來綜合評估學生的學習進展。\" data-en=\"Teachers use standardized tests along with project work to _____ student progress.\">Teachers use standardized tests along with project work to _____ student progress.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "evaluate（評估 / 評價考量）",
       "evaporate（蒸發 / 消失不見）",
@@ -3340,7 +3340,7 @@ const englishQuiz = [
   {
     "id": "e268",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】It was _____ from his nervous voice that he had not prepared his presentation well.\" data-en=\"It was _____ from his nervous voice that he had not prepared his presentation well.\">It was _____ from his nervous voice that he had not prepared his presentation well.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"從他緊張顫抖的聲音中很明顯可以看出，他並未做好充分的簡報準備。\" data-en=\"It was _____ from his nervous voice that he had not prepared his presentation well.\">It was _____ from his nervous voice that he had not prepared his presentation well.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "evident（明顯顯而易見的）",
       "efficient（有效率的 / 能幹的）",
@@ -3354,7 +3354,7 @@ const englishQuiz = [
   {
     "id": "e269",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Advertisers often _____ the effectiveness of weight-loss supplements to boost sales.\" data-en=\"Advertisers often _____ the effectiveness of weight-loss supplements to boost sales.\">Advertisers often _____ the effectiveness of weight-loss supplements to boost sales.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"廣告商往往會誇大減肥保健品的功效，以刺激產品銷售量。\" data-en=\"Advertisers often _____ the effectiveness of weight-loss supplements to boost sales.\">Advertisers often _____ the effectiveness of weight-loss supplements to boost sales.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "exaggerate（誇大 / 誇張渲染）",
       "excavate（挖掘出土）",
@@ -3368,7 +3368,7 @@ const englishQuiz = [
   {
     "id": "e270",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Her _____ talent in mathematics earned her a full scholarship to Cambridge.\" data-en=\"Her _____ talent in mathematics earned her a full scholarship to Cambridge.\">Her _____ talent in mathematics earned her a full scholarship to Cambridge.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"她在數學方面非凡卓越的過人天賦，為她贏得了劍橋大學的全額獎學金。\" data-en=\"Her _____ talent in mathematics earned her a full scholarship to Cambridge.\">Her _____ talent in mathematics earned her a full scholarship to Cambridge.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "exceptional（卓越非凡的 / 例外的）",
       "excessive（過度的 / 過分的過量的）",
@@ -3382,7 +3382,7 @@ const englishQuiz = [
   {
     "id": "e271",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.\" data-en=\"Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.\">Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Drinking an （【完整題目中文句意】Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.） amount of caffeine can lead to anxiety and irregular heartbeats.\" data-en=\"Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.\">Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "excessive（過度的 / 過分的過量的）",
       "exclusive（專屬獨家的 / 排他的）",
@@ -3396,7 +3396,7 @@ const englishQuiz = [
   {
     "id": "e272",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Running uphill for five kilometers will easily _____ any untrained athlete.\" data-en=\"Running uphill for five kilometers will easily _____ any untrained athlete.\">Running uphill for five kilometers will easily _____ any untrained athlete.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Running uphill for five kilometers will easily （【完整題目中文句意】Running uphill for five kilometers will easily _____ any untrained athlete.） any untrained athlete.\" data-en=\"Running uphill for five kilometers will easily _____ any untrained athlete.\">Running uphill for five kilometers will easily _____ any untrained athlete.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "exhaust（使精疲力竭 / 耗盡）",
       "exhibit（展示 / 展出展覽）",
@@ -3410,7 +3410,7 @@ const englishQuiz = [
   {
     "id": "e273",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The botanical greenhouse showcases rare and _____ orchids from tropical jungles.\" data-en=\"The botanical greenhouse showcases rare and _____ orchids from tropical jungles.\">The botanical greenhouse showcases rare and _____ orchids from tropical jungles.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The botanical greenhouse showcases rare and （【完整題目中文句意】The botanical greenhouse showcases rare and _____ orchids from tropical jungles.） orchids from tropical jungles.\" data-en=\"The botanical greenhouse showcases rare and _____ orchids from tropical jungles.\">The botanical greenhouse showcases rare and _____ orchids from tropical jungles.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "exotic（異國風情的、奇特的）",
       "toxic（有毒的）",
@@ -3424,7 +3424,7 @@ const englishQuiz = [
   {
     "id": "e274",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The retail chain plans to _____ its franchise into overseas markets next year.\" data-en=\"The retail chain plans to _____ its franchise into overseas markets next year.\">The retail chain plans to _____ its franchise into overseas markets next year.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The retail chain plans to （【完整題目中文句意】The retail chain plans to _____ its franchise into overseas markets next year.） its franchise into overseas markets next year.\" data-en=\"The retail chain plans to _____ its franchise into overseas markets next year.\">The retail chain plans to _____ its franchise into overseas markets next year.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "expand（擴大 / 膨脹擴充）",
       "expend（花費耗費）",
@@ -3438,7 +3438,7 @@ const englishQuiz = [
   {
     "id": "e275",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Your passport is scheduled to _____ in three months, so you should renew it soon.\" data-en=\"Your passport is scheduled to _____ in three months, so you should renew it soon.\">Your passport is scheduled to _____ in three months, so you should renew it soon.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Your passport is scheduled to （【完整題目中文句意】Your passport is scheduled to _____ in three months, so you should renew it soon.） in three months, so you should renew it soon.\" data-en=\"Your passport is scheduled to _____ in three months, so you should renew it soon.\">Your passport is scheduled to _____ in three months, so you should renew it soon.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "expire（到期、屆滿失效）",
       "aspire（渴望 / 立志於）",
@@ -3452,7 +3452,7 @@ const englishQuiz = [
   {
     "id": "e276",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The flight attendant gave _____ safety instructions before the aircraft took off.\" data-en=\"The flight attendant gave _____ safety instructions before the aircraft took off.\">The flight attendant gave _____ safety instructions before the aircraft took off.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The flight attendant gave （【完整題目中文句意】The flight attendant gave _____ safety instructions before the aircraft took off.） safety instructions before the aircraft took off.\" data-en=\"The flight attendant gave _____ safety instructions before the aircraft took off.\">The flight attendant gave _____ safety instructions before the aircraft took off.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "explicit（明確坦率的 / 清楚清楚的）",
       "implicit（隱含暗示的）",
@@ -3466,7 +3466,7 @@ const englishQuiz = [
   {
     "id": "e277",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Some greedy corporations unethically _____ child labor in underdeveloped regions.\" data-en=\"Some greedy corporations unethically _____ child labor in underdeveloped regions.\">Some greedy corporations unethically _____ child labor in underdeveloped regions.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Some greedy corporations unethically （【完整題目中文句意】Some greedy corporations unethically _____ child labor in underdeveloped regions.） child labor in underdeveloped regions.\" data-en=\"Some greedy corporations unethically _____ child labor in underdeveloped regions.\">Some greedy corporations unethically _____ child labor in underdeveloped regions.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "exploit（利用 / 開發剝削）",
       "explore（探索 / 探討探究）",
@@ -3480,7 +3480,7 @@ const englishQuiz = [
   {
     "id": "e278",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Dodos and passenger pigeons became completely _____ due to rampant human hunting.\" data-en=\"Dodos and passenger pigeons became completely _____ due to rampant human hunting.\">Dodos and passenger pigeons became completely _____ due to rampant human hunting.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Dodos and passenger pigeons became completely （【完整題目中文句意】Dodos and passenger pigeons became completely _____ due to rampant human hunting.） due to rampant human hunting.\" data-en=\"Dodos and passenger pigeons became completely _____ due to rampant human hunting.\">Dodos and passenger pigeons became completely _____ due to rampant human hunting.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "extinct（滅絕的、絕種的）",
       "distinct（不同的獨特的）",
@@ -3494,7 +3494,7 @@ const englishQuiz = [
   {
     "id": "e279",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The rescue team showed _____ bravery when saving the hikers from the raging river.\" data-en=\"The rescue team showed _____ bravery when saving the hikers from the raging river.\">The rescue team showed _____ bravery when saving the hikers from the raging river.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The rescue team showed （【完整題目中文句意】The rescue team showed _____ bravery when saving the hikers from the raging river.） bravery when saving the hikers from the raging river.\" data-en=\"The rescue team showed _____ bravery when saving the hikers from the raging river.\">The rescue team showed _____ bravery when saving the hikers from the raging river.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "extraordinary（非凡卓越的 / 異常的）",
       "elementary（基本的 / 初級基礎的）",
@@ -3508,7 +3508,7 @@ const englishQuiz = [
   {
     "id": "e280",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The astronomy documentary offered a _____ glimpse into black holes and galaxies.\" data-en=\"The astronomy documentary offered a _____ glimpse into black holes and galaxies.\">The astronomy documentary offered a _____ glimpse into black holes and galaxies.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The astronomy documentary offered a （【完整題目中文句意】The astronomy documentary offered a _____ glimpse into black holes and galaxies.） glimpse into black holes and galaxies.\" data-en=\"The astronomy documentary offered a _____ glimpse into black holes and galaxies.\">The astronomy documentary offered a _____ glimpse into black holes and galaxies.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fascinating（迷人的、令人著迷的）",
       "frightening（使驚嚇 / 使害怕恐嚇）",
@@ -3522,7 +3522,7 @@ const englishQuiz = [
   {
     "id": "e281",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Due to high construction costs, building an undersea railway is currently not _____.\" data-en=\"Due to high construction costs, building an undersea railway is currently not _____.\">Due to high construction costs, building an undersea railway is currently not _____.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Due to high construction costs, building an undersea railway is currently not （【完整題目中文句意】Due to high construction costs, building an undersea railway is currently not _____.）.\" data-en=\"Due to high construction costs, building an undersea railway is currently not _____.\">Due to high construction costs, building an undersea railway is currently not _____.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "feasible（切實可行的 / 辦得到的）",
       "flexible（有彈性的 / 靈活可變通的）",
@@ -3536,7 +3536,7 @@ const englishQuiz = [
   {
     "id": "e282",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.\" data-en=\"The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.\">The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The Nile River basin is renowned for its extraordinarily （【完整題目中文句意】The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.） soil suitable for farming.\" data-en=\"The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.\">The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fertile（肥沃多產的 / 豐饒的）",
       "fragile（脆弱易碎的 / 薄弱的）",
@@ -3550,7 +3550,7 @@ const englishQuiz = [
   {
     "id": "e283",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Freelancers often appreciate having a _____ work schedule rather than fixed hours.\" data-en=\"Freelancers often appreciate having a _____ work schedule rather than fixed hours.\">Freelancers often appreciate having a _____ work schedule rather than fixed hours.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Freelancers often appreciate having a （【完整題目中文句意】Freelancers often appreciate having a _____ work schedule rather than fixed hours.） work schedule rather than fixed hours.\" data-en=\"Freelancers often appreciate having a _____ work schedule rather than fixed hours.\">Freelancers often appreciate having a _____ work schedule rather than fixed hours.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "flexible（有彈性的 / 靈活可變通的）",
       "feasible（切實可行的 / 辦得到的）",
@@ -3564,7 +3564,7 @@ const englishQuiz = [
   {
     "id": "e284",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.\" data-en=\"With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.\">With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：With ample sunlight and rainfall, tropical vegetation tends to （【完整題目中文句意】With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.） all year round.\" data-en=\"With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.\">With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "flourish（繁榮昌盛 / 蓬勃發展）",
       "perish（死亡 / 毀滅枯萎）",
@@ -3578,7 +3578,7 @@ const englishQuiz = [
   {
     "id": "e285",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Please handle this glass vase carefully because it is extremely _____.\" data-en=\"Please handle this glass vase carefully because it is extremely _____.\">Please handle this glass vase carefully because it is extremely _____.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Please handle this glass vase carefully because it is extremely （【完整題目中文句意】Please handle this glass vase carefully because it is extremely _____.）.\" data-en=\"Please handle this glass vase carefully because it is extremely _____.\">Please handle this glass vase carefully because it is extremely _____.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fragile（脆弱易碎的 / 薄弱的）",
       "fertile（肥沃多產的 / 豐饒的）",
@@ -3592,7 +3592,7 @@ const englishQuiz = [
   {
     "id": "e286",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Continuous technical glitches during the livestream began to _____ the speaker.\" data-en=\"Continuous technical glitches during the livestream began to _____ the speaker.\">Continuous technical glitches during the livestream began to _____ the speaker.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Continuous technical glitches during the livestream began to （【完整題目中文句意】Continuous technical glitches during the livestream began to _____ the speaker.） the speaker.\" data-en=\"Continuous technical glitches during the livestream began to _____ the speaker.\">Continuous technical glitches during the livestream began to _____ the speaker.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "frustrate（使受挫 / 使沮喪灰心）",
       "fascinate（使著迷 / 深深吸引）",
@@ -3606,7 +3606,7 @@ const englishQuiz = [
   {
     "id": "e287",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Understanding the periodic table is _____ to mastering basic chemistry concepts.\" data-en=\"Understanding the periodic table is _____ to mastering basic chemistry concepts.\">Understanding the periodic table is _____ to mastering basic chemistry concepts.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Understanding the periodic table is （【完整題目中文句意】Understanding the periodic table is _____ to mastering basic chemistry concepts.） to mastering basic chemistry concepts.\" data-en=\"Understanding the periodic table is _____ to mastering basic chemistry concepts.\">Understanding the periodic table is _____ to mastering basic chemistry concepts.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fundamental（基礎根本的 / 基本原則）",
       "accidental（意外偶然的）",
@@ -3620,7 +3620,7 @@ const englishQuiz = [
   {
     "id": "e288",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The billionaire made a _____ donation to build a children's cancer research center.\" data-en=\"The billionaire made a _____ donation to build a children's cancer research center.\">The billionaire made a _____ donation to build a children's cancer research center.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The billionaire made a （【完整題目中文句意】The billionaire made a _____ donation to build a children's cancer research center.） donation to build a children's cancer research center.\" data-en=\"The billionaire made a _____ donation to build a children's cancer research center.\">The billionaire made a _____ donation to build a children's cancer research center.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "generous（慷慨大方的）",
       "genial（和藹親切的 / 溫和的）",
@@ -3634,7 +3634,7 @@ const englishQuiz = [
   {
     "id": "e289",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Her warm smile expressed _____ happiness for her best friend's marriage.\" data-en=\"Her warm smile expressed _____ happiness for her best friend's marriage.\">Her warm smile expressed _____ happiness for her best friend's marriage.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Her warm smile expressed （【完整題目中文句意】Her warm smile expressed _____ happiness for her best friend's marriage.） happiness for her best friend's marriage.\" data-en=\"Her warm smile expressed _____ happiness for her best friend's marriage.\">Her warm smile expressed _____ happiness for her best friend's marriage.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "genuine（真誠的、真正的）",
       "generous（慷慨大方的 / 豐厚的）",
@@ -3648,7 +3648,7 @@ const englishQuiz = [
   {
     "id": "e290",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.\" data-en=\"Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.\">Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Behind the sparkling （【完整題目中文句意】Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.） of Hollywood lies relentless hard work and intense pressure.\" data-en=\"Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.\">Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "glamour（魅力、風采、光鮮）",
       "glance（匆匆瞥一眼 / 掃視）",
@@ -3662,7 +3662,7 @@ const englishQuiz = [
   {
     "id": "e291",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】On Thanksgiving, people gather around the table to express _____ for their blessings.\" data-en=\"On Thanksgiving, people gather around the table to express _____ for their blessings.\">On Thanksgiving, people gather around the table to express _____ for their blessings.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：On Thanksgiving, people gather around the table to express （【完整題目中文句意】On Thanksgiving, people gather around the table to express _____ for their blessings.） for their blessings.\" data-en=\"On Thanksgiving, people gather around the table to express _____ for their blessings.\">On Thanksgiving, people gather around the table to express _____ for their blessings.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "gratitude（感激、謝意）",
       "gravity（重力地心引力 / 嚴重性）",
@@ -3676,7 +3676,7 @@ const englishQuiz = [
   {
     "id": "e292",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Arctic foxes have evolved thick fur coats to survive the _____ polar winter.\" data-en=\"Arctic foxes have evolved thick fur coats to survive the _____ polar winter.\">Arctic foxes have evolved thick fur coats to survive the _____ polar winter.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Arctic foxes have evolved thick fur coats to survive the （【完整題目中文句意】Arctic foxes have evolved thick fur coats to survive the _____ polar winter.） polar winter.\" data-en=\"Arctic foxes have evolved thick fur coats to survive the _____ polar winter.\">Arctic foxes have evolved thick fur coats to survive the _____ polar winter.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "harsh（嚴酷的、嚴厲的）",
       "hasty（匆忙的）",
@@ -3690,7 +3690,7 @@ const englishQuiz = [
   {
     "id": "e293",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Discarded plastic bags pose a severe choking _____ to marine creatures.\" data-en=\"Discarded plastic bags pose a severe choking _____ to marine creatures.\">Discarded plastic bags pose a severe choking _____ to marine creatures.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Discarded plastic bags pose a severe choking （【完整題目中文句意】Discarded plastic bags pose a severe choking _____ to marine creatures.） to marine creatures.\" data-en=\"Discarded plastic bags pose a severe choking _____ to marine creatures.\">Discarded plastic bags pose a severe choking _____ to marine creatures.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "hazard（危險、危害物）",
       "harvest（收穫 / 收成收割）",
@@ -3704,7 +3704,7 @@ const englishQuiz = [
   {
     "id": "e294",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Do not _____ to contact our customer support line if you experience any issues.\" data-en=\"Do not _____ to contact our customer support line if you experience any issues.\">Do not _____ to contact our customer support line if you experience any issues.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Do not （【完整題目中文句意】Do not _____ to contact our customer support line if you experience any issues.） to contact our customer support line if you experience any issues.\" data-en=\"Do not _____ to contact our customer support line if you experience any issues.\">Do not _____ to contact our customer support line if you experience any issues.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "hesitate（猶豫、躊躇）",
       "hibernate（冬眠 / 蟄伏）",
@@ -3718,7 +3718,7 @@ const englishQuiz = [
   {
     "id": "e295",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The lost explorers received a surprisingly _____ reception from the local tribe.\" data-en=\"The lost explorers received a surprisingly _____ reception from the local tribe.\">The lost explorers received a surprisingly _____ reception from the local tribe.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The lost explorers received a surprisingly （【完整題目中文句意】The lost explorers received a surprisingly _____ reception from the local tribe.） reception from the local tribe.\" data-en=\"The lost explorers received a surprisingly _____ reception from the local tribe.\">The lost explorers received a surprisingly _____ reception from the local tribe.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "hostile（有敵意的）",
       "hospitable（熱情好客的 / 宜居的）",
@@ -3732,7 +3732,7 @@ const englishQuiz = [
   {
     "id": "e296",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The twins wore _____ school uniforms, making it hard to tell them apart.\" data-en=\"The twins wore _____ school uniforms, making it hard to tell them apart.\">The twins wore _____ school uniforms, making it hard to tell them apart.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The twins wore （【完整題目中文句意】The twins wore _____ school uniforms, making it hard to tell them apart.） school uniforms, making it hard to tell them apart.\" data-en=\"The twins wore _____ school uniforms, making it hard to tell them apart.\">The twins wore _____ school uniforms, making it hard to tell them apart.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "identical（完全相同的）",
       "individual（個別的）",
@@ -3746,7 +3746,7 @@ const englishQuiz = [
   {
     "id": "e297",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The festival concluded with bright fireworks that managed to _____ the night sky.\" data-en=\"The festival concluded with bright fireworks that managed to _____ the night sky.\">The festival concluded with bright fireworks that managed to _____ the night sky.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The festival concluded with bright fireworks that managed to （【完整題目中文句意】The festival concluded with bright fireworks that managed to _____ the night sky.） the night sky.\" data-en=\"The festival concluded with bright fireworks that managed to _____ the night sky.\">The festival concluded with bright fireworks that managed to _____ the night sky.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "illuminate（照亮、闡明）",
       "illustrate（說明 / 闡明加插圖）",
@@ -3760,7 +3760,7 @@ const englishQuiz = [
   {
     "id": "e298",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The biology textbook uses detailed diagrams to _____ how cells divide.\" data-en=\"The biology textbook uses detailed diagrams to _____ how cells divide.\">The biology textbook uses detailed diagrams to _____ how cells divide.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The biology textbook uses detailed diagrams to （【完整題目中文句意】The biology textbook uses detailed diagrams to _____ how cells divide.） how cells divide.\" data-en=\"The biology textbook uses detailed diagrams to _____ how cells divide.\">The biology textbook uses detailed diagrams to _____ how cells divide.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "illustrate（插圖說明、闡述）",
       "illuminate（照亮 / 闡明啟發）",
@@ -3774,7 +3774,7 @@ const englishQuiz = [
   {
     "id": "e299",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Vaccination teaches the body's _____ system to recognize and fight viral infections.\" data-en=\"Vaccination teaches the body's _____ system to recognize and fight viral infections.\">Vaccination teaches the body's _____ system to recognize and fight viral infections.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Vaccination teaches the body's （【完整題目中文句意】Vaccination teaches the body's _____ system to recognize and fight viral infections.） system to recognize and fight viral infections.\" data-en=\"Vaccination teaches the body's _____ system to recognize and fight viral infections.\">Vaccination teaches the body's _____ system to recognize and fight viral infections.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "immune（免疫的、免除的）",
       "immense（巨大的）",
@@ -3788,7 +3788,7 @@ const englishQuiz = [
   {
     "id": "e300",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The management board decided to _____ a four-day workweek on a trial basis.\" data-en=\"The management board decided to _____ a four-day workweek on a trial basis.\">The management board decided to _____ a four-day workweek on a trial basis.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The management board decided to （【完整題目中文句意】The management board decided to _____ a four-day workweek on a trial basis.） a four-day workweek on a trial basis.\" data-en=\"The management board decided to _____ a four-day workweek on a trial basis.\">The management board decided to _____ a four-day workweek on a trial basis.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "implement（實施、實行）",
       "imply（暗示 / 暗指意味著）",
@@ -3802,7 +3802,7 @@ const englishQuiz = [
   {
     "id": "e301",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Given the rapidly falling sales numbers, staff layoffs became completely _____.\" data-en=\"Given the rapidly falling sales numbers, staff layoffs became completely _____.\">Given the rapidly falling sales numbers, staff layoffs became completely _____.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Given the rapidly falling sales numbers, staff layoffs became completely （【完整題目中文句意】Given the rapidly falling sales numbers, staff layoffs became completely _____.）.\" data-en=\"Given the rapidly falling sales numbers, staff layoffs became completely _____.\">Given the rapidly falling sales numbers, staff layoffs became completely _____.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "inevitable（不可避免的、必然的）",
       "invaluable（極珍貴無價的）",
@@ -3816,7 +3816,7 @@ const englishQuiz = [
   {
     "id": "e302",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Consumers quickly rejected the counterfeit phones due to their _____ battery life.\" data-en=\"Consumers quickly rejected the counterfeit phones due to their _____ battery life.\">Consumers quickly rejected the counterfeit phones due to their _____ battery life.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Consumers quickly rejected the counterfeit phones due to their （【完整題目中文句意】Consumers quickly rejected the counterfeit phones due to their _____ battery life.） battery life.\" data-en=\"Consumers quickly rejected the counterfeit phones due to their _____ battery life.\">Consumers quickly rejected the counterfeit phones due to their _____ battery life.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "inferior（劣等的、較差的）",
       "superior（優越優良的 / 上級）",
@@ -3830,7 +3830,7 @@ const englishQuiz = [
   {
     "id": "e303",
     "category": "詞彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The Nobel laureate published an _____ paper that reshaped contemporary economic theories.\" data-en=\"The Nobel laureate published an _____ paper that reshaped contemporary economic theories.\">The Nobel laureate published an _____ paper that reshaped contemporary economic theories.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The Nobel laureate published an （【完整題目中文句意】The Nobel laureate published an _____ paper that reshaped contemporary economic theories.） paper that reshaped contemporary economic theories.\" data-en=\"The Nobel laureate published an _____ paper that reshaped contemporary economic theories.\">The Nobel laureate published an _____ paper that reshaped contemporary economic theories.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "influential（有影響力的）",
       "infectious（具感染傳染力的）",
@@ -3869,7 +3869,7 @@ const englishQuiz = [
   },
   {
     "id": "e306",
-    "question": "<span class=\"en-assist\" data-tw=\"堅持(insist)後方的 that 子句需省略 should，動詞使用原形 submit\" data-en=\"The teacher insisted that every student _____ their assignment before Friday.\">The teacher insisted that every student _____ their assignment before Friday.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The teacher insisted that every student （堅持(insist)後方的 that 子句需省略 should，動詞使用原形 submit） their assignment before Friday.\" data-en=\"The teacher insisted that every student _____ their assignment before Friday.\">The teacher insisted that every student _____ their assignment before Friday.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "submit（提交 / 呈交（原形動詞））",
       "submits（提交（第三人稱單數））",
@@ -3895,7 +3895,7 @@ const englishQuiz = [
   },
   {
     "id": "e308",
-    "question": "<span class=\"en-assist\" data-tw=\"否定副詞 Seldom 置於句首引導倒裝句，助動詞 have 提到主詞 I 之前\" data-en=\"Seldom _____ such an awe-inspiring performance on stage.\">Seldom _____ such an awe-inspiring performance on stage.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Seldom （否定副詞 Seldom 置於句首引導倒裝句，助動詞 have 提到主詞 I 之前） such an awe-inspiring performance on stage.\" data-en=\"Seldom _____ such an awe-inspiring performance on stage.\">Seldom _____ such an awe-inspiring performance on stage.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "have I seen（我見過（否定倒裝助動詞 + S + 過去分詞））",
       "I have seen（我見過（陳述句無倒裝））",
@@ -3986,7 +3986,7 @@ const englishQuiz = [
   },
   {
     "id": "e315",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Hardly had she closed her eyes _____ the loud fire alarm went off.\" data-en=\"Hardly had she closed her eyes _____ the loud fire alarm went off.\">Hardly had she closed her eyes _____ the loud fire alarm went off.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Hardly had she closed her eyes （【完整題目中文句意】Hardly had she closed her eyes _____ the loud fire alarm went off.） the loud fire alarm went off.\" data-en=\"Hardly had she closed her eyes _____ the loud fire alarm went off.\">Hardly had she closed her eyes _____ the loud fire alarm went off.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "when（何時 / 關係副詞（時間））",
       "than（比…… / 接於 No sooner 之後）",
@@ -3999,7 +3999,7 @@ const englishQuiz = [
   },
   {
     "id": "e316",
-    "question": "<span class=\"en-assist\" data-tw=\"So + adj. 置於句首引導倒裝句，主詞 the thunderstorm 為單數，過去式用 was\" data-en=\"So fierce _____ the thunderstorm that branches snapped off all over the neighborhood.\">So fierce _____ the thunderstorm that branches snapped off all over the neighborhood.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：So fierce （So + adj. 置於句首引導倒裝句，主詞 the thunderstorm 為單數，過去式用 was） the thunderstorm that branches snapped off all over the neighborhood.\" data-en=\"So fierce _____ the thunderstorm that branches snapped off all over the neighborhood.\">So fierce _____ the thunderstorm that branches snapped off all over the neighborhood.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "was（是（過去式））",
       "is（是（第三人稱單數現在式））",
@@ -4025,7 +4025,7 @@ const englishQuiz = [
   },
   {
     "id": "e318",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】He walked on tiptoe lest he _____ the sleeping infant.\" data-en=\"He walked on tiptoe lest he _____ the sleeping infant.\">He walked on tiptoe lest he _____ the sleeping infant.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：He walked on tiptoe lest he （【完整題目中文句意】He walked on tiptoe lest he _____ the sleeping infant.） the sleeping infant.\" data-en=\"He walked on tiptoe lest he _____ the sleeping infant.\">He walked on tiptoe lest he _____ the sleeping infant.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "should wake（萬一醒來 / 應該醒來（lest 子句假設語氣））",
       "wakes（醒來（第三人稱單數））",
@@ -4051,7 +4051,7 @@ const englishQuiz = [
   },
   {
     "id": "e320",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.\" data-en=\"Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.\">Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Weather （【完整題目中文句意】Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.）, we will proceed with the outdoor barbecue tomorrow afternoon.\" data-en=\"Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.\">Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "permitting（天氣許可的話（Weather permitting 獨立分詞構句））",
       "permitted（被許可（過去分詞））",
@@ -4064,12 +4064,12 @@ const englishQuiz = [
   },
   {
     "id": "e321",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Judging _____ his exhausted expression, he must have pulled an all-nighter.\" data-en=\"Judging _____ his exhausted expression, he must have pulled an all-nighter.\">Judging _____ his exhausted expression, he must have pulled an all-nighter.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Judging （【完整題目中文句意】Judging _____ his exhausted expression, he must have pulled an all-nighter.） his exhausted expression, he must have pulled an all-nighter.\" data-en=\"Judging _____ his exhausted expression, he must have pulled an all-nighter.\">Judging _____ his exhausted expression, he must have pulled an all-nighter.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "from（/by 為常見獨立分詞片語）",
       "by（常見獨立分詞片語）",
-      "with（選項：with）",
-      "to（選項：to）"
+      "with（with）",
+      "to（to）"
     ],
     "answer": 0,
     "explanation": "Judging from/by 為常見獨立分詞片語，意為「從...來判斷」。",
@@ -4077,12 +4077,12 @@ const englishQuiz = [
   },
   {
     "id": "e322",
-    "question": "<span class=\"en-assist\" data-tw=\"suggest 表示建議時，that 子句省略 should，被動態保留原形 be + p.p.\" data-en=\"The committee suggested that the controversial regulation _____ immediately.\">The committee suggested that the controversial regulation _____ immediately.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The committee suggested that the controversial regulation （suggest 表示建議時，that 子句省略 should，被動態保留原形 be + p.p.） immediately.\" data-en=\"The committee suggested that the controversial regulation _____ immediately.\">The committee suggested that the controversial regulation _____ immediately.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
-      "be abolished（選項：be abolished）",
-      "is abolished（選項：is abolished）",
-      "was abolished（選項：was abolished）",
-      "abolishes（選項：abolishes）"
+      "be abolished（be abolished）",
+      "is abolished（is abolished）",
+      "was abolished（was abolished）",
+      "abolishes（abolishes）"
     ],
     "answer": 0,
     "explanation": "suggest 表示建議時，that 子句省略 should，被動態保留原形 be + p.p.。",
@@ -4092,10 +4092,10 @@ const englishQuiz = [
     "id": "e323",
     "question": "<span class=\"en-assist\" data-tw=\"would rather + that 子句使用與現在事實相反的過去式 did not walk\" data-en=\"I would rather you _____ alone in the dark alley so late at night.\">I would rather you _____ alone in the dark alley so late at night.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
-      "did not walk（選項：did not walk）",
-      "do not walk（選項：do not walk）",
-      "not walking（選項：not walking）",
-      "will not walk（選項：will not walk）"
+      "did not walk（did not walk）",
+      "do not walk（do not walk）",
+      "not walking（not walking）",
+      "will not walk（will not walk）"
     ],
     "answer": 0,
     "explanation": "would rather + that 子句使用與現在事實相反的過去式 did not walk。",
@@ -4219,9 +4219,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"與過去事實相反的假設句型倒裝：原句為 If it had not been for...，省略 If 後助動詞 Had 提至主詞前倒裝為 Had it not been for...（若非當時有……）\" data-en=\"______ for your timely assistance and valuable advice, our startup company could not have survived the severe financial turmoil last year.\">______ for your timely assistance and valuable advice, our startup company could not have survived the severe financial turmoil last year.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Had it not been（若非有……，與過去事實相反之假設倒裝）",
-      "Were it not（選項：Were it not）",
-      "If it was not（選項：If it was not）",
-      "Without had been（選項：Without had been）"
+      "Were it not（Were it not）",
+      "If it was not（If it was not）",
+      "Without had been（Without had been）"
     ],
     "answer": 0,
     "explanation": "與過去事實相反的假設句型倒裝：原句為 If it had not been for...，省略 If 後助動詞 Had 提至主詞前倒裝為 Had it not been for...（若非當時有……）。",
@@ -4233,9 +4233,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 → Seldom have I witnessed...\" data-en=\"Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.\">Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "have I witnessed（否定副詞置句首之助動詞倒裝）",
-      "I have witnessed（選項：I have witnessed）",
-      "did I witnessed（選項：did I witnessed）",
-      "I witnessed（選項：I witnessed）"
+      "I have witnessed（I have witnessed）",
+      "did I witnessed（did I witnessed）",
+      "I witnessed（I witnessed）"
     ],
     "answer": 0,
     "explanation": "否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 → Seldom have I witnessed...",
@@ -4244,12 +4244,12 @@ const englishQuiz = [
   {
     "id": "e334",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"表「建議、要求、命令、堅持」之動詞（suggest, recommend, demand, insist, require）後接 that 名詞子句時，子句動詞一律使用「(should) + 原形動詞」之虛擬語氣\" data-en=\"The doctor strongly recommended that the overworked patient ______ a full week off to recuperate from mental exhaustion.\">The doctor strongly recommended that the overworked patient ______ a full week off to recuperate from mental exhaustion.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The doctor strongly recommended that the overworked patient （suggest, recommend, demand, insist, require） a full week off to recuperate from mental exhaustion.\" data-en=\"The doctor strongly recommended that the overworked patient ______ a full week off to recuperate from mental exhaustion.\">The doctor strongly recommended that the overworked patient ______ a full week off to recuperate from mental exhaustion.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "take（意志動詞 recommend 後 that 子句省略 should 接原形動詞）",
       "takes（採取 / 拿取，第三人稱單數現在式）",
       "took（拿了（過去式））",
-      "is taking（選項：is taking）"
+      "is taking（is taking）"
     ],
     "answer": 0,
     "explanation": "表「建議、要求、命令、堅持」之動詞（suggest, recommend, demand, insist, require）後接 that 名詞子句時，子句動詞一律使用「(should) + 原形動詞」之虛擬語氣。",
@@ -4261,9 +4261,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"無論該研究計畫多麼困難且具挑戰性，熱忱的科學家們在找到治癒方法前絕不放棄。\" data-en=\"______ difficult and challenging the research project may be, the dedicated scientists will not give up until they find a cure.\">______ difficult and challenging the research project may be, the dedicated scientists will not give up until they find a cure.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "However（無論多麼……，修飾形容詞 difficult）",
-      "Whatever（選項：Whatever）",
-      "Whenever（選項：Whenever）",
-      "Wherever（選項：Wherever）"
+      "Whatever（Whatever）",
+      "Whenever（Whenever）",
+      "Wherever（Wherever）"
     ],
     "answer": 0,
     "explanation": "However + adj./adv. + S + V（= No matter how + adj./adv.）表示「無論多麼……」。句意：無論該研究計畫多麼困難且具挑戰性，熱忱的科學家們在找到治癒方法前絕不放棄。",
@@ -4276,8 +4276,8 @@ const englishQuiz = [
     "options": [
       "so（so + adj. + that 子句，如此……以至於……）",
       "such（則後接名詞）",
-      "very（選項：very）",
-      "too（選項：too）"
+      "very（very）",
+      "too（too）"
     ],
     "answer": 0,
     "explanation": "so + adj./adv. + that 子句（如此……以致於……）；such 則後接名詞（such + a/an + adj. + N + that）。此處 fascinating 為純形容詞，故選 so。",
@@ -4289,9 +4289,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"倍數表達法結構：倍數詞（twice / three times）+ as + 原級形容詞 + as...，表示「是……的幾倍大/長」\" data-en=\"The newly built stadium is three times ______ the old gymnasium that was torn down last winter.\">The newly built stadium is three times ______ the old gymnasium that was torn down last winter.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "as large as（倍數詞 + as + adj. + as）",
-      "larger as（選項：larger as）",
-      "so large than（選項：so large than）",
-      "as larger as（選項：as larger as）"
+      "larger as（larger as）",
+      "so large than（so large than）",
+      "as larger as（as larger as）"
     ],
     "answer": 0,
     "explanation": "倍數表達法結構：倍數詞（twice / three times）+ as + 原級形容詞 + as...，表示「是……的幾倍大/長」。",
@@ -4305,7 +4305,7 @@ const englishQuiz = [
       "Having finished（完成分詞構句，動作先於主要子句發生）",
       "Finished（完成了 / 被完成，過去式/分詞）",
       "To finish（去完成，不定詞）",
-      "Being finished（選項：Being finished）"
+      "Being finished（Being finished）"
     ],
     "answer": 0,
     "explanation": "完成式分詞構句：原句為 Because he had finished all the assignments...，因完成作業發生在去電影院之前，簡化為主動完成分詞 Having finished...。",
@@ -4314,12 +4314,12 @@ const englishQuiz = [
   {
     "id": "e339",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】We should never take our parents' unconditional love and support (將……視為理所當然而不懂感激珍惜); instead, we must express our gratitude whenever possible.\" data-en=\"We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.\">We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：We should never take our parents' unconditional love and support （【完整題目中文句意】We should never take our parents' unconditional love and support (將……視為理所當然而不懂感激珍惜); instead, we must express our gratitude whenever possible.）; instead, we must express our gratitude whenever possible.\" data-en=\"We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.\">We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "for granted（take ... for granted 視……為理所當然）",
-      "for sure（選項：for sure）",
-      "for real（選項：for real）",
-      "for good（選項：for good）"
+      "for sure（for sure）",
+      "for real（for real）",
+      "for good（for good）"
     ],
     "answer": 0,
     "explanation": "take sth for granted 為大考最高頻片語，意為「將……視為理所當然而不懂感激珍惜」。",
@@ -4331,9 +4331,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"經過多年嚴格訓練與不懈奉獻，這位年輕運動員的辛勤付出終於在奪得奧運金牌時得到了回報。\" data-en=\"After years of rigorous training and relentless dedication, the young athlete's hard work finally ______ when she won the Olympic gold medal.\">After years of rigorous training and relentless dedication, the young athlete's hard work finally ______ when she won the Olympic gold medal.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "paid off（得到回報 / 取得成功）",
-      "paid back（選項：paid back）",
-      "paid out（選項：paid out）",
-      "paid down（選項：paid down）"
+      "paid back（paid back）",
+      "paid out（paid out）",
+      "paid down（paid down）"
     ],
     "answer": 0,
     "explanation": "pay off 片語意為「努力得到豐碩回報 / 取得圓滿成功」。句意：經過多年嚴格訓練與不懈奉獻，這位年輕運動員的辛勤付出終於在奪得奧運金牌時得到了回報。",
@@ -4345,9 +4345,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"許多開發中國家以犧牲自然環境與公眾健康為代價，追求快速的工業增長。\" data-en=\"Many developing countries pursue rapid industrial growth ______ the natural environment and public health.\">Many developing countries pursue rapid industrial growth ______ the natural environment and public health.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "at the expense of（以……為代價 / 犧牲……）",
-      "in terms of（選項：in terms of）",
-      "in favor of（選項：in favor of）",
-      "by means of（選項：by means of）"
+      "in terms of（in terms of）",
+      "in favor of（in favor of）",
+      "by means of（by means of）"
     ],
     "answer": 0,
     "explanation": "at the expense of（= at the cost of）意為「以……為代價 / 犧牲……」。句意：許多開發中國家以犧牲自然環境與公眾健康為代價，追求快速的工業增長。",
@@ -4359,9 +4359,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"鑑於最近政府資料庫遭受網路攻擊事件，當局決定立即加強其網路安全防護協定。\" data-en=\"______ the recent cyberattacks on government databases, the authorities decided to enhance their network security protocols immediately.\">______ the recent cyberattacks on government databases, the authorities decided to enhance their network security protocols immediately.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "In light of（鑑於 / 考慮到）",
-      "In spite of（選項：In spite of）",
-      "In contrast to（選項：In contrast to）",
-      "In place of（選項：In place of）"
+      "In spite of（In spite of）",
+      "In contrast to（In contrast to）",
+      "In place of（In place of）"
     ],
     "answer": 0,
     "explanation": "in light of 意為「鑑於 / 考慮到 / 根據……」。句意：鑑於最近政府資料庫遭受網路攻擊事件，當局決定立即加強其網路安全防護協定。",
@@ -4370,12 +4370,12 @@ const englishQuiz = [
   {
     "id": "e343",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】As a professional software engineer, it is essential to (跟上……的最新發展 / 與時俱進地了解……) the latest advancements in artificial intelligence and machine learning.\" data-en=\"As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.\">As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：As a professional software engineer, it is essential to （【完整題目中文句意】As a professional software engineer, it is essential to (跟上……的最新發展 / 與時俱進地了解……) the latest advancements in artificial intelligence and machine learning.） the latest advancements in artificial intelligence and machine learning.\" data-en=\"As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.\">As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "keep abreast of（跟上……的最新發展 / 保持了解）",
-      "keep away from（選項：keep away from）",
-      "keep track with（選項：keep track with）",
-      "keep down to（選項：keep down to）"
+      "keep away from（keep away from）",
+      "keep track with（keep track with）",
+      "keep down to（keep down to）"
     ],
     "answer": 0,
     "explanation": "keep abreast of sth 為高階重要片語，意為「跟上……的最新發展 / 與時俱進地了解……」。",
@@ -4387,9 +4387,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"新出土的考古文物為古代馬雅文明神秘的宗教儀式提供了新線索與深入了解。\" data-en=\"The newly discovered archaeological artifacts have ______ the mysterious religious rituals of the ancient Mayan civilization.\">The newly discovered archaeological artifacts have ______ the mysterious religious rituals of the ancient Mayan civilization.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "shed light on（闡明 / 使……更加明朗清楚）",
-      "taken part in（選項：taken part in）",
-      "made fun of（選項：made fun of）",
-      "kept an eye on（選項：kept an eye on）"
+      "taken part in（taken part in）",
+      "made fun of（made fun of）",
+      "kept an eye on（kept an eye on）"
     ],
     "answer": 0,
     "explanation": "shed light on 意為「為……提供新線索 / 闡明 / 使……明朗」。句意：新出土的考古文物為古代馬雅文明神秘的宗教儀式提供了新線索與深入了解。",
@@ -4401,9 +4401,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"海洋中的塑膠污染對海洋野生動物及整個水生生態系統構成了嚴重威脅。\" data-en=\"Plastic pollution in the oceans poses a severe ______ to marine wildlife and the entire aquatic ecosystem.\">Plastic pollution in the oceans poses a severe ______ to marine wildlife and the entire aquatic ecosystem.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "threat to（pose a threat to 對……構成威脅）",
-      "solution to（選項：solution to）",
-      "benefit to（選項：benefit to）",
-      "praise to（選項：praise to）"
+      "solution to（solution to）",
+      "benefit to（benefit to）",
+      "praise to（praise to）"
     ],
     "answer": 0,
     "explanation": "pose a threat to 意為「對……造成重大威脅」。句意：海洋中的塑膠污染對海洋野生動物及整個水生生態系統構成了嚴重威脅。",
@@ -4459,7 +4459,7 @@ const englishQuiz = [
       "permitting（獨立分詞構句，若天氣允許）",
       "permitted（被許可（過去分詞））",
       "permits（允許 / 許可證執照）",
-      "is permitting（選項：is permitting）"
+      "is permitting（is permitting）"
     ],
     "answer": 0,
     "explanation": "獨立分詞構句慣用語：Weather permitting（= If weather permits），表示「天氣若允許的話」，主詞不同保留名詞 Weather。",
@@ -4468,12 +4468,12 @@ const englishQuiz = [
   {
     "id": "e350",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】(Anyone who（凡是贏得全國科學競賽的人）) wins the national science competition will be awarded a full scholarship to study at the prestigious university.\" data-en=\"______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.\">______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：（凡是贏得全國科學競賽的人） wins the national science competition will be awarded a full scholarship to study at the prestigious university.\" data-en=\"______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.\">______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Whoever（複合關係代名詞，無論誰 / 凡是……的人，等於 Anyone who）",
-      "Whomever（選項：Whomever）",
-      "Whatever（選項：Whatever）",
-      "Whichever（選項：Whichever）"
+      "Whomever（Whomever）",
+      "Whatever（Whatever）",
+      "Whichever（Whichever）"
     ],
     "answer": 0,
     "explanation": "Whoever 作為主要子句的主詞引導名詞子句，意為 Anyone who（凡是贏得全國科學競賽的人）。",
@@ -4482,12 +4482,12 @@ const englishQuiz = [
   {
     "id": "e351",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】After years of grief, the widow finally (逐漸接受（殘酷現實）/ 與……達成和解妥協) the tragic loss of her husband and began to rebuild her life.\" data-en=\"After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.\">After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：After years of grief, the widow finally （殘酷現實） the tragic loss of her husband and began to rebuild her life.\" data-en=\"After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.\">After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "came to terms with（逐漸接受 / 與……妥協和解）",
-      "came up with（選項：came up with）",
-      "came down with（選項：came down with）",
-      "came across with（選項：came across with）"
+      "came up with（came up with）",
+      "came down with（came down with）",
+      "came across with（came across with）"
     ],
     "answer": 0,
     "explanation": "come to terms with 意為「逐漸接受（殘酷現實）/ 與……達成和解妥協」。",
@@ -4499,9 +4499,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"這項突破性的醫學發現為開發對抗新興病毒性疾病的高效疫苗奠定了堅實基礎。\" data-en=\"The groundbreaking medical discovery ______ for the development of highly effective vaccines against emerging viral diseases.\">The groundbreaking medical discovery ______ for the development of highly effective vaccines against emerging viral diseases.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "paved the way（pave the way for 為……鋪平道路 / 奠定基礎）",
-      "led the way（選項：led the way）",
-      "lost the way（選項：lost the way）",
-      "made a way（選項：made a way）"
+      "led the way（led the way）",
+      "lost the way（lost the way）",
+      "made a way（made a way）"
     ],
     "answer": 0,
     "explanation": "pave the way for 意為「為……鋪平道路 / 開闢坦途」。句意：這項突破性的醫學發現為開發對抗新興病毒性疾病的高效疫苗奠定了堅實基礎。",
@@ -4639,9 +4639,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"搖滾巨星剛一步上舞臺，熱情的觀眾席立刻爆發出震耳欲聾的歡呼與掌聲。\" data-en=\"No sooner ______ the stage than the enthusiastic audience erupted into deafening cheers and applause.\">No sooner ______ the stage than the enthusiastic audience erupted into deafening cheers and applause.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "had the rock star stepped onto（No sooner had + S + p.p. than... 一……就……之倒裝）",
-      "the rock star had stepped onto（選項：the rock star had stepped onto）",
-      "did the rock star stepped onto（選項：did the rock star stepped onto）",
-      "has the rock star stepped onto（選項：has the rock star stepped onto）"
+      "the rock star had stepped onto（the rock star had stepped onto）",
+      "did the rock star stepped onto（did the rock star stepped onto）",
+      "has the rock star stepped onto（has the rock star stepped onto）"
     ],
     "answer": 0,
     "explanation": "No sooner 置於句首倒裝句型：No sooner had + S + p.p. + than + S + Ved（一……就……）。句意：搖滾巨星剛一步上舞臺，熱情的觀眾席立刻爆發出震耳欲聾的歡呼與掌聲。",
@@ -4664,11 +4664,11 @@ const englishQuiz = [
   {
     "id": "e364",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"It is (high / about) time that + S + Ved（虛擬語氣表示「早就該做某事而尚未做」），that 子句動詞一律使用「過去式動詞」或「should + 原形動詞」\" data-en=\"It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.\">It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：It is high time that the municipal government （虛擬語氣表示「早就該做某事而尚未做」） effective measures to resolve the chronic traffic congestion downtown.\" data-en=\"It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.\">It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "took（It is high time that + S + 過去式動詞，該是……的時候了）",
       "takes（採取 / 拿取，第三人稱單數現在式）",
-      "has taken（選項：has taken）",
+      "has taken（has taken）",
       "take（拿取 / 服用（原形））"
     ],
     "answer": 0,
@@ -4681,9 +4681,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"登山隊員們極其小心地行走，唯恐滑倒跌落陡峭結冰的懸崖。\" data-en=\"The mountaineers walked with extreme caution ______ they slip and tumble down the steep, icy cliff.\">The mountaineers walked with extreme caution ______ they slip and tumble down the steep, icy cliff.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "lest（lest + S + (should) + 原形動詞，唯恐 / 免得……）",
-      "in case of（選項：in case of）",
+      "in case of（in case of）",
       "unless（除非（條件連接詞））",
-      "so that（選項：so that）"
+      "so that（so that）"
     ],
     "answer": 0,
     "explanation": "lest 引導副詞子句表示「唯恐 / 免得……」，子句動詞慣用「(should) + 原形動詞」。句意：登山隊員們極其小心地行走，唯恐滑倒跌落陡峭結冰的懸崖。",
@@ -4695,9 +4695,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"直到教授第二次解釋該複雜數學理論，學生們才完全理解該方程式。\" data-en=\"Not until the professor explained the complex mathematical theory a second time ______ fully understand the equation.\">Not until the professor explained the complex mathematical theory a second time ______ fully understand the equation.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "did the students（Not until... 置句首之助動詞倒裝）",
-      "the students did（選項：the students did）",
-      "the students had（選項：the students had）",
-      "had the students（選項：had the students）"
+      "the students did（the students did）",
+      "the students had（the students had）",
+      "had the students（had the students）"
     ],
     "answer": 0,
     "explanation": "Not until... 置於句首時，主要子句必須倒裝（助動詞 did 提至主詞 the students 前面）。句意：直到教授第二次解釋該複雜數學理論，學生們才完全理解該方程式。",
@@ -4706,12 +4706,12 @@ const englishQuiz = [
   {
     "id": "e367",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】It goes (不言而喻 / 眾所周知 / 毫無疑問是……) that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.\" data-en=\"It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.\">It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：It goes （【完整題目中文句意】It goes (不言而喻 / 眾所周知 / 毫無疑問是……) that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.） that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.\" data-en=\"It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.\">It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "without saying（It goes without saying that... 不言而喻 / 毫無疑問）",
-      "without seeing（選項：without seeing）",
-      "without knowing（選項：without knowing）",
-      "without telling（選項：without telling）"
+      "without seeing（without seeing）",
+      "without knowing（without knowing）",
+      "without telling（without telling）"
     ],
     "answer": 0,
     "explanation": "It goes without saying that... 意為「不言而喻 / 眾所周知 / 毫無疑問是……」。",
@@ -4737,9 +4737,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"購買家庭新車時，安全評級與燃油效率應被買家列入考慮。\" data-en=\"When purchasing a new family car, safety ratings and fuel efficiency should be ______ by the buyers.\">When purchasing a new family car, safety ratings and fuel efficiency should be ______ by the buyers.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "taken into account（take ... into account 考慮在內 / 顧及）",
-      "taken for granted（選項：taken for granted）",
-      "taken by surprise（選項：taken by surprise）",
-      "taken in vain（選項：taken in vain）"
+      "taken for granted（taken for granted）",
+      "taken by surprise（taken by surprise）",
+      "taken in vain（taken in vain）"
     ],
     "answer": 0,
     "explanation": "take sth into account / consideration 為大考最高頻片語，意為「把……列入考慮」。句意：購買家庭新車時，安全評級與燃油效率應被買家列入考慮。",
@@ -4751,9 +4751,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"師長絕不應對校園霸凌視而不見；任何騷擾行為皆必須迅速堅定處理。\" data-en=\"Teachers and parents should never ______ school bullying; any act of harassment must be dealt with promptly and firmly.\">Teachers and parents should never ______ school bullying; any act of harassment must be dealt with promptly and firmly.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "turn a blind eye to（視而不見 / 裝作沒看見）",
-      "keep an eye on（選項：keep an eye on）",
-      "see eye to eye with（選項：see eye to eye with）",
-      "catch the eye of（選項：catch the eye of）"
+      "keep an eye on（keep an eye on）",
+      "see eye to eye with（see eye to eye with）",
+      "catch the eye of（catch the eye of）"
     ],
     "answer": 0,
     "explanation": "turn a blind eye to sth 意為「對……視而不見 / 故意放任不管」。句意：師長絕不應對校園霸凌視而不見；任何騷擾行為皆必須迅速堅定處理。",
@@ -4762,7 +4762,7 @@ const englishQuiz = [
   {
     "id": "e371",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Artificial intelligence is expected to (在……中扮演舉足輕重之核心角色) a crucial role in modern medical diagnosis and personalized drug discovery.\" data-en=\"Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.\">Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Artificial intelligence is expected to （【完整題目中文句意】Artificial intelligence is expected to (在……中扮演舉足輕重之核心角色) a crucial role in modern medical diagnosis and personalized drug discovery.） a crucial role in modern medical diagnosis and personalized drug discovery.\" data-en=\"Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.\">Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "play（play a crucial / vital role in 在……中扮演關鍵角色）",
       "make（製造 / 使得，原形動詞）",
@@ -4779,9 +4779,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"由於猖獗的森林砍伐與非法盜獵，珍稀山地大猩猩目前瀕臨滅絕邊緣。\" data-en=\"The rare mountain gorilla species is currently ______ extinction due to rampant deforestation and illegal poaching.\">The rare mountain gorilla species is currently ______ extinction due to rampant deforestation and illegal poaching.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "on the verge of（on the verge of / on the brink of 瀕臨……邊緣）",
-      "in the face of（選項：in the face of）",
-      "at the mercy of（選項：at the mercy of）",
-      "by virtue of（選項：by virtue of）"
+      "in the face of（in the face of）",
+      "at the mercy of（at the mercy of）",
+      "by virtue of（by virtue of）"
     ],
     "answer": 0,
     "explanation": "on the verge of（= on the brink / edge of）意為「瀕臨……邊緣 / 行將……」。句意：由於猖獗的森林砍伐與非法盜獵，珍稀山地大猩猩目前瀕臨滅絕邊緣。",
@@ -4793,9 +4793,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"工業革命為全球經濟結構、都市化與人類生活水準帶來了深遠變革。\" data-en=\"The Industrial Revolution ______ profound transformations in global economic structures, urbanization, and human living standards.\">The Industrial Revolution ______ profound transformations in global economic structures, urbanization, and human living standards.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "brought about（帶來 / 促成 / 引起）",
-      "brought up（選項：brought up）",
-      "brought out（選項：brought out）",
-      "brought in（選項：brought in）"
+      "brought up（brought up）",
+      "brought out（brought out）",
+      "brought in（brought in）"
     ],
     "answer": 0,
     "explanation": "bring about（= cause / lead to）意為「引起 / 帶來 / 導致（重大變革）」。句意：工業革命為全球經濟結構、都市化與人類生活水準帶來了深遠變革。",
@@ -4807,9 +4807,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"長期的工作壓力與缺乏睡眠會引發各種健康問題，包括高血壓與心血管疾病。\" data-en=\"Chronic work stress and lack of sleep can ______ various health problems, including hypertension and cardiovascular diseases.\">Chronic work stress and lack of sleep can ______ various health problems, including hypertension and cardiovascular diseases.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "give rise to（引起 / 導致 / 造成）",
-      "give way to（選項：give way to）",
-      "give in to（選項：give in to）",
-      "give off to（選項：give off to）"
+      "give way to（give way to）",
+      "give in to（give in to）",
+      "give off to（give off to）"
     ],
     "answer": 0,
     "explanation": "give rise to（= lead to, cause）意為「引起 / 導致 / 招致（不良後果）」。句意：長期的工作壓力與缺乏睡眠會引發各種健康問題，包括高血壓與心血管疾病。",
@@ -4821,9 +4821,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"請牢記在心，大學申請備審資料的上傳截止時間嚴格為本週五午夜。\" data-en=\"Please ______ that the deadline for submitting the college application portfolio is strictly midnight this Friday.\">Please ______ that the deadline for submitting the college application portfolio is strictly midnight this Friday.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "bear in mind（牢記在心 / 記住）",
-      "change your mind（選項：change your mind）",
-      "make up your mind（選項：make up your mind）",
-      "out of your mind（選項：out of your mind）"
+      "change your mind（change your mind）",
+      "make up your mind（make up your mind）",
+      "out of your mind（out of your mind）"
     ],
     "answer": 0,
     "explanation": "bear / keep in mind that... 意為「牢記在心 / 切記……」。句意：請牢記在心，大學申請備審資料的上傳截止時間嚴格為本週五午夜。",
@@ -4835,7 +4835,7 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"許多開發中國家竭力應對氣候變遷帶來的災難性衝擊（如嚴重乾旱與洪澇）。\" data-en=\"Many developing nations struggle to ______ with the catastrophic impacts of climate change, such as severe droughts and floods.\">Many developing nations struggle to ______ with the catastrophic impacts of climate change, such as severe droughts and floods.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "cope（cope with 應付 / 克服 / 妥善處理）",
-      "compete（選項：compete）",
+      "compete（compete）",
       "comply（順從 / 遵守）",
       "collide（碰撞 / 衝突）"
     ],
@@ -4877,9 +4877,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"分詞構句：原句為 ...although he knew that it might take years...，簡化為主動分詞 knowing...\" data-en=\"The ambitious entrepreneur decided to invest in the green energy project, ______ that it might take years to yield a profitable return.\">The ambitious entrepreneur decided to invest in the green energy project, ______ that it might take years to yield a profitable return.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "knowing（現在分詞構句表伴隨狀態）",
-      "knew（選項：knew）",
+      "knew（knew）",
       "known（被知道（過去分詞））",
-      "to be known（選項：to be known）"
+      "to be known（to be known）"
     ],
     "answer": 0,
     "explanation": "分詞構句：原句為 ...although he knew that it might take years...，簡化為主動分詞 knowing...",
@@ -4891,9 +4891,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"這項新提議的政策是從其對當地就業與環境永續性的潛在影響角度進行評估的。\" data-en=\"The newly proposed policy was evaluated ______ its potential impact on local employment and environmental sustainability.\">The newly proposed policy was evaluated ______ its potential impact on local employment and environmental sustainability.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "in terms of（就……而言 / 從……角度來看）",
-      "in case of（選項：in case of）",
-      "in spite of（選項：in spite of）",
-      "in search of（選項：in search of）"
+      "in case of（in case of）",
+      "in spite of（in spite of）",
+      "in search of（in search of）"
     ],
     "answer": 0,
     "explanation": "in terms of 意為「從……方面來看 / 就……而言」。句意：這項新提議的政策是從其對當地就業與環境永續性的潛在影響角度進行評估的。",
@@ -4919,9 +4919,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"如果沒有充分準備與團隊合作，我們的辯論隊在對抗衛冕冠軍時毫無獲勝勝算。\" data-en=\"Without sufficient preparation and teamwork, our debate team will not ______ winning the championship against the defending champion.\">Without sufficient preparation and teamwork, our debate team will not ______ winning the championship against the defending champion.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "stand a chance of（有……的機會 / 可能性）",
-      "make a difference to（選項：make a difference to）",
-      "lose track of（選項：lose track of）",
-      "put an end to（選項：put an end to）"
+      "make a difference to（make a difference to）",
+      "lose track of（lose track of）",
+      "put an end to（put an end to）"
     ],
     "answer": 0,
     "explanation": "stand a chance of + V-ing 意為「有……的希望/勝算/可能性」。句意：如果沒有充分準備與團隊合作，我們的辯論隊在對抗衛冕冠軍時毫無獲勝勝算。",
@@ -5045,9 +5045,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"這位年輕藝術家以如此生動熱情談論歐洲古老教堂，彷彿她曾親自造訪過一般。\" data-en=\"The young artist talked about the ancient European cathedrals with such vivid passion ______ she had visited them in person.\">The young artist talked about the ancient European cathedrals with such vivid passion ______ she had visited them in person.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "as though（宛如 / 彷彿，引導假設子句）",
-      "even though（選項：even though）",
-      "in case（選項：in case）",
-      "so that（選項：so that）"
+      "even though（even though）",
+      "in case（in case）",
+      "so that（so that）"
     ],
     "answer": 0,
     "explanation": "as though / as if 意為「彷彿 / 宛如……一般」，後接假設語氣子句。句意：這位年輕藝術家以如此生動熱情談論歐洲古老教堂，彷彿她曾親自造訪過一般。",
@@ -5059,9 +5059,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"我們每天練習講英語越多，我們在流暢表達複雜想法時就會變得越熟練。\" data-en=\"______ we practice speaking English daily, ______ we will become at expressing our complex ideas fluently.\">______ we practice speaking English daily, ______ we will become at expressing our complex ideas fluently.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "The more; the better（The + 比較級, the + 比較級，越……就越……）",
-      "The most; the best（選項：The most; the best）",
-      "More; better（選項：More; better）",
-      "The better; the more（選項：The better; the more）"
+      "The most; the best（The most; the best）",
+      "More; better（More; better）",
+      "The better; the more（The better; the more）"
     ],
     "answer": 0,
     "explanation": "The + 比較級..., the + 比較級... 句型表示「越……就越……」。句意：我們每天練習講英語越多，我們在流暢表達複雜想法時就會變得越熟練。",
@@ -5073,9 +5073,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"with + O + OC 附帶狀況句型：淚水（tears）與流淌（stream）為主動進行關係，故使用現在分詞 streaming\" data-en=\"The heart-wrenching scene ended with the tearful mother standing at the train platform, with tears ______ down her cheeks.\">The heart-wrenching scene ended with the tearful mother standing at the train platform, with tears ______ down her cheeks.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "streaming（with + 受詞 + 現在分詞受詞補語，表主動進行狀態）",
-      "streamed（選項：streamed）",
+      "streamed（streamed）",
       "stream（）為主動進行關係）",
-      "to stream（選項：to stream）"
+      "to stream（to stream）"
     ],
     "answer": 0,
     "explanation": "with + O + OC 附帶狀況句型：淚水（tears）與流淌（stream）為主動進行關係，故使用現在分詞 streaming。",
@@ -5087,8 +5087,8 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"為打翻的牛奶哭泣是沒有用的；我們現在需要做的是立刻找到替代解決方案。\" data-en=\"It is no ______ crying over spilt milk; what we need to do right now is find an alternative solution immediately.\">It is no ______ crying over spilt milk; what we need to do right now is find an alternative solution immediately.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "use（It is no use + V-ing，做……是無濟於事的 / 徒勞無功的）",
-      "good（選項：good）",
-      "point（選項：point）",
+      "good（good）",
+      "point（point）",
       "help（幫助 / 協助，原形動詞）"
     ],
     "answer": 0,
@@ -5102,8 +5102,8 @@ const englishQuiz = [
     "options": [
       "reading（be well worth + V-ing，值得做……，主動形式表被動意）",
       "to read（去閱讀，不定詞）",
-      "being read（選項：being read）",
-      "to be read（選項：to be read）"
+      "being read（being read）",
+      "to be read（to be read）"
     ],
     "answer": 0,
     "explanation": "be (well) worth + V-ing 固定句型：worth 後接動名詞主動形式表達被動意義（值得被閱讀）。",
@@ -5115,9 +5115,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"accuse sb of sth（指控某人……罪名）\" data-en=\"The corrupt politician was formally accused ______ taking massive bribes from real estate developers during his tenure.\">The corrupt politician was formally accused ______ taking massive bribes from real estate developers during his tenure.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "of（accuse sb of sth 指控某人犯有……罪）",
-      "with（選項：with）",
+      "with（with）",
       "for（因為 / 為了）",
-      "against（選項：against）"
+      "against（against）"
     ],
     "answer": 0,
     "explanation": "accuse sb of sth（指控某人……罪名）；注意對比 charge sb with sth。",
@@ -5126,12 +5126,12 @@ const englishQuiz = [
   {
     "id": "e397",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Heavy snowstorms and icy road conditions prevented thousands of stranded passengers (阻止/妨礙某人做某事) boarding their scheduled flights.\" data-en=\"Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.\">Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Heavy snowstorms and icy road conditions prevented thousands of stranded passengers （【完整題目中文句意】Heavy snowstorms and icy road conditions prevented thousands of stranded passengers (阻止/妨礙某人做某事) boarding their scheduled flights.） boarding their scheduled flights.\" data-en=\"Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.\">Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "from（prevent / stop / discourage sb from + V-ing 阻止某人做……）",
-      "to（選項：to）",
-      "against（選項：against）",
-      "with（選項：with）"
+      "to（to）",
+      "against（against）",
+      "with（with）"
     ],
     "answer": 0,
     "explanation": "prevent / stop / ban sb from + V-ing 意為「阻止/妨礙某人做某事」。",
@@ -5143,9 +5143,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"在過去二十年中，臺灣的高科技半導體產業突飛猛進地成長發展。\" data-en=\"Over the past two decades, Taiwan's high-tech semiconductor industry has grown ______.\">Over the past two decades, Taiwan's high-tech semiconductor industry has grown ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "by leaps and bounds（突飛猛進地 / 飛速發展地）",
-      "by and large（選項：by and large）",
-      "little by little（選項：little by little）",
-      "step by step（選項：step by step）"
+      "by and large（by and large）",
+      "little by little（little by little）",
+      "step by step（step by step）"
     ],
     "answer": 0,
     "explanation": "by leaps and bounds 為大考高頻成語，意為「突飛猛進地 / 一日千里地」。句意：在過去二十年中，臺灣的高科技半導體產業突飛猛進地成長發展。",
@@ -5154,12 +5154,12 @@ const englishQuiz = [
   {
     "id": "e399",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The sudden unexpected scandal (給……蒙上一層陰影 / 使……蒙上陰霾) over the famous movie star's previously spotless public reputation.\" data-en=\"The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.\">The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The sudden unexpected scandal （【完整題目中文句意】The sudden unexpected scandal (給……蒙上一層陰影 / 使……蒙上陰霾) over the famous movie star's previously spotless public reputation.） over the famous movie star's previously spotless public reputation.\" data-en=\"The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.\">The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "cast a shadow（cast a shadow over 給……蒙上一層陰影）",
-      "cast an eye（選項：cast an eye）",
-      "cast a light（選項：cast a light）",
-      "cast a doubt（選項：cast a doubt）"
+      "cast an eye（cast an eye）",
+      "cast a light（cast a light）",
+      "cast a doubt（cast a doubt）"
     ],
     "answer": 0,
     "explanation": "cast a shadow over / on sth 意為「給……蒙上一層陰影 / 使……蒙上陰霾」。",
@@ -5171,9 +5171,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"所有建築工程皆必須嚴格遵守市政環保與安全法規進行。\" data-en=\"All construction projects must be carried out in strict ______ municipal environmental and safety regulations.\">All construction projects must be carried out in strict ______ municipal environmental and safety regulations.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "compliance with（in compliance with 符合 / 遵照……法規）",
-      "comparison with（選項：comparison with）",
-      "competition with（選項：competition with）",
-      "combination with（選項：combination with）"
+      "comparison with（comparison with）",
+      "competition with（competition with）",
+      "combination with（combination with）"
     ],
     "answer": 0,
     "explanation": "in compliance with（= in accordance with）意為「遵照 / 符合（法規、標準）」。句意：所有建築工程皆必須嚴格遵守市政環保與安全法規進行。",
@@ -5185,9 +5185,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"儘管在行銷活動上投入了數百萬美元，該產品的實際銷售數據仍未達到最初預期。\" data-en=\"Despite spending millions on the marketing campaign, the product's actual sales figures ______ original expectations.\">Despite spending millions on the marketing campaign, the product's actual sales figures ______ original expectations.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fell short of（fall short of 未達到 / 辜負……期望）",
-      "came up with（選項：came up with）",
-      "ran out of（選項：ran out of）",
-      "got rid of（選項：got rid of）"
+      "came up with（came up with）",
+      "ran out of（ran out of）",
+      "got rid of（got rid of）"
     ],
     "answer": 0,
     "explanation": "fall short of 意為「未達到（標準、期望）/ 辜負」。句意：儘管在行銷活動上投入了數百萬美元，該產品的實際銷售數據仍未達到最初預期。",
@@ -5196,7 +5196,7 @@ const englishQuiz = [
   {
     "id": "e402",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Working parents often find it challenging to (在 A 與 B 之間取得良性平衡 / 兼顧兩者) a balance between demanding career responsibilities and quality family life.\" data-en=\"Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.\">Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Working parents often find it challenging to （【完整題目中文句意】Working parents often find it challenging to (在 A 與 B 之間取得良性平衡 / 兼顧兩者) a balance between demanding career responsibilities and quality family life.） a balance between demanding career responsibilities and quality family life.\" data-en=\"Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.\">Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "strike（strike a balance between 在……兩者之間取得平衡）",
       "make（製造 / 使得，原形動詞）",
@@ -5255,8 +5255,8 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"為超出你個人控制範圍的事情擔憂是毫無意義的。\" data-en=\"There is no ______ in worrying about things that are beyond your personal control.\">There is no ______ in worrying about things that are beyond your personal control.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "point（There is no point in + V-ing，做……是毫無意義的）",
-      "need（選項：need）",
-      "reason（選項：reason）",
+      "need（need）",
+      "reason（reason）",
       "purpose（目的 / 意圖用途決心決意）"
     ],
     "answer": 0,
@@ -5325,8 +5325,8 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"By the time + 過去式動詞時，主要子句使用「過去完成式 had + p.p.」\" data-en=\"By the time the firefighter squad arrived at the scene, the blazing fire ______ by the torrential rain.\">By the time the firefighter squad arrived at the scene, the blazing fire ______ by the torrential rain.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "had been extinguished（過去完成式被動語態）",
-      "has been extinguished（選項：has been extinguished）",
-      "was extinguishing（選項：was extinguishing）",
+      "has been extinguished（has been extinguished）",
+      "was extinguishing（was extinguishing）",
       "extinguished（撲滅 / 熄滅消滅）"
     ],
     "answer": 0,
@@ -5465,9 +5465,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"Only + 介系詞片語置於句首時，主要子句必須倒裝（助動詞 can 提至主詞 we 前面：Only by... can we...）\" data-en=\"Only by working together collaboratively ______ overcome the unprecedented global challenges posed by climate change.\">Only by working together collaboratively ______ overcome the unprecedented global challenges posed by climate change.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "can we（Only by + V-ing 置於句首之助動詞倒裝）",
-      "we can（選項：we can）",
-      "we will（選項：we will）",
-      "do we can（選項：do we can）"
+      "we can（we can）",
+      "we will（we will）",
+      "do we can（do we can）"
     ],
     "answer": 0,
     "explanation": "Only + 介系詞片語置於句首時，主要子句必須倒裝（助動詞 can 提至主詞 we 前面：Only by... can we...）。",
@@ -5479,9 +5479,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"So + 形容詞置於句首倒裝句型：So captivating was the performance that...（表演如此扣人心弦，以致於全體觀眾自始至終沉浸其中）\" data-en=\"So captivating ______ that everyone in the auditorium was completely engrossed from beginning to end.\">So captivating ______ that everyone in the auditorium was completely engrossed from beginning to end.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "was the magician's performance（So + adj + be + S + that... 如此……以致於之倒裝）",
-      "the magician's performance was（選項：the magician's performance was）",
-      "the performance of magician was（選項：the performance of magician was）",
-      "had been the performance（選項：had been the performance）"
+      "the magician's performance was（the magician's performance was）",
+      "the performance of magician was（the performance of magician was）",
+      "had been the performance（had been the performance）"
     ],
     "answer": 0,
     "explanation": "So + 形容詞置於句首倒裝句型：So captivating was the performance that...（表演如此扣人心弦，以致於全體觀眾自始至終沉浸其中）。",
@@ -5507,9 +5507,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"object to + V-ing（to 為介系詞，後接動名詞，表示「強烈反對做某事」）\" data-en=\"Many environmental activists strongly object to ______ nuclear waste near coastal ecological reserves.\">Many environmental activists strongly object to ______ nuclear waste near coastal ecological reserves.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "dumping（object to + 動名詞 V-ing，反對做……）",
-      "dump（選項：dump）",
-      "dumped（選項：dumped）",
-      "be dumped（選項：be dumped）"
+      "dump（dump）",
+      "dumped（dumped）",
+      "be dumped（be dumped）"
     ],
     "answer": 0,
     "explanation": "object to + V-ing（to 為介系詞，後接動名詞，表示「強烈反對做某事」）。",
@@ -5521,9 +5521,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"我們大家都非常期盼在即將到來的農曆新年去鄉下探望祖父母。\" data-en=\"We are all eagerly looking forward to ______ our grandparents in the countryside during the upcoming Lunar New Year.\">We are all eagerly looking forward to ______ our grandparents in the countryside during the upcoming Lunar New Year.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "visiting（look forward to + 動名詞 V-ing，盼望期待……）",
-      "visit（選項：visit）",
-      "visited（選項：visited）",
-      "visitation（選項：visitation）"
+      "visit（visit）",
+      "visited（visited）",
+      "visitation（visitation）"
     ],
     "answer": 0,
     "explanation": "look forward to + V-ing（大考最高頻片語，to 為介系詞後接動名詞）。句意：我們大家都非常期盼在即將到來的農曆新年去鄉下探望祖父母。",
@@ -5535,9 +5535,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"獎學金的核發完全由學術評審委員會自行裁量決定。\" data-en=\"The granting of scholarships is left entirely ______ the academic review committee.\">The granting of scholarships is left entirely ______ the academic review committee.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "at the discretion of（由……自行裁量決定）",
-      "at the mercy of（選項：at the mercy of）",
-      "at the expense of（選項：at the expense of）",
-      "at the risk of（選項：at the risk of）"
+      "at the mercy of（at the mercy of）",
+      "at the expense of（at the expense of）",
+      "at the risk of（at the risk of）"
     ],
     "answer": 0,
     "explanation": "at the discretion of sb 意為「由某人自行斟酌裁定 / 自由裁量」。句意：獎學金的核發完全由學術評審委員會自行裁量決定。",
@@ -5546,12 +5546,12 @@ const englishQuiz = [
   {
     "id": "e427",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】All employees must act in strict (依照 / 依循 / 根據（法規規章）) the company's code of conduct and safety guidelines.\" data-en=\"All employees must act in strict ______ the company's code of conduct and safety guidelines.\">All employees must act in strict ______ the company's code of conduct and safety guidelines.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：All employees must act in strict （法規規章） the company's code of conduct and safety guidelines.\" data-en=\"All employees must act in strict ______ the company's code of conduct and safety guidelines.\">All employees must act in strict ______ the company's code of conduct and safety guidelines.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "accordance with（in accordance with 依照 / 根據……準則）",
-      "contrast with（選項：contrast with）",
-      "collision with（選項：collision with）",
-      "competition with（選項：competition with）"
+      "contrast with（contrast with）",
+      "collision with（collision with）",
+      "competition with（competition with）"
     ],
     "answer": 0,
     "explanation": "in accordance with sth（= in compliance with）意為「依照 / 依循 / 根據（法規規章）」。",
@@ -5563,9 +5563,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"投資綠色再生能源前期費用可能昂貴，但長遠來看必定會帶來豐厚回報。\" data-en=\"Investing in renewable green energy may be expensive upfront, but it will definitely pay off ______.\">Investing in renewable green energy may be expensive upfront, but it will definitely pay off ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "in the long run（從長遠來看 / 終究）",
-      "in the short run（選項：in the short run）",
-      "on the spot（選項：on the spot）",
-      "by the way（選項：by the way）"
+      "in the short run（in the short run）",
+      "on the spot（on the spot）",
+      "by the way（by the way）"
     ],
     "answer": 0,
     "explanation": "in the long run 意為「從長遠來看 / 終究會有回報」。句意：投資綠色再生能源前期費用可能昂貴，但長遠來看必定會帶來豐厚回報。",
@@ -5574,12 +5574,12 @@ const englishQuiz = [
   {
     "id": "e429",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The school principal promised to (務必確保 / 留心使……做到) it that every student receives equal attention and psychological counseling.\" data-en=\"The school principal promised to ______ it that every student receives equal attention and psychological counseling.\">The school principal promised to ______ it that every student receives equal attention and psychological counseling.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The school principal promised to （【完整題目中文句意】The school principal promised to (務必確保 / 留心使……做到) it that every student receives equal attention and psychological counseling.） it that every student receives equal attention and psychological counseling.\" data-en=\"The school principal promised to ______ it that every student receives equal attention and psychological counseling.\">The school principal promised to ______ it that every student receives equal attention and psychological counseling.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "see to（see to it that... 務必確保……）",
-      "look to（選項：look to）",
-      "take to（選項：take to）",
-      "turn to（選項：turn to）"
+      "look to（look to）",
+      "take to（take to）",
+      "turn to（turn to）"
     ],
     "answer": 0,
     "explanation": "see to it that... 為大考高頻核心片語，意為「務必確保 / 留心使……做到」。",
@@ -5591,9 +5591,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"在年度紀念儀式上，市民聚集在紀念碑前向為國捐軀的陣亡英雄致敬。\" data-en=\"During the annual memorial ceremony, citizens gathered at the monument to ______ to the fallen heroes who sacrificed their lives for the nation.\">During the annual memorial ceremony, citizens gathered at the monument to ______ to the fallen heroes who sacrificed their lives for the nation.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "pay tribute（pay tribute to 向……致敬 / 敬悼）",
-      "pay attention（選項：pay attention）",
-      "pay visits（選項：pay visits）",
-      "pay respects（選項：pay respects）"
+      "pay attention（pay attention）",
+      "pay visits（pay visits）",
+      "pay respects（pay respects）"
     ],
     "answer": 0,
     "explanation": "pay tribute / homage to sb 意為「向……表達由衷敬意 / 悼念致敬」。句意：在年度紀念儀式上，市民聚集在紀念碑前向為國捐軀的陣亡英雄致敬。",
@@ -5605,9 +5605,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"在鼓舞人心的畢業典禮演講中，小說家汲取了自己童年的奮鬥經歷來勉勵畢業生永不放棄希望。\" data-en=\"In his inspiring commencement speech, the novelist ______ his own childhood struggles to encourage graduates never to lose hope.\">In his inspiring commencement speech, the novelist ______ his own childhood struggles to encourage graduates never to lose hope.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "drew on（利用 / 借鑒 / 汲取經驗）",
-      "drew back（選項：drew back）",
-      "drew up（選項：drew up）",
-      "drew out（選項：drew out）"
+      "drew back（drew back）",
+      "drew up（drew up）",
+      "drew out（drew out）"
     ],
     "answer": 0,
     "explanation": "draw on / upon sth 意為「借鑒 / 汲取 / 利用（經驗、記憶、資源）」。句意：在鼓舞人心的畢業典禮演講中，小說家汲取了自己童年的奮鬥經歷來勉勵畢業生永不放棄希望。",
@@ -5700,11 +5700,11 @@ const englishQuiz = [
   {
     "id": "e438",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"It is imperative / crucial / essential that + S + (should) + 原形動詞（意志動詞虛擬語氣，should 常省略直接用原形動詞 comply）\" data-en=\"It is imperative that every citizen ______ closely with public health guidelines during an epidemic outbreak.\">It is imperative that every citizen ______ closely with public health guidelines during an epidemic outbreak.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"在疫情爆發期間，每位公民都極有必要嚴格遵守公共衛生防疫準則。\" data-en=\"It is imperative that every citizen ______ closely with public health guidelines during an epidemic outbreak.\">It is imperative that every citizen ______ closely with public health guidelines during an epidemic outbreak.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
-      "comply（It is imperative that + S + (should) + 原形動詞，遵守）",
-      "complies（選項：complies）",
-      "complied（選項：complied）",
+      "comply（遵守 / 順從）",
+      "complies（complies）",
+      "complied（complied）",
       "complying（順從 / 遵守）"
     ],
     "answer": 0,
@@ -5717,9 +5717,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"無論挑戰起初看起來多麼令人生畏，在達成目標之前我們絕不放棄。\" data-en=\"No matter how ______ the challenge may seem at first, we will never give up until we achieve our goal.\">No matter how ______ the challenge may seem at first, we will never give up until we achieve our goal.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "daunting（No matter how + 形容詞 + S + be/seem，無論多麼令人畏懼）",
-      "daunt（選項：daunt）",
-      "daunted（選項：daunted）",
-      "dauntlessly（選項：dauntlessly）"
+      "daunt（daunt）",
+      "daunted（daunted）",
+      "dauntlessly（dauntlessly）"
     ],
     "answer": 0,
     "explanation": "No matter how + adj / adv + S + V（= However + adj / adv... 無論多麼……）。句意：無論挑戰起初看起來多麼令人生畏，在達成目標之前我們絕不放棄。",
@@ -5732,8 +5732,8 @@ const englishQuiz = [
     "options": [
       "driving（be accustomed to + 動名詞 V-ing，習慣於……）",
       "drive（駕駛 / 驅使，原形動詞）",
-      "drove（選項：drove）",
-      "be driven（選項：be driven）"
+      "drove（drove）",
+      "be driven（be driven）"
     ],
     "answer": 0,
     "explanation": "be accustomed to + V-ing（= be used to + V-ing 習慣於做某事，to 為介系詞後接動名詞）。",
@@ -5745,9 +5745,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"當遊客們設法瞥見一隻珍稀雪豹漫步在岩石山脊上時，大家都興奮不已。\" data-en=\"The tourists were thrilled when they managed to ______ a rare snow leopard roaming across the rocky mountain ridge.\">The tourists were thrilled when they managed to ______ a rare snow leopard roaming across the rocky mountain ridge.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "catch a glimpse of（瞥見 / 看見一眼）",
-      "make sense of（選項：make sense of）",
-      "keep track of（選項：keep track of）",
-      "lose sight of（選項：lose sight of）"
+      "make sense of（make sense of）",
+      "keep track of（keep track of）",
+      "lose sight of（lose sight of）"
     ],
     "answer": 0,
     "explanation": "catch a glimpse of 意為「瞥見 / 無意中看到一眼」。句意：當遊客們設法瞥見一隻珍稀雪豹漫步在岩石山脊上時，大家都興奮不已。",
@@ -5759,9 +5759,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"災難性的火山爆發對區域空中交通造成了嚴重擾亂，導致全歐陸數千架航班被取消。\" data-en=\"The catastrophic volcanic eruption ______ with regional air travel, causing thousands of flights to be canceled across the continent.\">The catastrophic volcanic eruption ______ with regional air travel, causing thousands of flights to be canceled across the continent.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "played havoc（play havoc with 對……造成嚴重破壞 / 擾亂浩劫）",
-      "played tricks（選項：played tricks）",
-      "played roles（選項：played roles）",
-      "played games（選項：played games）"
+      "played tricks（played tricks）",
+      "played roles（played roles）",
+      "played games（played games）"
     ],
     "answer": 0,
     "explanation": "play havoc with sth 意為「對……造成極大混亂 / 嚴重破壞擾亂」。句意：災難性的火山爆發對區域空中交通造成了嚴重擾亂，導致全歐陸數千架航班被取消。",
@@ -5773,9 +5773,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"偵探向悲痛的家屬保證，他們將竭盡一切全力揭開神秘失蹤案背後的真相。\" data-en=\"Detectives promised the grieving family that they would ______ to uncover the truth behind the mysterious disappearance.\">Detectives promised the grieving family that they would ______ to uncover the truth behind the mysterious disappearance.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "leave no stone unturned（竭盡全力 / 想方設法搜查一切）",
-      "turn a deaf ear（選項：turn a deaf ear）",
-      "burn the midnight oil（選項：burn the midnight oil）",
-      "hit the nail on the head（選項：hit the nail on the head）"
+      "turn a deaf ear（turn a deaf ear）",
+      "burn the midnight oil（burn the midnight oil）",
+      "hit the nail on the head（hit the nail on the head）"
     ],
     "answer": 0,
     "explanation": "leave no stone unturned 為大考最高頻成語，意為「竭盡全力 / 翻箱倒櫃不放過任何蛛絲馬跡」。句意：偵探向悲痛的家屬保證，他們將竭盡一切全力揭開神秘失蹤案背後的真相。",
@@ -5787,9 +5787,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"多年的過度勞累、慢性失眠與不良飲食最終對他的身體健康造成了沉重打擊。\" data-en=\"Years of excessive overwork, chronic insomnia, and poor nutrition finally ______ his physical health.\">Years of excessive overwork, chronic insomnia, and poor nutrition finally ______ his physical health.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "took a heavy toll on（take a toll on 對……造成沉重打擊損害）",
-      "took advantage of（選項：took advantage of）",
-      "took charge of（選項：took charge of）",
-      "took pride in（選項：took pride in）"
+      "took advantage of（took advantage of）",
+      "took charge of（took charge of）",
+      "took pride in（took pride in）"
     ],
     "answer": 0,
     "explanation": "take a (heavy) toll on sth 意為「對……造成嚴重損害 / 產生不良後果」。句意：多年的過度勞累、慢性失眠與不良飲食最終對他的身體健康造成了沉重打擊。",
@@ -5798,12 +5798,12 @@ const englishQuiz = [
   {
     "id": "e445",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The patient said she could no longer (容忍 / 忍受（痛苦、不滿）) the constant throbbing pain in her lower back and demanded immediate surgery.\" data-en=\"The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.\">The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The patient said she could no longer （痛苦、不滿） the constant throbbing pain in her lower back and demanded immediate surgery.\" data-en=\"The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.\">The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "put up with（忍受 / 容忍）",
-      "look up to（選項：look up to）",
-      "keep up with（選項：keep up with）",
-      "come up with（選項：come up with）"
+      "look up to（look up to）",
+      "keep up with（keep up with）",
+      "come up with（come up with）"
     ],
     "answer": 0,
     "explanation": "put up with（= tolerate, endure）意為「容忍 / 忍受（痛苦、不滿）」。",
@@ -5882,7 +5882,7 @@ const englishQuiz = [
   {
     "id": "e451",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The brave rescue team ventured into the collapsed building to (營救受困生還者) trapped earthquake survivors.\" data-en=\"The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.\">The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The brave rescue team ventured into the collapsed building to （【完整題目中文句意】The brave rescue team ventured into the collapsed building to (營救受困生還者) trapped earthquake survivors.） trapped earthquake survivors.\" data-en=\"The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.\">The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "rescue（營救 / 救援）",
       "resist（抵抗）",
@@ -5896,7 +5896,7 @@ const englishQuiz = [
   {
     "id": "e452",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The international summit aimed to foster peaceful dialogue and enhance economic (增進經濟合作) between the two rival nations.\" data-en=\"The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.\">The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The international summit aimed to foster peaceful dialogue and enhance economic （【完整題目中文句意】The international summit aimed to foster peaceful dialogue and enhance economic (增進經濟合作) between the two rival nations.） between the two rival nations.\" data-en=\"The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.\">The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "cooperation（合作 / 協作）",
       "confrontation（對抗）",
@@ -5910,7 +5910,7 @@ const englishQuiz = [
   {
     "id": "e453",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】To prevent food spoilage, dairy products should always be stored in the refrigerator at a low (在低溫下保存).\" data-en=\"To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.\">To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：To prevent food spoilage, dairy products should always be stored in the refrigerator at a low （【完整題目中文句意】To prevent food spoilage, dairy products should always be stored in the refrigerator at a low (在低溫下保存).）.\" data-en=\"To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.\">To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "temperature（溫度）",
       "temperament（氣質性情）",
@@ -5927,9 +5927,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"無論未來發生什麼，我們都必須團結一致，患難與共。\" data-en=\"______ happens in the future, we must remain united and support each other through thick and thin.\">______ happens in the future, we must remain united and support each other through thick and thin.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Whatever（無論發生什麼，引導讓步子句）",
-      "However（選項：However）",
-      "Whenever（選項：Whenever）",
-      "Wherever（選項：Wherever）"
+      "However（However）",
+      "Whenever（Whenever）",
+      "Wherever（Wherever）"
     ],
     "answer": 0,
     "explanation": "Whatever happens... 意為「無論發生何事……」。句意：無論未來發生什麼，我們都必須團結一致，患難與共。",
@@ -5941,9 +5941,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"她沒有抱怨困難，而是立即採取切實行動去解決問題。\" data-en=\"______ complaining about the difficulties, she took immediate action to solve the problem practically.\">______ complaining about the difficulties, she took immediate action to solve the problem practically.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Instead of（Instead of + V-ing，而不是…… / 代替）",
-      "In spite of（選項：In spite of）",
-      "Because of（選項：Because of）",
-      "Due to（選項：Due to）"
+      "In spite of（In spite of）",
+      "Because of（Because of）",
+      "Due to（Due to）"
     ],
     "answer": 0,
     "explanation": "Instead of + V-ing 意為「代替…… / 而不是……」。句意：她沒有抱怨困難，而是立即採取切實行動去解決問題。",
@@ -5966,7 +5966,7 @@ const englishQuiz = [
   {
     "id": "e457",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The novel's main character demonstrated remarkable (復原力 / 心理韌性 / 堅毅抗挫力) by overcoming poverty and achieving academic success.\" data-en=\"The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.\">The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The novel's main character demonstrated remarkable （【完整題目中文句意】The novel's main character demonstrated remarkable (復原力 / 心理韌性 / 堅毅抗挫力) by overcoming poverty and achieving academic success.） by overcoming poverty and achieving academic success.\" data-en=\"The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.\">The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "resilience（韌性 / 復原力）",
       "reluctance（勉強）",
@@ -5983,9 +5983,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"so as not to + V（= in order not to + V 為了不 / 免得……）\" data-en=\"She walked quietly into the nursery ______ wake the sleeping baby.\">She walked quietly into the nursery ______ wake the sleeping baby.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "so as not to（so as not to + 原形動詞，以便不…… / 免得）",
-      "so that（選項：so that）",
-      "in order that（選項：in order that）",
-      "not to so as（選項：not to so as）"
+      "so that（so that）",
+      "in order that（in order that）",
+      "not to so as（not to so as）"
     ],
     "answer": 0,
     "explanation": "so as not to + V（= in order not to + V 為了不 / 免得……）。",
@@ -5994,7 +5994,7 @@ const englishQuiz = [
   {
     "id": "e459",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Regular physical activity can help (減輕壓力) stress and improve overall cardiovascular health.\" data-en=\"Regular physical activity can help ______ stress and improve overall cardiovascular health.\">Regular physical activity can help ______ stress and improve overall cardiovascular health.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Regular physical activity can help （【完整題目中文句意】Regular physical activity can help (減輕壓力) stress and improve overall cardiovascular health.） stress and improve overall cardiovascular health.\" data-en=\"Regular physical activity can help ______ stress and improve overall cardiovascular health.\">Regular physical activity can help ______ stress and improve overall cardiovascular health.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "reduce（減少 / 減輕）",
       "refuse（拒絕）",
@@ -6008,7 +6008,7 @@ const englishQuiz = [
   {
     "id": "e460",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The detective searched the suspect's vehicle thoroughly to gather physical (收集物證) for the court trial.\" data-en=\"The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.\">The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The detective searched the suspect's vehicle thoroughly to gather physical （【完整題目中文句意】The detective searched the suspect's vehicle thoroughly to gather physical (收集物證) for the court trial.） for the court trial.\" data-en=\"The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.\">The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "evidence（證據）",
       "emotion（情緒）",
@@ -6022,12 +6022,12 @@ const englishQuiz = [
   {
     "id": "e461",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The scientific breakthrough will (為……鋪平道路 / 奠定基礎) for the development of next-generation cancer treatments.\" data-en=\"The scientific breakthrough will ______ for the development of next-generation cancer treatments.\">The scientific breakthrough will ______ for the development of next-generation cancer treatments.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The scientific breakthrough will （【完整題目中文句意】The scientific breakthrough will (為……鋪平道路 / 奠定基礎) for the development of next-generation cancer treatments.） for the development of next-generation cancer treatments.\" data-en=\"The scientific breakthrough will ______ for the development of next-generation cancer treatments.\">The scientific breakthrough will ______ for the development of next-generation cancer treatments.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "pave the way（pave the way for 為……鋪平道路 / 奠定基礎）",
-      "make a point（選項：make a point）",
-      "lose the way（選項：lose the way）",
-      "find fault（選項：find fault）"
+      "make a point（make a point）",
+      "lose the way（lose the way）",
+      "find fault（find fault）"
     ],
     "answer": 0,
     "explanation": "pave the way for sth 意為「為……鋪平道路 / 奠定基礎」。",
@@ -6036,7 +6036,7 @@ const englishQuiz = [
   {
     "id": "e462",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Due to the heavy storm, the school announced the (課程取消) of all afternoon classes and outdoor activities.\" data-en=\"Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.\">Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Due to the heavy storm, the school announced the （【完整題目中文句意】Due to the heavy storm, the school announced the (課程取消) of all afternoon classes and outdoor activities.） of all afternoon classes and outdoor activities.\" data-en=\"Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.\">Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "cancellation（取消）",
       "celebration（慶祝）",
@@ -6050,7 +6050,7 @@ const englishQuiz = [
   {
     "id": "e463",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The teacher encouraged her students to ask questions and express their opinions (自由表達意見) in class discussions.\" data-en=\"The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.\">The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The teacher encouraged her students to ask questions and express their opinions （【完整題目中文句意】The teacher encouraged her students to ask questions and express their opinions (自由表達意見) in class discussions.） in class discussions.\" data-en=\"The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.\">The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "freely（自由地 / 無拘無束地）",
       "fiercely（猛烈地）",
@@ -6207,9 +6207,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"週末你可以隨意借用我的筆記型電腦，只要你在週一早晨前完好無損地歸還。\" data-en=\"You are free to borrow my laptop for the weekend, ______ that you return it undamaged by Monday morning.\">You are free to borrow my laptop for the weekend, ______ that you return it undamaged by Monday morning.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "provided（provided that / providing that 只要 / 在……條件下）",
-      "lest（選項：lest）",
+      "lest（lest）",
       "unless（除非（條件連接詞））",
-      "in case of（選項：in case of）"
+      "in case of（in case of）"
     ],
     "answer": 0,
     "explanation": "provided that / providing that（= as long as, on condition that）意為「只要 / 在……條件下」。句意：週末你可以隨意借用我的筆記型電腦，只要你在週一早晨前完好無損地歸還。",
@@ -6221,9 +6221,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"登山者在茂密叢林中悄悄行走，深怕驚動兇猛的肉食野生動物。\" data-en=\"The hiker walked stealthily through the dense jungle ______ fear of alerting wild predatory animals.\">The hiker walked stealthily through the dense jungle ______ fear of alerting wild predatory animals.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "for（for fear of + N / V-ing，唯恐 / 深怕……）",
-      "with（選項：with）",
+      "with（with）",
       "in（g 意為「唯恐 / 深怕 / 以免……」）",
-      "by（選項：by）"
+      "by（by）"
     ],
     "answer": 0,
     "explanation": "for fear of + N / V-ing 意為「唯恐 / 深怕 / 以免……」。句意：登山者在茂密叢林中悄悄行走，深怕驚動兇猛的肉食野生動物。",
@@ -6235,9 +6235,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"中央銀行實施緊縮貨幣政策以遏制急劇飆升的消費者通膨。\" data-en=\"The central bank implemented tight monetary policies to keep soaring consumer inflation ______.\">The central bank implemented tight monetary policies to keep soaring consumer inflation ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "in check（keep ... in check 控制 / 遏止 / 約束）",
-      "in hand（選項：in hand）",
-      "in mind（選項：in mind）",
-      "in person（選項：in person）"
+      "in hand（in hand）",
+      "in mind（in mind）",
+      "in person（in person）"
     ],
     "answer": 0,
     "explanation": "keep sth in check 意為「控制 / 遏制 / 約束（惡化趨勢、物價）」。句意：中央銀行實施緊縮貨幣政策以遏制急劇飆升的消費者通膨。",
@@ -6249,9 +6249,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"垃圾場中腐爛的有機物開始散發出一股難聞刺鼻的惡臭。\" data-en=\"Decaying organic matter in the garbage dump began to ______ a foul and pungent odor.\">Decaying organic matter in the garbage dump began to ______ a foul and pungent odor.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "give off（散發出 / 發出氣味光熱）",
-      "give in（選項：give in）",
-      "give up（選項：give up）",
-      "give away（選項：give away）"
+      "give in（give in）",
+      "give up（give up）",
+      "give away（give away）"
     ],
     "answer": 0,
     "explanation": "give off 意為「散發出 / 釋放出（氣味、氣體、光、熱）」。句意：垃圾場中腐爛的有機物開始散發出一股難聞刺鼻的惡臭。",
@@ -6263,9 +6263,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"總經理突然退休後，年輕的副總經理被任命接管公司的日常運營。\" data-en=\"After the sudden retirement of the general manager, the young vice president was appointed to ______ the company's daily operations.\">After the sudden retirement of the general manager, the young vice president was appointed to ______ the company's daily operations.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "take over（接管 / 接任）",
-      "take after（選項：take after）",
-      "take off（選項：take off）",
-      "take down（選項：take down）"
+      "take after（take after）",
+      "take off（take off）",
+      "take down（take down）"
     ],
     "answer": 0,
     "explanation": "take over 意為「接管 / 接任（職位、業務）」。句意：總經理突然退休後，年輕的副總經理被任命接管公司的日常運營。",
@@ -6274,12 +6274,12 @@ const englishQuiz = [
   {
     "id": "e479",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The laboratory team successfully (進行 / 執行 / 實施（實驗、臨床試驗）) a series of complex clinical trials to verify the vaccine's efficacy.\" data-en=\"The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.\">The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The laboratory team successfully （實驗、臨床試驗） a series of complex clinical trials to verify the vaccine's efficacy.\" data-en=\"The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.\">The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "carried out（實施 / 執行臨床試驗）",
-      "carried on（選項：carried on）",
-      "carried away（選項：carried away）",
-      "carried off（選項：carried off）"
+      "carried on（carried on）",
+      "carried away（carried away）",
+      "carried off（carried off）"
     ],
     "answer": 0,
     "explanation": "carry out an experiment / survey / trial 意為「進行 / 執行 / 實施（實驗、臨床試驗）」。",
@@ -6288,12 +6288,12 @@ const englishQuiz = [
   {
     "id": "e480",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】We should never (輕視 / 瞧不起某人) people based on their social status, wealth, or ethnic background.\" data-en=\"We should never ______ people based on their social status, wealth, or ethnic background.\">We should never ______ people based on their social status, wealth, or ethnic background.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：We should never （【完整題目中文句意】We should never (輕視 / 瞧不起某人) people based on their social status, wealth, or ethnic background.） people based on their social status, wealth, or ethnic background.\" data-en=\"We should never ______ people based on their social status, wealth, or ethnic background.\">We should never ______ people based on their social status, wealth, or ethnic background.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "look down upon（看不起 / 輕視）",
       "look up to（尊敬崇拜某人）",
-      "look forward to（選項：look forward to）",
-      "look out for（選項：look out for）"
+      "look forward to（look forward to）",
+      "look out for（look out for）"
     ],
     "answer": 0,
     "explanation": "look down upon / on sb 意為「輕視 / 瞧不起某人」；對比 look up to（尊敬崇拜某人）。",
@@ -6305,9 +6305,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"新簽署的和平條約正式結束了飽受戰火蹂躪地區長達數十年的血腥內戰衝突。\" data-en=\"The newly signed peace treaty officially ______ decades of bloody civil conflict in the war-torn region.\">The newly signed peace treaty officially ______ decades of bloody civil conflict in the war-torn region.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "put an end to（終結 / 結束）",
-      "put up with（選項：put up with）",
-      "put forward to（選項：put forward to）",
-      "put off to（選項：put off to）"
+      "put up with（put up with）",
+      "put forward to（put forward to）",
+      "put off to（put off to）"
     ],
     "answer": 0,
     "explanation": "put an end to sth 意為「終結 / 徹底結束（爭端、痛苦、戰爭）」。句意：新簽署的和平條約正式結束了飽受戰火蹂躪地區長達數十年的血腥內戰衝突。",
@@ -6316,12 +6316,12 @@ const englishQuiz = [
   {
     "id": "e482",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Parents always (以……為榮 / 為……自豪) their children's hard-earned academic achievements and personal growth.\" data-en=\"Parents always ______ their children's hard-earned academic achievements and personal growth.\">Parents always ______ their children's hard-earned academic achievements and personal growth.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Parents always （【完整題目中文句意】Parents always (以……為榮 / 為……自豪) their children's hard-earned academic achievements and personal growth.） their children's hard-earned academic achievements and personal growth.\" data-en=\"Parents always ______ their children's hard-earned academic achievements and personal growth.\">Parents always ______ their children's hard-earned academic achievements and personal growth.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "take pride in（以……為榮 / 為……感到自豪）",
-      "take advantage of（選項：take advantage of）",
-      "take part in（選項：take part in）",
-      "take care of（選項：take care of）"
+      "take advantage of（take advantage of）",
+      "take part in（take part in）",
+      "take care of（take care of）"
     ],
     "answer": 0,
     "explanation": "take pride in（= be proud of）意為「以……為榮 / 為……自豪」。",
@@ -6376,8 +6376,8 @@ const englishQuiz = [
     "options": [
       "so as to（so as to + 原形動詞，以便 / 為了……）",
       "so that（後接完整子句）",
-      "in order that（選項：in order that）",
-      "such as to（選項：such as to）"
+      "in order that（in order that）",
+      "such as to（such as to）"
     ],
     "answer": 0,
     "explanation": "so as to + V（= in order to + V 為了 / 以便……，後接原形動詞）。注意：so that 後接完整子句。",
@@ -6386,12 +6386,12 @@ const englishQuiz = [
   {
     "id": "e487",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"so that 引導目的副詞子句（後接完整子句，常用 can/could/may/might 助動詞）\" data-en=\"The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.\">The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The teacher spoke loudly and clearly （後接完整子句，常用 can/could/may/might 助動詞） all the students in the back row could hear her instructions.\" data-en=\"The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.\">The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "so that（so that + S + can/could + V，以便……）",
-      "in case of（選項：in case of）",
-      "because of（選項：because of）",
-      "so as to（選項：so as to）"
+      "in case of（in case of）",
+      "because of（because of）",
+      "so as to（so as to）"
     ],
     "answer": 0,
     "explanation": "so that 引導目的副詞子句（後接完整子句，常用 can/could/may/might 助動詞）。",
@@ -6456,12 +6456,12 @@ const englishQuiz = [
   {
     "id": "e492",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"Although / Even though 引導讓步副詞子句（後接完整子句）\" data-en=\"______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.\">______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：（後接完整子句） the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.\" data-en=\"______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.\">______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Although（Although + S + V，雖然儘管）",
       "Despite（/ In spite of 為介系詞後接）",
       "In spite of（為介系詞後接名詞或動名詞）",
-      "Regardless of（選項：Regardless of）"
+      "Regardless of（Regardless of）"
     ],
     "answer": 0,
     "explanation": "Although / Even though 引導讓步副詞子句（後接完整子句）；Despite / In spite of 為介系詞後接名詞或動名詞。",
@@ -6473,9 +6473,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"新環保法案將於明年的第一天起正式生效實施。\" data-en=\"The new environmental protection act will come ______ starting on the first day of next year.\">The new environmental protection act will come ______ starting on the first day of next year.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "into effect（come into effect 生效 / 開始實施）",
-      "into contact（選項：into contact）",
-      "into account（選項：into account）",
-      "into trouble（選項：into trouble）"
+      "into contact（into contact）",
+      "into account（into account）",
+      "into trouble（into trouble）"
     ],
     "answer": 0,
     "explanation": "come into effect / force 意為「（法規、條約）生效 / 開始實行」。句意：新環保法案將於明年的第一天起正式生效實施。",
@@ -6498,7 +6498,7 @@ const englishQuiz = [
   {
     "id": "e495",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Electric vehicles have gained immense popularity as consumers seek more (生態環保友善的替代選擇) transportation alternatives.\" data-en=\"Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.\">Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Electric vehicles have gained immense popularity as consumers seek more （【完整題目中文句意】Electric vehicles have gained immense popularity as consumers seek more (生態環保友善的替代選擇) transportation alternatives.） transportation alternatives.\" data-en=\"Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.\">Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "eco-friendly（環保生態友善的）",
       "extravagant（奢侈浪費的）",
@@ -6512,7 +6512,7 @@ const englishQuiz = [
   {
     "id": "e496",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The sudden earthquake caused widespread (廣泛的破壞毀滅) across the city, knocking down power lines and damaging bridges.\" data-en=\"The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.\">The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The sudden earthquake caused widespread （【完整題目中文句意】The sudden earthquake caused widespread (廣泛的破壞毀滅) across the city, knocking down power lines and damaging bridges.） across the city, knocking down power lines and damaging bridges.\" data-en=\"The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.\">The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "destruction（破壞毀滅）",
       "instruction（指示）",
@@ -6540,12 +6540,12 @@ const englishQuiz = [
   {
     "id": "e498",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"老師要求學生們在教室內保持安靜，以便大家能夠專心進行英文閱讀測驗。\" data-en=\"The teacher asked the students to keep quiet ______ they could concentrate on the reading test.\">The teacher asked the students to keep quiet ______ they could concentrate on the reading test.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"老師要求學生們在教室內保持安靜，以便大家能專心進行閱讀測驗。\" data-en=\"The teacher asked the students to keep quiet ______ they could concentrate on the reading test.\">The teacher asked the students to keep quiet ______ they could concentrate on the reading test.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "in order that（in order that + S + can/could + V，以便……）",
-      "in case of（選項：in case of）",
-      "in spite of（選項：in spite of）",
-      "so as to（選項：so as to）"
+      "in case of（in case of）",
+      "in spite of（in spite of）",
+      "so as to（so as to）"
     ],
     "answer": 0,
     "explanation": "in order that（= so that）引導目的子句，後接完整子句。",
@@ -6614,7 +6614,7 @@ const englishQuiz = [
     "options": [
       "to（devote sth to + V-ing，奉獻致力於……）",
       "for（因為 / 為了）",
-      "with（選項：with）",
+      "with（with）",
       "in（g（其中 to 為介系詞））"
     ],
     "answer": 0,
@@ -6641,8 +6641,8 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"該公司在綠色太陽能技術上的突破性創新，獲得了全球環保專家的一致讚譽。\" data-en=\"The novel's unpredictable ending took readers completely by ______.\">The novel's unpredictable ending took readers completely by ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "surprise（take sb by surprise 使某人大吃一驚）",
-      "storm（選項：storm）",
-      "chance（選項：chance）",
+      "storm（storm）",
+      "chance（chance）",
       "force（力量 / 迫使武力）"
     ],
     "answer": 0,
@@ -6685,7 +6685,7 @@ const englishQuiz = [
       "settling（settle disputes 調解 / 平息爭端）",
       "starting（正在開始 / 開始著，現在分詞）",
       "spending（正在花費 / 花費著，現在分詞）",
-      "seeking（選項：seeking）"
+      "seeking（seeking）"
     ],
     "answer": 0,
     "explanation": "settle disputes / conflicts 意為「調解 / 平息爭端衝突」。",
@@ -6852,8 +6852,8 @@ const englishQuiz = [
     "options": [
       "wonder（It is no wonder that... 難怪 / 不足為奇）",
       "doubt（懷疑 / 不確定）",
-      "problem（選項：problem）",
-      "secret（選項：secret）"
+      "problem（problem）",
+      "secret（secret）"
     ],
     "answer": 0,
     "explanation": "It is no wonder that... 意為「難怪…… / ……不足為奇」。句意：難怪她能通過嚴格的醫師執照考試；她每天苦讀超過十二個小時。",
@@ -6862,12 +6862,12 @@ const englishQuiz = [
   {
     "id": "e521",
     "category": "進階文法與句型",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】It makes no (無論 A 或 B 都毫無差別) whether we take the bus or the subway; both routes take approximately thirty minutes to get there.\" data-en=\"It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.\">It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：It makes no （【完整題目中文句意】It makes no (無論 A 或 B 都毫無差別) whether we take the bus or the subway; both routes take approximately thirty minutes to get there.） whether we take the bus or the subway; both routes take approximately thirty minutes to get there.\" data-en=\"It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.\">It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "difference（It makes no difference whether... 無論……都沒有差別）",
-      "difficulty（選項：difficulty）",
+      "difficulty（difficulty）",
       "distance（距離 / 遠處）",
-      "direction（選項：direction）"
+      "direction（direction）"
     ],
     "answer": 0,
     "explanation": "It makes no difference whether A or B 意為「無論 A 或 B 都毫無差別」。",
@@ -6879,9 +6879,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"Owing to + N（= Due to + N / Because of + N 由於……，後接名詞）\" data-en=\"______ the severe blizzard that paralyzed airport operations, our scheduled flight had to be canceled indefinitely.\">______ the severe blizzard that paralyzed airport operations, our scheduled flight had to be canceled indefinitely.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "Owing to（Owing to + N，由於 / 因為……）",
-      "Due（選項：Due）",
+      "Due（Due）",
       "Because（因為（原因副詞子句））",
-      "Despite（選項：Despite）"
+      "Despite（Despite）"
     ],
     "answer": 0,
     "explanation": "Owing to + N（= Due to + N / Because of + N 由於……，後接名詞）。注意：Because 後接完整子句。",
@@ -6890,7 +6890,7 @@ const englishQuiz = [
   {
     "id": "e523",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The active student council decided to (主動帶頭做某事 / 採取主動行動) the initiative to organize a charity campus marathon for the local hospital.\" data-en=\"The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.\">The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The active student council decided to （【完整題目中文句意】The active student council decided to (主動帶頭做某事 / 採取主動行動) the initiative to organize a charity campus marathon for the local hospital.） the initiative to organize a charity campus marathon for the local hospital.\" data-en=\"The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.\">The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "take（take the initiative to 主動採取行動 / 帶頭發起）",
       "make（製造 / 使得，原形動詞）",
@@ -6907,9 +6907,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"獨居長者往往更容易成為網路與電話金融詐騙的受害者。\" data-en=\"Elderly citizens who live alone are often more likely to ______ online and telephone financial scams.\">Elderly citizens who live alone are often more likely to ______ online and telephone financial scams.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "fall victim to（成為……的受害者 / 蒙受其害）",
-      "take advantage of（選項：take advantage of）",
-      "make sense of（選項：make sense of）",
-      "keep track of（選項：keep track of）"
+      "take advantage of（take advantage of）",
+      "make sense of（make sense of）",
+      "keep track of（keep track of）"
     ],
     "answer": 0,
     "explanation": "fall victim / prey to sth 意為「成為……的受害者 / 墮入……陷阱」。句意：獨居長者往往更容易成為網路與電話金融詐騙的受害者。",
@@ -6921,9 +6921,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"在災難性颶風過後，國際人道組織緊急將食品與藥品運往災區。\" data-en=\"In the ______ of the catastrophic hurricane, international humanitarian organizations rushed emergency food and medicine to the disaster zone.\">In the ______ of the catastrophic hurricane, international humanitarian organizations rushed emergency food and medicine to the disaster zone.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "wake（in the wake of 在……之後 / 隨之而來）",
-      "view（選項：view）",
-      "light（選項：light）",
-      "face（選項：face）"
+      "view（view）",
+      "light（light）",
+      "face（face）"
     ],
     "answer": 0,
     "explanation": "in the wake of sth 意為「在……緊接著發生之後 / 作為……的後續結果」。句意：在災難性颶風過後，國際人道組織緊急將食品與藥品運往災區。",
@@ -6935,9 +6935,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"出於安全考慮，工廠內的自動火災警報系統由持證工程師定期檢測。\" data-en=\"For safety reasons, automated fire alarm systems in the factory are tested at regular ______ by certified engineers.\">For safety reasons, automated fire alarm systems in the factory are tested at regular ______ by certified engineers.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "intervals（at regular intervals 每隔一定間隔時間 / 定期）",
-      "instances（選項：instances）",
-      "intentions（選項：intentions）",
-      "interests（選項：interests）"
+      "instances（instances）",
+      "intentions（intentions）",
+      "interests（interests）"
     ],
     "answer": 0,
     "explanation": "at regular intervals 意為「每隔一定規律的時間間隔 / 定期」。句意：出於安全考慮，工廠內的自動火災警報系統由持證工程師定期檢測。",
@@ -6946,12 +6946,12 @@ const englishQuiz = [
   {
     "id": "e527",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】With (關於 / 至於……) to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.\" data-en=\"With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.\">With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：With （【完整題目中文句意】With (關於 / 至於……) to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.） to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.\" data-en=\"With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.\">With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "regard（with regard to 關於 / 至於……）",
-      "respects（選項：respects）",
-      "reference（選項：reference）",
-      "relation（選項：relation）"
+      "respects（respects）",
+      "reference（reference）",
+      "relation（relation）"
     ],
     "answer": 0,
     "explanation": "with regard to / in regard to（= regarding, concerning）意為「關於 / 至於……」。",
@@ -6963,9 +6963,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"這座新建成的摩天大樓與杜拜著名的建築地標有著驚人的相似之處。\" data-en=\"The newly built skyscraper bears a striking ______ to the famous architectural landmark in Dubai.\">The newly built skyscraper bears a striking ______ to the famous architectural landmark in Dubai.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "resemblance（bear a resemblance to 與……極為相似相像）",
-      "resistance（選項：resistance）",
-      "resolution（選項：resolution）",
-      "responsibility（選項：responsibility）"
+      "resistance（resistance）",
+      "resolution（resolution）",
+      "responsibility（responsibility）"
     ],
     "answer": 0,
     "explanation": "bear a (striking) resemblance to sb / sth 意為「與……極其相似」。句意：這座新建成的摩天大樓與杜拜著名的建築地標有著驚人的相似之處。",
@@ -6978,8 +6978,8 @@ const englishQuiz = [
     "options": [
       "halt（come to a halt 停止運行 / 停擺）",
       "start（開始，原形動詞）",
-      "point（選項：point）",
-      "conclusion（選項：conclusion）"
+      "point（point）",
+      "conclusion（conclusion）"
     ],
     "answer": 0,
     "explanation": "come to a halt / standstill 意為「停止運轉 / 停頓中斷」。句意：由於突發停電，工廠的整條自動化裝配生產線陷入了全面停擺。",
@@ -6988,12 +6988,12 @@ const englishQuiz = [
   {
     "id": "e530",
     "category": "高頻片語與搭配詞",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】I am feeling a bit (身體不舒服 / 身體微恙生病) the weather today, so I think I should stay in bed and get some rest.\" data-en=\"I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.\">I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：I am feeling a bit （【完整題目中文句意】I am feeling a bit (身體不舒服 / 身體微恙生病) the weather today, so I think I should stay in bed and get some rest.） the weather today, so I think I should stay in bed and get some rest.\" data-en=\"I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.\">I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "under（under the weather 身體不適 / 微恙）",
-      "over（選項：over）",
-      "above（選項：above）",
-      "below（選項：below）"
+      "over（over）",
+      "above（above）",
+      "below（below）"
     ],
     "answer": 0,
     "explanation": "feel under the weather 意為「身體不舒服 / 身體微恙生病」。",
@@ -7005,9 +7005,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"航空公司向乘客提供了免費機票折價券，以彌補長達十二小時的航班延誤。\" data-en=\"The airline offered complimentary flight vouchers to passengers in order to make ______ for the twelve-hour flight delay.\">The airline offered complimentary flight vouchers to passengers in order to make ______ for the twelve-hour flight delay.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "amends（make amends for 彌補 / 補償）",
-      "agreements（選項：agreements）",
-      "accounts（選項：accounts）",
-      "arrangements（選項：arrangements）"
+      "agreements（agreements）",
+      "accounts（accounts）",
+      "arrangements（arrangements）"
     ],
     "answer": 0,
     "explanation": "make amends for sth 意為「為……作出補償/賠償/彌補」（同義詞 compensate for）。句意：航空公司向乘客提供了免費機票折價券，以彌補長達十二小時的航班延誤。",
@@ -7019,9 +7019,9 @@ const englishQuiz = [
     "question": "<span class=\"en-assist\" data-tw=\"班級代表在畢業典禮上代表全體畢業生發表了發自肺腑的演說。\" data-en=\"The class representative delivered a heartfelt speech on ______ of all graduating students during the commencement ceremony.\">The class representative delivered a heartfelt speech on ______ of all graduating students during the commencement ceremony.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "behalf（on behalf of 代表……）",
-      "belief（選項：belief）",
+      "belief（belief）",
       "benefit（益處 / 利益）",
-      "behavior（選項：behavior）"
+      "behavior（behavior）"
     ],
     "answer": 0,
     "explanation": "on behalf of sb 意為「代表某人 / 代表全體……」。句意：班級代表在畢業典禮上代表全體畢業生發表了發自肺腑的演說。",
@@ -7030,11 +7030,11 @@ const englishQuiz = [
   {
     "id": "e533",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Regular health checkups are highly recommended for early (疾病的早期發現診斷) of chronic diseases.\" data-en=\"Regular health checkups are highly recommended for early ______ of chronic diseases.\">Regular health checkups are highly recommended for early ______ of chronic diseases.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Regular health checkups are highly recommended for early （【完整題目中文句意】Regular health checkups are highly recommended for early (疾病的早期發現診斷) of chronic diseases.） of chronic diseases.\" data-en=\"Regular health checkups are highly recommended for early ______ of chronic diseases.\">Regular health checkups are highly recommended for early ______ of chronic diseases.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "detection（偵測發現 / 早期檢出）",
-      "direction（選項：direction）",
-      "description（選項：description）",
+      "direction（direction）",
+      "description（description）",
       "destruction（破壞 / 毀滅）"
     ],
     "answer": 0,
@@ -7044,12 +7044,12 @@ const englishQuiz = [
   {
     "id": "e534",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The company will (推出新產品線) a new eco-friendly product line in the international market next month.\" data-en=\"The company will ______ a new eco-friendly product line in the international market next month.\">The company will ______ a new eco-friendly product line in the international market next month.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The company will （【完整題目中文句意】The company will (推出新產品線) a new eco-friendly product line in the international market next month.） a new eco-friendly product line in the international market next month.\" data-en=\"The company will ______ a new eco-friendly product line in the international market next month.\">The company will ______ a new eco-friendly product line in the international market next month.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "introduce（引進推出）",
-      "interrupt（選項：interrupt）",
-      "interfere（選項：interfere）",
-      "interpret（選項：interpret）"
+      "interrupt（interrupt）",
+      "interfere（interfere）",
+      "interpret（interpret）"
     ],
     "answer": 0,
     "explanation": "introduce a new product line 意為「推出新產品線」。",
@@ -7058,12 +7058,12 @@ const englishQuiz = [
   {
     "id": "e535",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The teacher emphasized the importance of maintaining good (維持良好紀律) in the school laboratory during chemistry experiments.\" data-en=\"The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.\">The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The teacher emphasized the importance of maintaining good （【完整題目中文句意】The teacher emphasized the importance of maintaining good (維持良好紀律) in the school laboratory during chemistry experiments.） in the school laboratory during chemistry experiments.\" data-en=\"The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.\">The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "discipline（紀律 / 秩序守則）",
-      "dimension（選項：dimension）",
+      "dimension（dimension）",
       "discovery（發現 / 發覺）",
-      "discussion（選項：discussion）"
+      "discussion（discussion）"
     ],
     "answer": 0,
     "explanation": "maintain good discipline 意為「維持良好紀律」。",
@@ -7072,11 +7072,11 @@ const englishQuiz = [
   {
     "id": "e536",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The government provided financial subsidies to farmers whose crops were damaged by the severe (遭受嚴重乾旱損害).\" data-en=\"The government provided financial subsidies to farmers whose crops were damaged by the severe ______.\">The government provided financial subsidies to farmers whose crops were damaged by the severe ______.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The government provided financial subsidies to farmers whose crops were damaged by the severe （【完整題目中文句意】The government provided financial subsidies to farmers whose crops were damaged by the severe (遭受嚴重乾旱損害).）.\" data-en=\"The government provided financial subsidies to farmers whose crops were damaged by the severe ______.\">The government provided financial subsidies to farmers whose crops were damaged by the severe ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "drought（乾旱災情）",
-      "draft（選項：draft）",
-      "drain（選項：drain）",
+      "draft（draft）",
+      "drain（drain）",
       "drift（漂流 / 漂泊大意）"
     ],
     "answer": 0,
@@ -7086,12 +7086,12 @@ const englishQuiz = [
   {
     "id": "e537",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The new software update aims to enhance the overall (提升數據安全防護) of data encryption and protect user privacy.\" data-en=\"The new software update aims to enhance the overall ______ of data encryption and protect user privacy.\">The new software update aims to enhance the overall ______ of data encryption and protect user privacy.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The new software update aims to enhance the overall （【完整題目中文句意】The new software update aims to enhance the overall (提升數據安全防護) of data encryption and protect user privacy.） of data encryption and protect user privacy.\" data-en=\"The new software update aims to enhance the overall ______ of data encryption and protect user privacy.\">The new software update aims to enhance the overall ______ of data encryption and protect user privacy.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "security（安全防護）",
-      "scenery（選項：scenery）",
-      "section（選項：section）",
-      "session（選項：session）"
+      "scenery（scenery）",
+      "section（section）",
+      "session（session）"
     ],
     "answer": 0,
     "explanation": "enhance data security 意為「提升數據安全防護」。",
@@ -7100,12 +7100,12 @@ const englishQuiz = [
   {
     "id": "e538",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Volunteering at the community center is a (極有意義 / 獲益良多的體驗) experience that allows students to give back to society.\" data-en=\"Volunteering at the community center is a ______ experience that allows students to give back to society.\">Volunteering at the community center is a ______ experience that allows students to give back to society.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Volunteering at the community center is a （【完整題目中文句意】Volunteering at the community center is a (極有意義 / 獲益良多的體驗) experience that allows students to give back to society.） experience that allows students to give back to society.\" data-en=\"Volunteering at the community center is a ______ experience that allows students to give back to society.\">Volunteering at the community center is a ______ experience that allows students to give back to society.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "rewarding（有意義回報豐厚的 / 值得的）",
-      "reckless（選項：reckless）",
+      "reckless（reckless）",
       "reluctant（勉強的不情願的）",
-      "redundant（選項：redundant）"
+      "redundant（redundant）"
     ],
     "answer": 0,
     "explanation": "rewarding experience 意為「極有意義 / 獲益良多的體驗」。",
@@ -7114,12 +7114,12 @@ const englishQuiz = [
   {
     "id": "e539",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The young musician has an extraordinary (在……方面具有天賦才華) for playing the violin and composing classical melodies.\" data-en=\"The young musician has an extraordinary ______ for playing the violin and composing classical melodies.\">The young musician has an extraordinary ______ for playing the violin and composing classical melodies.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The young musician has an extraordinary （【完整題目中文句意】The young musician has an extraordinary (在……方面具有天賦才華) for playing the violin and composing classical melodies.） for playing the violin and composing classical melodies.\" data-en=\"The young musician has an extraordinary ______ for playing the violin and composing classical melodies.\">The young musician has an extraordinary ______ for playing the violin and composing classical melodies.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "talent（天賦才華）",
-      "target（選項：target）",
-      "temptation（選項：temptation）",
-      "texture（選項：texture）"
+      "target（target）",
+      "temptation（temptation）",
+      "texture（texture）"
     ],
     "answer": 0,
     "explanation": "have a talent for 意為「在……方面具有天賦才華」。",
@@ -7128,12 +7128,12 @@ const englishQuiz = [
   {
     "id": "e540",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The library provides a quiet (安靜的氛圍環境) where students can focus on preparing for their entrance exams.\" data-en=\"The library provides a quiet ______ where students can focus on preparing for their entrance exams.\">The library provides a quiet ______ where students can focus on preparing for their entrance exams.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The library provides a quiet （【完整題目中文句意】The library provides a quiet (安靜的氛圍環境) where students can focus on preparing for their entrance exams.） where students can focus on preparing for their entrance exams.\" data-en=\"The library provides a quiet ______ where students can focus on preparing for their entrance exams.\">The library provides a quiet ______ where students can focus on preparing for their entrance exams.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "atmosphere（氛圍氣氛 / 環境）",
-      "altitude（選項：altitude）",
-      "attitude（選項：attitude）",
-      "aptitude（選項：aptitude）"
+      "altitude（altitude）",
+      "attitude（attitude）",
+      "aptitude（aptitude）"
     ],
     "answer": 0,
     "explanation": "quiet atmosphere 意為「安靜的氛圍環境」。",
@@ -7142,12 +7142,12 @@ const englishQuiz = [
   {
     "id": "e541",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The doctor prescribed a course of antibiotics to treat the bacterial (細菌感染) in the patient's lungs.\" data-en=\"The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.\">The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The doctor prescribed a course of antibiotics to treat the bacterial （【完整題目中文句意】The doctor prescribed a course of antibiotics to treat the bacterial (細菌感染) in the patient's lungs.） in the patient's lungs.\" data-en=\"The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.\">The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "infection（感染）",
-      "injection（選項：injection）",
-      "inspection（選項：inspection）",
-      "intention（選項：intention）"
+      "injection（injection）",
+      "inspection（inspection）",
+      "intention（intention）"
     ],
     "answer": 0,
     "explanation": "bacterial infection 意為「細菌感染」。",
@@ -7156,10 +7156,10 @@ const englishQuiz = [
   {
     "id": "e542",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The company implemented strict quality (品質管制措施) measures to ensure that zero defective goods leave the factory.\" data-en=\"The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.\">The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The company implemented strict quality （【完整題目中文句意】The company implemented strict quality (品質管制措施) measures to ensure that zero defective goods leave the factory.） measures to ensure that zero defective goods leave the factory.\" data-en=\"The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.\">The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "control（品質管制）",
-      "contact（選項：contact）",
+      "contact（contact）",
       "content（滿意的 / 內容目錄）",
       "contest（比賽 / 競爭）"
     ],
@@ -7170,12 +7170,12 @@ const englishQuiz = [
   {
     "id": "e543",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The team celebrated their (慶祝勝利) after winning the hard-fought championship match in overtime.\" data-en=\"The team celebrated their ______ after winning the hard-fought championship match in overtime.\">The team celebrated their ______ after winning the hard-fought championship match in overtime.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The team celebrated their （【完整題目中文句意】The team celebrated their (慶祝勝利) after winning the hard-fought championship match in overtime.） after winning the hard-fought championship match in overtime.\" data-en=\"The team celebrated their ______ after winning the hard-fought championship match in overtime.\">The team celebrated their ______ after winning the hard-fought championship match in overtime.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "victory（勝利）",
-      "variety（選項：variety）",
-      "victim（選項：victim）",
-      "vision（選項：vision）"
+      "variety（variety）",
+      "victim（victim）",
+      "vision（vision）"
     ],
     "answer": 0,
     "explanation": "celebrate their victory 意為「慶祝勝利」。",
@@ -7184,10 +7184,10 @@ const englishQuiz = [
   {
     "id": "e544",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Drinking clean water and maintaining proper hygiene are vital for the (疾病的預防) of waterborne diseases.\" data-en=\"Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.\">Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Drinking clean water and maintaining proper hygiene are vital for the （【完整題目中文句意】Drinking clean water and maintaining proper hygiene are vital for the (疾病的預防) of waterborne diseases.） of waterborne diseases.\" data-en=\"Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.\">Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "prevention（預防）",
-      "preparation（選項：preparation）",
+      "preparation（preparation）",
       "presentation（簡報演講 / 呈現贈送）",
       "preservation（保存 / 防腐維護保護）"
     ],
@@ -7198,11 +7198,11 @@ const englishQuiz = [
   {
     "id": "e545",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The sudden rise in consumer (消費者需求的上升) has driven the retail sector's economic expansion this quarter.\" data-en=\"The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.\">The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The sudden rise in consumer （【完整題目中文句意】The sudden rise in consumer (消費者需求的上升) has driven the retail sector's economic expansion this quarter.） has driven the retail sector's economic expansion this quarter.\" data-en=\"The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.\">The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "demand（需求）",
       "damage（損害 / 賠償金）",
-      "danger（選項：danger）",
+      "danger（danger）",
       "debate（辯論 / 爭論）"
     ],
     "answer": 0,
@@ -7212,11 +7212,11 @@ const englishQuiz = [
   {
     "id": "e546",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The city council approved a budget to expand public (公共設施機構) such as parks, libraries, and sports centers.\" data-en=\"The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.\">The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The city council approved a budget to expand public （【完整題目中文句意】The city council approved a budget to expand public (公共設施機構) such as parks, libraries, and sports centers.） such as parks, libraries, and sports centers.\" data-en=\"The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.\">The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "facilities（公共設施機構）",
       "failures（失敗 / 故障失敗者）",
-      "fantasies（選項：fantasies）",
+      "fantasies（fantasies）",
       "factors（因素 / 要素因子）"
     ],
     "answer": 0,
@@ -7226,12 +7226,12 @@ const englishQuiz = [
   {
     "id": "e547",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The chef used fresh seasonal (新鮮當季食材) to prepare an exquisite multi-course French banquet.\" data-en=\"The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.\">The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The chef used fresh seasonal （【完整題目中文句意】The chef used fresh seasonal (新鮮當季食材) to prepare an exquisite multi-course French banquet.） to prepare an exquisite multi-course French banquet.\" data-en=\"The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.\">The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "ingredients（食材原料）",
-      "instruments（選項：instruments）",
-      "instructions（選項：instructions）",
-      "institutions（選項：institutions）"
+      "instruments（instruments）",
+      "instructions（instructions）",
+      "institutions（institutions）"
     ],
     "answer": 0,
     "explanation": "fresh seasonal ingredients 意為「新鮮當季食材」。",
@@ -7240,11 +7240,11 @@ const englishQuiz = [
   {
     "id": "e548",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Regular exercise and adequate sleep can greatly (提升心情與活力) your mood and overall vitality.\" data-en=\"Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.\">Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Regular exercise and adequate sleep can greatly （【完整題目中文句意】Regular exercise and adequate sleep can greatly (提升心情與活力) your mood and overall vitality.） your mood and overall vitality.\" data-en=\"Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.\">Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "boost（提升增強）",
       "block（阻擋 / 街區）",
-      "blame（選項：blame）",
+      "blame（blame）",
       "borrow（借入，原形動詞）"
     ],
     "answer": 0,
@@ -7254,12 +7254,12 @@ const englishQuiz = [
   {
     "id": "e549",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】The documentary highlights the urgent need to protect endangered marine (保護瀕危海洋物種) from illegal overfishing.\" data-en=\"The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.\">The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：The documentary highlights the urgent need to protect endangered marine （【完整題目中文句意】The documentary highlights the urgent need to protect endangered marine (保護瀕危海洋物種) from illegal overfishing.） from illegal overfishing.\" data-en=\"The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.\">The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "species（物種種群）",
-      "spaces（選項：spaces）",
-      "sources（選項：sources）",
-      "secrets（選項：secrets）"
+      "spaces（spaces）",
+      "sources（sources）",
+      "secrets（secrets）"
     ],
     "answer": 0,
     "explanation": "protect endangered marine species 意為「保護瀕危海洋物種」。",
@@ -7268,12 +7268,12 @@ const englishQuiz = [
   {
     "id": "e550",
     "category": "大考核心字彙",
-    "question": "<span class=\"en-assist\" data-tw=\"【完整題目中文句意】Consistent hard work and continuous learning are the true secrets to achieving lifelong (取得終生成功).\" data-en=\"Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.\">Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.<span class=\"speak-icon\">🔊</span></span>",
+    "question": "<span class=\"en-assist\" data-tw=\"【題目完整句意】：Consistent hard work and continuous learning are the true secrets to achieving lifelong （【完整題目中文句意】Consistent hard work and continuous learning are the true secrets to achieving lifelong (取得終生成功).）.\" data-en=\"Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.\">Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.<span class=\"speak-icon\">🔊</span></span>",
     "options": [
       "success（成功成就）",
-      "silence（選項：silence）",
-      "struggle（選項：struggle）",
-      "suspicion（選項：suspicion）"
+      "silence（silence）",
+      "struggle（struggle）",
+      "suspicion（suspicion）"
     ],
     "answer": 0,
     "explanation": "achieving lifelong success 意為「取得終生成功」。",
