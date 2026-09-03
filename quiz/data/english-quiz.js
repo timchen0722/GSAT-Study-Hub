@@ -4520,5 +4520,845 @@ const englishQuiz = [
     "answer": 0,
     "explanation": "bridge the gap / divide 意為「縮小/消除……之間的差距」。句意：新推出的教育政策旨在縮小全國城鄉學校之間的數位落差。",
     "difficulty": "基礎"
+  },
+  {
+    "id": "e354",
+    "category": "大考核心字彙",
+    "question": "The tech entrepreneur signed a highly ______ contract with the multinational corporation, which guaranteed millions of dollars in annual profit.",
+    "options": [
+      "lucrative（獲利豐厚的 / 賺錢的）",
+      "destructive（破壞性的）",
+      "defective（有缺陷的）",
+      "primitive（原始的）"
+    ],
+    "answer": 0,
+    "explanation": "lucrative 意為「獲利豐厚的 / 賺大錢的 / 暴利的」。句意：這位科技創業家與跨國企業簽署了一份利潤極其豐厚的合約，保證了數百萬美元的年利潤。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e355",
+    "category": "大考核心字彙",
+    "question": "The forensic scientist conducted a ______ examination of the crime scene, ensuring that no tiny fiber or fingerprint was overlooked.",
+    "options": [
+      "meticulous（細緻嚴謹的 / 一絲不苟的）",
+      "superficial（膚淺粗略的）",
+      "reckless（魯莽草率的）",
+      "monotonous（單調乏味的）"
+    ],
+    "answer": 0,
+    "explanation": "meticulous 意為「極度仔細嚴謹的 / 一絲不苟的」（同義詞 thorough, painstaking）。句意：法醫科學家對犯罪現場進行了極其細緻入微的檢查，確保沒有任何微小纖維或指紋被遺漏。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e356",
+    "category": "大考核心字彙",
+    "question": "Taking painkillers can help ______ the severe headache temporarily, but you should still see a doctor to identify the root cause.",
+    "options": [
+      "alleviate（減輕 / 緩和 / 緩解）",
+      "aggravate（使惡化加重）",
+      "accelerate（加速）",
+      "accumulate（累積）"
+    ],
+    "answer": 0,
+    "explanation": "alleviate 意為「減輕 / 緩和（痛苦、負擔、貧困）」（同義詞 relieve, ease）。句意：服用止痛藥有助於暫時緩解劇烈頭痛，但你仍應就醫找出根本病因。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e357",
+    "category": "大考核心字彙",
+    "question": "Gasoline prices in the international market continue to ______ unpredictably due to ongoing geopolitical conflicts and supply chain disruptions.",
+    "options": [
+      "fluctuate（波動 / 上下起伏）",
+      "fascinate（使著迷）",
+      "frustrate（使挫折）",
+      "fabricate（捏造編造）"
+    ],
+    "answer": 0,
+    "explanation": "fluctuate 意為「（價格、氣溫、數據）波動 / 起伏不定」。句意：由於持續的地緣政治衝突與供應鏈中斷，國際市場上的汽油價格持續不可預測地上下波動。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e358",
+    "category": "大考核心字彙",
+    "question": "Success in learning a foreign language does not happen overnight; it requires long-term commitment and unyielding ______.",
+    "options": [
+      "perseverance（不屈不撓 / 毅力）",
+      "negligence（疏忽怠慢）",
+      "reluctance（勉強不情願）",
+      "tolerance（寬容容忍）"
+    ],
+    "answer": 0,
+    "explanation": "perseverance 意為「堅持不懈 / 堅忍不拔之毅力」。句意：學習外語的成功絕非一蹴而就；它需要長期的投入與不屈不撓的堅定毅力。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e359",
+    "category": "大考核心字彙",
+    "question": "Because the negotiations are still in the preliminary stage, both parties have only reached a ______ agreement subject to further revisions.",
+    "options": [
+      "tentative（暫時的 / 試探性的 / 未定案的）",
+      "permanent（永久的）",
+      "compulsory（強制的）",
+      "distinctive（獨特的）"
+    ],
+    "answer": 0,
+    "explanation": "tentative 意為「暫時的 / 試驗性的 / 尚未完全確定的」。句意：因為談判仍處於初步階段，雙方僅達成了一項有待進一步修改的暫行協議。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e360",
+    "category": "大考核心字彙",
+    "question": "Unethical media outlets often ______ the politician's original remarks out of context to attract clickbait online traffic.",
+    "options": [
+      "distort（扭曲 / 曲解）",
+      "distribute（分發散佈）",
+      "distinguish（區分辨識）",
+      "dismiss（解散解僱）"
+    ],
+    "answer": 0,
+    "explanation": "distort 意為「扭曲 / 曲解（事實、原話、形狀）」。句意：不道德的媒體機構經常斷章取義地曲解該政客的原話，以吸引網路點擊流量。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e361",
+    "category": "大考核心字彙",
+    "question": "Rather than following a rigid travel itinerary, the backpackers preferred a ______ trip, deciding where to explore on the spur of the moment.",
+    "options": [
+      "spontaneous（自發的 / 隨興由衷的）",
+      "tedious（冗長乏味的）",
+      "rigorous（嚴謹嚴密的）",
+      "suspicious（可疑的）"
+    ],
+    "answer": 0,
+    "explanation": "spontaneous 意為「自發的 / 隨興自然的 / 未經預先安排的」。句意：背包客們沒有遵循死板的旅遊行程，而是偏好隨興所至的旅行，即興決定探索何處。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e362",
+    "category": "進階文法與句型",
+    "question": "No sooner ______ the stage than the enthusiastic audience erupted into deafening cheers and applause.",
+    "options": [
+      "had the rock star stepped onto（No sooner had + S + p.p. than... 一……就……之倒裝）",
+      "the rock star had stepped onto",
+      "did the rock star stepped onto",
+      "has the rock star stepped onto"
+    ],
+    "answer": 0,
+    "explanation": "No sooner 置於句首倒裝句型：No sooner had + S + p.p. + than + S + Ved（一……就……）。句意：搖滾巨星剛一步上舞臺，熱情的觀眾席立刻爆發出震耳欲聾的歡呼與掌聲。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e363",
+    "category": "進階文法與句型",
+    "question": "Hardly had the referee blown the final whistle ______ the jubilant soccer fans rushed onto the pitch to celebrate.",
+    "options": [
+      "when（Hardly had + S + p.p. when / before... 一……就……）",
+      "than",
+      "until",
+      "after"
+    ],
+    "answer": 0,
+    "explanation": "Hardly / Scarcely had + S + p.p. + when / before + S + Ved（一……就……）。注意：Hardly 配 when/before；No sooner 配 than。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e364",
+    "category": "進階文法與句型",
+    "question": "It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.",
+    "options": [
+      "took（It is high time that + S + 過去式動詞，該是……的時候了）",
+      "takes",
+      "has taken",
+      "take"
+    ],
+    "answer": 0,
+    "explanation": "It is (high / about) time that + S + Ved（虛擬語氣表示「早就該做某事而尚未做」），that 子句動詞一律使用「過去式動詞」或「should + 原形動詞」。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e365",
+    "category": "進階文法與句型",
+    "question": "The mountaineers walked with extreme caution ______ they slip and tumble down the steep, icy cliff.",
+    "options": [
+      "lest（lest + S + (should) + 原形動詞，唯恐 / 免得……）",
+      "in case of",
+      "unless",
+      "so that"
+    ],
+    "answer": 0,
+    "explanation": "lest 引導副詞子句表示「唯恐 / 免得……」，子句動詞慣用「(should) + 原形動詞」。句意：登山隊員們極其小心地行走，唯恐滑倒跌落陡峭結冰的懸崖。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e366",
+    "category": "進階文法與句型",
+    "question": "Not until the professor explained the complex mathematical theory a second time ______ fully understand the equation.",
+    "options": [
+      "did the students（Not until... 置句首之助動詞倒裝）",
+      "the students did",
+      "the students had",
+      "had the students"
+    ],
+    "answer": 0,
+    "explanation": "Not until... 置於句首時，主要子句必須倒裝（助動詞 did 提至主詞 the students 前面）。句意：直到教授第二次解釋該複雜數學理論，學生們才完全理解該方程式。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e367",
+    "category": "進階文法與句型",
+    "question": "It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.",
+    "options": [
+      "without saying（It goes without saying that... 不言而喻 / 毫無疑問）",
+      "without seeing",
+      "without knowing",
+      "without telling"
+    ],
+    "answer": 0,
+    "explanation": "It goes without saying that... 意為「不言而喻 / 眾所周知 / 毫無疑問是……」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e368",
+    "category": "進階文法與句型",
+    "question": "Neither the flight captain nor the flight attendants ______ aware of the minor mechanical malfunction until the warning alarm went off.",
+    "options": [
+      "were（Neither A nor B 動詞與靠近的主詞 flight attendants 一致）",
+      "was",
+      "is",
+      "are"
+    ],
+    "answer": 0,
+    "explanation": "Neither A nor B / Either A or B / Not only A but also B 主詞動詞一致性遵循「就近原則（Proximity Principle）」，此處動詞與複數 attendants 一致且為過去式，故用 were。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e369",
+    "category": "高頻片語與搭配詞",
+    "question": "When purchasing a new family car, safety ratings and fuel efficiency should be ______ by the buyers.",
+    "options": [
+      "taken into account（take ... into account 考慮在內 / 顧及）",
+      "taken for granted",
+      "taken by surprise",
+      "taken in vain"
+    ],
+    "answer": 0,
+    "explanation": "take sth into account / consideration 為大考最高頻片語，意為「把……列入考慮」。句意：購買家庭新車時，安全評級與燃油效率應被買家列入考慮。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e370",
+    "category": "高頻片語與搭配詞",
+    "question": "Teachers and parents should never ______ school bullying; any act of harassment must be dealt with promptly and firmly.",
+    "options": [
+      "turn a blind eye to（視而不見 / 裝作沒看見）",
+      "keep an eye on",
+      "see eye to eye with",
+      "catch the eye of"
+    ],
+    "answer": 0,
+    "explanation": "turn a blind eye to sth 意為「對……視而不見 / 故意放任不管」。句意：師長絕不應對校園霸凌視而不見；任何騷擾行為皆必須迅速堅定處理。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e371",
+    "category": "高頻片語與搭配詞",
+    "question": "Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.",
+    "options": [
+      "play（play a crucial / vital role in 在……中扮演關鍵角色）",
+      "make",
+      "take",
+      "bring"
+    ],
+    "answer": 0,
+    "explanation": "play an important / crucial / pivotal role in sth 意為「在……中扮演舉足輕重之核心角色」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e372",
+    "category": "高頻片語與搭配詞",
+    "question": "The rare mountain gorilla species is currently ______ extinction due to rampant deforestation and illegal poaching.",
+    "options": [
+      "on the verge of（on the verge of / on the brink of 瀕臨……邊緣）",
+      "in the face of",
+      "at the mercy of",
+      "by virtue of"
+    ],
+    "answer": 0,
+    "explanation": "on the verge of（= on the brink / edge of）意為「瀕臨……邊緣 / 行將……」。句意：由於猖獗的森林砍伐與非法盜獵，珍稀山地大猩猩目前瀕臨滅絕邊緣。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e373",
+    "category": "高頻片語與搭配詞",
+    "question": "The Industrial Revolution ______ profound transformations in global economic structures, urbanization, and human living standards.",
+    "options": [
+      "brought about（帶來 / 促成 / 引起）",
+      "brought up",
+      "brought out",
+      "brought in"
+    ],
+    "answer": 0,
+    "explanation": "bring about（= cause / lead to）意為「引起 / 帶來 / 導致（重大變革）」。句意：工業革命為全球經濟結構、都市化與人類生活水準帶來了深遠變革。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e374",
+    "category": "高頻片語與搭配詞",
+    "question": "Chronic work stress and lack of sleep can ______ various health problems, including hypertension and cardiovascular diseases.",
+    "options": [
+      "give rise to（引起 / 導致 / 造成）",
+      "give way to",
+      "give in to",
+      "give off to"
+    ],
+    "answer": 0,
+    "explanation": "give rise to（= lead to, cause）意為「引起 / 導致 / 招致（不良後果）」。句意：長期的工作壓力與缺乏睡眠會引發各種健康問題，包括高血壓與心血管疾病。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e375",
+    "category": "高頻片語與搭配詞",
+    "question": "Please ______ that the deadline for submitting the college application portfolio is strictly midnight this Friday.",
+    "options": [
+      "bear in mind（牢記在心 / 記住）",
+      "change your mind",
+      "make up your mind",
+      "out of your mind"
+    ],
+    "answer": 0,
+    "explanation": "bear / keep in mind that... 意為「牢記在心 / 切記……」。句意：請牢記在心，大學申請備審資料的上傳截止時間嚴格為本週五午夜。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e376",
+    "category": "大考核心字彙",
+    "question": "Many developing nations struggle to ______ with the catastrophic impacts of climate change, such as severe droughts and floods.",
+    "options": [
+      "cope（cope with 應付 / 克服 / 妥善處理）",
+      "compete",
+      "comply",
+      "collide"
+    ],
+    "answer": 0,
+    "explanation": "cope with（= manage, deal with）意為「應付 / 妥善處理 / 克服（困難逆境）」。句意：許多開發中國家竭力應對氣候變遷帶來的災難性衝擊（如嚴重乾旱與洪澇）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e377",
+    "category": "大考核心字彙",
+    "question": "The old library was demolished because the cost of repairing its damaged infrastructure was ______ high.",
+    "options": [
+      "prohibitively（昂貴得令人望而卻步地）",
+      "permanently",
+      "prominently",
+      "punctually"
+    ],
+    "answer": 0,
+    "explanation": "prohibitively expensive / high 意為「價格高昂得令人卻步 / 讓人無法負擔地高」。句意：老圖書館被拆除，是因為修復其受損基礎設施的費用昂貴得令人卻步。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e378",
+    "category": "大考核心字彙",
+    "question": "The judge emphasized that the court must remain strictly ______ and deliver a verdict based purely on solid evidence.",
+    "options": [
+      "impartial（公正無私的 / 不偏不倚的）",
+      "impatient（不耐煩的）",
+      "imperative（迫切緊要的）",
+      "impulsive（衝動的）"
+    ],
+    "answer": 0,
+    "explanation": "impartial 意為「公正客觀的 / 不偏不倚的」（同義詞 unbiased, objective）。句意：法官強調法院必須保持嚴格公正無私，純粹依據確鑿證據作出判決。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e379",
+    "category": "進階文法與句型",
+    "question": "The ambitious entrepreneur decided to invest in the green energy project, ______ that it might take years to yield a profitable return.",
+    "options": [
+      "knowing（現在分詞構句表伴隨狀態）",
+      "knew",
+      "known",
+      "to be known"
+    ],
+    "answer": 0,
+    "explanation": "分詞構句：原句為 ...although he knew that it might take years...，簡化為主動分詞 knowing...",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e380",
+    "category": "高頻片語與搭配詞",
+    "question": "The newly proposed policy was evaluated ______ its potential impact on local employment and environmental sustainability.",
+    "options": [
+      "in terms of（就……而言 / 從……角度來看）",
+      "in case of",
+      "in spite of",
+      "in search of"
+    ],
+    "answer": 0,
+    "explanation": "in terms of 意為「從……方面來看 / 就……而言」。句意：這項新提議的政策是從其對當地就業與環境永續性的潛在影響角度進行評估的。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e381",
+    "category": "大考核心字彙",
+    "question": "The doctor reassured the anxious parents that their child's high fever was only ______ and would subside by tomorrow.",
+    "options": [
+      "transient（短暫的 / 轉瞬即逝的）",
+      "transparent（透明的）",
+      "transferable（可轉讓的）",
+      "transactional（交易性的）"
+    ],
+    "answer": 0,
+    "explanation": "transient 意為「短暫的 / 暫時的」（同義詞 temporary, fleeting）。句意：醫生安慰焦慮的父母，孩子的高燒只是暫時的，明天就會退燒。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e382",
+    "category": "高頻片語與搭配詞",
+    "question": "Without sufficient preparation and teamwork, our debate team will not ______ winning the championship against the defending champion.",
+    "options": [
+      "stand a chance of（有……的機會 / 可能性）",
+      "make a difference to",
+      "lose track of",
+      "put an end to"
+    ],
+    "answer": 0,
+    "explanation": "stand a chance of + V-ing 意為「有……的希望/勝算/可能性」。句意：如果沒有充分準備與團隊合作，我們的辯論隊在對抗衛冕冠軍時毫無獲勝勝算。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e383",
+    "category": "大考核心字彙",
+    "question": "The famous author wrote a captivating ______ that detailed her personal struggles and triumph over adversity.",
+    "options": [
+      "memoir（回憶錄 / 自傳）",
+      "memorial（紀念碑）",
+      "memorandum（備忘錄）",
+      "memorization（默記死背）"
+    ],
+    "answer": 0,
+    "explanation": "memoir 意為「回憶錄 / 自傳散文」。句意：這位著名作家寫了一部引人入勝的回憶錄，詳細記錄了她個人的奮鬥與戰勝逆境的歷程。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e384",
+    "category": "大考核心字彙",
+    "question": "The essay was praised by the professor for its ______ arguments and clear logical progression from premise to conclusion.",
+    "options": [
+      "coherent（條理連貫的 / 邏輯通順的）",
+      "ambiguous（含糊不清的）",
+      "contradictory（互相矛盾的）",
+      "arbitrary（隨心所欲武斷的）"
+    ],
+    "answer": 0,
+    "explanation": "coherent 意為「（論述、文章）條理清晰連貫的 / 前後一致的」。句意：這篇論文因其連貫嚴密的論證以及從前提至結論清晰的邏輯推演而受到教授讚許。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e385",
+    "category": "大考核心字彙",
+    "question": "The contract's wording was intentionally ______ so that the company could avoid legal responsibilities if disputes arose.",
+    "options": [
+      "ambiguous（含糊模稜兩可的）",
+      "articulate（表達清晰的）",
+      "authentic（真實正宗的）",
+      "applicable（適用的）"
+    ],
+    "answer": 0,
+    "explanation": "ambiguous 意為「模稜兩可的 / 語意含混的」。句意：合約的措辭被刻意寫得含糊不清，以便公司在發生爭議時能夠規避法律責任。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e386",
+    "category": "大考核心字彙",
+    "question": "Smartphone addiction has become increasingly ______ among teenagers, prompting educators to restrict device usage during school hours.",
+    "options": [
+      "prevalent（盛行的 / 普遍存在的）",
+      "primitive（原始簡陋的）",
+      "peculiar（古怪奇特的）",
+      "provisional（臨時暫定的）"
+    ],
+    "answer": 0,
+    "explanation": "prevalent 意為「普遍盛行的 / 流行的」（同義詞 widespread）。句意：智慧型手機成癮在青少年中日益普遍，促使教育界限制在校期間的裝置使用。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e387",
+    "category": "大考核心字彙",
+    "question": "The Swiss Army knife is famous worldwide because it is an extraordinarily ______ tool capable of cutting, opening bottles, and fixing screws.",
+    "options": [
+      "versatile（多功能的 / 萬能多才多藝的）",
+      "vulnerable（脆弱易受傷的）",
+      "vigorous（精力充沛的）",
+      "voluntary（自願的）"
+    ],
+    "answer": 0,
+    "explanation": "versatile 意為「多功能的 / 用途廣泛的 / 多才多藝的」。句意：瑞士軍刀聞名全球，因為它是一款能切割、開瓶與鎖螺絲的極其多功能工具。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e388",
+    "category": "大考核心字彙",
+    "question": "Aviation safety authorities impose ______ regulations and mandatory regular inspections on all commercial aircraft.",
+    "options": [
+      "stringent（嚴格嚴厲的 / 嚴格遵守的）",
+      "lenient（寬鬆仁慈的）",
+      "reckless（粗心大意的）",
+      "skeptical（懷疑不信的）"
+    ],
+    "answer": 0,
+    "explanation": "stringent regulations / standards 意為「嚴格嚴厲的法規/標準」（同義詞 strict, rigorous）。句意：航空安全當局對所有民航飛機實施嚴格的法規與強制性定期檢查。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e389",
+    "category": "大考核心字彙",
+    "question": "Albert Einstein's theory of relativity has exerted a ______ and lasting influence on modern physics and our understanding of space-time.",
+    "options": [
+      "profound（深遠的 / 深刻博大的）",
+      "trivial（微不足道的）",
+      "shallow（淺薄膚淺的）",
+      "passive（被動消極的）"
+    ],
+    "answer": 0,
+    "explanation": "profound influence / impact 意為「深遠重大的影響」。句意：愛因斯坦的相對論對現代物理學與我們對時空的理解產生了深遠而持久的影響。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e390",
+    "category": "大考核心字彙",
+    "question": "The master craftsman carved an ______ floral pattern onto the antique wooden wardrobe, showcasing extraordinary skill.",
+    "options": [
+      "intricate（錯綜複雜精細的）",
+      "indifferent（漠不關心的）",
+      "inevitable（不可避免的）",
+      "insufficient（不足夠的）"
+    ],
+    "answer": 0,
+    "explanation": "intricate 意為「錯綜複雜的 / 雕琢精細的」（同義詞 elaborate, complex）。句意：工匠大師在古董木衣櫃上雕刻了錯綜複雜的花卉圖案，展現了非凡技藝。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e391",
+    "category": "進階文法與句型",
+    "question": "The young artist talked about the ancient European cathedrals with such vivid passion ______ she had visited them in person.",
+    "options": [
+      "as though（宛如 / 彷彿，引導假設子句）",
+      "even though",
+      "in case",
+      "so that"
+    ],
+    "answer": 0,
+    "explanation": "as though / as if 意為「彷彿 / 宛如……一般」，後接假設語氣子句。句意：這位年輕藝術家以如此生動熱情談論歐洲古老教堂，彷彿她曾親自造訪過一般。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e392",
+    "category": "進階文法與句型",
+    "question": "______ we practice speaking English daily, ______ we will become at expressing our complex ideas fluently.",
+    "options": [
+      "The more; the better（The + 比較級, the + 比較級，越……就越……）",
+      "The most; the best",
+      "More; better",
+      "The better; the more"
+    ],
+    "answer": 0,
+    "explanation": "The + 比較級..., the + 比較級... 句型表示「越……就越……」。句意：我們每天練習講英語越多，我們在流暢表達複雜想法時就會變得越熟練。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e393",
+    "category": "進階文法與句型",
+    "question": "The heart-wrenching scene ended with the tearful mother standing at the train platform, with tears ______ down her cheeks.",
+    "options": [
+      "streaming（with + 受詞 + 現在分詞受詞補語，表主動進行狀態）",
+      "streamed",
+      "stream",
+      "to stream"
+    ],
+    "answer": 0,
+    "explanation": "with + O + OC 附帶狀況句型：淚水（tears）與流淌（stream）為主動進行關係，故使用現在分詞 streaming。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e394",
+    "category": "進階文法與句型",
+    "question": "It is no ______ crying over spilt milk; what we need to do right now is find an alternative solution immediately.",
+    "options": [
+      "use（It is no use + V-ing，做……是無濟於事的 / 徒勞無功的）",
+      "good",
+      "point",
+      "help"
+    ],
+    "answer": 0,
+    "explanation": "It is no use + V-ing 意為「做……是毫無用處的 / 覆水難收」。句意：為打翻的牛奶哭泣是沒有用的；我們現在需要做的是立刻找到替代解決方案。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e395",
+    "category": "進階文法與句型",
+    "question": "This classic historical novel is definitely well worth ______ multiple times because each reading unveils new philosophical insights.",
+    "options": [
+      "reading（be well worth + V-ing，值得做……，主動形式表被動意）",
+      "to read",
+      "being read",
+      "to be read"
+    ],
+    "answer": 0,
+    "explanation": "be (well) worth + V-ing 固定句型：worth 後接動名詞主動形式表達被動意義（值得被閱讀）。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e396",
+    "category": "進階文法與句型",
+    "question": "The corrupt politician was formally accused ______ taking massive bribes from real estate developers during his tenure.",
+    "options": [
+      "of（accuse sb of sth 指控某人犯有……罪）",
+      "with",
+      "for",
+      "against"
+    ],
+    "answer": 0,
+    "explanation": "accuse sb of sth（指控某人……罪名）；注意對比 charge sb with sth。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e397",
+    "category": "進階文法與句型",
+    "question": "Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.",
+    "options": [
+      "from（prevent / stop / discourage sb from + V-ing 阻止某人做……）",
+      "to",
+      "against",
+      "with"
+    ],
+    "answer": 0,
+    "explanation": "prevent / stop / ban sb from + V-ing 意為「阻止/妨礙某人做某事」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e398",
+    "category": "高頻片語與搭配詞",
+    "question": "Over the past two decades, Taiwan's high-tech semiconductor industry has grown ______.",
+    "options": [
+      "by leaps and bounds（突飛猛進地 / 飛速發展地）",
+      "by and large",
+      "little by little",
+      "step by step"
+    ],
+    "answer": 0,
+    "explanation": "by leaps and bounds 為大考高頻成語，意為「突飛猛進地 / 一日千里地」。句意：在過去二十年中，臺灣的高科技半導體產業突飛猛進地成長發展。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e399",
+    "category": "高頻片語與搭配詞",
+    "question": "The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.",
+    "options": [
+      "cast a shadow（cast a shadow over 給……蒙上一層陰影）",
+      "cast an eye",
+      "cast a light",
+      "cast a doubt"
+    ],
+    "answer": 0,
+    "explanation": "cast a shadow over / on sth 意為「給……蒙上一層陰影 / 使……蒙上陰霾」。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e400",
+    "category": "高頻片語與搭配詞",
+    "question": "All construction projects must be carried out in strict ______ municipal environmental and safety regulations.",
+    "options": [
+      "compliance with（in compliance with 符合 / 遵照……法規）",
+      "comparison with",
+      "competition with",
+      "combination with"
+    ],
+    "answer": 0,
+    "explanation": "in compliance with（= in accordance with）意為「遵照 / 符合（法規、標準）」。句意：所有建築工程皆必須嚴格遵守市政環保與安全法規進行。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e401",
+    "category": "高頻片語與搭配詞",
+    "question": "Despite spending millions on the marketing campaign, the product's actual sales figures ______ original expectations.",
+    "options": [
+      "fell short of（fall short of 未達到 / 辜負……期望）",
+      "came up with",
+      "ran out of",
+      "got rid of"
+    ],
+    "answer": 0,
+    "explanation": "fall short of 意為「未達到（標準、期望）/ 辜負」。句意：儘管在行銷活動上投入了數百萬美元，該產品的實際銷售數據仍未達到最初預期。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e402",
+    "category": "高頻片語與搭配詞",
+    "question": "Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.",
+    "options": [
+      "strike（strike a balance between 在……兩者之間取得平衡）",
+      "make",
+      "break",
+      "hit"
+    ],
+    "answer": 0,
+    "explanation": "strike a balance between A and B 意為「在 A 與 B 之間取得良性平衡 / 兼顧兩者」。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e403",
+    "category": "大考核心字彙",
+    "question": "Engineers conducted extensive simulations to determine whether building a subsea tunnel across the strait was technically ______.",
+    "options": [
+      "feasible（切實可行的 / 易實施的）",
+      "fatal（致命的）",
+      "fragile（脆弱的）",
+      "fictional（虛構的）"
+    ],
+    "answer": 0,
+    "explanation": "feasible 意為「可行的 / 做得到的」（同義詞 practicable, viable）。句意：工程師進行了廣泛模擬，以確定跨海峽興建海底隧道在技術上是否切實可行。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e404",
+    "category": "大考核心字彙",
+    "question": "Although the defendant provided a seemingly ______ alibi, the forensic evidence ultimately proved his guilt.",
+    "options": [
+      "plausible（看似合情合理的 / 貌似有理的）",
+      "painful（痛苦的）",
+      "pessimistic（悲觀的）",
+      "punctual（準時的）"
+    ],
+    "answer": 0,
+    "explanation": "plausible 意為「貌似有理的 / 說得通的」（同義詞 credible, believable）。句意：儘管被告提供了一個看似合理的缺席不在場證明，但法醫證據最終證實了他有罪。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e405",
+    "category": "大考核心字彙",
+    "question": "There is a ______ difference between constructive criticism aimed at improvement and malicious verbal abuse.",
+    "options": [
+      "subtle（微妙精細的）",
+      "stubborn（固執的）",
+      "strenuous（費力的）",
+      "subsequent（隨後的）"
+    ],
+    "answer": 0,
+    "explanation": "subtle difference 意為「微妙細微的差異」。句意：旨在改進的建設性批評與惡意言語謾罵之間，存在著微妙而關鍵的界限區別。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e406",
+    "category": "進階文法與句型",
+    "question": "There is no ______ in worrying about things that are beyond your personal control.",
+    "options": [
+      "point（There is no point in + V-ing，做……是毫無意義的）",
+      "need",
+      "reason",
+      "purpose"
+    ],
+    "answer": 0,
+    "explanation": "There is no point in + V-ing 意為「做……是毫無意義的 / 徒勞的」。句意：為超出你個人控制範圍的事情擔憂是毫無意義的。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e407",
+    "category": "大考核心字彙",
+    "question": "The newly married couple decided to buy an apartment in the ______ of a quiet public park and a subway station.",
+    "options": [
+      "vicinity（in the vicinity of 在……附近 / 鄰近地區）",
+      "validity（有效性）",
+      "vanity（虛榮心）",
+      "variety（多樣性）"
+    ],
+    "answer": 0,
+    "explanation": "in the vicinity of sth 意為「在……附近 / 鄰近地區」。句意：這對新婚夫婦決定在安靜公園與地鐵站附近購買一套公寓。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e408",
+    "category": "高頻片語與搭配詞",
+    "question": "Philosophers often ______ a clear distinction between moral duties and legal obligations.",
+    "options": [
+      "draw（draw a distinction between 區分 / 劃定……之間的界線）",
+      "make",
+      "find",
+      "give"
+    ],
+    "answer": 0,
+    "explanation": "draw a distinction between A and B 意為「在 A 與 B 之間作出明確區分」。句意：哲學家們經常在道德義務與法律義務之間作出明確區分。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e409",
+    "category": "大考核心字彙",
+    "question": "The greedy businessman accumulated vast wealth under the ______ of running a charitable non-profit organization.",
+    "options": [
+      "guise（under the guise of 在……偽裝掩護下）",
+      "glory（光榮）",
+      "guidance（指導）",
+      "gesture（手勢）"
+    ],
+    "answer": 0,
+    "explanation": "under the guise of 意為「在……的偽裝/藉口掩護下」。句意：這位貪婪的商人以經營慈善非營利組織為偽裝掩護，積累了巨額財富。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e410",
+    "category": "大考核心字彙",
+    "question": "The teacher commended the student for his ______ manners and polite behavior toward his classmates.",
+    "options": [
+      "courteous（彬彬有禮的 / 謙恭的）",
+      "cynical（憤世嫉俗的）",
+      "clumsy（笨拙的）",
+      "crucial（至關重要的）"
+    ],
+    "answer": 0,
+    "explanation": "courteous 意為「彬彬有禮的 / 謙遜客氣的」（同義詞 polite, respectful）。句意：老師稱讚該學生對同學彬彬有禮的態度與禮貌行為。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e411",
+    "category": "進階文法與句型",
+    "question": "By the time the firefighter squad arrived at the scene, the blazing fire ______ by the torrential rain.",
+    "options": [
+      "had been extinguished（過去完成式被動語態）",
+      "has been extinguished",
+      "was extinguishing",
+      "extinguished"
+    ],
+    "answer": 0,
+    "explanation": "By the time + 過去式動詞時，主要子句使用「過去完成式 had + p.p.」。火勢被大雨撲滅，故使用被動語態 had been extinguished。",
+    "difficulty": "中等"
+  },
+  {
+    "id": "e412",
+    "category": "大考核心字彙",
+    "question": "In order to survive the harsh polar winter, arctic animals have developed remarkable biological ______ to conserve body heat.",
+    "options": [
+      "adaptations（生物適應特徵 / 調適）",
+      "adoptions（收養採用）",
+      "addictions（成癮）",
+      "admirations（欽佩）"
+    ],
+    "answer": 0,
+    "explanation": "adaptation 意為「（生物演化）適應性特徵 / 適應機制」。句意：為了在嚴酷的極地冬季生存，北極動物演化出了顯著的生物適應特徵以保存體溫。",
+    "difficulty": "基礎"
+  },
+  {
+    "id": "e413",
+    "category": "高頻片語與搭配詞",
+    "question": "The United Nations was established in 1945 to ______ international peace, security, and friendly cooperation among all nations.",
+    "options": [
+      "promote（促進 / 倡導 / 推動）",
+      "prohibit（禁止）",
+      "postpone（延期）",
+      "provoke（激怒挑釁）"
+    ],
+    "answer": 0,
+    "explanation": "promote peace and security 意為「促進和平與安全」。句意：聯合國成立於 1945 年，旨在促進國際和平、安全以及各國間的友好合作。",
+    "difficulty": "基礎"
   }
 ];
