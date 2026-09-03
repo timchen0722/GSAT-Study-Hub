@@ -1,0 +1,905 @@
+[
+  {
+    "id": "e1",
+    "idx": 1,
+    "stem": "Choose the correct meaning of \"reluctant\":",
+    "tw": "請選出「reluctant（不情願的、勉強的）」的正確中文意思：",
+    "explanation": "reluctant 意為不情願的、勉強的。He was reluctant to leave."
+  },
+  {
+    "id": "e3",
+    "idx": 3,
+    "stem": "The word \"inevitable\" means:",
+    "tw": "請選出「inevitable（不可避免的）」的正確中文詞義：",
+    "explanation": "inevitable = 不可避免的。in-(不) + evitable(可避免的)。Death is inevitable."
+  },
+  {
+    "id": "e271",
+    "idx": 271,
+    "stem": "Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.",
+    "tw": "【題目完整句意】：Drinking an （【完整題目中文句意】Drinking an _____ amount of caffeine can lead to anxiety and irregular heartbeats.） amount of caffeine can lead to anxiety and irregular heartbeats.",
+    "explanation": "excessive 意為「過多的、過度的」；exhaustive 詳盡無遺的。"
+  },
+  {
+    "id": "e272",
+    "idx": 272,
+    "stem": "Running uphill for five kilometers will easily _____ any untrained athlete.",
+    "tw": "【題目完整句意】：Running uphill for five kilometers will easily （【完整題目中文句意】Running uphill for five kilometers will easily _____ any untrained athlete.） any untrained athlete.",
+    "explanation": "exhaust 意為「使筋疲力盡、用盡」；exhibit 展示；expand 擴張。"
+  },
+  {
+    "id": "e273",
+    "idx": 273,
+    "stem": "The botanical greenhouse showcases rare and _____ orchids from tropical jungles.",
+    "tw": "【題目完整句意】：The botanical greenhouse showcases rare and （【完整題目中文句意】The botanical greenhouse showcases rare and _____ orchids from tropical jungles.） orchids from tropical jungles.",
+    "explanation": "exotic 意為「異國風情的、奇特的」；toxic 有毒的；chaotic 混亂的。"
+  },
+  {
+    "id": "e274",
+    "idx": 274,
+    "stem": "The retail chain plans to _____ its franchise into overseas markets next year.",
+    "tw": "【題目完整句意】：The retail chain plans to （【完整題目中文句意】The retail chain plans to _____ its franchise into overseas markets next year.） its franchise into overseas markets next year.",
+    "explanation": "expand 意為「擴展、擴大」；expend 花費耗費。"
+  },
+  {
+    "id": "e275",
+    "idx": 275,
+    "stem": "Your passport is scheduled to _____ in three months, so you should renew it soon.",
+    "tw": "【題目完整句意】：Your passport is scheduled to （【完整題目中文句意】Your passport is scheduled to _____ in three months, so you should renew it soon.） in three months, so you should renew it soon.",
+    "explanation": "expire 意為「到期、屆滿失效」；inspire 啟發激勵。"
+  },
+  {
+    "id": "e276",
+    "idx": 276,
+    "stem": "The flight attendant gave _____ safety instructions before the aircraft took off.",
+    "tw": "【題目完整句意】：The flight attendant gave （【完整題目中文句意】The flight attendant gave _____ safety instructions before the aircraft took off.） safety instructions before the aircraft took off.",
+    "explanation": "explicit 意為「明確清晰的」；implicit 隱含暗示的；exquisite 精緻細膩的。"
+  },
+  {
+    "id": "e277",
+    "idx": 277,
+    "stem": "Some greedy corporations unethically _____ child labor in underdeveloped regions.",
+    "tw": "【題目完整句意】：Some greedy corporations unethically （【完整題目中文句意】Some greedy corporations unethically _____ child labor in underdeveloped regions.） child labor in underdeveloped regions.",
+    "explanation": "exploit 意為「剝削、利用」；explore 探索；explode 爆炸。"
+  },
+  {
+    "id": "e278",
+    "idx": 278,
+    "stem": "Dodos and passenger pigeons became completely _____ due to rampant human hunting.",
+    "tw": "【題目完整句意】：Dodos and passenger pigeons became completely （【完整題目中文句意】Dodos and passenger pigeons became completely _____ due to rampant human hunting.） due to rampant human hunting.",
+    "explanation": "extinct 意為「滅絕的、絕種的」；distinct 不同的獨特的；instinct 本能直覺。"
+  },
+  {
+    "id": "e279",
+    "idx": 279,
+    "stem": "The rescue team showed _____ bravery when saving the hikers from the raging river.",
+    "tw": "【題目完整句意】：The rescue team showed （【完整題目中文句意】The rescue team showed _____ bravery when saving the hikers from the raging river.） bravery when saving the hikers from the raging river.",
+    "explanation": "extraordinary 意為「非凡的、不尋常的」；equivalent 等同的相等的。"
+  },
+  {
+    "id": "e280",
+    "idx": 280,
+    "stem": "The astronomy documentary offered a _____ glimpse into black holes and galaxies.",
+    "tw": "【題目完整句意】：The astronomy documentary offered a （【完整題目中文句意】The astronomy documentary offered a _____ glimpse into black holes and galaxies.） glimpse into black holes and galaxies.",
+    "explanation": "fascinating 意為「迷人的、令人著迷的」；frustrating 令人沮喪的。"
+  },
+  {
+    "id": "e281",
+    "idx": 281,
+    "stem": "Due to high construction costs, building an undersea railway is currently not _____.",
+    "tw": "【題目完整句意】：Due to high construction costs, building an undersea railway is currently not （【完整題目中文句意】Due to high construction costs, building an undersea railway is currently not _____.）.",
+    "explanation": "feasible 意為「切實可行的、行得通的」；flexible 有彈性的；fertile 肥沃的。"
+  },
+  {
+    "id": "e282",
+    "idx": 282,
+    "stem": "The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.",
+    "tw": "【題目完整句意】：The Nile River basin is renowned for its extraordinarily （【完整題目中文句意】The Nile River basin is renowned for its extraordinarily _____ soil suitable for farming.） soil suitable for farming.",
+    "explanation": "fertile 意為「肥沃的、多產的」；futile 無用的徒勞的；fickle 善變的。"
+  },
+  {
+    "id": "e283",
+    "idx": 283,
+    "stem": "Freelancers often appreciate having a _____ work schedule rather than fixed hours.",
+    "tw": "【題目完整句意】：Freelancers often appreciate having a （【完整題目中文句意】Freelancers often appreciate having a _____ work schedule rather than fixed hours.） work schedule rather than fixed hours.",
+    "explanation": "flexible 意為「有彈性的、靈活的」；furious 狂怒的。"
+  },
+  {
+    "id": "e284",
+    "idx": 284,
+    "stem": "With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.",
+    "tw": "【題目完整句意】：With ample sunlight and rainfall, tropical vegetation tends to （【完整題目中文句意】With ample sunlight and rainfall, tropical vegetation tends to _____ all year round.） all year round.",
+    "explanation": "flourish 意為「繁榮、茂盛」；perish 喪生滅亡；nourish 滋養。"
+  },
+  {
+    "id": "e285",
+    "idx": 285,
+    "stem": "Please handle this glass vase carefully because it is extremely _____.",
+    "tw": "【題目完整句意】：Please handle this glass vase carefully because it is extremely （【完整題目中文句意】Please handle this glass vase carefully because it is extremely _____.）.",
+    "explanation": "fragile 意為「易碎的、脆弱的」；frugal 節儉的。"
+  },
+  {
+    "id": "e286",
+    "idx": 286,
+    "stem": "Continuous technical glitches during the livestream began to _____ the speaker.",
+    "tw": "【題目完整句意】：Continuous technical glitches during the livestream began to （【完整題目中文句意】Continuous technical glitches during the livestream began to _____ the speaker.） the speaker.",
+    "explanation": "frustrate 意為「使沮喪、使灰心受挫」；fluctuate 波動。"
+  },
+  {
+    "id": "e287",
+    "idx": 287,
+    "stem": "Understanding the periodic table is _____ to mastering basic chemistry concepts.",
+    "tw": "【題目完整句意】：Understanding the periodic table is （【完整題目中文句意】Understanding the periodic table is _____ to mastering basic chemistry concepts.） to mastering basic chemistry concepts.",
+    "explanation": "fundamental 意為「基礎的、根本的」；instrumental 起關鍵作用的；sentimental 感傷的。"
+  },
+  {
+    "id": "e288",
+    "idx": 288,
+    "stem": "The billionaire made a _____ donation to build a children's cancer research center.",
+    "tw": "【題目完整句意】：The billionaire made a （【完整題目中文句意】The billionaire made a _____ donation to build a children's cancer research center.） donation to build a children's cancer research center.",
+    "explanation": "generous 意為「慷慨大方的」；genuine 真正的真誠的。"
+  },
+  {
+    "id": "e289",
+    "idx": 289,
+    "stem": "Her warm smile expressed _____ happiness for her best friend's marriage.",
+    "tw": "【題目完整句意】：Her warm smile expressed （【完整題目中文句意】Her warm smile expressed _____ happiness for her best friend's marriage.） happiness for her best friend's marriage.",
+    "explanation": "genuine 意為「真誠的、真正的」；generic 通用的普通的。"
+  },
+  {
+    "id": "e290",
+    "idx": 290,
+    "stem": "Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.",
+    "tw": "【題目完整句意】：Behind the sparkling （【完整題目中文句意】Behind the sparkling _____ of Hollywood lies relentless hard work and intense pressure.） of Hollywood lies relentless hard work and intense pressure.",
+    "explanation": "glamour 意為「魅力、風采、光鮮」；gloom 憂鬱昏暗。"
+  },
+  {
+    "id": "e291",
+    "idx": 291,
+    "stem": "On Thanksgiving, people gather around the table to express _____ for their blessings.",
+    "tw": "【題目完整句意】：On Thanksgiving, people gather around the table to express （【完整題目中文句意】On Thanksgiving, people gather around the table to express _____ for their blessings.） for their blessings.",
+    "explanation": "gratitude 意為「感激、謝意」；gravity 地心引力、嚴重性。"
+  },
+  {
+    "id": "e292",
+    "idx": 292,
+    "stem": "Arctic foxes have evolved thick fur coats to survive the _____ polar winter.",
+    "tw": "【題目完整句意】：Arctic foxes have evolved thick fur coats to survive the （【完整題目中文句意】Arctic foxes have evolved thick fur coats to survive the _____ polar winter.） polar winter.",
+    "explanation": "harsh 意為「嚴酷的、嚴厲的」；hasty 匆忙的；humble 謙虛的。"
+  },
+  {
+    "id": "e293",
+    "idx": 293,
+    "stem": "Discarded plastic bags pose a severe choking _____ to marine creatures.",
+    "tw": "【題目完整句意】：Discarded plastic bags pose a severe choking （【完整題目中文句意】Discarded plastic bags pose a severe choking _____ to marine creatures.） to marine creatures.",
+    "explanation": "hazard 意為「危險、危害物」；harvest 收穫；heritage 遺產。"
+  },
+  {
+    "id": "e294",
+    "idx": 294,
+    "stem": "Do not _____ to contact our customer support line if you experience any issues.",
+    "tw": "【題目完整句意】：Do not （【完整題目中文句意】Do not _____ to contact our customer support line if you experience any issues.） to contact our customer support line if you experience any issues.",
+    "explanation": "hesitate 意為「猶豫、躊躇」；hibernate 冬眠；humiliate 羞辱。"
+  },
+  {
+    "id": "e295",
+    "idx": 295,
+    "stem": "The lost explorers received a surprisingly _____ reception from the local tribe.",
+    "tw": "【題目完整句意】：The lost explorers received a surprisingly （【完整題目中文句意】The lost explorers received a surprisingly _____ reception from the local tribe.） reception from the local tribe.",
+    "explanation": "hostile 意為「有敵意的、不友善的」；hospitable 殷勤好客的。"
+  },
+  {
+    "id": "e296",
+    "idx": 296,
+    "stem": "The twins wore _____ school uniforms, making it hard to tell them apart.",
+    "tw": "【題目完整句意】：The twins wore （【完整題目中文句意】The twins wore _____ school uniforms, making it hard to tell them apart.） school uniforms, making it hard to tell them apart.",
+    "explanation": "identical 意為「完全相同的」；individual 個別的；intimate 親密的。"
+  },
+  {
+    "id": "e297",
+    "idx": 297,
+    "stem": "The festival concluded with bright fireworks that managed to _____ the night sky.",
+    "tw": "【題目完整句意】：The festival concluded with bright fireworks that managed to （【完整題目中文句意】The festival concluded with bright fireworks that managed to _____ the night sky.） the night sky.",
+    "explanation": "illuminate 意為「照亮、闡明」；illustrate 插圖說明；isolate 隔離。"
+  },
+  {
+    "id": "e298",
+    "idx": 298,
+    "stem": "The biology textbook uses detailed diagrams to _____ how cells divide.",
+    "tw": "【題目完整句意】：The biology textbook uses detailed diagrams to （【完整題目中文句意】The biology textbook uses detailed diagrams to _____ how cells divide.） how cells divide.",
+    "explanation": "illustrate 意為「插圖說明、闡述」；intimidate 恐嚇威脅；irrigate 灌溉。"
+  },
+  {
+    "id": "e299",
+    "idx": 299,
+    "stem": "Vaccination teaches the body's _____ system to recognize and fight viral infections.",
+    "tw": "【題目完整句意】：Vaccination teaches the body's （【完整題目中文句意】Vaccination teaches the body's _____ system to recognize and fight viral infections.） system to recognize and fight viral infections.",
+    "explanation": "immune 意為「免疫的、免除的」；immense 巨大的；imminent 迫在眉睫的。"
+  },
+  {
+    "id": "e300",
+    "idx": 300,
+    "stem": "The management board decided to _____ a four-day workweek on a trial basis.",
+    "tw": "【題目完整句意】：The management board decided to （【完整題目中文句意】The management board decided to _____ a four-day workweek on a trial basis.） a four-day workweek on a trial basis.",
+    "explanation": "implement 意為「實施、實行」；impose 強加課徵。"
+  },
+  {
+    "id": "e301",
+    "idx": 301,
+    "stem": "Given the rapidly falling sales numbers, staff layoffs became completely _____.",
+    "tw": "【題目完整句意】：Given the rapidly falling sales numbers, staff layoffs became completely （【完整題目中文句意】Given the rapidly falling sales numbers, staff layoffs became completely _____.）.",
+    "explanation": "inevitable 意為「不可避免的、必然的」；invaluable 無價極珍貴的；invincible 無敵的。"
+  },
+  {
+    "id": "e302",
+    "idx": 302,
+    "stem": "Consumers quickly rejected the counterfeit phones due to their _____ battery life.",
+    "tw": "【題目完整句意】：Consumers quickly rejected the counterfeit phones due to their （【完整題目中文句意】Consumers quickly rejected the counterfeit phones due to their _____ battery life.） battery life.",
+    "explanation": "inferior 意為「劣等的、較差的」；superior 優等的；interior 內部的。"
+  },
+  {
+    "id": "e303",
+    "idx": 303,
+    "stem": "The Nobel laureate published an _____ paper that reshaped contemporary economic theories.",
+    "tw": "【題目完整句意】：The Nobel laureate published an （【完整題目中文句意】The Nobel laureate published an _____ paper that reshaped contemporary economic theories.） paper that reshaped contemporary economic theories.",
+    "explanation": "influential 意為「有影響力的」；infectious 具感染傳染力的；indifferent 漠不關心的。"
+  },
+  {
+    "id": "e304",
+    "idx": 304,
+    "stem": "If I _____ you, I would take the doctor's advice and get plenty of rest.",
+    "tw": "與現在事實相反的假設語氣，條件句中的 be 動詞一律用 were",
+    "explanation": "與現在事實相反的假設語氣，條件句中的 be 動詞一律用 were。"
+  },
+  {
+    "id": "e305",
+    "idx": 305,
+    "stem": "Had he _____ the weather forecast, he would not have set sail in the storm.",
+    "tw": "與過去事實相反的倒裝假設語氣：Had he checked = If he had checked",
+    "explanation": "與過去事實相反的倒裝假設語氣：Had he checked = If he had checked。"
+  },
+  {
+    "id": "e306",
+    "idx": 306,
+    "stem": "The teacher insisted that every student _____ their assignment before Friday.",
+    "tw": "【題目完整句意】：The teacher insisted that every student （堅持(insist)後方的 that 子句需省略 should，動詞使用原形 submit） their assignment before Friday.",
+    "explanation": "堅持(insist)後方的 that 子句需省略 should，動詞使用原形 submit。"
+  },
+  {
+    "id": "e307",
+    "idx": 307,
+    "stem": "Not only _____ the scholarship, but she also won first prize in the national contest.",
+    "tw": "否定副詞 Not only 置於句首時，主要子句需倒裝，助動詞提前",
+    "explanation": "否定副詞 Not only 置於句首時，主要子句需倒裝，助動詞提前。"
+  },
+  {
+    "id": "e308",
+    "idx": 308,
+    "stem": "Seldom _____ such an awe-inspiring performance on stage.",
+    "tw": "【題目完整句意】：Seldom （否定副詞 Seldom 置於句首引導倒裝句，助動詞 have 提到主詞 I 之前） such an awe-inspiring performance on stage.",
+    "explanation": "否定副詞 Seldom 置於句首引導倒裝句，助動詞 have 提到主詞 I 之前。"
+  },
+  {
+    "id": "e309",
+    "idx": 309,
+    "stem": "The mountain path was slippery, _____ several hikers to lose their footing.",
+    "tw": "分詞構句表結果：前後因果關聯，主動使...發生，用現在分詞 causing",
+    "explanation": "分詞構句表結果：前後因果關聯，主動使...發生，用現在分詞 causing。"
+  },
+  {
+    "id": "e310",
+    "idx": 310,
+    "stem": "_____ from space, the Earth resembles a radiant blue marble floating in darkness.",
+    "tw": "分詞構句：地球是「被看見」，承受被動語態，故以過去分詞 Seen 開頭",
+    "explanation": "分詞構句：地球是「被看見」，承受被動語態，故以過去分詞 Seen 開頭。"
+  },
+  {
+    "id": "e311",
+    "idx": 311,
+    "stem": "She had her laptop _____ yesterday because the motherboard was fried.",
+    "tw": "have + 受詞 + p.p. 表示使某事物「被...」完成",
+    "explanation": "have + 受詞 + p.p. 表示使某事物「被...」完成。筆電是被修理，用 repaired。"
+  },
+  {
+    "id": "e312",
+    "idx": 312,
+    "stem": "I saw a suspicious man _____ into the neighbor's garden late last night.",
+    "tw": "感官動詞 see + 受詞 + V-ing（強調正在進行）或原形動詞（全過程）",
+    "explanation": "感官動詞 see + 受詞 + V-ing（強調正在進行）或原形動詞（全過程）。此處用 sneaking。"
+  },
+  {
+    "id": "e313",
+    "idx": 313,
+    "stem": "It is high time that we _____ action to reduce carbon emissions.",
+    "tw": "It is high time that + S + 過去式動詞 (V-ed)，表示「早該做某事了」",
+    "explanation": "It is high time that + S + 過去式動詞 (V-ed)，表示「早該做某事了」。"
+  },
+  {
+    "id": "e314",
+    "idx": 314,
+    "stem": "No sooner had the bell rung than the students _____ out of the classroom.",
+    "tw": "No sooner had S p.p. than S V-ed 表示「一...就...」，than 後方接過去式",
+    "explanation": "No sooner had S p.p. than S V-ed 表示「一...就...」，than 後方接過去式。"
+  },
+  {
+    "id": "e315",
+    "idx": 315,
+    "stem": "Hardly had she closed her eyes _____ the loud fire alarm went off.",
+    "tw": "【題目完整句意】：Hardly had she closed her eyes （【完整題目中文句意】Hardly had she closed her eyes _____ the loud fire alarm went off.） the loud fire alarm went off.",
+    "explanation": "Hardly had S p.p. when/before S V-ed 意為「一...就...」。"
+  },
+  {
+    "id": "e316",
+    "idx": 316,
+    "stem": "So fierce _____ the thunderstorm that branches snapped off all over the neighborhood.",
+    "tw": "【題目完整句意】：So fierce （So + adj. 置於句首引導倒裝句，主詞 the thunderstorm 為單數，過去式用 was） the thunderstorm that branches snapped off all over the neighborhood.",
+    "explanation": "So + adj. 置於句首引導倒裝句，主詞 the thunderstorm 為單數，過去式用 was。"
+  },
+  {
+    "id": "e317",
+    "idx": 317,
+    "stem": "Such _____ her dedication to ballet that she practiced eight hours every day.",
+    "tw": "Such + be + S 表示「...如此深厚以致於...」，倒裝句動詞配合單數用 was",
+    "explanation": "Such + be + S 表示「...如此深厚以致於...」，倒裝句動詞配合單數用 was。"
+  },
+  {
+    "id": "e318",
+    "idx": 318,
+    "stem": "He walked on tiptoe lest he _____ the sleeping infant.",
+    "tw": "【題目完整句意】：He walked on tiptoe lest he （【完整題目中文句意】He walked on tiptoe lest he _____ the sleeping infant.） the sleeping infant.",
+    "explanation": "lest 意為「唯恐、免得」，後方子句常接 (should) + 原形動詞。"
+  },
+  {
+    "id": "e319",
+    "idx": 319,
+    "stem": "The novel, _____ by a young Taiwanese writer, quickly topped the bestseller charts.",
+    "tw": "關係代名詞子句簡化為分詞片語：小說是「被寫」，使用過去分詞 written",
+    "explanation": "關係代名詞子句簡化為分詞片語：小說是「被寫」，使用過去分詞 written。"
+  },
+  {
+    "id": "e320",
+    "idx": 320,
+    "stem": "Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.",
+    "tw": "【題目完整句意】：Weather （【完整題目中文句意】Weather _____, we will proceed with the outdoor barbecue tomorrow afternoon.）, we will proceed with the outdoor barbecue tomorrow afternoon.",
+    "explanation": "獨立分詞構句：Weather permitting 為固定片語，意為「若天氣許可的話」。"
+  },
+  {
+    "id": "e321",
+    "idx": 321,
+    "stem": "Judging _____ his exhausted expression, he must have pulled an all-nighter.",
+    "tw": "【題目完整句意】：Judging （【完整題目中文句意】Judging _____ his exhausted expression, he must have pulled an all-nighter.） his exhausted expression, he must have pulled an all-nighter.",
+    "explanation": "Judging from/by 為常見獨立分詞片語，意為「從...來判斷」。"
+  },
+  {
+    "id": "e322",
+    "idx": 322,
+    "stem": "The committee suggested that the controversial regulation _____ immediately.",
+    "tw": "【題目完整句意】：The committee suggested that the controversial regulation （suggest 表示建議時，that 子句省略 should，被動態保留原形 be + p.p.） immediately.",
+    "explanation": "suggest 表示建議時，that 子句省略 should，被動態保留原形 be + p.p.。"
+  },
+  {
+    "id": "e323",
+    "idx": 323,
+    "stem": "I would rather you _____ alone in the dark alley so late at night.",
+    "tw": "would rather + that 子句使用與現在事實相反的過去式 did not walk",
+    "explanation": "would rather + that 子句使用與現在事實相反的過去式 did not walk。"
+  },
+  {
+    "id": "e332",
+    "idx": 332,
+    "stem": "______ for your timely assistance and valuable advice, our startup company could not have survived the severe financial turmoil last year.",
+    "tw": "與過去事實相反的假設句型倒裝：原句為 If it had not been for...，省略 If 後助動詞 Had 提至主詞前倒裝為 Had it not been for...（若非當時有……）",
+    "explanation": "與過去事實相反的假設句型倒裝：原句為 If it had not been for...，省略 If 後助動詞 Had 提至主詞前倒裝為 Had it not been for...（若非當時有……）。"
+  },
+  {
+    "id": "e333",
+    "idx": 333,
+    "stem": "Seldom ______ such a breathtaking and magnificent display of fireworks over the harbor on New Year's Eve.",
+    "tw": "否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 → Seldom have I witnessed...",
+    "explanation": "否定副詞（Seldom, Rarely, Never, Scarcely）置於句首時，句子必須採倒裝結構：否定副詞 + 助動詞/be動詞 + 主詞 + 本動詞 → Seldom have I witnessed..."
+  },
+  {
+    "id": "e334",
+    "idx": 334,
+    "stem": "The doctor strongly recommended that the overworked patient ______ a full week off to recuperate from mental exhaustion.",
+    "tw": "【題目完整句意】：The doctor strongly recommended that the overworked patient （suggest, recommend, demand, insist, require） a full week off to recuperate from mental exhaustion.",
+    "explanation": "表「建議、要求、命令、堅持」之動詞（suggest, recommend, demand, insist, require）後接 that 名詞子句時，子句動詞一律使用「(should) + 原形動詞」之虛擬語氣。"
+  },
+  {
+    "id": "e336",
+    "idx": 336,
+    "stem": "The novel was ______ fascinating and gripping that Emily stayed up all night to finish reading the final chapter.",
+    "tw": "so + adj./adv. + that 子句（如此……以致於……）",
+    "explanation": "so + adj./adv. + that 子句（如此……以致於……）；such 則後接名詞（such + a/an + adj. + N + that）。此處 fascinating 為純形容詞，故選 so。"
+  },
+  {
+    "id": "e337",
+    "idx": 337,
+    "stem": "The newly built stadium is three times ______ the old gymnasium that was torn down last winter.",
+    "tw": "倍數表達法結構：倍數詞（twice / three times）+ as + 原級形容詞 + as...，表示「是……的幾倍大/長」",
+    "explanation": "倍數表達法結構：倍數詞（twice / three times）+ as + 原級形容詞 + as...，表示「是……的幾倍大/長」。"
+  },
+  {
+    "id": "e338",
+    "idx": 338,
+    "stem": "______ all the assignments ahead of time, Kevin felt completely relaxed and went to the cinema with his friends.",
+    "tw": "完成式分詞構句：原句為 Because he had finished all the assignments...，因完成作業發生在去電影院之前，簡化為主動完成分詞 Having finished...",
+    "explanation": "完成式分詞構句：原句為 Because he had finished all the assignments...，因完成作業發生在去電影院之前，簡化為主動完成分詞 Having finished...。"
+  },
+  {
+    "id": "e339",
+    "idx": 339,
+    "stem": "We should never take our parents' unconditional love and support ______; instead, we must express our gratitude whenever possible.",
+    "tw": "【題目完整句意】：We should never take our parents' unconditional love and support （【完整題目中文句意】We should never take our parents' unconditional love and support (將……視為理所當然而不懂感激珍惜); instead, we must express our gratitude whenever possible.）; instead, we must express our gratitude whenever possible.",
+    "explanation": "take sth for granted 為大考最高頻片語，意為「將……視為理所當然而不懂感激珍惜」。"
+  },
+  {
+    "id": "e343",
+    "idx": 343,
+    "stem": "As a professional software engineer, it is essential to ______ the latest advancements in artificial intelligence and machine learning.",
+    "tw": "【題目完整句意】：As a professional software engineer, it is essential to （【完整題目中文句意】As a professional software engineer, it is essential to (跟上……的最新發展 / 與時俱進地了解……) the latest advancements in artificial intelligence and machine learning.） the latest advancements in artificial intelligence and machine learning.",
+    "explanation": "keep abreast of sth 為高階重要片語，意為「跟上……的最新發展 / 與時俱進地了解……」。"
+  },
+  {
+    "id": "e349",
+    "idx": 349,
+    "stem": "Weather ______, the annual high school sports carnival will take place on the outdoor athletic field tomorrow morning.",
+    "tw": "獨立分詞構句慣用語：Weather permitting（= If weather permits），表示「天氣若允許的話」，主詞不同保留名詞 Weather",
+    "explanation": "獨立分詞構句慣用語：Weather permitting（= If weather permits），表示「天氣若允許的話」，主詞不同保留名詞 Weather。"
+  },
+  {
+    "id": "e350",
+    "idx": 350,
+    "stem": "______ wins the national science competition will be awarded a full scholarship to study at the prestigious university.",
+    "tw": "【題目完整句意】：（凡是贏得全國科學競賽的人） wins the national science competition will be awarded a full scholarship to study at the prestigious university.",
+    "explanation": "Whoever 作為主要子句的主詞引導名詞子句，意為 Anyone who（凡是贏得全國科學競賽的人）。"
+  },
+  {
+    "id": "e351",
+    "idx": 351,
+    "stem": "After years of grief, the widow finally ______ the tragic loss of her husband and began to rebuild her life.",
+    "tw": "【題目完整句意】：After years of grief, the widow finally （殘酷現實） the tragic loss of her husband and began to rebuild her life.",
+    "explanation": "come to terms with 意為「逐漸接受（殘酷現實）/ 與……達成和解妥協」。"
+  },
+  {
+    "id": "e363",
+    "idx": 363,
+    "stem": "Hardly had the referee blown the final whistle ______ the jubilant soccer fans rushed onto the pitch to celebrate.",
+    "tw": "Hardly / Scarcely had + S + p.p. + when / before + S + Ved（一……就……）",
+    "explanation": "Hardly / Scarcely had + S + p.p. + when / before + S + Ved（一……就……）。注意：Hardly 配 when/before；No sooner 配 than。"
+  },
+  {
+    "id": "e364",
+    "idx": 364,
+    "stem": "It is high time that the municipal government ______ effective measures to resolve the chronic traffic congestion downtown.",
+    "tw": "【題目完整句意】：It is high time that the municipal government （虛擬語氣表示「早就該做某事而尚未做」） effective measures to resolve the chronic traffic congestion downtown.",
+    "explanation": "It is (high / about) time that + S + Ved（虛擬語氣表示「早就該做某事而尚未做」），that 子句動詞一律使用「過去式動詞」或「should + 原形動詞」。"
+  },
+  {
+    "id": "e367",
+    "idx": 367,
+    "stem": "It goes ______ that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.",
+    "tw": "【題目完整句意】：It goes （【完整題目中文句意】It goes (不言而喻 / 眾所周知 / 毫無疑問是……) that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.） that regular exercise, a balanced diet, and sufficient sleep are the fundamental cornerstones of good health.",
+    "explanation": "It goes without saying that... 意為「不言而喻 / 眾所周知 / 毫無疑問是……」。"
+  },
+  {
+    "id": "e368",
+    "idx": 368,
+    "stem": "Neither the flight captain nor the flight attendants ______ aware of the minor mechanical malfunction until the warning alarm went off.",
+    "tw": "Neither A nor B / Either A or B / Not only A but also B 主詞動詞一致性遵循「就近原則（Proximity Principle）」，此處動詞與複數 attendants 一致且為過去式，故用 were",
+    "explanation": "Neither A nor B / Either A or B / Not only A but also B 主詞動詞一致性遵循「就近原則（Proximity Principle）」，此處動詞與複數 attendants 一致且為過去式，故用 were。"
+  },
+  {
+    "id": "e371",
+    "idx": 371,
+    "stem": "Artificial intelligence is expected to ______ a crucial role in modern medical diagnosis and personalized drug discovery.",
+    "tw": "【題目完整句意】：Artificial intelligence is expected to （【完整題目中文句意】Artificial intelligence is expected to (在……中扮演舉足輕重之核心角色) a crucial role in modern medical diagnosis and personalized drug discovery.） a crucial role in modern medical diagnosis and personalized drug discovery.",
+    "explanation": "play an important / crucial / pivotal role in sth 意為「在……中扮演舉足輕重之核心角色」。"
+  },
+  {
+    "id": "e379",
+    "idx": 379,
+    "stem": "The ambitious entrepreneur decided to invest in the green energy project, ______ that it might take years to yield a profitable return.",
+    "tw": "分詞構句：原句為 ...although he knew that it might take years...，簡化為主動分詞 knowing...",
+    "explanation": "分詞構句：原句為 ...although he knew that it might take years...，簡化為主動分詞 knowing..."
+  },
+  {
+    "id": "e393",
+    "idx": 393,
+    "stem": "The heart-wrenching scene ended with the tearful mother standing at the train platform, with tears ______ down her cheeks.",
+    "tw": "with + O + OC 附帶狀況句型：淚水（tears）與流淌（stream）為主動進行關係，故使用現在分詞 streaming",
+    "explanation": "with + O + OC 附帶狀況句型：淚水（tears）與流淌（stream）為主動進行關係，故使用現在分詞 streaming。"
+  },
+  {
+    "id": "e395",
+    "idx": 395,
+    "stem": "This classic historical novel is definitely well worth ______ multiple times because each reading unveils new philosophical insights.",
+    "tw": "be (well) worth + V-ing 固定句型：worth 後接動名詞主動形式表達被動意義（值得被閱讀）",
+    "explanation": "be (well) worth + V-ing 固定句型：worth 後接動名詞主動形式表達被動意義（值得被閱讀）。"
+  },
+  {
+    "id": "e396",
+    "idx": 396,
+    "stem": "The corrupt politician was formally accused ______ taking massive bribes from real estate developers during his tenure.",
+    "tw": "accuse sb of sth（指控某人……罪名）",
+    "explanation": "accuse sb of sth（指控某人……罪名）；注意對比 charge sb with sth。"
+  },
+  {
+    "id": "e397",
+    "idx": 397,
+    "stem": "Heavy snowstorms and icy road conditions prevented thousands of stranded passengers ______ boarding their scheduled flights.",
+    "tw": "【題目完整句意】：Heavy snowstorms and icy road conditions prevented thousands of stranded passengers （【完整題目中文句意】Heavy snowstorms and icy road conditions prevented thousands of stranded passengers (阻止/妨礙某人做某事) boarding their scheduled flights.） boarding their scheduled flights.",
+    "explanation": "prevent / stop / ban sb from + V-ing 意為「阻止/妨礙某人做某事」。"
+  },
+  {
+    "id": "e399",
+    "idx": 399,
+    "stem": "The sudden unexpected scandal ______ over the famous movie star's previously spotless public reputation.",
+    "tw": "【題目完整句意】：The sudden unexpected scandal （【完整題目中文句意】The sudden unexpected scandal (給……蒙上一層陰影 / 使……蒙上陰霾) over the famous movie star's previously spotless public reputation.） over the famous movie star's previously spotless public reputation.",
+    "explanation": "cast a shadow over / on sth 意為「給……蒙上一層陰影 / 使……蒙上陰霾」。"
+  },
+  {
+    "id": "e402",
+    "idx": 402,
+    "stem": "Working parents often find it challenging to ______ a balance between demanding career responsibilities and quality family life.",
+    "tw": "【題目完整句意】：Working parents often find it challenging to （【完整題目中文句意】Working parents often find it challenging to (在 A 與 B 之間取得良性平衡 / 兼顧兩者) a balance between demanding career responsibilities and quality family life.） a balance between demanding career responsibilities and quality family life.",
+    "explanation": "strike a balance between A and B 意為「在 A 與 B 之間取得良性平衡 / 兼顧兩者」。"
+  },
+  {
+    "id": "e411",
+    "idx": 411,
+    "stem": "By the time the firefighter squad arrived at the scene, the blazing fire ______ by the torrential rain.",
+    "tw": "By the time + 過去式動詞時，主要子句使用「過去完成式 had + p.p.」",
+    "explanation": "By the time + 過去式動詞時，主要子句使用「過去完成式 had + p.p.」。火勢被大雨撲滅，故使用被動語態 had been extinguished。"
+  },
+  {
+    "id": "e415",
+    "idx": 415,
+    "stem": "With the rapid advent of digital streaming platforms, traditional VHS videotapes and cassette players have become completely ______.",
+    "tw": "隨著數位串流平臺的迅速興起，傳統 VHS 錄影帶與錄音帶播放機已完全被時代淘汰。",
+    "explanation": "obsolete 意為「過時淘汰的 / 已廢棄的」（同義詞 outdated）。句意：隨著數位串流平臺的迅速興起，傳統 VHS 錄影帶與錄音帶播放機已完全被時代淘汰。"
+  },
+  {
+    "id": "e421",
+    "idx": 421,
+    "stem": "Only by working together collaboratively ______ overcome the unprecedented global challenges posed by climate change.",
+    "tw": "Only + 介系詞片語置於句首時，主要子句必須倒裝（助動詞 can 提至主詞 we 前面：Only by... can we...）",
+    "explanation": "Only + 介系詞片語置於句首時，主要子句必須倒裝（助動詞 can 提至主詞 we 前面：Only by... can we...）。"
+  },
+  {
+    "id": "e422",
+    "idx": 422,
+    "stem": "So captivating ______ that everyone in the auditorium was completely engrossed from beginning to end.",
+    "tw": "So + 形容詞置於句首倒裝句型：So captivating was the performance that...（表演如此扣人心弦，以致於全體觀眾自始至終沉浸其中）",
+    "explanation": "So + 形容詞置於句首倒裝句型：So captivating was the performance that...（表演如此扣人心弦，以致於全體觀眾自始至終沉浸其中）。"
+  },
+  {
+    "id": "e424",
+    "idx": 424,
+    "stem": "Many environmental activists strongly object to ______ nuclear waste near coastal ecological reserves.",
+    "tw": "object to + V-ing（to 為介系詞，後接動名詞，表示「強烈反對做某事」）",
+    "explanation": "object to + V-ing（to 為介系詞，後接動名詞，表示「強烈反對做某事」）。"
+  },
+  {
+    "id": "e427",
+    "idx": 427,
+    "stem": "All employees must act in strict ______ the company's code of conduct and safety guidelines.",
+    "tw": "【題目完整句意】：All employees must act in strict （法規規章） the company's code of conduct and safety guidelines.",
+    "explanation": "in accordance with sth（= in compliance with）意為「依照 / 依循 / 根據（法規規章）」。"
+  },
+  {
+    "id": "e429",
+    "idx": 429,
+    "stem": "The school principal promised to ______ it that every student receives equal attention and psychological counseling.",
+    "tw": "【題目完整句意】：The school principal promised to （【完整題目中文句意】The school principal promised to (務必確保 / 留心使……做到) it that every student receives equal attention and psychological counseling.） it that every student receives equal attention and psychological counseling.",
+    "explanation": "see to it that... 為大考高頻核心片語，意為「務必確保 / 留心使……做到」。"
+  },
+  {
+    "id": "e440",
+    "idx": 440,
+    "stem": "Having lived in London for over ten years, she is completely accustomed to ______ on the left side of the road.",
+    "tw": "be accustomed to + V-ing（= be used to + V-ing 習慣於做某事，to 為介系詞後接動名詞）",
+    "explanation": "be accustomed to + V-ing（= be used to + V-ing 習慣於做某事，to 為介系詞後接動名詞）。"
+  },
+  {
+    "id": "e445",
+    "idx": 445,
+    "stem": "The patient said she could no longer ______ the constant throbbing pain in her lower back and demanded immediate surgery.",
+    "tw": "【題目完整句意】：The patient said she could no longer （痛苦、不滿） the constant throbbing pain in her lower back and demanded immediate surgery.",
+    "explanation": "put up with（= tolerate, endure）意為「容忍 / 忍受（痛苦、不滿）」。"
+  },
+  {
+    "id": "e451",
+    "idx": 451,
+    "stem": "The brave rescue team ventured into the collapsed building to ______ trapped earthquake survivors.",
+    "tw": "【題目完整句意】：The brave rescue team ventured into the collapsed building to （【完整題目中文句意】The brave rescue team ventured into the collapsed building to (營救受困生還者) trapped earthquake survivors.） trapped earthquake survivors.",
+    "explanation": "rescue trapped survivors 意為「營救受困生還者」。"
+  },
+  {
+    "id": "e452",
+    "idx": 452,
+    "stem": "The international summit aimed to foster peaceful dialogue and enhance economic ______ between the two rival nations.",
+    "tw": "【題目完整句意】：The international summit aimed to foster peaceful dialogue and enhance economic （【完整題目中文句意】The international summit aimed to foster peaceful dialogue and enhance economic (增進經濟合作) between the two rival nations.） between the two rival nations.",
+    "explanation": "enhance economic cooperation 意為「增進經濟合作」。"
+  },
+  {
+    "id": "e453",
+    "idx": 453,
+    "stem": "To prevent food spoilage, dairy products should always be stored in the refrigerator at a low ______.",
+    "tw": "【題目完整句意】：To prevent food spoilage, dairy products should always be stored in the refrigerator at a low （【完整題目中文句意】To prevent food spoilage, dairy products should always be stored in the refrigerator at a low (在低溫下保存).）.",
+    "explanation": "stored at a low temperature 意為「在低溫下保存」。"
+  },
+  {
+    "id": "e457",
+    "idx": 457,
+    "stem": "The novel's main character demonstrated remarkable ______ by overcoming poverty and achieving academic success.",
+    "tw": "【題目完整句意】：The novel's main character demonstrated remarkable （【完整題目中文句意】The novel's main character demonstrated remarkable (復原力 / 心理韌性 / 堅毅抗挫力) by overcoming poverty and achieving academic success.） by overcoming poverty and achieving academic success.",
+    "explanation": "resilience 意為「復原力 / 心理韌性 / 堅毅抗挫力」。"
+  },
+  {
+    "id": "e458",
+    "idx": 458,
+    "stem": "She walked quietly into the nursery ______ wake the sleeping baby.",
+    "tw": "so as not to + V（= in order not to + V 為了不 / 免得……）",
+    "explanation": "so as not to + V（= in order not to + V 為了不 / 免得……）。"
+  },
+  {
+    "id": "e459",
+    "idx": 459,
+    "stem": "Regular physical activity can help ______ stress and improve overall cardiovascular health.",
+    "tw": "【題目完整句意】：Regular physical activity can help （【完整題目中文句意】Regular physical activity can help (減輕壓力) stress and improve overall cardiovascular health.） stress and improve overall cardiovascular health.",
+    "explanation": "reduce stress 意為「減輕壓力」。"
+  },
+  {
+    "id": "e460",
+    "idx": 460,
+    "stem": "The detective searched the suspect's vehicle thoroughly to gather physical ______ for the court trial.",
+    "tw": "【題目完整句意】：The detective searched the suspect's vehicle thoroughly to gather physical （【完整題目中文句意】The detective searched the suspect's vehicle thoroughly to gather physical (收集物證) for the court trial.） for the court trial.",
+    "explanation": "gather physical evidence 意為「收集物證」。"
+  },
+  {
+    "id": "e461",
+    "idx": 461,
+    "stem": "The scientific breakthrough will ______ for the development of next-generation cancer treatments.",
+    "tw": "【題目完整句意】：The scientific breakthrough will （【完整題目中文句意】The scientific breakthrough will (為……鋪平道路 / 奠定基礎) for the development of next-generation cancer treatments.） for the development of next-generation cancer treatments.",
+    "explanation": "pave the way for sth 意為「為……鋪平道路 / 奠定基礎」。"
+  },
+  {
+    "id": "e462",
+    "idx": 462,
+    "stem": "Due to the heavy storm, the school announced the ______ of all afternoon classes and outdoor activities.",
+    "tw": "【題目完整句意】：Due to the heavy storm, the school announced the （【完整題目中文句意】Due to the heavy storm, the school announced the (課程取消) of all afternoon classes and outdoor activities.） of all afternoon classes and outdoor activities.",
+    "explanation": "cancellation of classes 意為「課程取消」。"
+  },
+  {
+    "id": "e463",
+    "idx": 463,
+    "stem": "The teacher encouraged her students to ask questions and express their opinions ______ in class discussions.",
+    "tw": "【題目完整句意】：The teacher encouraged her students to ask questions and express their opinions （【完整題目中文句意】The teacher encouraged her students to ask questions and express their opinions (自由表達意見) in class discussions.） in class discussions.",
+    "explanation": "express opinions freely 意為「自由表達意見」。"
+  },
+  {
+    "id": "e479",
+    "idx": 479,
+    "stem": "The laboratory team successfully ______ a series of complex clinical trials to verify the vaccine's efficacy.",
+    "tw": "【題目完整句意】：The laboratory team successfully （實驗、臨床試驗） a series of complex clinical trials to verify the vaccine's efficacy.",
+    "explanation": "carry out an experiment / survey / trial 意為「進行 / 執行 / 實施（實驗、臨床試驗）」。"
+  },
+  {
+    "id": "e480",
+    "idx": 480,
+    "stem": "We should never ______ people based on their social status, wealth, or ethnic background.",
+    "tw": "【題目完整句意】：We should never （【完整題目中文句意】We should never (輕視 / 瞧不起某人) people based on their social status, wealth, or ethnic background.） people based on their social status, wealth, or ethnic background.",
+    "explanation": "look down upon / on sb 意為「輕視 / 瞧不起某人」；對比 look up to（尊敬崇拜某人）。"
+  },
+  {
+    "id": "e482",
+    "idx": 482,
+    "stem": "Parents always ______ their children's hard-earned academic achievements and personal growth.",
+    "tw": "【題目完整句意】：Parents always （【完整題目中文句意】Parents always (以……為榮 / 為……自豪) their children's hard-earned academic achievements and personal growth.） their children's hard-earned academic achievements and personal growth.",
+    "explanation": "take pride in（= be proud of）意為「以……為榮 / 為……自豪」。"
+  },
+  {
+    "id": "e486",
+    "idx": 486,
+    "stem": "The new highway was constructed ______ alleviate the severe traffic congestion between the two neighboring cities.",
+    "tw": "so as to + V（= in order to + V 為了 / 以便……，後接原形動詞）",
+    "explanation": "so as to + V（= in order to + V 為了 / 以便……，後接原形動詞）。注意：so that 後接完整子句。"
+  },
+  {
+    "id": "e487",
+    "idx": 487,
+    "stem": "The teacher spoke loudly and clearly ______ all the students in the back row could hear her instructions.",
+    "tw": "【題目完整句意】：The teacher spoke loudly and clearly （後接完整子句，常用 can/could/may/might 助動詞） all the students in the back row could hear her instructions.",
+    "explanation": "so that 引導目的副詞子句（後接完整子句，常用 can/could/may/might 助動詞）。"
+  },
+  {
+    "id": "e492",
+    "idx": 492,
+    "stem": "______ the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.",
+    "tw": "【題目完整句意】：（後接完整子句） the torrential rain poured down incessantly, the dedicated postal workers delivered all the mail on time.",
+    "explanation": "Although / Even though 引導讓步副詞子句（後接完整子句）；Despite / In spite of 為介系詞後接名詞或動名詞。"
+  },
+  {
+    "id": "e495",
+    "idx": 495,
+    "stem": "Electric vehicles have gained immense popularity as consumers seek more ______ transportation alternatives.",
+    "tw": "【題目完整句意】：Electric vehicles have gained immense popularity as consumers seek more （【完整題目中文句意】Electric vehicles have gained immense popularity as consumers seek more (生態環保友善的替代選擇) transportation alternatives.） transportation alternatives.",
+    "explanation": "eco-friendly alternatives 意為「生態環保友善的替代選擇」。"
+  },
+  {
+    "id": "e496",
+    "idx": 496,
+    "stem": "The sudden earthquake caused widespread ______ across the city, knocking down power lines and damaging bridges.",
+    "tw": "【題目完整句意】：The sudden earthquake caused widespread （【完整題目中文句意】The sudden earthquake caused widespread (廣泛的破壞毀滅) across the city, knocking down power lines and damaging bridges.） across the city, knocking down power lines and damaging bridges.",
+    "explanation": "widespread destruction 意為「廣泛的破壞毀滅」。"
+  },
+  {
+    "id": "e519",
+    "idx": 519,
+    "stem": "You had better ______ an umbrella with you because the sky is turning dark and rain is imminent.",
+    "tw": "had better + 原形動詞（表示「最好做某事」，否定句為 had better not + 原形動詞）",
+    "explanation": "had better + 原形動詞（表示「最好做某事」，否定句為 had better not + 原形動詞）。"
+  },
+  {
+    "id": "e521",
+    "idx": 521,
+    "stem": "It makes no ______ whether we take the bus or the subway; both routes take approximately thirty minutes to get there.",
+    "tw": "【題目完整句意】：It makes no （【完整題目中文句意】It makes no (無論 A 或 B 都毫無差別) whether we take the bus or the subway; both routes take approximately thirty minutes to get there.） whether we take the bus or the subway; both routes take approximately thirty minutes to get there.",
+    "explanation": "It makes no difference whether A or B 意為「無論 A 或 B 都毫無差別」。"
+  },
+  {
+    "id": "e522",
+    "idx": 522,
+    "stem": "______ the severe blizzard that paralyzed airport operations, our scheduled flight had to be canceled indefinitely.",
+    "tw": "Owing to + N（= Due to + N / Because of + N 由於……，後接名詞）",
+    "explanation": "Owing to + N（= Due to + N / Because of + N 由於……，後接名詞）。注意：Because 後接完整子句。"
+  },
+  {
+    "id": "e523",
+    "idx": 523,
+    "stem": "The active student council decided to ______ the initiative to organize a charity campus marathon for the local hospital.",
+    "tw": "【題目完整句意】：The active student council decided to （【完整題目中文句意】The active student council decided to (主動帶頭做某事 / 採取主動行動) the initiative to organize a charity campus marathon for the local hospital.） the initiative to organize a charity campus marathon for the local hospital.",
+    "explanation": "take the initiative to + V 意為「主動帶頭做某事 / 採取主動行動」。"
+  },
+  {
+    "id": "e527",
+    "idx": 527,
+    "stem": "With ______ to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.",
+    "tw": "【題目完整句意】：With （【完整題目中文句意】With (關於 / 至於……) to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.） to your inquiry about our product warranty, the standard coverage is valid for two years from the date of purchase.",
+    "explanation": "with regard to / in regard to（= regarding, concerning）意為「關於 / 至於……」。"
+  },
+  {
+    "id": "e530",
+    "idx": 530,
+    "stem": "I am feeling a bit ______ the weather today, so I think I should stay in bed and get some rest.",
+    "tw": "【題目完整句意】：I am feeling a bit （【完整題目中文句意】I am feeling a bit (身體不舒服 / 身體微恙生病) the weather today, so I think I should stay in bed and get some rest.） the weather today, so I think I should stay in bed and get some rest.",
+    "explanation": "feel under the weather 意為「身體不舒服 / 身體微恙生病」。"
+  },
+  {
+    "id": "e533",
+    "idx": 533,
+    "stem": "Regular health checkups are highly recommended for early ______ of chronic diseases.",
+    "tw": "【題目完整句意】：Regular health checkups are highly recommended for early （【完整題目中文句意】Regular health checkups are highly recommended for early (疾病的早期發現診斷) of chronic diseases.） of chronic diseases.",
+    "explanation": "early detection of diseases 意為「疾病的早期發現診斷」。"
+  },
+  {
+    "id": "e534",
+    "idx": 534,
+    "stem": "The company will ______ a new eco-friendly product line in the international market next month.",
+    "tw": "【題目完整句意】：The company will （【完整題目中文句意】The company will (推出新產品線) a new eco-friendly product line in the international market next month.） a new eco-friendly product line in the international market next month.",
+    "explanation": "introduce a new product line 意為「推出新產品線」。"
+  },
+  {
+    "id": "e535",
+    "idx": 535,
+    "stem": "The teacher emphasized the importance of maintaining good ______ in the school laboratory during chemistry experiments.",
+    "tw": "【題目完整句意】：The teacher emphasized the importance of maintaining good （【完整題目中文句意】The teacher emphasized the importance of maintaining good (維持良好紀律) in the school laboratory during chemistry experiments.） in the school laboratory during chemistry experiments.",
+    "explanation": "maintain good discipline 意為「維持良好紀律」。"
+  },
+  {
+    "id": "e536",
+    "idx": 536,
+    "stem": "The government provided financial subsidies to farmers whose crops were damaged by the severe ______.",
+    "tw": "【題目完整句意】：The government provided financial subsidies to farmers whose crops were damaged by the severe （【完整題目中文句意】The government provided financial subsidies to farmers whose crops were damaged by the severe (遭受嚴重乾旱損害).）.",
+    "explanation": "damaged by severe drought 意為「遭受嚴重乾旱損害」。"
+  },
+  {
+    "id": "e537",
+    "idx": 537,
+    "stem": "The new software update aims to enhance the overall ______ of data encryption and protect user privacy.",
+    "tw": "【題目完整句意】：The new software update aims to enhance the overall （【完整題目中文句意】The new software update aims to enhance the overall (提升數據安全防護) of data encryption and protect user privacy.） of data encryption and protect user privacy.",
+    "explanation": "enhance data security 意為「提升數據安全防護」。"
+  },
+  {
+    "id": "e538",
+    "idx": 538,
+    "stem": "Volunteering at the community center is a ______ experience that allows students to give back to society.",
+    "tw": "【題目完整句意】：Volunteering at the community center is a （【完整題目中文句意】Volunteering at the community center is a (極有意義 / 獲益良多的體驗) experience that allows students to give back to society.） experience that allows students to give back to society.",
+    "explanation": "rewarding experience 意為「極有意義 / 獲益良多的體驗」。"
+  },
+  {
+    "id": "e539",
+    "idx": 539,
+    "stem": "The young musician has an extraordinary ______ for playing the violin and composing classical melodies.",
+    "tw": "【題目完整句意】：The young musician has an extraordinary （【完整題目中文句意】The young musician has an extraordinary (在……方面具有天賦才華) for playing the violin and composing classical melodies.） for playing the violin and composing classical melodies.",
+    "explanation": "have a talent for 意為「在……方面具有天賦才華」。"
+  },
+  {
+    "id": "e540",
+    "idx": 540,
+    "stem": "The library provides a quiet ______ where students can focus on preparing for their entrance exams.",
+    "tw": "【題目完整句意】：The library provides a quiet （【完整題目中文句意】The library provides a quiet (安靜的氛圍環境) where students can focus on preparing for their entrance exams.） where students can focus on preparing for their entrance exams.",
+    "explanation": "quiet atmosphere 意為「安靜的氛圍環境」。"
+  },
+  {
+    "id": "e541",
+    "idx": 541,
+    "stem": "The doctor prescribed a course of antibiotics to treat the bacterial ______ in the patient's lungs.",
+    "tw": "【題目完整句意】：The doctor prescribed a course of antibiotics to treat the bacterial （【完整題目中文句意】The doctor prescribed a course of antibiotics to treat the bacterial (細菌感染) in the patient's lungs.） in the patient's lungs.",
+    "explanation": "bacterial infection 意為「細菌感染」。"
+  },
+  {
+    "id": "e542",
+    "idx": 542,
+    "stem": "The company implemented strict quality ______ measures to ensure that zero defective goods leave the factory.",
+    "tw": "【題目完整句意】：The company implemented strict quality （【完整題目中文句意】The company implemented strict quality (品質管制措施) measures to ensure that zero defective goods leave the factory.） measures to ensure that zero defective goods leave the factory.",
+    "explanation": "quality control measures 意為「品質管制措施」。"
+  },
+  {
+    "id": "e543",
+    "idx": 543,
+    "stem": "The team celebrated their ______ after winning the hard-fought championship match in overtime.",
+    "tw": "【題目完整句意】：The team celebrated their （【完整題目中文句意】The team celebrated their (慶祝勝利) after winning the hard-fought championship match in overtime.） after winning the hard-fought championship match in overtime.",
+    "explanation": "celebrate their victory 意為「慶祝勝利」。"
+  },
+  {
+    "id": "e544",
+    "idx": 544,
+    "stem": "Drinking clean water and maintaining proper hygiene are vital for the ______ of waterborne diseases.",
+    "tw": "【題目完整句意】：Drinking clean water and maintaining proper hygiene are vital for the （【完整題目中文句意】Drinking clean water and maintaining proper hygiene are vital for the (疾病的預防) of waterborne diseases.） of waterborne diseases.",
+    "explanation": "prevention of diseases 意為「疾病的預防」。"
+  },
+  {
+    "id": "e545",
+    "idx": 545,
+    "stem": "The sudden rise in consumer ______ has driven the retail sector's economic expansion this quarter.",
+    "tw": "【題目完整句意】：The sudden rise in consumer （【完整題目中文句意】The sudden rise in consumer (消費者需求的上升) has driven the retail sector's economic expansion this quarter.） has driven the retail sector's economic expansion this quarter.",
+    "explanation": "rise in consumer demand 意為「消費者需求的上升」。"
+  },
+  {
+    "id": "e546",
+    "idx": 546,
+    "stem": "The city council approved a budget to expand public ______ such as parks, libraries, and sports centers.",
+    "tw": "【題目完整句意】：The city council approved a budget to expand public （【完整題目中文句意】The city council approved a budget to expand public (公共設施機構) such as parks, libraries, and sports centers.） such as parks, libraries, and sports centers.",
+    "explanation": "public facilities 意為「公共設施機構」。"
+  },
+  {
+    "id": "e547",
+    "idx": 547,
+    "stem": "The chef used fresh seasonal ______ to prepare an exquisite multi-course French banquet.",
+    "tw": "【題目完整句意】：The chef used fresh seasonal （【完整題目中文句意】The chef used fresh seasonal (新鮮當季食材) to prepare an exquisite multi-course French banquet.） to prepare an exquisite multi-course French banquet.",
+    "explanation": "fresh seasonal ingredients 意為「新鮮當季食材」。"
+  },
+  {
+    "id": "e548",
+    "idx": 548,
+    "stem": "Regular exercise and adequate sleep can greatly ______ your mood and overall vitality.",
+    "tw": "【題目完整句意】：Regular exercise and adequate sleep can greatly （【完整題目中文句意】Regular exercise and adequate sleep can greatly (提升心情與活力) your mood and overall vitality.） your mood and overall vitality.",
+    "explanation": "boost mood and vitality 意為「提升心情與活力」。"
+  },
+  {
+    "id": "e549",
+    "idx": 549,
+    "stem": "The documentary highlights the urgent need to protect endangered marine ______ from illegal overfishing.",
+    "tw": "【題目完整句意】：The documentary highlights the urgent need to protect endangered marine （【完整題目中文句意】The documentary highlights the urgent need to protect endangered marine (保護瀕危海洋物種) from illegal overfishing.） from illegal overfishing.",
+    "explanation": "protect endangered marine species 意為「保護瀕危海洋物種」。"
+  },
+  {
+    "id": "e550",
+    "idx": 550,
+    "stem": "Consistent hard work and continuous learning are the true secrets to achieving lifelong ______.",
+    "tw": "【題目完整句意】：Consistent hard work and continuous learning are the true secrets to achieving lifelong （【完整題目中文句意】Consistent hard work and continuous learning are the true secrets to achieving lifelong (取得終生成功).）.",
+    "explanation": "achieving lifelong success 意為「取得終生成功」。"
+  }
+]
